@@ -6200,5 +6200,8 @@
     <!-- Volume adjust sound -->
     <string name="volume_key_adjust_sound_title">Volume key adjustment sound</string>
     <string name="volume_key_adjust_sound_summary">Play sound when adjusting volume with volume keys</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Restart SystemUI</string>
 </resources>
 
