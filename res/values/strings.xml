@@ -6586,4 +6586,11 @@
 
     <!-- BitSyko Layers  -->
     <string name="bitsyko_layers">Layers</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">LCD density</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">Device default</string>
+    <string name="lcd_density_unsupported">Unsupported</string>
+    <string name="restarting_ui">Restarting</string>
 </resources>
