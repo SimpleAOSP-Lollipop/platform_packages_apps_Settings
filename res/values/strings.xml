@@ -6113,4 +6113,8 @@
     <string name="safe_headset_volume_title">Safe headset volume</string>
     <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
     <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
+
+    <!-- Volume Keys Media Control -->
+    <string name="volume_keys_control_media_stream">Media control</string>
+    <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>
 </resources>

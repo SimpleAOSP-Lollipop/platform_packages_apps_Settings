@@ -40,8 +40,10 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private static final int DLG_SAFE_HEADSET_VOLUME = 0;
 
     private static final String KEY_SAFE_HEADSET_VOLUME = "safe_headset_volume";
+    private static final String KEY_VOL_MEDIA = "volume_keys_control_media_stream";
 
     private SwitchPreference mSafeHeadsetVolume;
+    private SwitchPreference mVolumeKeysControlMedia;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -53,6 +55,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         mSafeHeadsetVolume.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.SAFE_HEADSET_VOLUME, 1) != 0);
         mSafeHeadsetVolume.setOnPreferenceChangeListener(this);
+
+        mVolumeKeysControlMedia = (SwitchPreference) findPreference(KEY_VOL_MEDIA);
+        mVolumeKeysControlMedia.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM, 0) != 0);
+        mVolumeKeysControlMedia.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -75,6 +82,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements
             } else {
                 showDialogInner(DLG_SAFE_HEADSET_VOLUME);
             }
+        }
+        if (KEY_VOL_MEDIA.equals(key)) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM,
+                    (Boolean) objValue ? 1 : 0);
         }
         return true;
     }
