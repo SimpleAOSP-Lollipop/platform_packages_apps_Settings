@@ -6619,4 +6619,8 @@
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Show enter key</string>
     <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
+
+    <!-- USB charging -->
+    <string name="usb_charging_title">Charging</string>
+    <string name="usb_charging_summary">Lets you disable all data and file transfer connection with computer and put device in charging only mode</string>
 </resources>
