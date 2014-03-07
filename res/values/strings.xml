@@ -5988,6 +5988,9 @@
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
+    <!-- Toast message when trying to open system app AppOps -->
+    <string name="appops_sys_app">Cannot change operations for system apps</string>
+
     <!-- Navigation Bar -->
     <string name="navigation_bar_general_category">General</string>
     <string name="navigation_bar_title">Navigation bar</string>
