@@ -6119,7 +6119,8 @@
     <string name="reset_string">Reset</string>
     <string name="reset">Reset</string>
     <string name="empty_string">Empty</string>
-     <string name="ok">Ok</string>
+    <string name="ok">Ok</string>
+    <string name="font_size_sample">Sample</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
