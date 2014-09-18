@@ -18,6 +18,7 @@ package com.android.settings;
 
 import com.android.settings.applications.AppOpsSummary;
 import com.android.settings.blacklist.BlacklistSettings;
+import com.android.settings.simpleaosp.DisplayRotation;
 
 /**
  * Top-level Settings activity
@@ -103,5 +104,6 @@ public class Settings extends SettingsActivity {
     public static class TopLevelSettings extends SettingsActivity { /* empty */ }
     public static class ApnSettingsActivity extends SettingsActivity { /* empty */ }
     public static class BlacklistSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class DisplayRotationSettingsActivity extends SettingsActivity { /* empty */ }
 }
 
