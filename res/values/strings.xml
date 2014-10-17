@@ -6313,4 +6313,7 @@
     <!-- Volume rocker music seek options -->
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
+
+    <string name="status_bar_ticker_title">Notification Ticker</string>
+    <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>
 </resources>
