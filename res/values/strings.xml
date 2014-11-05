@@ -5978,5 +5978,9 @@
 
    <!-- Message for encryption dialog telling the user that Talkback and other accessibility services will be disabled. -->
    <string name="encrypt_talkback_dialog_message_password">When you enter your password to start this device, accessibility services like <xliff:g id="service" example="TalkBack">%1$s</xliff:g> won\'t yet be available.</string>
+   
+    <!-- SimpleAOSP build date-->
+    <string name="build_date">SimpleAOSP build date</string>
+    <string name="build_date_default">2014-01-01-0000</string>
 
 </resources>
