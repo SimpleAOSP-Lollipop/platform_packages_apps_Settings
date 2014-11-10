@@ -86,5 +86,10 @@
 	        android:key="navigation_bar"
 	        android:fragment="com.android.settings.simpleaosp.NavigationBarSettings"
 	        android:title="@string/navigation_bar_title" />
+
+	<PreferenceScreen
+		android:key="status_bar"
+		android:fragment="com.android.settings.simpleaosp.StatusBarSettings"
+		android:title="@string/status_bar_title" />
 </PreferenceScreen>
 
