@@ -6000,5 +6000,10 @@
     <string name="navigation_bar_height_24">24dp</string>
     <string name="navigation_bar_height_20">20dp</string>
     <string name="navigation_bar_height_0">0dp (hide)</string>
-
+ 
+    <!-- Statusbar native battery percent -->
+    <string name="general_string">General</string>
+    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_native_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_native_battery_percentage_summary">Show hidden percentage</string>
 </resources>
