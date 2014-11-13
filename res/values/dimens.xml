@@ -226,4 +226,10 @@
 
     <dimen name="wifi_divider_height">1px</dimen>
 
+    <!-- Protected apps -->
+    <!-- Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) -->
+    <dimen name="pa_security_width">320dp</dimen>
+    <!-- Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) -->
+    <dimen name="pa_security_height">400dp</dimen>
+
 </resources>
