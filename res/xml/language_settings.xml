@@ -93,6 +93,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory>
+            android:key="volume_rocker_settings_category"
+            android:title="@string/volume_rocker_screen_title">
+
+        <PreferenceScreen
+	        android:key="volume_rocker_settings"
+	        android:fragment="com.android.settings.simpleaosp.VolumeRocker"
+	        android:title="@string/volume_rocker_screen_title" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
             android:key="game_controller_settings_category"
             android:title="@string/game_controller_settings_category">
