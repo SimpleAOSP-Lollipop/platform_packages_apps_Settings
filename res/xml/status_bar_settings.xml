@@ -4,7 +4,7 @@
 
     <PreferenceCategory
         android:key="status_bar_general_category"
-        android:title="@string/general_string" >
+        android:title="@string/status_bar_general_category" >
 
         <CheckBoxPreference
             android:defaultValue="false"
@@ -13,4 +13,5 @@
             android:summary="@string/status_bar_native_battery_percentage_summary" />
 
     </PreferenceCategory>
+
 </PreferenceScreen>
