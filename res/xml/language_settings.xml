@@ -93,7 +93,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory>
+    <PreferenceCategory
             android:key="volume_rocker_settings_category"
             android:title="@string/volume_rocker_screen_title">
 
