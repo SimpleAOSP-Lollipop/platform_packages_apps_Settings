@@ -1,13 +1,14 @@
 
 package com.android.settings.simpleaosp;
 
+import android.content.ContentResolver;
 import android.os.Bundle;
-import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 
@@ -26,38 +27,39 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     // General
     private PreferenceCategory mStatusBarGeneralCategory;
     // Native battery percentage
-    private CheckBoxPreference mStatusBarNativeBatteryPercentage;
+    private SwitchPreference mStatusBarNativeBatteryPercentage;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.status_bar_settings);
+	PreferenceScreen prefSet = getPreferenceScreen();
 
         // General category
         mStatusBarGeneralCategory = (PreferenceCategory) findPreference(STATUS_BAR_GENERAL_CATEGORY);
 
         // Native battery percentage
-        mStatusBarNativeBatteryPercentage = (CheckBoxPreference) getPreferenceScreen()
-                .findPreference(STATUS_BAR_NATIVE_BATTERY_PERCENTAGE);
+        mStatusBarNativeBatteryPercentage = (SwitchPreference) prefSet.findPreference (STATUS_BAR_NATIVE_BATTERY_PERCENTAGE);
         mStatusBarNativeBatteryPercentage.setChecked((Settings.System.getInt(getActivity()
                 .getApplicationContext().getContentResolver(),
                 Settings.System.STATUS_BAR_NATIVE_BATTERY_PERCENTAGE, 0) == 1));
+	mStatusBarNativeBatteryPercentage.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+	ContentResolver cr = getActivity().getContentResolver();
+	boolean value = (Boolean) objValue;
+       if (preference == mStatusBarNativeBatteryPercentage) {
+            Settings.System.putInt(cr,
+                    Settings.System.STATUS_BAR_NATIVE_BATTERY_PERCENTAGE, value ? 1 : 0);
+            return true;
+        }
 
         return false;
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        boolean value;
-       if (preference == mStatusBarNativeBatteryPercentage) {
-            value = mStatusBarNativeBatteryPercentage.isChecked();
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
-                    Settings.System.STATUS_BAR_NATIVE_BATTERY_PERCENTAGE, value ? 1 : 0);
-            return true;
-        }
  		return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 }
