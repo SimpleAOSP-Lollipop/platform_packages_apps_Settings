@@ -93,4 +93,15 @@
 	        android:fragment="com.android.settings.simpleaosp.NavigationBarSettings"
 	        android:title="@string/navigation_bar_title" />
 
+	<PreferenceCategory
+             android:key="category_wakeup_options"
+             android:title="@string/display_category_wakeup_options_title" >
+
+            <SwitchPreference
+                android:key="wakeup_when_plugged_unplugged"
+                android:title="@string/wakeup_when_plugged_unplugged_title"
+                android:summary="@string/wakeup_when_plugged_unplugged_summary"
+                android:defaultValue="true"
+                android:persistent="false" />
+         </PreferenceCategory>
 </PreferenceScreen>
