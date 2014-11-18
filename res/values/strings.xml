@@ -6040,7 +6040,7 @@
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
 
     <!-- Generic strings -->
-    <string name="ok_string">Ok</string>
+    <string name="ok_string">OK</string>
     <string name="default_string">Default</string>
     <string name="enabled_string">Enabled</string>
     <string name="disabled_string">Disabled</string>
@@ -6048,7 +6048,7 @@
     <string name="reset_string">Reset</string>
     <string name="reset">Reset</string>
     <string name="empty_string">Empty</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="font_size_sample">Sample</string>
 
     <!-- Color Picker -->
@@ -6119,7 +6119,7 @@
     <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>
 
     <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">Wakeup options</string>
+    <string name="display_category_wakeup_options_title">Wake up options</string>
     <string name="pref_volume_wake_title">Volume rocker wake</string>
     <string name="pref_volume_wake_summary">Pressing the volume rocker up/down will wake the device</string>
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
