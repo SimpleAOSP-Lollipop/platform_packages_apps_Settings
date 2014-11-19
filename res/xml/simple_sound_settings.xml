@@ -27,6 +27,11 @@
         android:defaultValue="true" />
 
     <SwitchPreference
+        android:key="volume_key_adjust_sound"
+        android:title="@string/volume_key_adjust_sound_title"
+        android:summary="@string/volume_key_adjust_sound_summary" />
+
+    <SwitchPreference
         android:key="volume_keys_control_media_stream"
         android:title="@string/volume_keys_control_media_stream"
         android:summary="@string/volume_keys_control_media_stream_summary"

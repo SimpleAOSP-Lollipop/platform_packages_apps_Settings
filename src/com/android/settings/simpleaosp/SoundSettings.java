@@ -41,9 +41,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements
 
     private static final String KEY_SAFE_HEADSET_VOLUME = "safe_headset_volume";
     private static final String KEY_VOL_MEDIA = "volume_keys_control_media_stream";
+    private static final String VOLUME_KEY_ADJUST_SOUND = "volume_key_adjust_sound";
 
     private SwitchPreference mSafeHeadsetVolume;
     private SwitchPreference mVolumeKeysControlMedia;
+    private SwitchPreference mVolumeKeyAdjustSound;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,6 +62,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         mVolumeKeysControlMedia.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM, 0) != 0);
         mVolumeKeysControlMedia.setOnPreferenceChangeListener(this);
+
+        mVolumeKeyAdjustSound = (SwitchPreference) findPreference(VOLUME_KEY_ADJUST_SOUND);
+        mVolumeKeyAdjustSound.setOnPreferenceChangeListener(this);
+        mVolumeKeyAdjustSound.setChecked(Settings.System.getInt(getContentResolver(),
+                VOLUME_KEY_ADJUST_SOUND, 1) != 0);
     }
 
     @Override
@@ -88,7 +95,12 @@ public class SoundSettings extends SettingsPreferenceFragment implements
                     Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM,
                     (Boolean) objValue ? 1 : 0);
         }
-        return true;
+        if (preference == mVolumeKeyAdjustSound) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), VOLUME_KEY_ADJUST_SOUND,
+                    value ? 1: 0);
+        }
+            return true;
     }
 
     private void showDialogInner(int id) {
