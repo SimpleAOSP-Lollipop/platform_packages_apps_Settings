@@ -177,7 +177,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 counter++;
             } else {
                 mVolumeWake.setChecked(Settings.System.getInt(resolver,
-                        Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
+                        Settings.System.VOLUME_ROCKER_WAKE, 0) == 1);
                 mVolumeWake.setOnPreferenceChangeListener(this);
             }
         }
@@ -453,7 +453,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
         if (KEY_VOLUME_WAKE.equals(key)) {
             Settings.System.putInt(getContentResolver(),
-                    Settings.System.VOLUME_WAKE_SCREEN,
+                    Settings.System.VOLUME_ROCKER_WAKE,
                     (Boolean) objValue ? 1 : 0);
         }
         if (KEY_FONT_SIZE.equals(key)) {
