@@ -6210,6 +6210,7 @@
 
     <!-- Status bar double-tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Enable or disable to toggle double-tap to sleep on status bar</string>
 
     <!-- Status bar brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
