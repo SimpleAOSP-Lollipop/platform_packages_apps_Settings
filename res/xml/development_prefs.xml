@@ -324,6 +324,11 @@
             android:title="@string/kill_app_longpress_back"
             android:summary="@string/kill_app_longpress_back_summary"/>
 
+        <com.android.settings.AnimationScalePreference
+            android:key="long_press_kill_delay"
+            android:title="@string/long_press_kill_delay"
+            android:dependency="kill_app_longpress_back" />
+
      </PreferenceCategory>
 
 </PreferenceScreen>
