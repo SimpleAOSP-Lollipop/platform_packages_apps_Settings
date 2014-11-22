@@ -23,11 +23,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
     // Native battery percentage
     private static final String STATUS_BAR_NATIVE_BATTERY_PERCENTAGE = "status_bar_native_battery_percentage";
+    // Double-tap to sleep
+    private static final String DOUBLE_TAP_SLEEP_GESTURE = "double_tap_sleep_gesture";
 
     // General
     private PreferenceCategory mStatusBarGeneralCategory;
     // Native battery percentage
     private SwitchPreference mStatusBarNativeBatteryPercentage;
+    // Double-tap to sleep
+    private CheckBoxPreference mStatusBarDoubleTapSleepGesture;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         // General category
         mStatusBarGeneralCategory = (PreferenceCategory) findPreference(STATUS_BAR_GENERAL_CATEGORY);
+
+       // Status bar double-tap to sleep
+	mStatusBarDoubleTapSleepGesture = (CheckBoxPreference) getPreferenceScreen().findPreference(DOUBLE_TAP_SLEEP_GESTURE);
+	mStatusBarDoubleTapSleepGesture.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
+	Settings.System.DOUBLE_TAP_SLEEP_GESTURE, 0) == 1));
 
         // Native battery percentage
         mStatusBarNativeBatteryPercentage = (SwitchPreference) prefSet.findPreference (STATUS_BAR_NATIVE_BATTERY_PERCENTAGE);
@@ -60,7 +69,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+	if (preference == mStatusBarDoubleTapSleepGesture) {
+		value = mStatusBarDoubleTapSleepGesture.isChecked();
+		Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+			Settings.System.DOUBLE_TAP_SLEEP_GESTURE, value ? 1: 0);
+			return true;
+		}
  		return super.onPreferenceTreeClick(preferenceScreen, preference);
-    }
+    	}
 }
 
