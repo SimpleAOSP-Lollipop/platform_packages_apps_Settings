@@ -33,8 +33,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     // Native battery percentage
     private SwitchPreference mStatusBarNativeBatteryPercentage;
     // Double-tap to sleep
-    private CheckBoxPreference mStatusBarDoubleTapSleepGesture;
-    private CheckBoxPreference mStatusBarBrightnessControl;
+    private SwitchPreference mStatusBarDoubleTapSleepGesture;
+    private SwitchPreference mStatusBarBrightnessControl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,9 +47,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mStatusBarGeneralCategory = (PreferenceCategory) findPreference(STATUS_BAR_GENERAL_CATEGORY);
 
  	// Status bar brightness control
-        mStatusBarBrightnessControl = (CheckBoxPreference) getPreferenceScreen().findPreference(STATUS_BAR_BRIGHTNESS_CONTROL);
+        mStatusBarBrightnessControl = (SwitchPreference) prefSet.findPreference(STATUS_BAR_BRIGHTNESS_CONTROL);
         mStatusBarBrightnessControl.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
                 Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, 0) == 1));
+		mStatusBarBrightnessControl.setOnPreferenceChangeListener(this);
         try {
             if (Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.SCREEN_BRIGHTNESS_MODE) == Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC) {
@@ -65,9 +66,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         }
 
        // Status bar double-tap to sleep
-	mStatusBarDoubleTapSleepGesture = (CheckBoxPreference) getPreferenceScreen().findPreference(DOUBLE_TAP_SLEEP_GESTURE);
+	mStatusBarDoubleTapSleepGesture = (SwitchPreference) prefSet.findPreference(DOUBLE_TAP_SLEEP_GESTURE);
 	mStatusBarDoubleTapSleepGesture.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
 	Settings.System.DOUBLE_TAP_SLEEP_GESTURE, 0) == 1));
+	mStatusBarDoubleTapSleepGesture.setOnPreferenceChangeListener(this);
 
         // Native battery percentage
         mStatusBarNativeBatteryPercentage = (SwitchPreference) prefSet.findPreference (STATUS_BAR_NATIVE_BATTERY_PERCENTAGE);
@@ -84,24 +86,20 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(cr,
                     Settings.System.STATUS_BAR_NATIVE_BATTERY_PERCENTAGE, value ? 1 : 0);
             return true;
-        }
-
+        } else if (preference == mStatusBarBrightnessControl) {
+            Settings.System.putInt(cr,
+                    Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, value ? 1 : 0);
+            return true;
+	}
+	else if (preference == mStatusBarDoubleTapSleepGesture) {
+		Settings.System.putInt(cr,
+			Settings.System.DOUBLE_TAP_SLEEP_GESTURE, value ? 1: 0);
+		return true;
+	}
         return false;
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-	boolean value;
-        if (preference == mStatusBarBrightnessControl) {
-            value = mStatusBarBrightnessControl.isChecked();
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
-                    Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, value ? 1 : 0);
-            return true;
-        } else if (preference == mStatusBarDoubleTapSleepGesture) {
-		value = mStatusBarDoubleTapSleepGesture.isChecked();
-		Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
-			Settings.System.DOUBLE_TAP_SLEEP_GESTURE, value ? 1: 0);
-		return true;
-		}
  		return super.onPreferenceTreeClick(preferenceScreen, preference);
     	}
 }
