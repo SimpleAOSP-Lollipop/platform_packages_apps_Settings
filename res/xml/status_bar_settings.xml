@@ -6,8 +6,7 @@
         android:key="status_bar_general_category"
         android:title="@string/status_bar_general_category" >
 
-        <SwitchPreference
-            android:defaultValue="false"
+	<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
             android:key="status_bar_native_battery_percentage"
             android:title="@string/status_bar_native_battery_percentage_title"
             android:summary="@string/status_bar_native_battery_percentage_summary" />

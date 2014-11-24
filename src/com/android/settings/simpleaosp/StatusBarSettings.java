@@ -22,16 +22,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     // General
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
-    // Native battery percentage
-    private static final String STATUS_BAR_NATIVE_BATTERY_PERCENTAGE = "status_bar_native_battery_percentage";
     // Double-tap to sleep
     private static final String DOUBLE_TAP_SLEEP_GESTURE = "double_tap_sleep_gesture";
     private static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
 
     // General
     private PreferenceCategory mStatusBarGeneralCategory;
-    // Native battery percentage
-    private SwitchPreference mStatusBarNativeBatteryPercentage;
     // Double-tap to sleep
     private SwitchPreference mStatusBarDoubleTapSleepGesture;
     private SwitchPreference mStatusBarBrightnessControl;
@@ -70,23 +66,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	mStatusBarDoubleTapSleepGesture.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
 	Settings.System.DOUBLE_TAP_SLEEP_GESTURE, 0) == 1));
 	mStatusBarDoubleTapSleepGesture.setOnPreferenceChangeListener(this);
-
-        // Native battery percentage
-        mStatusBarNativeBatteryPercentage = (SwitchPreference) prefSet.findPreference (STATUS_BAR_NATIVE_BATTERY_PERCENTAGE);
-        mStatusBarNativeBatteryPercentage.setChecked((Settings.System.getInt(getActivity()
-                .getApplicationContext().getContentResolver(),
-                Settings.System.STATUS_BAR_NATIVE_BATTERY_PERCENTAGE, 0) == 1));
-	mStatusBarNativeBatteryPercentage.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
 	ContentResolver cr = getActivity().getContentResolver();
 	boolean value = (Boolean) objValue;
-       if (preference == mStatusBarNativeBatteryPercentage) {
-            Settings.System.putInt(cr,
-                    Settings.System.STATUS_BAR_NATIVE_BATTERY_PERCENTAGE, value ? 1 : 0);
-            return true;
-        } else if (preference == mStatusBarBrightnessControl) {
+	if (preference == mStatusBarBrightnessControl) {
             Settings.System.putInt(cr,
                     Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, value ? 1 : 0);
             return true;
