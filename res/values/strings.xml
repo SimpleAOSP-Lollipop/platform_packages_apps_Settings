@@ -6162,4 +6162,8 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+
+    <string name="status_bar_quick_qs_pulldown_title">One finger QS pull down</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Whether to allow one finger quick settings\nexpansion on the right side of the statusbar.</string>
+
 </resources>
