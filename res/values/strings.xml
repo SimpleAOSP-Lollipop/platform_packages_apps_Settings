@@ -6224,4 +6224,7 @@
     <string name="debug_LAN_category">LAN Settings</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
+
+    <string name="status_bar_quick_qs_pulldown_title">One finger QS pull down</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Whether to allow one finger quick settings\nexpansion on the right side of the statusbar.</string>
 </resources>
