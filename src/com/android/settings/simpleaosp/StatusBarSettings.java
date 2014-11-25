@@ -22,14 +22,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     // General
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
-    // Double-tap to sleep
-    private static final String DOUBLE_TAP_SLEEP_GESTURE = "double_tap_sleep_gesture";
     private static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
 
     // General
     private PreferenceCategory mStatusBarGeneralCategory;
-    // Double-tap to sleep
-    private SwitchPreference mStatusBarDoubleTapSleepGesture;
     private SwitchPreference mStatusBarBrightnessControl;
 
     @Override
@@ -60,12 +56,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         if (Utils.isTablet(getActivity())) {
             getPreferenceScreen().removePreference(mStatusBarBrightnessControl);
         }
-
-       // Status bar double-tap to sleep
-	mStatusBarDoubleTapSleepGesture = (SwitchPreference) prefSet.findPreference(DOUBLE_TAP_SLEEP_GESTURE);
-	mStatusBarDoubleTapSleepGesture.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
-	Settings.System.DOUBLE_TAP_SLEEP_GESTURE, 0) == 1));
-	mStatusBarDoubleTapSleepGesture.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
@@ -75,11 +65,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(cr,
                     Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, value ? 1 : 0);
             return true;
-	}
-	else if (preference == mStatusBarDoubleTapSleepGesture) {
-		Settings.System.putInt(cr,
-			Settings.System.DOUBLE_TAP_SLEEP_GESTURE, value ? 1: 0);
-		return true;
 	}
         return false;
     }
