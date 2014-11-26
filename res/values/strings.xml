@@ -6227,6 +6227,14 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
-    <string name="status_bar_quick_qs_pulldown_title">One finger QS pull down</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Whether to allow one finger quick settings\nexpansion on the right side of the statusbar.</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down quick settings</string>
+
+    <!-- Recents panel settings -->
+    <string name="recents_panel_settings">Recents panel settings</string>
+    <string name="show_clear_all_recents_button_title">Clear all recents button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
+    <string name="recents_clear_all_location_title">Clear all recents location</string>
+    <string name="recents_clear_all_location_right">Top right</string>
+    <string name="recents_clear_all_location_left">Top left</string>
 </resources>
