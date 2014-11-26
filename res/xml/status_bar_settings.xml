@@ -29,6 +29,12 @@
             android:summary="@string/status_bar_quick_qs_pulldown_summary" />
 
     </PreferenceCategory>
+
+    <PreferenceScreen
+            android:fragment="com.android.settings.simpleaosp.StatusBarClockStyle"
+            android:key="clock_style_pref"
+	    android:summary="@string/status_bar_clock_summary"
+            android:title="@string/status_bar_clock" />
    
     <PreferenceScreen
 	android:key="network_traffic_state"
