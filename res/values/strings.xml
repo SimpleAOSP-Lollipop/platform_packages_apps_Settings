@@ -6212,11 +6212,11 @@
 
     <!-- Status bar double-tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Enable or disable to toggle double-tap to sleep on status bar</string>
+    <string name="status_bar_double_tap_to_sleep_summary">When enabled, a double-tap on the status bar puts the device to sleep</string>
 
     <!-- Status bar brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across status bar</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding finger across status bar (Adaptive brightness must be disabled)</string>
     <string name="status_bar_toggle_info">Automatic brightness must be disabled</string>
 
     <!--Back to kill timeout -->
