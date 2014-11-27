@@ -6004,8 +6004,10 @@
     <!-- Status bar-->
     <string name="status_bar_general_category">General</string>
     <string name="status_bar_title">Status bar</string>
-    <string name="status_bar_native_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_native_battery_percentage_summary">Show percentage inside icon</string>
+
+    <!-- Battery percentage -->
+    <string name="status_bar_show_battery_percent_title">Battery percentage</string>
+    <string name="status_bar_show_battery_percent_summary">Show battery status percent</string>
 
     <!--  Volume rocker -->
     <string name="volume_rocker_screen_title">Volume rocker</string>
