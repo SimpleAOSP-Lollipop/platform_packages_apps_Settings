@@ -6080,8 +6080,11 @@
     <string name="status_bar_title">Status bar</string>
 
     <!-- Battery percentage -->
-    <string name="status_bar_show_battery_percent_title">Battery percentage</string>
-    <string name="status_bar_show_battery_percent_summary">Show battery status percent</string>
+    <string name="status_bar_battery_percentage_title">Show battery percentage</string>
+    <string name="status_bar_battery_percentage_dialog_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
     <!--  Volume rocker -->
     <string name="volume_rocker_screen_title">Volume rocker</string>
