@@ -20,13 +20,13 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.os.Bundle;
-import android.preference.CheckBoxPreference;
 import android.preference.EditTextPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 import android.text.format.DateFormat;
@@ -69,7 +69,7 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
     private ListPreference mClockDateDisplay;
     private ListPreference mClockDateStyle;
     private ListPreference mClockDateFormat;
-    private CheckBoxPreference mStatusBarClock;
+    private SwitchPreference mStatusBarClock;
 
     private boolean mCheckPreferences;
 
@@ -139,7 +139,7 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
 
         parseClockDateFormats();
 
-        mStatusBarClock = (CheckBoxPreference) prefSet.findPreference(STATUS_BAR_CLOCK);
+        mStatusBarClock = (SwitchPreference) prefSet.findPreference(STATUS_BAR_CLOCK);
         mStatusBarClock.setChecked((Settings.System.getInt(
                 getActivity().getApplicationContext().getContentResolver(),
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
