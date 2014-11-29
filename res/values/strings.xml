@@ -6101,7 +6101,7 @@
     <string name="volume_key_adjust_sound_summary">Play sound when adjusting volume with volume keys</string>
 
     <!-- Restart SystemUI -->
-    <string name="restart_systemui">Restart systemui</string>
+    <string name="restart_systemui">Restart SystemUI</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Advanced reboot</string>
