@@ -6185,16 +6185,17 @@
     <!-- Status bar brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding finger across status bar (Adaptive brightness must be disabled)</string>
-    <string name="status_bar_toggle_info">Automatic brightness must be disabled</string>
 
     <!--Back to kill timeout -->
     <string name="long_press_kill_delay">App kill delay</string>
 
     <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
     <string name="debug_LAN_category">LAN Settings</string>
+
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
-
+  
+    <!-- Status bar quick pulldown -->
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down quick settings</string>
 
@@ -6215,7 +6216,7 @@
     <string name="clock_disabled">Disabled</string>
     <string name="clock_color_title">Color</string>
     <string name="status_bar_clock_style_reset">Reset color</string>
-    <string name="status_bar_show_clock_title">Show clock and date</string>
+    <string name="status_bar_show_clock_title">Show clock &amp; date</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
     <string name="enable_clock_weekday">Day of the week</string>
