@@ -12,11 +12,9 @@ import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
 import com.android.settings.R;
 import java.util.Locale;
 import android.text.TextUtils;
@@ -33,10 +31,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String PRE_QUICK_PULLDOWN = "quick_pulldown";
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_LOCK_CLOCK_PACKAGE_NAME = "com.cyanogenmod.lockclock";
-
+    private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
 
     private ListPreference mQuickPulldown;
     private PreferenceScreen mLockClock;
+    private PreferenceScreen mClockStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -44,6 +43,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.status_bar_settings);
         ContentResolver resolver = getActivity().getContentResolver();
 	PreferenceScreen prefSet = getPreferenceScreen();
+
+	mClockStyle = (PreferenceScreen) prefSet.findPreference(KEY_STATUS_BAR_CLOCK);
+        updateClockStyleDescription();
 
 	mLockClock = (PreferenceScreen) findPreference(KEY_LOCK_CLOCK);
         if (!Utils.isPackageInstalled(getActivity(), KEY_LOCK_CLOCK_PACKAGE_NAME)) {
@@ -64,6 +66,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
+        updateClockStyleDescription();
     }
 
     @Override
@@ -117,4 +120,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                     return result;
                 }
             };
+
+    private void updateClockStyleDescription() {
+
+        if (mClockStyle == null) {
+            return;
+        }
+       int clockStyle = Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUS_BAR_CLOCK, 1);
+        if (clockStyle == 0) {
+            mClockStyle.setSummary(getString(R.string.disabled_string));
+        } else {
+            mClockStyle.setSummary(getString(R.string.enabled_string));
+         }
+    }
 }
