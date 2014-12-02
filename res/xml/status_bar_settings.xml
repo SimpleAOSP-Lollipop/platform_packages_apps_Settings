@@ -42,6 +42,13 @@
             android:key="double_tap_sleep_gesture"
             android:summary="@string/status_bar_double_tap_to_sleep_summary"
             android:title="@string/status_bar_double_tap_to_sleep_title" />
+
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="recents_show_hide_search_bar"
+            android:title="@string/recents_show_searchbar"
+            android:summary="@string/recents_show_searchbar_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceScreen
