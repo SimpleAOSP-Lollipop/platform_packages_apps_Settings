@@ -28,6 +28,12 @@
             android:title="@string/status_bar_quick_qs_pulldown_title"
             android:summary="@string/status_bar_quick_qs_pulldown_summary" />
 
+        <SwitchPreference
+            android:key="block_on_secure_keyguard"
+            android:title="@string/block_on_secure_keyguard_title"
+            android:summary="@string/block_on_secure_keyguard_summary"
+            android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceScreen
