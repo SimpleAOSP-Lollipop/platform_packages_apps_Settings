@@ -6276,4 +6276,8 @@
     <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
     <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Disable search bar in recents menu</string>
+    <string name="recents_show_searchbar_summary">Disable or enable the search bar in the recents menu</string>
 </resources>
