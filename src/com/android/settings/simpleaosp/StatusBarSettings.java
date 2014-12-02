@@ -11,7 +11,6 @@ import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 
-import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 import android.util.Log;
 import java.util.Locale;
@@ -29,13 +28,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     // Statusbar general category
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
     private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
-    private static final String PREF_BLOCK_ON_SECURE_KEYGUARD = "block_on_secure_keyguard";
     private static final String PRE_QUICK_PULLDOWN = "quick_pulldown";
     private static final String KEY_STATUS_BAR_TICKER = "status_bar_ticker_enabled";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
 
     private PreferenceScreen mClockStyle;
-    private SwitchPreference mBlockOnSecureKeyguard;
     private ListPreference mQuickPulldown;
     private SwitchPreference mTicker;
     private ListPreference mStatusBarBattery;
@@ -67,16 +64,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 	mClockStyle = (PreferenceScreen) prefSet.findPreference(KEY_STATUS_BAR_CLOCK);
         updateClockStyleDescription();
 
-        final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
-        mBlockOnSecureKeyguard = (SwitchPreference) findPreference(PREF_BLOCK_ON_SECURE_KEYGUARD);
-        if (lockPatternUtils.isSecure()) {
-            mBlockOnSecureKeyguard.setChecked(Settings.Secure.getInt(getContentResolver(),
-                    Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD, 1) == 1);
-            mBlockOnSecureKeyguard.setOnPreferenceChangeListener(this);
-        } else {
-            prefSet.removePreference(mBlockOnSecureKeyguard);
-        }
-
 	mQuickPulldown = (ListPreference) findPreference(PRE_QUICK_PULLDOWN);
         if (!DeviceUtils.isPhone(getActivity())) {
             prefSet.removePreference(mQuickPulldown);
@@ -105,12 +92,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
 	ContentResolver cr = getActivity().getContentResolver();
-        if (preference == mBlockOnSecureKeyguard) {
-            Settings.Secure.putInt(getContentResolver(),
-                    Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD,
-                    (Boolean) newValue ? 1 : 0);
-            return true;
-	} else if (preference == mQuickPulldown) {
+	if (preference == mQuickPulldown) {
             int statusQuickPulldown = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN,
