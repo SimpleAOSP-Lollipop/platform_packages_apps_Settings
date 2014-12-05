@@ -6269,7 +6269,7 @@
 
     <!--Power menu -->
     <string name="power_category">Power menu</string>
-    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
+    <string name="lockscreen_enable_power_menu_title">Show power menu on lock screen</string>
     <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
 
     <!--- Sms security limit -->
@@ -6314,6 +6314,11 @@
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
 
-    <string name="status_bar_ticker_title">Notification Ticker</string>
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Notification ticker</string>
     <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>
+
+    <!-- Show notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 </resources>
