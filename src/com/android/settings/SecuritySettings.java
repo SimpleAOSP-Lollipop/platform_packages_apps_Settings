@@ -386,7 +386,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
         }
 
         // App security settings
-        addPreferencesFromResource(R.xml.security_settings_app_cyanogenmod);
+        addPreferencesFromResource(R.xml.security_settings_app_simpleaosp);
         mBlacklist = (PreferenceScreen) root.findPreference(KEY_BLACKLIST);
 
         // Determine options based on device telephony support
