@@ -6492,8 +6492,8 @@
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_dlg_title">Enable privacy guard?</string>
-    <string name="privacy_guard_dlg_text">When privacy guard is enabled, the app will not be able to access personal data such as contacts, messages, location or call logs.</string>
-    <string name="privacy_guard_dlg_system_app_text">When enabling privacy guard for a built-in app, the app will not be able to access personal data such as contacts, messages, location or call logs. This may cause other apps to misbehave.</string>
+    <string name="privacy_guard_enable_dlg_text">When privacy guard is enabled, %s will not be able to access personal data such as contacts, messages, location or call logs.</string>
+    <string name="privacy_guard_enable_dlg_system_app_text">When enabling privacy guard for the built-in app %s, the app will not be able to access personal data such as contacts, messages, location or call logs. This may cause other apps to misbehave.</string>
     <string name="privacy_guard_default_title">Enabled by default</string>
     <string name="privacy_guard_default_summary">Do not access personal data by default for newly-installed apps</string>
     <string name="privacy_guard_notification_title">Notification</string>

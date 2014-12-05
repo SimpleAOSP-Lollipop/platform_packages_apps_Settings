@@ -209,13 +209,20 @@ public class AppOpsDetails extends Fragment {
         super.onCreate(icicle);
 
         mState = new AppOpsState(getActivity());
-        mPm = getActivity().getPackageManager();
+        mPm = getPackageManager();
         mInflater = (LayoutInflater)getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         mAppOps = (AppOpsManager)getActivity().getSystemService(Context.APP_OPS_SERVICE);
 
         retrieveAppEntry();
 
         setHasOptionsMenu(true);
+    }
+
+    private PackageManager getPackageManager() {
+        if (mPm == null) {
+            mPm = getActivity().getPackageManager();
+        }
+        return mPm;
     }
 
     @Override
@@ -261,9 +268,23 @@ public class AppOpsDetails extends Fragment {
                     showDialogInner(DLG_ENABLE_PRIVACY_GUARD);
                 }
                 return true;
+            case android.R.id.home:
+                goUpToTopLevelSetting(getActivity());
+                return true;
              default:
                 return super.onContextItemSelected(item);
         }
+    }
+
+    private PackageInfo getPackageInfo() {
+        return mPackageInfo;
+    }
+
+    /**
+     * Finish current Activity and go up to the top level Settings.
+     */
+    private static void goUpToTopLevelSetting(Activity activity) {
+        activity.finish();
     }
 
     private void showDialogInner(int id) {
@@ -309,16 +330,18 @@ public class AppOpsDetails extends Fragment {
                     .create();
                 case DLG_ENABLE_PRIVACY_GUARD:
                     final int messageResId;
-                    if ((getOwner().mPackageInfo.applicationInfo.flags
+                    if ((getOwner().getPackageInfo().applicationInfo.flags
                         & ApplicationInfo.FLAG_SYSTEM) != 0) {
-                        messageResId = R.string.privacy_guard_dlg_system_app_text;
+                        messageResId = R.string.privacy_guard_enable_dlg_system_app_text;
                     } else {
-                        messageResId = R.string.privacy_guard_dlg_text;
+                        messageResId = R.string.privacy_guard_enable_dlg_text;
                     }
 
                     return new AlertDialog.Builder(getActivity())
                     .setTitle(R.string.privacy_guard_dlg_title)
-                    .setMessage(messageResId)
+                    .setMessage(getResources().getString(messageResId,
+                            getOwner().getPackageManager().getApplicationLabel(
+                                    getOwner().getPackageInfo().applicationInfo)))
                     .setPositiveButton(R.string.dlg_ok,
                         new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
