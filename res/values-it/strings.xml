@@ -2689,7 +2689,7 @@
     <string name="clock_date_style_normal">Normale</string>
     <string name="clock_date_style_lowercase">Minuscolo</string>
     <string name="clock_date_style_uppercase">Maiuscolo</string>
-    <string name="clock_date_format_custom">FOrmattazione java</string>
+    <string name="clock_date_format_custom">Formattazione java</string>
     <string name="status_bar_clock_style_reset_message">Ripristinare colore orologio?</string>
     <string name="ime_switcher_notify">Notifica selettore</string>
     <string name="ime_switcher_notify_summary">Mostra metodo di input come notifica</string>
