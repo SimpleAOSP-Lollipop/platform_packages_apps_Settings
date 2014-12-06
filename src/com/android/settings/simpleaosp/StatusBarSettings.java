@@ -32,7 +32,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
 
     private PreferenceScreen mClockStyle;
-    SwitchPreference mBlockOnSecureKeyguard;
+    private SwitchPreference mBlockOnSecureKeyguard;
     private ListPreference mQuickPulldown;
 
     @Override
@@ -60,12 +60,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                     Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD, 1) == 1);
             mBlockOnSecureKeyguard.setOnPreferenceChangeListener(this);
         } else {
-            prefs.removePreference(mBlockOnSecureKeyguard);
+            prefSet.removePreference(mBlockOnSecureKeyguard);
         }
 
 	mQuickPulldown = (ListPreference) findPreference(PRE_QUICK_PULLDOWN);
         if (!DeviceUtils.isPhone(getActivity())) {
-            prefs.removePreference(mQuickPulldown);
+            prefSet.removePreference(mQuickPulldown);
         } else {
             // Quick Pulldown
             mQuickPulldown.setOnPreferenceChangeListener(this);
@@ -83,6 +83,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+	ContentResolver cr = getActivity().getContentResolver();
         if (preference == mBlockOnSecureKeyguard) {
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD,
