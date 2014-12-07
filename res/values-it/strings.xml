@@ -2564,7 +2564,7 @@
     <string name="volume_keys_control_media_stream_summary">I pulsanti del volume controllano il volume dei media invece di quello delle chiamate/notifiche</string>
     <string name="display_category_wakeup_options_title">Opzioni di risveglio</string>
     <string name="pref_volume_wake_title">Risveglio pulsanti volume</string>
-    <string name="pref_volume_wake_summary">Premendo un pulsante del volume il dispositivo si risveglierà/string>
+    <string name="pref_volume_wake_summary">Premendo un pulsante del volume il dispositivo si risveglierà</string>
     <string name="wakeup_when_plugged_unplugged_title">Risveglio alla carica</string>
     <string name="wakeup_when_plugged_unplugged_summary">Risveglia il dispositivo quando viene il caricatore viene connesso/disconnesso</string>
     <string name="volume_key_adjust_sound_title">Suono regolazione volume</string>
