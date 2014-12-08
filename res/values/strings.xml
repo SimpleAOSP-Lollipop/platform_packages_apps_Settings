@@ -6299,8 +6299,8 @@
     <string name="development_shortcut_summary">Enable application management shortcuts in recent apps list</string>
 
     <!-- Quick settings disable on lockscreen -->
-    <string name="block_on_secure_keyguard_title">Disable on lockscreen</string>
-    <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lockscreen</string>
+    <string name="block_on_secure_keyguard_title">Disable quick settings on secure lockscreen</string>
+    <string name="block_on_secure_keyguard_summary">When enabled, access to quick settings on secure lockscreen will be disabled</string>
 
     <!-- QuickSettings: Quick Pulldown -->
     <string name="title_quick_pulldown">Quick pulldown</string>
