@@ -6255,8 +6255,8 @@
     <string name="sms_security_check_limit_default">30 (Default)</string>
 
     <!-- Quick settings disable on lockscreen -->
-    <string name="block_on_secure_keyguard_title">Disable quick settings on lock screen</string>
-    <string name="block_on_secure_keyguard_summary">When enabled, access to quick settings on secure lock screen will be disabled</string>
+    <string name="block_on_secure_keyguard_title">Disable quick settings on secure lockscreen</string>
+    <string name="block_on_secure_keyguard_summary">When enabled, access to quick settings on secure lockscreen will be disabled</string>
 
     <!-- QuickSettings: Quick Pulldown -->
     <string name="title_quick_pulldown">Quick pulldown</string>
