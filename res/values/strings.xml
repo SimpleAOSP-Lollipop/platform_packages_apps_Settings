@@ -6188,10 +6188,10 @@
     <string name="recents_clear_all_location_left">Top left</string>
 
     <!-- per app controls for keyguard notifications -->
-    <string name="app_notification_show_on_keyguard_title">Show on lockscreen</string>
-    <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lockscreen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen</string>
+    <string name="app_notification_show_on_keyguard_title">Show on lock screen</string>
+    <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lock screen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lock screen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lock screen</string>
 
     <!-- App secuirty -->
     <string name="app_security_title">App security</string>
@@ -6298,8 +6298,8 @@
     <string name="development_shortcut_summary">Enable application management shortcuts in recent apps list</string>
 
     <!-- Quick settings disable on lockscreen -->
-    <string name="block_on_secure_keyguard_title">Disable quick settings on lockscreen</string>
-    <string name="block_on_secure_keyguard_summary">When enabled, access to quick settings on secure lockscreen will be disabled</string>
+    <string name="block_on_secure_keyguard_title">Disable quick settings on lock screen</string>
+    <string name="block_on_secure_keyguard_summary">When enabled, access to quick settings on secure lock screen will be disabled</string>
 
     <!-- QuickSettings: Quick Pulldown -->
     <string name="title_quick_pulldown">Quick pulldown</string>
