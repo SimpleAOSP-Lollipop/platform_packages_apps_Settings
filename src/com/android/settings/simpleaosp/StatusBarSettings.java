@@ -16,7 +16,6 @@ import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
-import com.android.internal.util.simpleaosp.DeviceUtils;
 
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
@@ -51,16 +50,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         updateClockStyleDescription();
 
 	mQuickPulldown = (ListPreference) findPreference(PRE_QUICK_PULLDOWN);
-        if (!DeviceUtils.isPhone(getActivity())) {
-            prefSet.removePreference(mQuickPulldown);
-        } else {
-            // Quick Pulldown
-            mQuickPulldown.setOnPreferenceChangeListener(this);
-            int statusQuickPulldown = Settings.System.getInt(getContentResolver(),
-                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1);
-            mQuickPulldown.setValue(String.valueOf(statusQuickPulldown));
-            updateQuickPulldownSummary(statusQuickPulldown);
-        }
+
+        // Quick Pulldown
+        mQuickPulldown.setOnPreferenceChangeListener(this);
+        int statusQuickPulldown = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1);
+        mQuickPulldown.setValue(String.valueOf(statusQuickPulldown));
+        updateQuickPulldownSummary(statusQuickPulldown);
     }
     @Override
     public void onResume() {
