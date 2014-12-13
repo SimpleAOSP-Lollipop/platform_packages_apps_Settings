@@ -2573,7 +2573,7 @@
     <string name="advanced_reboot_title">Riavvio avanzato</string>
     <string name="advanced_reboot_summary">Quando attivo, include nel menu di riavvio le opzioni per il riavvio in recovery, bootloader o per un riavvio veloce</string>
     <string name="status_bar_double_tap_to_sleep_title">Doppio tocco per spegnere</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di statoper spegnere lo schermo</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     <string name="status_bar_toggle_brightness">Controllo luminosità</string>
     <string name="status_bar_toggle_brightness_summary">Regola luminosità strisciando con un dito sulla barra di stato(la luminosità adattiva deve essere disattivata)</string>
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
@@ -2584,7 +2584,7 @@
     <string name="device_hostname">Hostname dispositivo</string>
     <string name="adb_notify">Notifica debug USB</string>
     <string name="adb_notify_summary">Mostra una notifica quando il debug USB è connesso</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quicksettings veloci</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick settings veloci</string>
     <string name="status_bar_quick_qs_pulldown_summary">Strisciando dal lato destro della barra di stato scenderanno velocemente i quick settings</string>
     <string name="edit_light_settings">Modifica impostazioni LED</string>
     <string name="pulse_speed_title">Lunghezza e velocità pulsazione</string>
@@ -2677,8 +2677,8 @@
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Mostra data personalizzata prima dell\'ora</string>
     <string name="clock_date_style">Stile data</string>
-    <string name="clock_date_format">Formattazione data</string>
-    <string name="clock_date_string_edittext_title">Deve avere una formattazione come gg/mm/aaaa</string>
+    <string name="clock_date_format">Formattazione personalizzata</string>
+    <string name="clock_date_string_edittext_title">Deve avere una formattazione java come gg/mm/aaaa</string>
     <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
     <string name="am_pm_clock_normal">Grandezza font normale</string>
     <string name="am_pm_clock_small">Grandezza font piccola</string>
@@ -2692,7 +2692,10 @@
     <string name="clock_date_format_custom">Formattazione java</string>
     <string name="status_bar_clock_style_reset_message">Ripristinare colore orologio?</string>
     <string name="ime_switcher_notify">Notifica selettore</string>
-    <string name="ime_switcher_notify_summary">Mostra metodo di input come notifica</string>
+    <string name="ime_switcher_notify_summary">Mostra metodo di input nella barra di navigazione</string>
+    <string name="power_category">Menu spegnimento</string>
+    <string name="lockscreen_enable_power_menu_title">Mostra nella lockscreen</string>
+    <string name="lockscreen_enable_power_menu_summary">Questa opzione disabiliterà il menu di spegnimento nella lockscreen</string>
     <string name="sms_security_check_limit_title">Limite messaggi SMS</string>
     <string name="sms_security_check_limit_summary">Mostra un\'avviso per prevenire che le app inviino troppi messaggi. Limite attuale: %d messaggi in 15 minuti</string>
     <string name="sms_security_check_limit_default">30 (predefinito)</string>
@@ -2710,4 +2713,11 @@
     <string name="pa_login_incorrect_login">C\'è stato un errore</string>
     <string name="development_shortcut_title">Scorciatoie sviluppatore</string>
     <string name="development_shortcut_summary">Attiva scorciatoie sviluppatore nella lista delle applicazioni recenti</string>
+    <string name="block_on_secure_keyguard_title">Disattiva nella lockscreen</string>
+    <string name="block_on_secure_keyguard_summary">Disattiva quick settings nella lockscreen</string>
+    <string name="title_quick_pulldown">Quick settings veloci</string>
+    <string name="summary_quick_pulldown">Il lato %1$s della barra di stato porta ai quick settings</string>
+    <string name="quick_pulldown_off">Spento</string>
+    <string name="quick_pulldown_left">Sinistro</string>
+    <string name="quick_pulldown_right">Destro</string>
 </resources>
