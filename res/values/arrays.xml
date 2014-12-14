@@ -1358,17 +1358,6 @@
         <item>2000</item>
     </string-array>
 
-    <!-- clear all recents button location -->
-    <string-array name="recents_clear_all_location_entries">
-        <item>@string/recents_clear_all_location_right</item>
-        <item>@string/recents_clear_all_location_left</item>
-    </string-array>
-
-    <string-array name="recents_clear_all_location_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
     <string-array name="clock_style_entries" translatable="false">
         <item>@string/right_clock</item>
         <item>@string/center_clock</item>
