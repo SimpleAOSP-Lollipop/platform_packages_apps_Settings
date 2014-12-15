@@ -1,7 +1,6 @@
 package com.android.settings.simpleaosp;
 
 import android.content.ContentResolver;
-import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.ListPreference;
@@ -12,7 +11,6 @@ import android.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.settings.R;
-import android.util.Log;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -23,17 +21,14 @@ import com.android.settings.Utils;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String TAG = "StatusBarSettings";
     // Statusbar general category
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
     private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
     private static final String PRE_QUICK_PULLDOWN = "quick_pulldown";
-    private static final String KEY_STATUS_BAR_TICKER = "status_bar_ticker_enabled";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
 
     private PreferenceScreen mClockStyle;
     private ListPreference mQuickPulldown;
-    private SwitchPreference mTicker;
     private ListPreference mStatusBarBattery;
 
     @Override
@@ -51,15 +46,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mStatusBarBattery.setSummary(mStatusBarBattery.getEntry());
         mStatusBarBattery.setOnPreferenceChangeListener(this);
 
-	PackageManager pm = getPackageManager();
-        Resources systemUiResources;
-        try {
-            systemUiResources = pm.getResourcesForApplication("com.android.systemui");
-        } catch (Exception e) {
-            Log.e(TAG, "can't access systemui resources",e);
-            return;
-        }
-
 	mClockStyle = (PreferenceScreen) prefSet.findPreference(KEY_STATUS_BAR_CLOCK);
         updateClockStyleDescription();
 
@@ -71,13 +57,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1);
         mQuickPulldown.setValue(String.valueOf(statusQuickPulldown));
         updateQuickPulldownSummary(statusQuickPulldown);
-
-	mTicker = (SwitchPreference) prefSet.findPreference(KEY_STATUS_BAR_TICKER);
-        final boolean tickerEnabled = systemUiResources.getBoolean(systemUiResources.getIdentifier(
-                    "com.android.systemui:bool/enable_ticker", null, null));
-        mTicker.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.STATUS_BAR_TICKER_ENABLED, tickerEnabled ? 1 : 0) == 1);
-        mTicker.setOnPreferenceChangeListener(this);
     }
     @Override
     public void onResume() {
@@ -94,11 +73,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN,
                     statusQuickPulldown);
             updateQuickPulldownSummary(statusQuickPulldown);
-            return true;
-        } else if (preference == mTicker) {
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.STATUS_BAR_TICKER_ENABLED,
-                    (Boolean) newValue ? 1 : 0);
             return true;
         } else if (preference == mStatusBarBattery) {
             int batteryStyle = Integer.valueOf((String) newValue);
