@@ -6314,10 +6314,6 @@
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
     <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Notification ticker</string>
-    <string name="status_bar_ticker_summary">Notification text animation in the status bar</string>
-
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
