@@ -2723,7 +2723,7 @@
     <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
     <string name="unlock_quick_unlock_control_summary">Sblocco automatico quando il PIN o la password sono inseriti correttamente</string>
     <string name="lock_numpad_random_title">Cambia l\'ordine dei numeri del PIN</string>
-    <string name="lock_numpad_random_dialog_title">Ordine casuale pad PIN</string>
+    <string name="lock_numpad_random_dialog_title">Ordine casuale numeri PIN</string>
     <string name="lock_numpad_random_off">Disattivato</string>
     <string name="lock_numpad_random_always">Sempre</string>
     <string name="lock_numpad_random_on_request">Su richiesta</string>
