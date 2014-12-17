@@ -2731,4 +2731,23 @@
     <string name="show_unac_and_overcounted_stats_summary">Mostra nelle statistiche della batteria l\'uso non contato e quello sovraccontato (disattiva la voce "Varie")</string>
     <string name="recents_show_searchbar">Disattiva barra di ricerca</string>
     <string name="recents_show_searchbar_summary">Disattiva la barra di ricerca nel pannello delle app recenti</string>
+    <string name="heads_up_title">Notifiche heads up</string>
+    <string name="app_notification_enable_heads_up_title">Mostra heads up</string>
+    <string name="app_notification_enable_heads_up_summary">Mostra notifiche heads up da questa app</string>
+    <string name="heads_up_snooze_title">Timer disattivazione</string>
+    <string name="heads_up_snooze_summary">Se il timer di disattivazione è premuto, heads up sarà disattivato per <xliff:g id="number">%d</xliff:g> minuti</string>
+    <string name="heads_up_snooze_disabled_summary">Il timer è disattivato</string>
+    <string name="heads_up_snooze_3min">3 minuti</string>
+    <string name="heads_up_snooze_5min">5 minuti</string>
+    <string name="heads_up_snooze_10min">10 minuti</string>
+    <string name="heads_up_snooze_15min">15 minuti</string>
+    <string name="heads_up_snooze_20min">20 minuti</string>
+    <string name="heads_up_time_out_title">Timeout heads up</string>
+    <string name="heads_up_time_out_summary">La notifica heads up sarà mostrata per <xliff:g id="number">%d</xliff:g> secondi</string>
+    <string name="heads_up_time_out_never_summary">La notifica sarà mostrata fino alla rimozione manuale</string>
+    <string name="heads_up_time_out_4sec">4 secondi</string>
+    <string name="heads_up_time_out_6sec">6 secondi</string>
+    <string name="heads_up_time_out_8sec">8 secondi</string>
+    <string name="heads_up_time_out_10sec">10 secondi</string>
+    <string name="heads_up_time_out_never">Mai</string>
 </resources>
