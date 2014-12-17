@@ -2717,7 +2717,7 @@
     <string name="volbtn_music_controls_title">Controlli tracce</string>
     <string name="volbtn_music_controls_summary">Quando lo schermo è spento, tenendo premuto il pulsante del volume giù/su si passerà alla traccia precedente/successiva</string>
     <string name="status_bar_ticker_title">Ticker notifiche</string>
-    <string name="status_bar_ticker_summary">Testo della notifica nella barra di stato</string>
+    <string name="status_bar_ticker_summary">Testo della notifica nella barra di stato all\'arrivo di una notifica</string>
     <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
     <string name="status_bar_notif_count_summary">Mostra il numero delle notifiche in sospeso</string>
     <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
@@ -2750,4 +2750,6 @@
     <string name="heads_up_time_out_8sec">8 secondi</string>
     <string name="heads_up_time_out_10sec">10 secondi</string>
     <string name="heads_up_time_out_never">Mai</string>
+    <string name="battery_saver_title">Colore di avviso</string>
+    <string name="battery_saver_style_reset_message">Ripristinare il colore di avviso della modalità salva batteria?</string>
 </resources>
