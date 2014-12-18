@@ -2578,7 +2578,7 @@
     <string name="status_bar_double_tap_to_sleep_title">Doppio tocco per spegnere</string>
     <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     <string name="status_bar_toggle_brightness">Controllo luminosità</string>
-    <string name="status_bar_toggle_brightness_summary">Regola luminosità strisciando con un dito sulla barra di stato(la luminosità adattiva deve essere disattivata)</string>
+    <string name="status_bar_toggle_brightness_summary">Regola luminosità strisciando con un dito sulla barra di stato</string>
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
     <string name="increasing_ring_min_volume_title">Volume di partenza</string>
     <string name="increasing_ring_ramp_up_time_title">Tempo aumento</string>
