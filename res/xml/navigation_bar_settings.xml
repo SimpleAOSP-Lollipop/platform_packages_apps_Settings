@@ -17,6 +17,10 @@
             android:defaultValue="48"
             android:persistent="false" />
 
+	<SwitchPreference
+            android:key="clear_all_recents_navbar_enabled"
+            android:title="@string/clear_all_recents_navbar_enabled_title"
+            android:summary="@string/clear_all_recents_navbar_enabled_summary" />
     </PreferenceCategory>
 
 </PreferenceScreen>
