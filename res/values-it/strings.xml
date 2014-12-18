@@ -2502,8 +2502,14 @@
     <string name="navigation_bar_height_0">0dp (nascosta)</string>
     <string name="status_bar_general_category">Generale</string>
     <string name="status_bar_title">Barra di stato</string>
+    <string name="status_bar_battery_style_title">Stile batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
+    <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
+    <string name="status_bar_battery_style_circle">Crcolare</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosta</string>
     <string name="status_bar_battery_percentage_title">Mostra percentuale batteria</string>
-    <string name="status_bar_battery_percentage_dialog_title">Percentuale batteria</string>
+    <string name="status_bar_battery_percentage_dialog_title">Stile percentuale batteria</string>
     <string name="status_bar_battery_percentage_default">Nascosta (predefinito)</string>
     <string name="status_bar_battery_percentage_text_inside">Nell\'icona</string>
     <string name="status_bar_battery_percentage_text_next">Affianco all\'icona</string>
@@ -2578,10 +2584,10 @@
     <string name="status_bar_double_tap_to_sleep_title">Doppio tocco per spegnere</string>
     <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     <string name="status_bar_toggle_brightness">Controllo luminosità</string>
-    <string name="status_bar_toggle_brightness_summary">Regola luminosità strisciando con un dito sulla barra di stato(la luminosità adattiva deve essere disattivata)</string>
+    <string name="status_bar_toggle_brightness_summary">Regola luminosità strisciando con un dito sulla barra di stato</string>
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
     <string name="increasing_ring_min_volume_title">Volume di partenza</string>
-    <string name="increasing_ring_ramp_up_time_title">Tempo aumento</string>
+    <string name="increasing_ring_ramp_up_time_title">Timer incremento</string>
     <string name="long_press_kill_delay">Ritardo chiusura app</string>
     <string name="debug_LAN_category">Impostazioni LAN</string>
     <string name="device_hostname">Hostname dispositivo</string>
@@ -2752,4 +2758,6 @@
     <string name="heads_up_time_out_never">Mai</string>
     <string name="battery_saver_title">Colore di avviso</string>
     <string name="battery_saver_style_reset_message">Ripristinare il colore di avviso della modalità salva batteria?</string>
+    <string name="clear_all_recents_navbar_enabled_title">Pulsante chiudi tutto barra di navigazione</string>
+    <string name="clear_all_recents_navbar_enabled_summary">Mostra il pulsante per chiudere tutte le app recenti nella barra barra di navigazione</string>
 </resources>
