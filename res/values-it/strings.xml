@@ -2587,7 +2587,7 @@
     <string name="status_bar_toggle_brightness_summary">Regola luminosità strisciando con un dito sulla barra di stato</string>
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
     <string name="increasing_ring_min_volume_title">Volume di partenza</string>
-    <string name="increasing_ring_ramp_up_time_title">Tempo aumento</string>
+    <string name="increasing_ring_ramp_up_time_title">Timer incremento</string>
     <string name="long_press_kill_delay">Ritardo chiusura app</string>
     <string name="debug_LAN_category">Impostazioni LAN</string>
     <string name="device_hostname">Hostname dispositivo</string>
