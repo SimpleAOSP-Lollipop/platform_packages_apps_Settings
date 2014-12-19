@@ -6297,4 +6297,8 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
+
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Show weather</string>
+    <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
 </resources>
