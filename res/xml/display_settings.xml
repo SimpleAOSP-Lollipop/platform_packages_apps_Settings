@@ -62,6 +62,13 @@
                 android:summary="@string/doze_summary"
                 android:persistent="false" />
 
+       <!-- Ambient display timeout -->
+       <SlimSeekBarPreference
+                android:key="doze_timeout"
+                android:title="@string/doze_timeout_title"
+                android:summary="@string/doze_timeout_summary"
+                android:dependency="doze" />
+
        <SwitchPreference
                 android:key="pref_volume_wake"
                 android:title="@string/pref_volume_wake_title"
