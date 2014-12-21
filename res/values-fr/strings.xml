@@ -2484,4 +2484,392 @@
     <string name="encrypt_talkback_dialog_message_pin" msgid="1890374082842868489">"Lorsque vous saisissez votre code PIN pour démarrer cet appareil, les services d\'accessibilité comme <xliff:g id="SERVICE">%1$s</xliff:g> ne sont pas disponibles."</string>
     <string name="encrypt_talkback_dialog_message_pattern" msgid="4474332516537386384">"Lorsque vous dessinez votre motif pour démarrer cet appareil, les services d\'accessibilité comme <xliff:g id="SERVICE">%1$s</xliff:g> ne sont pas disponibles."</string>
     <string name="encrypt_talkback_dialog_message_password" msgid="8166099418487083927">"Lorsque vous saisissez votre mot de passe pour démarrer cet appareil, les services d\'accessibilité comme <xliff:g id="SERVICE">%1$s</xliff:g> ne sont pas disponibles."</string>
+
+    <!-- SimpleAOSP build date-->
+    <string name="build_date">Date de la version SimpleAOSP</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_general_category">Générale</string>
+    <string name="navigation_bar_title">Barre de navigation</string>
+    <!-- Navigation Bar Height -->
+    <string name="navigation_bar_height">Hauteur</string>
+    <string name="navigation_bar_height_54">54 dp</string>
+    <string name="navigation_bar_height_52">52 dp</string>
+    <string name="navigation_bar_height_50">50 dp</string>
+    <string name="navigation_bar_height_48">48 dp (Par défaut)</string>
+    <string name="navigation_bar_height_44">44 dp</string>
+    <string name="navigation_bar_height_40">40 dp</string>
+    <string name="navigation_bar_height_36">36 dp</string>
+    <string name="navigation_bar_height_32">32 dp</string>
+    <string name="navigation_bar_height_28">28 dp</string>
+    <string name="navigation_bar_height_24">24 dp</string>
+    <string name="navigation_bar_height_20">20 dp</string>
+    <string name="navigation_bar_height_0">0dp (Cacher)</string>
+ 
+    <!-- Status bar-->
+    <string name="status_bar_general_category">Générale</string>
+    <string name="status_bar_title">Barre de statut</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Style du niveau de batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Afficher le pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_dialog_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_default">Ne pas afficher (Par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">Intérieur de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
+
+
+    <!--  Volume rocker -->
+    <string name="volume_rocker_screen_title">Bascule du volume</string>
+    <!--- Volume key cursor control -->
+    <string name="volume_key_cursor_control_title">Contrôle curseur par touches volume</string>
+    <string name="volume_key_cursor_control_off">Désactivé</string>
+    <string name="volume_key_cursor_control_on">Volume haut/bas déplace le curseur à gauche/droite</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume haut/bas déplace le curseur à droite/gauche</string>
+
+    <!-- Developer options - kill app long press back -->
+    <string name="kill_app_longpress_back">Tuer l\'application par la touche retour</string>
+    <string name="kill_app_longpress_back_summary">Tuez l\'application au premier plan par un long appuie sur la touche retour</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Trafic réseau</string>
+    <string name="show_network_traffic_state">Moniteur de trafic sur la barre de statut</string>
+    <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans barre de statut</string>
+    <string name="show_network_traffic_unit">Afficher l\'unité</string>
+    <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
+    <string name="show_network_traffic_disable">Désactivée</string>
+    <string name="show_network_traffic_up">Sortant</string>
+    <string name="show_network_traffic_down">Entrant</string>
+    <string name="show_network_traffic_all">Sortant et Entrant</string>
+    <string name="show_network_traffic_bit">Bits par seconde</string>
+    <string name="show_network_traffic_byte">Octets par seconde</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Masquer automatiquement</string>
+    <string name="network_traffic_autohide_summary">Masquer le moniteur lorsqu\'il n\'y a pas d\'activité</string>
+    <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
+
+    <!-- Generic strings -->
+    <string name="ok_string">OK</string>
+    <string name="default_string">Défaut</string>
+    <string name="enabled_string">Activé</string>
+    <string name="disabled_string">Désactivé</string>
+    <string name="general_string">Général</string>
+    <string name="reset_string">Réinitialiser</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="empty_string">Aucun</string>
+    <string name="ok">OK</string>
+    <string name="font_size_sample">Exemple</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Sélecteur de couleur</string>
+    <string name="press_color_to_apply">Appuyer sur la couleur pour appliquer</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Choisir</string>
+    <string name="color_default">Défaut</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Désactivée</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degré</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
+
+    <!-- Sound settings -->
+    <string name="advanced_sound_title">Options avancées</string>
+    <string name="sound_title">Son</string>
+
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">Volume sécurisé</string>
+    <string name="safe_headset_volume_summary">Empêche un volume trop haut du son lorsqu\'un périphérique audio est branché</string>
+    <string name="safe_headset_volume_warning_dialog_text">L\'écoute prolongée à haut volume peut endommager votre audition. Désactiver avec précaution.</string>
+
+    <!-- Volume Keys Media Control -->
+    <string name="volume_keys_control_media_stream">Contrôle des médias</string>
+    <string name="volume_keys_control_media_stream_summary">Contrôler le volume des médias plutôt que des notifications via les touches de volume.</string>
+
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Options de réveil</string>
+    <string name="pref_volume_wake_title">Réveil par les boutons de volume</string>
+    <string name="pref_volume_wake_summary">Appuyer sur les boutons de volume haut/bas réveillera l\'appareil</string>
+    <string name="wakeup_when_plugged_unplugged_title">Réveil par le chargeur</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Réveille l\'appareil si le chargeur est branché/débranché</string>
+
+    <!-- Volume adjust sound -->
+    <string name="volume_key_adjust_sound_title">Son de réglage du volume</string>
+    <string name="volume_key_adjust_sound_summary">Jouer un son lors du réglage du volume par les touches physiques</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Redémarrer l\'interface utilisateur</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Redémarrage avancé</string>
+    <string name="advanced_reboot_summary">Lorsque déverrouillé, inclure les options dans le menu d\'alimentation de redémarrer en Recovery, bootloader ou d\'effectuer un redémarrage doux</string>
+
+    <!-- Status bar double-tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Taper deux fois pour mettre en veille</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Taper deux fois dans la barre de statut pour mettre l\'appareil en veille</string>
+
+    <!-- Status bar brightness control -->
+    <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
+    <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en faisant glisser le doigt sur la barre de statut</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
+    <string name="increasing_ring_ramp_up_time_title">Temps de progression</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">Délais pour tuer l\'application</string>
+
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">Configuration LAN</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">Notification débogage USB</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est actif</string>
+  
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Modifier les paramètres lumineux</string>
+    <string name="pulse_speed_title">Vitesse et durée du clignotement</string>
+    <string name="default_time">Normale</string>
+    <string name="custom_time">Personnalisée</string>
+    <string name="dialog_delete_title">Supprimer</string>
+    <string name="dialog_delete_message">Supprimer l\'élément sélectionné ?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Toujours allumée</string>
+    <string name="pulse_length_very_short">Très courte</string>
+    <string name="pulse_length_short">Courte</string>
+    <string name="pulse_length_normal">Normale</string>
+    <string name="pulse_length_long">Longue</string>
+    <string name="pulse_length_very_long">Très longue</string>
+    <string name="pulse_speed_very_fast">Très rapide</string>
+    <string name="pulse_speed_fast">Rapide</string>
+    <string name="pulse_speed_normal">Normale</string>
+    <string name="pulse_speed_slow">Lente</string>
+    <string name="pulse_speed_very_slow">Très lente</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Voyant batterie</string>
+    <string name="battery_low_pulse_title">Clignoter si la batterie est faible</string>
+    <string name="battery_light_list_title">Couleurs</string>
+    <string name="battery_light_low_color_title">Batterie faible</string>
+    <string name="battery_light_medium_color_title">En charge</string>
+    <string name="battery_light_full_color_title">Complètement chargée</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Voyant de notification</string>
+    <string name="notification_light_general_title">Général</string>
+    <string name="notification_light_applist_title">Applications</string>
+    <string name="notification_light_phonelist_title">Téléphone</string>
+    <string name="notification_light_use_custom">Utiliser des valeurs personnalisées</string>
+    <string name="notification_light_default_value">Défaut</string>
+    <string name="notification_light_missed_call_title">Appel manqué</string>
+    <string name="notification_light_voicemail_title">Messagerie vocale</string>
+
+    <!-- Profiles -->
+    <string name="profile_reset_title">réinitialiser</string>
+    <string name="profiles_add">Ajouter</string>
+    <string name="profile_choose_app">Choisir l\'application</string>
+
+    <!-- per app controls for keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Afficher sur l\'écran de verrouillage</string>
+    <string name="app_notification_show_on_keyguard_summary">Afficher les notifications de cette application sur l\'écran de verrouillage</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Désactiver les notifications en cours sur l\'écran de verrouillage</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Ne jamais montrer les notifications en cours de cette application sur l\'écran de verrouillage</string>
+
+    <!-- App secuirty -->
+    <string name="app_security_title">Sécurité des applications</string>
+
+   <!-- Blacklist preferences -->
+    <string name="blacklist_title">Liste noire</string>
+    <string name="blacklist_edit_dialog_title">Éditer les entrées de la liste noire</string>
+    <string name="blacklist_prefs">Paramètres</string>
+    <string name="blacklist_button_delete">Supprimer</string>
+    <string name="blacklist_empty_text">Aucun numéro dans votre liste noire. Ajouter une entrée en appuyant sur le bouton Ajouter (+).</string>
+    <string name="blacklist_disabled_empty_text">Pour bloquer les appels et/ou messages de certains numéros, activez la liste noire.</string>
+    <string name="blacklist_summary_disabled">Désactiver</string>
+    <string name="blacklist_summary">Les appels et messages de numéros de téléphone sur la liste noire seront bloqués</string>
+    <string name="blacklist_notify">Afficher les notifications</string>
+    <string name="blacklist_private_numbers_title">Numéros privés</string>
+    <string name="blacklist_private_numbers_summary_disabled">Ne pas bloquer les appels des numéros privés</string>
+    <string name="blacklist_private_numbers_summary">Bloquer les <xliff:g id="type">%s</xliff:g> des numéros privés</string>
+    <string name="blacklist_unknown_numbers_title">Numéros inconnus</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">Ne pas bloquer les appels ou les messages provenant de numéros non répertoriés dans la liste des contacts</string>
+    <string name="blacklist_unknown_numbers_summary">Bloquer les <xliff:g id="type">%s</xliff:g> des numéros non répertoriés dans la liste des contacts</string>
+    <string name="blacklist_summary_type_calls_only">appels</string>
+    <string name="blacklist_summary_type_messages_only">messages</string>
+    <string name="blacklist_summary_type_calls_and_messages">appels et messages</string>
+    <string name="blacklist_regex_title">>Utiliser des caractères génériques</string>
+    <string name="blacklist_regex_summary">Utiliser un point comme caractère générique et une astérisque pour la répétition. Exemple, 123.* si le numéro de téléphone commence par 123 et .*123.* si le numéro de téléphone contient 123</string>
+    <string name="blacklist_policy_block_calls">Bloquer les appels entrants</string>
+    <string name="blacklist_policy_block_messages">Bloquer les messages entrants</string>
+    <string name="blacklist_bad_number_add">Impossible d\'ajouter un numéro non valide à la liste noire</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">Ajouter un numéro</string>
+    <string name="remove_blacklist_number_title">Supprimer un numéro</string>
+    <string name="remove_blacklist_entry">Voulez vous supprimer cette entrée de la liste noire ?</string>
+    <string name="select_contact">Sélectionner un contact</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_clock">Heure et date</string>
+    <string name="status_bar_clock_title">Style de date et heure</string>
+    <string name="status_bar_clock_summary">Changer diverses options de l\'horloge et de la date</string> 
+    <string name="clock_title_enable">Alignement</string>
+    <string name="clock_enabled">Activée</string>
+    <string name="clock_disabled">Désactivée</string>
+    <string name="clock_color_title">Couleur</string>
+    <string name="status_bar_clock_style_reset">Réinitialiser la couleur</string>
+    <string name="status_bar_show_clock_title">Afficher date et heure</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">L\'horloge 24H est activée</string>
+    <string name="enable_clock_weekday">Jour de la semaine</string>
+    <string name="enable_clock_weekday_summary">Jour de la semaine abrégé devant l\'heure</string>
+    <string name="right_clock">Horloge à droite</string>
+    <string name="center_clock">Horloge au centre</string>
+    <string name="dont_show">Ne pas montrer</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Afficher la date personnalisée avant l\'horloge.</string>
+    <string name="clock_date_style">Style de la date</string>
+    <string name="clock_date_format">Format de la date</string>
+    <string name="clock_date_string_edittext_title">Doit être en format date par exemple. dd/MM/yy</string>
+    <string name="clock_date_string_edittext_summary">Entrer la valeur</string>
+    <string name="am_pm_clock_normal">Taille de police normale</string>
+    <string name="am_pm_clock_small">Taille de police petite</string>
+    <string name="am_pm_clock_none">Ne pas montrer</string>
+    <string name="clock_date_display_none">Ne pas montrer</string>
+    <string name="clock_date_display_small">Taille de police petite</string>
+    <string name="clock_date_display_normal">Taille de police normale</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minuscule</string>
+    <string name="clock_date_style_uppercase">Majuscule</string>
+    <string name="clock_date_format_custom">Format personnalisé</string>
+    <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge ?</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Notification du sélecteur de clavier</string>
+    <string name="ime_switcher_notify_summary">Afficher la notification du sélecteur de clavier</string>
+
+    <!--Power menu -->
+    <string name="lockscreen_enable_power_menu_title">Afficher le menu d\'alimentation sur l\'écran de verrouillage</string>
+    <string name="lockscreen_enable_power_menu_summary">Activer l\'accès au menu d\'alimentation sur les écrans de verrouillage sécurisés</string>
+
+    <!--- Sms security limit -->
+    <string name="sms_security_check_limit_title">Limite des messages SMS</string>
+    <string name="sms_security_check_limit_summary">Afficher un message d\'alerte pour empêcher des applications d\'envoyer des messages SMS trop souvent. Limite actuelle : %d messages en 15 minutes</string>
+    <string name="sms_security_check_limit_default">30 (Défaut)</string>
+
+    <!-- Protected Apps -->
+    <string name="menu_hidden_apps_delete">Réinitialiser</string>
+    <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
+    <string name="protected_apps">Applications protégées</string>
+    <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
+    <string name="launch_app">Lancer l\'application</string>
+
+    <!-- Protected apps lockpattern reset button -->
+    <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
+    <string name="lockpattern_settings_reset_summary">Entrez l\'adresse mail du compte principal et son mot de passe pour réinitialiser le schéma de déverrouillage</string>
+    
+    <!-- Protected apps reset -->
+    <string name="pa_login_username_hint">Nom d\'utilisateur (email)</string>
+    <string name="pa_login_password_hint">Mot de passe</string>
+    <string name="pa_login_submit_button">Connexion</string>
+    <string name="pa_login_checking_password">Vérification du compte\u2026</string>
+    <string name="pa_login_incorrect_login">Le nom d\'utilisateur ou le mot de passe est incorrect</string>
+
+    <!-- Development shortcut -->
+    <string name="development_shortcut_title">Raccourci de développement</string>
+    <string name="development_shortcut_summary">Activer les raccourcis de gestion des applications dans la liste des applications récente</string>
+
+    <!-- Quick settings disable on lockscreen -->
+    <string name="block_on_secure_keyguard_title">Désactiver les paramètres rapides sur l\'écran de verrouillage</string>
+    <string name="block_on_secure_keyguard_summary">Désactiver l\'accès aux paramètres rapides sur les écrans de verrouillage sécurisés</string>
+
+    <!-- QuickSettings: Quick Pulldown -->
+    <string name="title_quick_pulldown">Paramètres rapide</string>
+    <string name="summary_quick_pulldown">Glisser sur le côté %1$s de la barre de statut affiche les paramètres rapides.</string>
+    <string name="quick_pulldown_off">Désactivé</string>
+    <string name="quick_pulldown_left">gauche</string>
+    <string name="quick_pulldown_right">droit</string>
+
+    <!-- Volume rocker music seek options -->
+    <string name="volbtn_music_controls_title">Contrôle de la musique</string>
+    <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture.</string>
+
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Notifications animées</string>
+    <string name="status_bar_ticker_summary">Animation du texte des notifications dans la barre d\'état</string>
+
+    <!-- Show notification count -->
+    <string name="status_bar_notif_count_title">Compteur de notifications</string>
+    <string name="status_bar_notif_count_summary">Afficher le nombre de notifications similaires en attente</string>
+
+    <!--Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
+
+    <!-- Lockscreen pin shuffle -->
+    <string name="lock_numpad_random_title">Changer l\'ordre des numéros du pavé numérique</string>
+    <string name="lock_numpad_random_dialog_title">Clavier PIN aléatoire</string>
+    <string name="lock_numpad_random_off">Désactivé</string>
+    <string name="lock_numpad_random_always">Toujours</string>
+    <string name="lock_numpad_random_on_request">Sur demande</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
+    <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Désactiver la barre de recherche dans le menu récents</string>
+    <string name="recents_show_searchbar_summary">Désactiver ou activer la barre de recherche dans le menu récents</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Heads up notification</string>
+    <string name="app_notification_enable_heads_up_title">Show heads up</string>
+    <string name="app_notification_enable_heads_up_summary">Show notifications from this app as heads up</string>
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_summary">If snooze button is pressed, disable heads up for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_3min">3 minutes</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Heads up notification will show up for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_never_summary">Heads up notification will show until it is dismissed</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_never">Never</string>
+
+    <!-- Battery saver -->
+    <string name="battery_saver_title">Warning color</string>
+    <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
+
+    <!-- Clear all recents on navbar enabler strings -->
+    <string name="clear_all_recents_navbar_enabled_title">Clear all recents button on nav bar</string>
+    <string name="clear_all_recents_navbar_enabled_summary">Show clear all recents button on navigation bar</string>
 </resources>
