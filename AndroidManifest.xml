@@ -1698,6 +1698,10 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
+
+        <!-- Heads up notifications -->
+        <activity android:name=".headsup.HeadsUpSettings" />
+
         <!-- "Blacklist settings" UI, used only on voice-capable phone devices. -->
         <activity android:name="Settings$BlacklistSettingsActivity"
                 android:uiOptions="splitActionBarWhenNarrow"
