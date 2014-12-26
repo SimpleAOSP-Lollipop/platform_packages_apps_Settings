@@ -32,7 +32,6 @@
                 android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
-        
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status" 
