@@ -2866,7 +2866,7 @@
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Temporisation</string>
     <string name="heads_up_time_out_summary">La notification sera afficher pendant<xliff:g id="number">%d</xliff:g> secondes</string>
-    <string name="heads_up_time_out_never_summary">La notification s\'affichera jusqu\'à ce qu'elle soit rejeté</string>
+    <string name="heads_up_time_out_never_summary">La notification s\'affichera jusqu\'à ce qu\'elle soit rejeté</string>
     <string name="heads_up_time_out_2sec">2 secondes</string>
     <string name="heads_up_time_out_4sec">4 secondes</string>
     <string name="heads_up_time_out_6sec">6 secondes</string>
