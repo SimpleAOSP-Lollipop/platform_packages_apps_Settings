@@ -2816,7 +2816,8 @@
     <!-- Volume rocker music seek options -->
     <string name="volbtn_music_controls_title">Contrôle de la musique</string>
     <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture.</string>
-
+    <string name="volume_button_toggle_info">Le réveil par le volume doit être désactivé</string>
+    
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Notifications animées</string>
     <string name="status_bar_ticker_summary">Animation du texte des notifications dans la barre d\'état</string>
@@ -2837,8 +2838,8 @@
     <string name="lock_numpad_random_on_request">Sur demande</string>
 
     <!-- Unaccounted and overcounted battery stats -->
-    <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
-    <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage</string>
+    <string name="show_unac_and_overcounted_stats_title">Montrer les statistiques ignorées et surpassées</string>
+    <string name="show_unac_and_overcounted_stats_summary">Afficher les statistiques de la batterie ignorées et l\'utilisation surpassée</string>
 
     <!-- Show/Hide Search Bar -->
     <string name="recents_show_searchbar">Désactiver la barre de recherche dans le menu récents</string>
