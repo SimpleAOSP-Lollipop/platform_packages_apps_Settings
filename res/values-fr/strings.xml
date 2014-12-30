@@ -2519,6 +2519,8 @@
     <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
     <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Cacher</string>
 
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Afficher le pourcentage de la batterie</string>
@@ -2874,4 +2876,10 @@
     <string name="heads_up_time_out_8sec">8 secondes</string>
     <string name="heads_up_time_out_10sec">10 secondes</string>
     <string name="heads_up_time_out_never">Jamais</string>
+    
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB sur le réseau</string>
+    <string name="adb_over_network_summary">Activer le débogage TCP / IP sur les interfaces réseau (Wi-Fi, réseaux USB). Ce paramètre est réinitialisé au redémarrage</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">AVERTISSEMENT: Lorsque ADB sur le réseau est activée, votre téléphone est ouvert pour les intrusions sur tous les réseaux connectés, y compris le réseau de donnée GSM !\n\N\'utilisez cette fonction que lorsque vous êtes connecté sur les réseaux de confiance.\n\nVoulez-vous vraiment activer cette fonction ?</string>
 </resources>
