@@ -6548,4 +6548,8 @@
     <!-- Doze pulse (ambient display) notification timeout -->
     <string name="doze_timeout_title">Ambient display timeout</string>
     <string name="doze_timeout_summary">Time that the screen stays on for notification pulse</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Auto close panel</string>
+    <string name="quick_settings_collapse_summary">Close the quick settings panel upon toggle</string>
 </resources>
