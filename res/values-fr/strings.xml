@@ -2529,7 +2529,6 @@
     <string name="status_bar_battery_percentage_text_inside">Intérieur de l\'icône</string>
     <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
 
-
     <!--  Volume rocker -->
     <string name="volume_rocker_screen_title">Bascule du volume</string>
     <!--- Volume key cursor control -->
@@ -2540,7 +2539,7 @@
 
     <!-- Developer options - kill app long press back -->
     <string name="kill_app_longpress_back">Tuer l\'application par la touche retour</string>
-    <string name="kill_app_longpress_back_summary">Tuez l\'application au premier plan par un long appuie sur la touche retour</string>
+    <string name="kill_app_longpress_back_summary">Tuez l\'application au premier plan par un long appui sur la touche retour</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Trafic réseau</string>
@@ -2612,7 +2611,7 @@
     <string name="pref_volume_wake_title">Réveil par les boutons de volume</string>
     <string name="pref_volume_wake_summary">Appuyer sur les boutons de volume haut/bas réveillera l\'appareil</string>
     <string name="wakeup_when_plugged_unplugged_title">Réveil par le chargeur</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Réveille l\'appareil si le chargeur est branché/débranché</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Réveil l\'appareil si le chargeur est branché/débranché</string>
 
     <!-- Volume adjust sound -->
     <string name="volume_key_adjust_sound_title">Son de réglage du volume</string>
@@ -2623,7 +2622,7 @@
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Redémarrage avancé</string>
-    <string name="advanced_reboot_summary">Lorsque déverrouillé, inclure les options dans le menu d\'alimentation de redémarrer en Recovery, bootloader ou d\'effectuer un redémarrage doux</string>
+    <string name="advanced_reboot_summary">Lorsque déverrouillé, inclure les options dans le menu d\'alimentation pour redémarrer en Recovery, bootloader ou effectuer un redémarrage doux</string>
 
     <!-- Status bar double-tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Taper deux fois pour mettre en veille</string>
@@ -2775,7 +2774,7 @@
 
     <!--Power menu -->
     <string name="lockscreen_enable_power_menu_title">Afficher le menu d\'alimentation sur l\'écran de verrouillage</string>
-    <string name="lockscreen_enable_power_menu_summary">Activer l\'accès au menu d\'alimentation sur les écrans de verrouillage sécurisés</string>
+    <string name="lockscreen_enable_power_menu_summary">Activer l\'accès au menu d\'alimentation sur l\'écrans de verrouillage sécurisé</string>
 
     <!--- Sms security limit -->
     <string name="sms_security_check_limit_title">Limite des messages SMS</string>
@@ -2806,14 +2805,14 @@
 
     <!-- Quick settings disable on lockscreen -->
     <string name="block_on_secure_keyguard_title">Désactiver les paramètres rapides sur l\'écran de verrouillage</string>
-    <string name="block_on_secure_keyguard_summary">Désactiver l\'accès aux paramètres rapides sur les écrans de verrouillage sécurisés</string>
+    <string name="block_on_secure_keyguard_summary">Désactiver l\'accès aux paramètres rapides sur l\'écran de verrouillage sécurisé</string>
 
     <!-- QuickSettings: Quick Pulldown -->
     <string name="title_quick_pulldown">Paramètres rapide</string>
     <string name="summary_quick_pulldown">Glisser sur le côté %1$s de la barre de statut affiche les paramètres rapides.</string>
-    <string name="quick_pulldown_off">Désactivé</string>
-    <string name="quick_pulldown_left">Gauche</string>
-    <string name="quick_pulldown_right">Droit</string>
+    <string name="quick_pulldown_off">désactivé</string>
+    <string name="quick_pulldown_left">gauche</string>
+    <string name="quick_pulldown_right">droit</string>
 
     <!-- Volume rocker music seek options -->
     <string name="volbtn_music_controls_title">Contrôle de la musique</string>
@@ -2922,7 +2921,7 @@
     
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Bloquer le gestuel des événements tactiles</string>
-    <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles pour la navigation et les gestes de la barre d\'état aux applications</string>
+    <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles des gestes pour la navigation et la barre de statut aux applications</string>
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu d\'alimentation</string>
