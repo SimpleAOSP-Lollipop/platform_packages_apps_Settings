@@ -1451,7 +1451,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                 mAdbTcpDialog = new AlertDialog.Builder(getActivity()).setMessage(
                         getResources().getString(R.string.adb_over_network_warning))
                         .setTitle(R.string.adb_over_network)
-                        .setIconAttribute(android.R.attr.alertDialogIcon)
                         .setPositiveButton(android.R.string.yes, this)
                         .setNegativeButton(android.R.string.no, this)
                         .show();
