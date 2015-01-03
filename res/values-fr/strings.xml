@@ -2919,4 +2919,15 @@
     <string name="screen_recorder_bitrate_20000000">20000000</string>
     <string name="screen_recorder_record_audio_title">Audio externe</string>
     <string name="screen_recorder_record_audio_summary">Enregistrement audio à partir du microphone</string>
+    
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Bloquer le gestuel des événements tactiles</string>
+    <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles pour la navigation et les gestes de la barre d\'état aux applications</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Menu d\'alimentation</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
+    <string name="quick_settings_vibrate_summary">Vibrer en touchant les tuiles</string>
 </resources>
