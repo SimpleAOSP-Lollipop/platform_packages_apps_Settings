@@ -17,11 +17,6 @@
             android:defaultValue="48"
             android:persistent="false" />
 
-	<SwitchPreference
-            android:key="clear_all_recents_navbar_enabled"
-            android:title="@string/clear_all_recents_navbar_enabled_title"
-            android:summary="@string/clear_all_recents_navbar_enabled_summary" />
-
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
             android:key="recents_show_hide_search_bar"
             android:title="@string/recents_show_searchbar"

@@ -6341,10 +6341,6 @@
     <string name="battery_saver_title">Warning color</string>
     <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
 
-    <!-- Clear all recents on navbar enabler strings -->
-    <string name="clear_all_recents_navbar_enabled_title">Clear all recents button on nav bar</string>
-    <string name="clear_all_recents_navbar_enabled_summary">Show clear all recents button on navigation bar</string>
-
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up notifications</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
