@@ -2818,11 +2818,7 @@
     <string name="volbtn_music_controls_title">Contrôle de la musique</string>
     <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture.</string>
     <string name="volume_button_toggle_info">Le réveil par le volume doit être désactivé</string>
-    
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Notifications animées</string>
-    <string name="status_bar_ticker_summary">Animation du texte des notifications dans la barre d\'état</string>
-
+ 
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Compteur de notifications</string>
     <string name="status_bar_notif_count_summary">Afficher le nombre de notifications similaires en attente</string>
