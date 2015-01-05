@@ -47,6 +47,7 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.transition.TransitionManager;
 import android.util.AttributeSet;
@@ -1063,6 +1064,11 @@ public class SettingsActivity extends Activity
                                     com.android.internal.R.styleable.PreferenceHeader_fragment);
                             sa.recycle();
 
+                            sa = obtainStyledAttributes(attrs, R.styleable.DashboardTile);
+                            tile.switchControl = sa.getString(
+                                    R.styleable.DashboardTile_switchClass);
+                            sa.recycle();
+
                             if (curBundle == null) {
                                 curBundle = new Bundle();
                             }
@@ -1149,6 +1155,10 @@ public class SettingsActivity extends Activity
                 } else if (id == R.id.bluetooth_settings) {
                     // Remove Bluetooth Settings if Bluetooth service is not available.
                     if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH)) {
+                        removeTile = true;
+                    }
+		} else if (id == R.id.mobile_networks) {
+                    if (TelephonyManager.getDefault().getPhoneCount() > 1) {
                         removeTile = true;
                     }
                 } else if (id == R.id.data_usage_settings) {
