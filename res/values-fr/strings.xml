@@ -2693,6 +2693,15 @@
     <string name="profiles_add">Ajouter</string>
     <string name="profile_choose_app">Choisir l\'application</string>
 
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Bouton d\'effacement des récents</string>
+    <string name="show_clear_all_recents_button_summary">Afficher le bouton tout effacer sur le panneau récents</string>
+    <string name="recents_clear_all_location_title">Emplacement du bouton d\'effacement</string>
+    <string name="recents_clear_all_location_top_right">En haut à droite</string>
+    <string name="recents_clear_all_location_top_left">En haut à gauche</string>
+	<string name="recents_clear_all_location_bottom_right">En bas à droite</string>
+	<string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+	
     <!-- per app controls for keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Afficher sur l\'écran de verrouillage</string>
     <string name="app_notification_show_on_keyguard_summary">Afficher les notifications de cette application sur l\'écran de verrouillage</string>
@@ -2846,10 +2855,6 @@
     <string name="battery_saver_title">Couleur d\'avertissement</string>
     <string name="battery_saver_style_reset_message">Réinitialiser la couleur d\'avertissement de l\'économiseur de batterie ?</string>
 
-    <!-- Clear all recents on navbar enabler strings -->
-    <string name="clear_all_recents_navbar_enabled_title">Effacement des applications récentes</string>
-    <string name="clear_all_recents_navbar_enabled_summary">Montrer le bouton d\'effacement des applications récentes sur la barre de navigation</string>
-
     <!-- Heads Up -->
     <string name="category_heads_up">Notifications flottantes</string>
     <string name="summary_heads_up_enabled">Notifications flottantes activées</string>
@@ -2925,4 +2930,14 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
     <string name="quick_settings_vibrate_summary">Vibrer en touchant les tuiles</string>
+	
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Afficher la météo</string>
+    <string name="status_bar_show_weather_summary">Afficher la météo dans le haut de la barre de statut</string>
+	
+     <!--- Lock clock -->
+    <string name="lock_clock_title">Widget Horloge</string>
+    <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget \'cLock\' s\'affiche</string>
+    <string name="weather_clock_title">Météo dans la barre de statut</string>
+    <string name="weather_clock_summary">Afficher ou modifier les paramètres météo dans la barre de statut</string>
 </resources>
