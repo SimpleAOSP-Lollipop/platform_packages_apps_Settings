@@ -2935,9 +2935,13 @@
     <string name="status_bar_show_weather_title">Afficher la météo</string>
     <string name="status_bar_show_weather_summary">Afficher la météo dans le haut de la barre de statut</string>
 	
-     <!--- Lock clock -->
+    <!--- Lock clock -->
     <string name="lock_clock_title">Widget Horloge</string>
     <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget \'cLock\' s\'affiche</string>
     <string name="weather_clock_title">Météo dans la barre de statut</string>
     <string name="weather_clock_summary">Afficher ou modifier les paramètres météo dans la barre de statut</string>
+    
+    <!-- Ignore last app when clearing recents -->
+    <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
+    <string name="recents_clear_all_dismiss_all_summary">Choisir s\'il faut effacer toutes les tâches ou ignorer la tâche au premier plan</string>
 </resources>
