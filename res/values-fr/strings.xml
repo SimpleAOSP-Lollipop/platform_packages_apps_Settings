@@ -2888,6 +2888,8 @@
     <string name="screen_recorder_summary">Régler les paramètres de l\'enregistreur d\'écran</string>
     <string name="screen_recorder_video_dimensions_title">Taille de la vidéo</string>
     <string name="screen_recorder_video_bitrate_title">Débit</string>
+    <string name="power_menu_screenrecord_title">Enregistrement d\'écran</string>
+    <string name="screen_recorder_power_menu_summary">Ajouter une option enregistrement d\'écran dans le menu d\'alimentation</string>
     <!-- video sizes -->
     <string name="screen_recorder_size_240x400">240x400</string>
     <string name="screen_recorder_size_360x640">360x640</string>
