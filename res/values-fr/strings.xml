@@ -2943,5 +2943,5 @@
     
     <!-- Ignore last app when clearing recents -->
     <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
-    <string name="recents_clear_all_dismiss_all_summary">Choisir s\'il faut effacer toutes les tâches ou ignorer la tâche au premier plan</string>
+    <string name="recents_clear_all_dismiss_all_summary">Choisir si il faut effacer toutes les tâches ou ignorer la tâche au premier plan</string>
 </resources>
