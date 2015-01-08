@@ -6384,7 +6384,7 @@
     <string name="screen_recorder_video_dimensions_title">Video size</string>
     <string name="screen_recorder_video_bitrate_title">Bitrate</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
-    <string name="screen_recorder_power_menu_summary">Add a Screen Record entry in the power menu</string>
+    <string name="screen_recorder_power_menu_summary">Add a screen record entry in the power menu</string>
     <!-- video sizes -->
     <string name="screen_recorder_size_240x400">240x400</string>
     <string name="screen_recorder_size_360x640">360x640</string>
