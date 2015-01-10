@@ -2699,8 +2699,10 @@
     <string name="recents_clear_all_location_title">Emplacement du bouton d\'effacement</string>
     <string name="recents_clear_all_location_top_right">En haut à droite</string>
     <string name="recents_clear_all_location_top_left">En haut à gauche</string>
+    <string name="recents_clear_all_location_top_center">En haut au centre</string>
     <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
     <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+    <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
 	
     <!-- per app controls for keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Afficher sur l\'écran de verrouillage</string>
