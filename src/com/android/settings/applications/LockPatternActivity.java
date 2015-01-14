@@ -130,7 +130,7 @@ public class LockPatternActivity extends Activity implements OnNotifyAccountRese
         menu.clear();
         if (!mCreate) {
             menu.add(0, MENU_RESET, 0, R.string.lockpattern_reset_button)
-                    .setIcon(R.drawable.ic_lockscreen_ime)
+                    .setIcon(R.drawable.ic_settings_ime)
                     .setAlphabeticShortcut('r')
                     .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
                             MenuItem.SHOW_AS_ACTION_WITH_TEXT);
@@ -165,7 +165,7 @@ public class LockPatternActivity extends Activity implements OnNotifyAccountRese
         }
         mPatternLockHeader.setText(getResources()
                 .getString(R.string.lockpattern_settings_enable_summary));
-        mItem.setIcon(R.drawable.ic_lockscreen_ime);
+        mItem.setIcon(R.drawable.ic_settings_ime);
         mAccountView.clearFocusOnInput();
         mAccountView.setVisibility(View.GONE);
         mLockPatternView.setVisibility(View.VISIBLE);
@@ -174,7 +174,7 @@ public class LockPatternActivity extends Activity implements OnNotifyAccountRese
     private void switchToAccount() {
         mPatternLockHeader.setText(getResources()
                 .getString(R.string.lockpattern_settings_reset_summary));
-        mItem.setIcon(R.drawable.ic_settings_lockscreen);
+        mItem.setIcon(R.drawable.ic_settings_lock);
         mAccountView.setVisibility(View.VISIBLE);
         mLockPatternView.setVisibility(View.GONE);
     }
