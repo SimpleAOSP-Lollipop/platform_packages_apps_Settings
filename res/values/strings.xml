@@ -2240,7 +2240,7 @@
     <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of audio files in /sdcard on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
     <string name="memory_music_usage">Audio (music, ringtones, podcasts, etc.)</string>
     <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of misc files on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
-    <string name="memory_media_misc_usage">Misc.</string>
+    <string name="memory_media_misc_usage">Misc. files</string>
     <!-- Storage item representing all cached data on device. [CHAR LIMIT=48] -->
     <string name="memory_media_cache_usage">Cached data</string>
     <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=25] -->
@@ -4678,7 +4678,7 @@
     <!-- Menu item/button 'delete' -->
     <string name="delete">Delete</string>
     <!-- Misc files [CHAR LIMIT=25] -->
-    <string name="misc_files">Misc files</string>
+    <string name="misc_files">Misc. files</string>
     <!-- number of misc files selected [CHAR LIMIT=40] -->
     <string name="misc_files_selected_count">selected <xliff:g id="number" example="3">%1$d</xliff:g> out of <xliff:g id="total" example="15">%2$d</xliff:g></string>
     <!-- number of bytes represented by the selected misc files [CHAR LIMIT=40] -->
