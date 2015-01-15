@@ -2883,12 +2883,6 @@
     <string name="heads_up_time_out_10sec">10 secondes</string>
     <string name="heads_up_time_out_never">Jamais</string>
     
-    <!-- Android debugging over WiFi -->
-    <string name="adb_over_network">ADB sur le réseau</string>
-    <string name="adb_over_network_summary">Activer le débogage TCP / IP sur les interfaces réseau (Wi-Fi, réseaux USB). Ce paramètre est réinitialisé au redémarrage</string>
-    <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">AVERTISSEMENT: Lorsque ADB sur le réseau est activée, votre téléphone est ouvert pour les intrusions sur tous les réseaux connectés, y compris le réseau de donnée GSM !\n\N\'utilisez cette fonction que lorsque vous êtes connecté sur les réseaux de confiance.\n\nVoulez-vous vraiment activer cette fonction ?</string>
-
     <!-- Screen recorder -->
     <string name="screen_recorder_title">Enregistreur d\'écran</string>
     <string name="screen_recorder_summary">Régler les paramètres de l\'enregistreur d\'écran</string>
