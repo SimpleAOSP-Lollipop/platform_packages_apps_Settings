@@ -833,7 +833,7 @@
     <string name="screensaver_settings_button" msgid="7292214707625717013">"Impostazioni"</string>
     <string name="automatic_brightness" msgid="5014143533884135461">"Luminosità automatica"</string>
     <string name="lift_to_wake_title" msgid="4555378006856277635">"Solleva per riattivare"</string>
-    <string name="doze_title" msgid="2259176504273878294">"Display Ambient"</string>
+    <string name="doze_title" msgid="2259176504273878294">"Ambient Display"</string>
     <string name="doze_summary" msgid="8300817661725517088">"Riattiva lo schermo al sollevamento del dispositivo o all\'arrivo di notifiche"</string>
     <string name="title_font_size" msgid="4405544325522105222">"Dimensioni carattere"</string>
     <string name="dialog_title_font_size" msgid="2231507851258955038">"Dimensioni carattere"</string>
@@ -2737,27 +2737,110 @@
     <string name="show_unac_and_overcounted_stats_summary">Mostra nelle statistiche della batteria l\'uso non contato e quello sovraccontato (disattiva la voce "Varie")</string>
     <string name="recents_show_searchbar">Disattiva barra di ricerca</string>
     <string name="recents_show_searchbar_summary">Disattiva la barra di ricerca nel pannello delle app recenti</string>
-    <string name="heads_up_title">Notifiche heads up</string>
-    <string name="app_notification_enable_heads_up_title">Mostra heads up</string>
-    <string name="app_notification_enable_heads_up_summary">Mostra notifiche heads up da questa app</string>
-    <string name="heads_up_snooze_title">Timer disattivazione</string>
-    <string name="heads_up_snooze_summary">Se il timer di disattivazione è premuto, heads up sarà disattivato per <xliff:g id="number">%d</xliff:g> minuti</string>
-    <string name="heads_up_snooze_disabled_summary">Il timer è disattivato</string>
-    <string name="heads_up_snooze_3min">3 minuti</string>
-    <string name="heads_up_snooze_5min">5 minuti</string>
-    <string name="heads_up_snooze_10min">10 minuti</string>
-    <string name="heads_up_snooze_15min">15 minuti</string>
-    <string name="heads_up_snooze_20min">20 minuti</string>
-    <string name="heads_up_time_out_title">Timeout heads up</string>
-    <string name="heads_up_time_out_summary">La notifica heads up sarà mostrata per <xliff:g id="number">%d</xliff:g> secondi</string>
-    <string name="heads_up_time_out_never_summary">La notifica sarà mostrata fino alla rimozione manuale</string>
+    <string name="battery_saver_title">Colore di avviso</string>
+    <string name="battery_saver_style_reset_message">Ripristinare il colore di avviso della modalità salva batteria?</string>
+    <string name="clear_all_recents_navbar_enabled_title">Pulsante chiudi tutto barra di navigazione</string>
+    <string name="clear_all_recents_navbar_enabled_summary">Mostra il pulsante per chiudere tutte le app recenti nella barra barra di navigazione</string>
+
+     <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Blocca eventi tocco gesture</string>
+    <string name="edge_gesture_service_summary">Non inviare eventi tocco per le gesture della barra di stato e navigazione alle app</string>
+    
+    <!-- Heads Up -->
+    <string name="category_heads_up">Notifiche heads up</string>
+    <string name="summary_heads_up_enabled">Notifica con Pop-up abilitata</string>
+    <string name="summary_heads_up_disabled">Notifica con Pop-up disabilitata</string>
+    <string name="add_heads_up_package">Aggiungi app</string>
+    <string name="add_heads_up_dnd_summary">Non mostrare heads up in queste applicazioni</string>
+    <string name="add_heads_up_blacklist_summary">Non mostrare heads up per queste applicazioni</string>
+    <string name="heads_up_dnd_title">Non disturbare</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_disabled_notice">Se vuoi permettere alle applicazioni di mostrare notifiche interattive con pop-up su schermo, abilita heads up.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Tempo notifica</string>
+    <string name="heads_up_time_out_summary">La notifica sarà mostrata per <xliff:g id="number">%d</xliff:g> secondi</string>
+    <string name="heads_up_time_out_never_summary">La notifica sarà mostrata fino a quando non sarà respinta</string>
+    <string name="heads_up_time_out_2sec">2 secondi</string>
     <string name="heads_up_time_out_4sec">4 secondi</string>
     <string name="heads_up_time_out_6sec">6 secondi</string>
     <string name="heads_up_time_out_8sec">8 secondi</string>
     <string name="heads_up_time_out_10sec">10 secondi</string>
     <string name="heads_up_time_out_never">Mai</string>
-    <string name="battery_saver_title">Colore di avviso</string>
-    <string name="battery_saver_style_reset_message">Ripristinare il colore di avviso della modalità salva batteria?</string>
-    <string name="clear_all_recents_navbar_enabled_title">Pulsante chiudi tutto barra di navigazione</string>
-    <string name="clear_all_recents_navbar_enabled_summary">Mostra il pulsante per chiudere tutte le app recenti nella barra barra di navigazione</string>
+    
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibra alla pressione</string>
+    <string name="quick_settings_vibrate_summary">Vibrazione quando tocchi un tiles</string>
+    
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Mostra meteo</string>
+    <string name="status_bar_show_weather_summary">Mostra il meteo nella status bar</string>
+    
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Clock widget</string>
+    <string name="lock_clock_summary">Visualizza o modifica come \'cLock\' widget apparirà</string>
+    <string name="weather_clock_title">Meteo nella status bar</string>
+    <string name="weather_clock_summary">Visualizza o modifica i settaggi per il meteo nella status bar</string>
+    
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Chiudi app aperte</string>
+    <string name="show_clear_all_recents_button_summary">Mostra un pulsante per chiudere tutte le app aperte</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante per chiudere le app aperte</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto centrale</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso centrale</string>
+    
+    <!-- Ignore last app when clearing recents -->
+    <string name="recents_clear_all_dismiss_all_title">Chiudi tutte le app aperte</string>
+    <string name="recents_clear_all_dismiss_all_summary">Scegli se chiudere tutte le app aperte o lasciare solo l\'ultima app eseguita aperta</string>
+    
+    <!-- Power menu -->
+    <string name="power_menu_title">Menù riavvio</string>
+    
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Registra schermo</string>
+    <string name="screen_recorder_summary">Regola i settaggi per registrare lo schermo</string>
+    <string name="screen_recorder_video_dimensions_title">Risoluzione video</string>
+    <string name="screen_recorder_video_bitrate_title">Bitrate</string>
+    <string name="power_menu_screenrecord_title">Registra schermo</string>
+    <string name="screen_recorder_power_menu_summary">Aggiungi la voce registra schermo nel menù riavvio</string>
+    <!-- video sizes -->
+    <string name="screen_recorder_size_240x400">240x400</string>
+    <string name="screen_recorder_size_360x640">360x640</string>
+    <string name="screen_recorder_size_480x800">480x800</string>
+    <string name="screen_recorder_size_480x854">480x854</string>
+    <string name="screen_recorder_size_540x960">540x960</string>
+    <string name="screen_recorder_size_600x1024">600x1024</string>
+    <string name="screen_recorder_size_720x1280">720x1280</string>
+    <!-- frame rates -->
+    <string name="screen_recorder_bitrate_title_100000">100 kB/s</string>
+    <string name="screen_recorder_bitrate_title_250000">250 kB/s</string>
+    <string name="screen_recorder_bitrate_title_500000">500 kB/s</string>
+    <string name="screen_recorder_bitrate_title_1000000">1 MB/s</string>
+    <string name="screen_recorder_bitrate_title_2000000">2 MB/s</string>
+    <string name="screen_recorder_bitrate_title_3000000">3 MB/s</string>
+    <string name="screen_recorder_bitrate_title_4000000">4 MB/s</string>
+    <string name="screen_recorder_bitrate_title_5000000">5 MB/s</string>
+    <string name="screen_recorder_bitrate_title_10000000">10 MB/s</string>
+    <string name="screen_recorder_bitrate_title_20000000">20 MB/s</string>
+    <string name="screen_recorder_bitrate_100000">100000</string>
+    <string name="screen_recorder_bitrate_250000">250000</string>
+    <string name="screen_recorder_bitrate_500000">500000</string>
+    <string name="screen_recorder_bitrate_1000000">1000000</string>
+    <string name="screen_recorder_bitrate_2000000">2000000</string>
+    <string name="screen_recorder_bitrate_3000000">3000000</string>
+    <string name="screen_recorder_bitrate_4000000">4000000</string>
+    <string name="screen_recorder_bitrate_5000000">5000000</string>
+    <string name="screen_recorder_bitrate_10000000">10000000</string>
+    <string name="screen_recorder_bitrate_20000000">20000000</string>
+    <string name="screen_recorder_record_audio_title">Audio esterno</string>
+    <string name="screen_recorder_record_audio_summary">Registra audio dal microfono</string>
+    
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Mostra barra luminosità</string>
+    <string name="qs_brightness_slider_summary">Mostra barra luminosità nei quick setting</string>
+     
 </resources>
