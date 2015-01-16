@@ -75,7 +75,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setValue(String.valueOf(statusQuickPulldown));
         updateQuickPulldownSummary(statusQuickPulldown);
 
-        mQSTiles = findPreference("qs_order")
+        mQSTiles = findPreference("qs_order");
     }
     @Override
     public void onResume() {
