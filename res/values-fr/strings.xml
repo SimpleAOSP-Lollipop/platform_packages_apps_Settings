@@ -2975,8 +2975,8 @@
     <string name="qs_action_add">Ajouter</string>
     <string name="qs_action_no_more_tiles">Pas d\'autre tuiles disponibles</string>
     <string name="qs_main_tiles_title">Agrandir la première rangée</string>
-    <string name="qs_main_tiles_summary_on">Deux principales tuiles sur la première ligne</string>
-    <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque ligne</string>
+    <string name="qs_main_tiles_summary_on">Deux principales tuiles sur la première rangée</string>
+    <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque rangée</string>
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
     <string name="qs_advanced_location_summary">Activer les paramètres avancés pour l\'emplacement dans les paramètres rapides</string>
 </resources>
