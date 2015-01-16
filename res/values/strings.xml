@@ -6463,7 +6463,7 @@
 
     <!-- QS tiles -->
     <string name="qs_category_title">Quick Settings</string>
-    <string name="qs_order_title">Select and order tiles</string>
+    <string name="qs_order_title">Select &amp; order tiles</string>
     <string name="add_qs">Add new tile</string>
     <string name="cast_screen">Cast screen</string>
     <string name="hotspot">Hotspot</string>
