@@ -2928,7 +2928,7 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu d\'alimentation</string>
-    <string name="power_menu_power_title">Eteindre</string>
+    <string name="power_menu_power_title">Éteindre</string>
     <string name="power_menu_reboot_title">Menu redémarrer</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>
     <string name="power_menu_airplane_title">Mode avion</string>
