@@ -2964,4 +2964,19 @@
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Lier le volume de sonnerie et de notification</string>
     <string name="notification_volume_option_title">Volume de notification</string>
+    
+    <!-- QS tiles -->
+    <string name="qs_category_title">Paramètres rapides</string>
+    <string name="qs_order_title">Sélectionner et ordonner les tuiles</string>
+    <string name="add_qs">Ajouter une nouvelle tuile</string>
+    <string name="cast_screen">Caster l\'écran</string>
+    <string name="hotspot">Point d\'accès</string>
+    <string name="qs_action_delete">Supprimer</string>
+    <string name="qs_action_add">Ajouter</string>
+    <string name="qs_action_no_more_tiles">Pas d\'autre tuiles disponibles</string>
+    <string name="qs_main_tiles_title">Agrandir la première rangée</string>
+    <string name="qs_main_tiles_summary_on">Deux principales tuiles sur la première ligne</string>
+    <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque ligne</string>
+    <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
+    <string name="qs_advanced_location_summary">Activer les paramètres avancés pour l\'emplacement dans les paramètres rapides</string>
 </resources>
