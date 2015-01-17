@@ -2527,8 +2527,7 @@
     <string name="status_bar_battery_style_hidden">Cacher</string>
 
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Afficher le pourcentage de la batterie</string>
-    <string name="status_bar_battery_percentage_dialog_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_percentage_default">Ne pas afficher (Par défaut)</string>
     <string name="status_bar_battery_percentage_text_inside">Intérieur de l\'icône</string>
     <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
@@ -2979,4 +2978,7 @@
     <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque rangée</string>
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
     <string name="qs_advanced_location_summary">Activer les paramètres avancés pour l\'emplacement dans les paramètres rapides</string>
+    
+    <!-- Default alarm ringtone -->
+    <string name="alarm_ringtone_title">Sonnerie d\'alarme par défaut</string>
 </resources>
