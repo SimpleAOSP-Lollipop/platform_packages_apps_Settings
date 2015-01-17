@@ -2841,6 +2841,28 @@
     
     <!-- QuickSettings brightness slider -->
     <string name="qs_brightness_slider_title">Mostra barra luminosità</string>
-    <string name="qs_brightness_slider_summary">Mostra barra luminosità nei quick setting</string>
+    <string name="qs_brightness_slider_summary">Mostra barra luminosità nei quick settings</string>
+    
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Collega volume suoneria &amp; notifiche</string>
+    <string name="notification_volume_option_title">Volume notifica</string>
+
+    <!-- QS tiles -->
+    <string name="qs_category_title">Quick Settings</string>
+    <string name="qs_order_title">Seleziona &amp; ordina tiles</string>
+    <string name="add_qs">Aggiungi nuovo tile</string>
+    <string name="cast_screen">Trasmetti schermo</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="qs_action_delete">Elimina</string>
+    <string name="qs_action_add">Aggiungi</string>
+    <string name="qs_action_no_more_tiles">Nessun altro tiles disponibile</string>
+    <string name="qs_main_tiles_title">Ingrandisci prima fila</string>
+    <string name="qs_main_tiles_summary_on">Due tiles principali sulla prima fila</string>
+    <string name="qs_main_tiles_summary_off">Tre tiles su ogni fila</string>
+    <string name="qs_advanced_location_title">Geolocalizzazione avanzata quick settings</string>
+    <string name="qs_advanced_location_summary">Abilita impostazioni avanzate per la geolocalizzazione nei quick settings</string>
+
+    <!-- Default alarm ringtone -->
+    <string name="alarm_ringtone_title">Suoneria allarme di default</string>
      
 </resources>
