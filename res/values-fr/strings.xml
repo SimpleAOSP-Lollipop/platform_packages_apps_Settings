@@ -2970,10 +2970,11 @@
     <string name="add_qs">Ajouter une nouvelle tuile</string>
     <string name="cast_screen">Caster l\'écran</string>
     <string name="hotspot">Point d\'accès</string>
+    <string name="notifications">Notifications</string>
     <string name="qs_action_delete">Supprimer</string>
     <string name="qs_action_add">Ajouter</string>
     <string name="qs_action_no_more_tiles">Pas d\'autre tuiles disponibles</string>
-    <string name="qs_main_tiles_title">Agrandir la première rangée</string>
+    <string name="qs_main_tiles_title">Gestion de la première rangée</string>
     <string name="qs_main_tiles_summary_on">Deux principales tuiles sur la première rangée</string>
     <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque rangée</string>
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
