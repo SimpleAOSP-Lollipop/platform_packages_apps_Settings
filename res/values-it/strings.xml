@@ -2770,7 +2770,7 @@
     
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibra alla pressione</string>
-    <string name="quick_settings_vibrate_summary">Vibrazione quando tocchi un tiles</string>
+    <string name="quick_settings_vibrate_summary">Vibrazione quando tocchi un tile</string>
     
     <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Mostra meteo</string>
@@ -2799,6 +2799,16 @@
     
     <!-- Power menu -->
     <string name="power_menu_title">Menù riavvio</string>
+    <string name="power_menu_power_title">Spegni</string>
+    <string name="power_menu_reboot_title">Riavvio</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_airplane_title">Modalità aereo</string>
+    <string name="power_menu_users_title">Cambia utente</string>
+    <string name="power_menu_settings_title">Scelta rapida impostazioni</string>
+    <string name="power_menu_lockdown_title">Blocco del dispositivo</string>
+    <string name="power_menu_bug_report_title">Segnala bug</string>
+    <string name="power_menu_sound_title">Pannello suoni</string>
+    <string name="power_menu_bug_report_disabled">Segnalazione bug è disabilitata in opzioni sviluppatore</string>
     
     <!-- Screen recorder -->
     <string name="screen_recorder_title">Registra schermo</string>
@@ -2863,6 +2873,6 @@
     <string name="qs_advanced_location_summary">Abilita impostazioni avanzate per la geolocalizzazione nei quick settings</string>
 
     <!-- Default alarm ringtone -->
-    <string name="alarm_ringtone_title">Suoneria allarme di default</string>
+    <string name="alarm_ringtone_title">Suoneria predefinita allarme </string>
      
 </resources>
