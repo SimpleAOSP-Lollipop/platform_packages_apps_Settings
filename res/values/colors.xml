@@ -91,4 +91,7 @@
     <color name="data_usage_chart_fillcolor">#ff009688</color>
     <color name="data_usage_chart_fillcolor_secondary">#ff80cbc4</color>
     <color name="ownerinfo_background_color">#ffffffff</color>
+
+    <!-- QS tiles -->
+    <color name="qs_tile_tint_color">#FF009587</color>
 </resources>
