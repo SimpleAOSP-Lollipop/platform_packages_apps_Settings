@@ -1292,7 +1292,6 @@
     <string name="app_disable_notifications_dlg_title" msgid="7669264654851761857">"Désactiver les notifications ?"</string>
     <string name="app_disable_notifications_dlg_text" msgid="5088484670924769845">"Si vous désactivez les notifications de cette application, vous risquez de manquer des alertes et des mises à jour importantes."</string>
     <string name="app_ops_settings" msgid="5108481883575527511">"Fonctionnement des applications"</string>
-    <string name="app_ops_settings_summary">Afficher ou modifier les autorisations des applications</string>
     <string name="app_ops_running" msgid="7706949900637284122">"En cours d\'exécution"</string>
     <string name="app_ops_never_used" msgid="9114608022906887802">"(Jamais utilisé)"</string>
     <string name="storageuse_settings_title" msgid="5657014373502630403">"Utilisation du stockage"</string>
@@ -2492,9 +2491,6 @@
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
-
-    <!-- Toast message when trying to open system app AppOps -->
-    <string name="appops_sys_app">Vous ne pouvez pas changer les opérations pour les applications système</string>
 	
     <!-- Navigation Bar -->
     <string name="navigation_bar_general_category">Générale</string>

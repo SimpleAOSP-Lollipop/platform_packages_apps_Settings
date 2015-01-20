@@ -2413,7 +2413,6 @@ Isso ajuda a proteger os dados em dispositivos perdidos ou roubados."</string>
     <string name="encrypt_talkback_dialog_message_pattern">Ao inserir seu padrão para iniciar o dispositivo, serviços de disponibilidade como o %1$s ainda não estarão disponíveis.</string>
     <string name="encrypt_talkback_dialog_message_password">Ao inserir sua senha para iniciar o dispositivo, serviços de disponibilidade como o %1$s ainda não estarão disponíveis.</string>
     <string name="build_date">Data da Build SimpleAOSP</string>
-    <string name="appops_sys_app">Não é possível alterar as operações de aplicativos do sistema</string>
     <string name="navigation_bar_general_category">Geral</string>
     <string name="navigation_bar_title">Barra de navegação</string>
     <string name="navigation_bar_height">Altura</string>
