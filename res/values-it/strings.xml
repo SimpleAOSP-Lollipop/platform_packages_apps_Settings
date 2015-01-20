@@ -2862,6 +2862,10 @@
     <string name="qs_advanced_location_title">Geolocalizzazione avanzata quick settings</string>
     <string name="qs_advanced_location_summary">Abilita impostazioni avanzate per la geolocalizzazione nei quick settings</string>
 
+     <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Temi</string>
+    
     <!-- Default alarm ringtone -->
     <string name="alarm_ringtone_title">Suoneria allarme di default</string>
      
