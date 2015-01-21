@@ -6140,8 +6140,8 @@
     <string name="device_hostname">Device hostname</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">USB debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB debugging is enabled</string>
   
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
@@ -6233,7 +6233,6 @@
     <string name="blacklist_bad_number_add">Unable to add invalid number to blacklist</string>
 
     <!-- Blacklist management -->
-    <string name="add_blacklist_number">Add number</string>
     <string name="remove_blacklist_number_title">Remove number</string>
     <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
     <string name="select_contact">Select contact</string>
@@ -6274,8 +6273,8 @@
     <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="ime_switcher_notify">Selector icon</string>
+    <string name="ime_switcher_notify_summary">Display input method selector icon</string>
 
     <!--Power menu -->
     <string name="lockscreen_enable_power_menu_title">Show power menu on lock screen</string>
@@ -6283,15 +6282,14 @@
 
     <!--- Sms security limit -->
     <string name="sms_security_check_limit_title">SMS message limit</string>
-    <string name="sms_security_check_limit_summary">Display an alert dialog to prevent applications from sending SMS messages too frequently. Current limit: %d messages in 15 minutes</string>
-    <string name="sms_security_check_limit_default">30 (Default)</string>
+    <string name="sms_security_check_limit_summary">Apps can send %d messages in 30 minutes before requiring confirmation</string>
+    <string name="sms_security_check_limit_default">30 (default)</string>
 
     <!-- Protected Apps -->
     <string name="menu_hidden_apps_delete">Reset</string>
     <string name="menu_hidden_apps_reset_lock">Reset pattern lock</string>
     <string name="protected_apps">Protected apps</string>
     <string name="saving_protected_components">Saving component state\u2026</string>
-    <string name="launch_app">Launch app</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Reset pattern</string>
@@ -6306,7 +6304,7 @@
 
     <!-- Development shortcut -->
     <string name="development_shortcut_title">Development shortcut</string>
-    <string name="development_shortcut_summary">Enable application management shortcuts in recent apps list</string>
+    <string name="development_shortcut_summary">Enable apps management shortcuts in recent apps list</string>
 
     <!-- Quick settings disable on lockscreen -->
     <string name="block_on_secure_keyguard_title">Disable quick settings on lock screen</string>
