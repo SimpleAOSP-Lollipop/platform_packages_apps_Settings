@@ -20,11 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <SwitchPreference
-        android:key="advanced_reboot"
-        android:title="@string/advanced_reboot_title"
-        android:summary="@string/advanced_reboot_summary" />
-
-    <SwitchPreference
         android:key="power"
         android:title="@string/power_menu_power_title"
         android:defaultValue="true" />
@@ -78,10 +73,17 @@
         android:key="power_menu_general_category"
         android:title="@string/navigation_bar_general_category" >
 
-    <PreferenceScreen
-	android:key="screen_recorder"
-	android:title="@string/screen_recorder_title"
-        android:summary="@string/screen_recorder_summary"
-	android:fragment="com.android.settings.simpleaosp.ScreenRecorderSettings" />
+        <SwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/advanced_reboot_title"
+            android:summary="@string/advanced_reboot_summary" />
+
+        <PreferenceScreen
+	    android:key="screen_recorder"
+	    android:title="@string/screen_recorder_title"
+            android:summary="@string/screen_recorder_summary"
+	    android:fragment="com.android.settings.simpleaosp.ScreenRecorderSettings" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

@@ -49,7 +49,7 @@
             android:title="@string/qs_brightness_slider_title"
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
-

@@ -6063,9 +6063,14 @@
     <string name="general_string">General</string>
     <string name="reset_string">Reset</string>
     <string name="reset">Reset</string>
+    <string name="reset_message">Reset all entries to default?</string>
     <string name="empty_string">Empty</string>
     <string name="ok">OK</string>
     <string name="font_size_sample">Sample</string>
+    <string name="attention">Attention</string>
+    <string name="additional_options_title">Additional options</string>
+    <string name="style_title">Style</string>
+    <string name="add">Add</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -6135,7 +6140,7 @@
     <string name="long_press_kill_delay">App kill delay</string>
 
     <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
-    <string name="debug_LAN_category">LAN Settings</string>
+    <string name="debug_LAN_category">LAN settings</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
@@ -6478,18 +6483,6 @@
 
     <!-- Default alarm ringtone -->
     <string name="alarm_ringtone_title">Default alarm ringtone</string>
-
-    <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="attention">Attention</string>
-    <string name="enabled">Enabled</string>
-    <string name="disabled">Disabled</string>
-    <string name="default_string">Default</string>
-    <string name="additional_options_title">Additional options</string>
-    <string name="reset_message">Reset all entries to default?</string>
-    <string name="style_title">Style</string>
-    <string name="add">Add</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_dlg_title">Enable privacy guard?</string>
