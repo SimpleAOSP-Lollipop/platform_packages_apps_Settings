@@ -2645,7 +2645,7 @@
     <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
-    <string name="adb_notify">Notification débogage USB</string>
+    <string name="adb_notify">Notification de débogage</string>
     <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est actif</string>
   
     <!-- Notification light dialogs -->
@@ -2693,6 +2693,7 @@
     <string name="profile_choose_app">Choisir l\'application</string>
 
     <!-- Recents panel settings -->
+	<string name="recents_panel_category">Panneau des applications récentes</string>
     <string name="show_clear_all_recents_button_title">Bouton d\'effacement des récents</string>
     <string name="show_clear_all_recents_button_summary">Afficher le bouton tout effacer sur le panneau récents</string>
     <string name="recents_clear_all_location_title">Emplacement du bouton d\'effacement</string>
@@ -2738,7 +2739,6 @@
     <string name="blacklist_bad_number_add">Impossible d\'ajouter un numéro non valide à la liste noire</string>
 
     <!-- Blacklist management -->
-    <string name="add_blacklist_number">Ajouter un numéro</string>
     <string name="remove_blacklist_number_title">Supprimer un numéro</string>
     <string name="remove_blacklist_entry">Voulez vous supprimer cette entrée de la liste noire ?</string>
     <string name="select_contact">Sélectionner un contact</string>
@@ -2779,8 +2779,8 @@
     <string name="status_bar_clock_style_reset_message">Réinitialiser la couleur de l\'horloge ?</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Notification du sélecteur de clavier</string>
-    <string name="ime_switcher_notify_summary">Afficher la notification du sélecteur de clavier</string>
+    <string name="ime_switcher_notify">Icône du sélecteur de clavier</string>
+    <string name="ime_switcher_notify_summary">Afficher l\'icône du sélecteur de clavier</string>
 
     <!--Power menu -->
     <string name="lockscreen_enable_power_menu_title">Afficher le menu d\'alimentation sur l\'écran de verrouillage</string>
@@ -2788,8 +2788,8 @@
 
     <!--- Sms security limit -->
     <string name="sms_security_check_limit_title">Limite des messages SMS</string>
-    <string name="sms_security_check_limit_summary">Afficher un message d\'alerte pour empêcher des applications d\'envoyer des messages SMS trop souvent. Limite actuelle : %d messages en 15 minutes</string>
-    <string name="sms_security_check_limit_default">30 (Défaut)</string>
+    <string name="sms_security_check_limit_summary">Les applications peuvent envoyer %d messages en 30 minutes avant d\'exiger une confirmation</string>
+    <string name="sms_security_check_limit_default">30 (par défaut)</string>
 
     <!-- Protected Apps -->
     <string name="menu_hidden_apps_delete">Réinitialiser</string>
@@ -3015,4 +3015,15 @@
     <string name="privacy_guard_app_ops_detail_reset_dialog_text">Réinitialiser toutes les permissions ?</string>
     <string name="app_ops_btn_text">Modifier</string>
     <string name="app_ops_no_item_text">Cette application n\'a pas de permissions modifiables</string>
+	
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Bureau étendu</string>
+    <string name="expanded_hide_nothing">Ne rien cacher</string>
+    <string name="expanded_hide_status">Masquer la barre de statut</string>
+    <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
+    <string name="expanded_hide_both">Tout masquer</string>
+    <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application un état étendu, Régler "Activé pour tous" en position arrêt</string>
+    <string name="expanded_desktop_state">État étendu</string>
+    <string name="expanded_enabled_for_all">Activé pour tous</string>
+    <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
 </resources>
