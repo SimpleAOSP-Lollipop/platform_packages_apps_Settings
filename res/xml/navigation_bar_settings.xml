@@ -17,6 +17,12 @@
             android:defaultValue="48"
             android:persistent="false" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="recents_panel_category"
+        android:title="@string/recents_panel_category" >
+
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
             android:key="recents_show_hide_search_bar"
             android:title="@string/recents_show_searchbar"
@@ -44,6 +50,6 @@
             android:defaultValue="true"
             android:dependency="show_clear_all_recents" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>  
 
 </PreferenceScreen>
