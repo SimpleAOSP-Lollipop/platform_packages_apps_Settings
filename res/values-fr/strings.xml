@@ -2568,9 +2568,14 @@
     <string name="general_string">Général</string>
     <string name="reset_string">Réinitialiser</string>
     <string name="reset">Réinitialiser</string>
+    <string name="reset_message">Réinitialiser toutes les entrées par défaut ?</string>
     <string name="empty_string">Aucun</string>
     <string name="ok">OK</string>
     <string name="font_size_sample">Exemple</string>
+    <string name="attention">Attention</string>
+    <string name="additional_options_title">Options supplémentaires</string>
+    <string name="style_title">Style</string>
+    <string name="add">Ajouter</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Sélecteur de couleur</string>
@@ -2923,6 +2928,7 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu d\'alimentation</string>
+    <string name="power_menu_title_summary">Afficher ou modifier les entrées du menu d\'alimentation</string>
     <string name="power_menu_power_title">Éteindre</string>
     <string name="power_menu_reboot_title">Menu de redémarrage</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>
@@ -2950,7 +2956,7 @@
     
     <!-- Ignore last app when clearing recents -->
     <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
-    <string name="recents_clear_all_dismiss_all_summary">Choisir s\'il faut effacer toutes les tâches ou ignorer la tâche au premier plan</string>
+    <string name="recents_clear_all_dismiss_all_summary">Inclure la tâche en premier plan lors de l\'effacement</string>
 
     <!-- QuickSettings brightness slider -->
     <string name="qs_brightness_slider_title">Afficher le curseur de luminosité</string>
@@ -2961,6 +2967,7 @@
     <string name="notification_volume_option_title">Volume de notification</string>
     
     <!-- QS tiles -->
+    <string name="notification_drawer_title">Tiroir de notification</string>
     <string name="qs_category_title">Paramètres rapides</string>
     <string name="qs_order_title">Sélectionner et ordonner les tuiles</string>
     <string name="add_qs">Ajouter une nouvelle tuile</string>
@@ -2982,18 +2989,6 @@
 
     <!-- Default alarm ringtone -->
     <string name="alarm_ringtone_title">Sonnerie d\'alarme par défaut</string>
-	
-    <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Réinitialiser</string>
-    <string name="attention">Attention</string>
-    <string name="enabled">Activé</string>
-    <string name="disabled">Désactivé</string>
-    <string name="default_string">Par défaut</string>
-    <string name="additional_options_title">Options additionnelles</string>
-    <string name="reset_message">Rétablir les valeurs par défaut ?</string>
-    <string name="style_title">Style</string>
-    <string name="add">Ajouter</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_dlg_title">Activer Privacy Guard ?</string>
