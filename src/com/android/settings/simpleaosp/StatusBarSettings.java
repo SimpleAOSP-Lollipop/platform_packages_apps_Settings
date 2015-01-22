@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 
@@ -26,14 +25,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     // Statusbar general category
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
-    private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
     private static final String PRE_QUICK_PULLDOWN = "quick_pulldown";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
 
-    private PreferenceScreen mClockStyle;
     private ListPreference mQuickPulldown;
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
@@ -42,7 +39,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.status_bar_settings);
-	PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
  	mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
@@ -60,9 +56,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mStatusBarBatteryShowPercent.setOnPreferenceChangeListener(this);
 	enableStatusBarBatteryDependents(batteryStyle);
 
-	mClockStyle = (PreferenceScreen) prefSet.findPreference(KEY_STATUS_BAR_CLOCK);
-        updateClockStyleDescription();
-
 	mQuickPulldown = (ListPreference) findPreference(PRE_QUICK_PULLDOWN);
 
         // Quick Pulldown
@@ -76,7 +69,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
-        updateClockStyleDescription();
     }
 
     @Override
@@ -107,18 +99,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             return true;
         }
         return false;
-    }
-
-    private void updateClockStyleDescription() {
-        if (mClockStyle == null) {
-            return;
-        }
-        if (Settings.System.getInt(getContentResolver(),
-               Settings.System.STATUS_BAR_CLOCK, 1) == 1) {
-            mClockStyle.setSummary(getString(R.string.enabled_string));
-        } else {
-            mClockStyle.setSummary(getString(R.string.disabled));
-         }
     }
 
     private void updateQuickPulldownSummary(int value) {
