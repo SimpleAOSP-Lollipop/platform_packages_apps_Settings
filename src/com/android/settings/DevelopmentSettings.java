@@ -177,8 +177,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private static String DEFAULT_LOG_RING_BUFFER_SIZE_IN_BYTES = "262144"; // 256K
 
-    private static final String ADVANCED_REBOOT_KEY = "advanced_reboot";
-
     private static final String DEVELOPMENT_SHORTCUT_KEY = "development_shortcut";
 
     private IWindowManager mWindowManager;
@@ -246,8 +244,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private SwitchPreference mShowAllANRs;
     private SwitchPreference mKillAppLongpressBack;
     private AnimationScalePreference mKillAppLongpressDelay;
-
-    private SwitchPreference mAdvancedReboot;
 
     private SwitchPreference mDevelopmentShortcut;
 
@@ -321,7 +317,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mDebugViewAttributes = findAndInitSwitchPref(DEBUG_VIEW_ATTRIBUTES);
         mPassword = (PreferenceScreen) findPreference(LOCAL_BACKUP_PASSWORD);
         mAllPrefs.add(mPassword);
-        mAdvancedReboot = findAndInitSwitchPref(ADVANCED_REBOOT_KEY);
         mDevelopmentShortcut = findAndInitSwitchPref(DEVELOPMENT_SHORTCUT_KEY);
 
         if (!android.os.Process.myUserHandle().equals(UserHandle.OWNER)) {
@@ -329,7 +324,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             disableForUser(mClearAdbKeys);
             disableForUser(mEnableTerminal);
             disableForUser(mPassword);
-            disableForUser(mAdvancedReboot);
             disableForUser(mDevelopmentShortcut);
         }
 
@@ -583,19 +577,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateSimulateColorSpace();
         updateUseNuplayerOptions();
         updateUSBAudioOptions();
-        updateAdvancedRebootOptions();
         updateDevelopmentShortcutOptions();
-    }
-
-    private void writeAdvancedRebootOptions() {
-        Settings.Secure.putInt(getActivity().getContentResolver(),
-                Settings.Secure.ADVANCED_REBOOT,
-                mAdvancedReboot.isChecked() ? 1 : 0);
-    }
-
-    private void updateAdvancedRebootOptions() {
-        mAdvancedReboot.setChecked(Settings.Secure.getInt(getActivity().getContentResolver(),
-                Settings.Secure.ADVANCED_REBOOT, 1) != 0);
     }
 
     private void resetDevelopmentShortcutOptions() {
@@ -1511,8 +1493,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             writeUSBAudioOptions();
         } else if (preference == mKillAppLongpressBack) {
             writeKillAppLongpressBackOptions();
-        } else if (preference == mAdvancedReboot) {
-            writeAdvancedRebootOptions();
         } else if (preference == mDevelopmentShortcut) {
             writeDevelopmentShortcutOptions();
         } else {

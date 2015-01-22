@@ -6417,6 +6417,7 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_title_summary">View or change power menu entries</string>
     <string name="power_menu_power_title">Power off</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
@@ -6455,6 +6456,7 @@
     <string name="notification_volume_option_title">Notification volume</string>
 
     <!-- QS tiles -->
+    <string name="notification_drawer_title">Notification drawer</string>
     <string name="qs_category_title">Quick settings</string>
     <string name="qs_order_title">Select &amp; order tiles</string>
     <string name="add_qs">Add new tile</string>

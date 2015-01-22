@@ -44,6 +44,8 @@ import java.util.List;
 public class PowerMenuActions extends SettingsPreferenceFragment {
     final static String TAG = "PowerMenuActions";
 
+    private static final String ADVANCED_REBOOT_KEY = "advanced_reboot";
+
     private SwitchPreference mPowerPref;
     private SwitchPreference mRebootPref;
     private SwitchPreference mScreenshotPref;
@@ -54,6 +56,7 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private SwitchPreference mLockdownPref;
     private SwitchPreference mBugReportPref;
     private SwitchPreference mSilentPref;
+    private SwitchPreference mAdvancedReboot;
 
     Context mContext;
     private ArrayList<String> mLocalUserConfig = new ArrayList<String>();
@@ -66,6 +69,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.power_menu_settings);
         mContext = getActivity().getApplicationContext();
+
+	mAdvancedReboot = (SwitchPreference) findPreference(ADVANCED_REBOOT_KEY);
 
         mAvailableActions = getActivity().getResources().getStringArray(
                 R.array.power_menu_actions_array);
@@ -208,7 +213,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         } else if (preference == mSilentPref) {
             value = mSilentPref.isChecked();
             updateUserConfig(value, GLOBAL_ACTION_KEY_SILENT);
-
+ 	} else if (preference == mAdvancedReboot) {
+            writeAdvancedRebootOptions();
         } else {
             return super.onPreferenceTreeClick(preferenceScreen, preference);
         }
@@ -300,5 +306,16 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         Intent u = new Intent();
         u.setAction(Intent.UPDATE_POWER_MENU);
         mContext.sendBroadcastAsUser(u, UserHandle.ALL);
+    }
+
+    private void writeAdvancedRebootOptions() {
+        Settings.Secure.putInt(getActivity().getContentResolver(),
+                Settings.Secure.ADVANCED_REBOOT,
+                mAdvancedReboot.isChecked() ? 1 : 0);
+    }
+
+    private void updateAdvancedRebootOptions() {
+        mAdvancedReboot.setChecked(Settings.Secure.getInt(getActivity().getContentResolver(),
+                Settings.Secure.ADVANCED_REBOOT, 1) != 0);
     }
 }
