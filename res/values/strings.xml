@@ -6455,6 +6455,7 @@
     <string name="qs_tile_lockscreen">Lock screen</string>
     <string name="qs_screentimeout_tile">Screen timeout</string>
     <string name="qs_screentimeout_mode_title">Screen timeout modes</string>
+    <string name="qs_tile_lte">Lte</string>
 
     <!-- Default alarm ringtone -->
     <string name="alarm_ringtone_title">Default alarm ringtone</string>
