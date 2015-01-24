@@ -2947,6 +2947,9 @@
     <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque rangée</string>
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
     <string name="qs_advanced_location_summary">Activer les paramètres avancés pour la localisation dans les paramètres rapides</string>
+    <string name="qs_title_nfc">NFC</string>
+    <string name="qs_title_compass">Boussole</string>
+    <string name="qs_title_lockscreen">Verrouillage de l\'écran</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
@@ -3008,7 +3011,7 @@
 
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_settings_title">Écran de verrouillage</string>
-    <string name="lockscreen_targets_message">Raccourcis de l\écran de verrouillage</string>
+    <string name="lockscreen_targets_message">Raccourcis de l\'écran de verrouillage</string>
     <string name="lockscreen_default_target">Par défaut</string>
     <string name="lockscreen_message">Appuyer sur une des icônes de la gauche ou la droite pour attribuer un raccourci sur l\'écran de verrouillage.</string>
     <string name="lockscreen_choose_action_title">Choisir une action</string>
