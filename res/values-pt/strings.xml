@@ -2989,6 +2989,7 @@
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Estilo do relógio</string>
+    <string name="status_bar_clock_category">Relógio</string>
     <string name="status_bar_clock_style_right">Direita</string>
     <string name="status_bar_clock_style_left">Esquerda</string>
     <string name="status_bar_clock_style_center">Centro</string>
