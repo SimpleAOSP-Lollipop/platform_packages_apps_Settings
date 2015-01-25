@@ -6525,4 +6525,11 @@
     <!--Status bar data and wifi activity -->
     <string name="show_activity_indicators_title">Activity indicators</string>
     <string name="show_activity_indicators_summary">Show indicators in signal bars</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_date_title">Date style</string>
+    <string name="status_bar_date_none">Hidden (default)</string>
+    <string name="status_bar_date_small">Small</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Date format</string>
 </resources>
