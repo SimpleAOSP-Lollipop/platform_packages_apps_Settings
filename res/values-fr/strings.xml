@@ -2766,7 +2766,7 @@
     <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
     <string name="protected_apps">Applications protégées</string>
     <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
-    <string name="launch_app">Lancer l\'application</string>
+
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
