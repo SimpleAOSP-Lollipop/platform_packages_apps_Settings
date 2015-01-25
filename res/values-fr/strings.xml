@@ -877,7 +877,7 @@
     <string name="fcc_equipment_id" msgid="149114368246356737">"ID de l\'équipement"</string>
     <string name="baseband_version" msgid="1848990160763524801">"Version de bande de base"</string>
     <string name="kernel_version" msgid="9192574954196167602">"Version du noyau"</string>
-    <string name="build_number" msgid="3075795840572241758">"Numéro de build"</string>
+    <string name="build_number" msgid="3075795840572241758">"Version du logiciel"</string>
     <string name="selinux_status" msgid="6212165375172061672">"État SELinux"</string>
     <string name="device_info_not_available" msgid="8062521887156825182">"Non disponible"</string>
     <string name="device_status_activity_title" msgid="1411201799384697904">"État"</string>
@@ -2486,7 +2486,7 @@
     <string name="encrypt_talkback_dialog_message_password" msgid="8166099418487083927">"Lorsque vous saisissez votre mot de passe pour démarrer cet appareil, les services d\'accessibilité comme <xliff:g id="SERVICE">%1$s</xliff:g> ne sont pas disponibles."</string>
 
     <!-- SimpleAOSP build date-->
-    <string name="build_date">Date de la version SimpleAOSP</string>
+    <string name="build_date">Date de la compilation SimpleAOSP</string>
     <string name="build_date_default">2014-01-01-0000</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
