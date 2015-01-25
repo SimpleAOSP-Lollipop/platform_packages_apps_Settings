@@ -2697,7 +2697,7 @@
     <string name="profile_choose_app">Choisir l\'application</string>
 
     <!-- Recents panel settings -->
-	<string name="recents_panel_category">Panneau des applications récentes</string>
+    <string name="recents_panel_category">Panneau des applications récentes</string>
     <string name="show_clear_all_recents_button_title">Bouton d\'effacement des récents</string>
     <string name="show_clear_all_recents_button_summary">Afficher le bouton tout effacer sur le panneau récents</string>
     <string name="recents_clear_all_location_title">Emplacement du bouton d\'effacement</string>
@@ -2765,7 +2765,6 @@
     <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
     <string name="protected_apps">Applications protégées</string>
     <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
-
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
