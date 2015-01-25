@@ -2963,9 +2963,9 @@
     <string name="privacy_guard_enable_dlg_text">Quand Privacy Guard est activé, %s n\'est pas en mesure d\'accéder aux données personnelles telles que les contacts, les messages, la localisation ou le journal d\'appels.</string>
     <string name="privacy_guard_enable_dlg_system_app_text">En activant Privacy Guard pour l\'application intégrée %s, celle-ci ne pourra plus accéder aux données personnelles telles que les contacts, les messages, la localisation ou le journal d\'appels. Ceci peut causer un comportement inattendu des autres applications.</string>
     <string name="privacy_guard_default_title">Activé par défaut</string>
-    <string name="privacy_guard_default_summary">Ne pas accéder aux données personnelles par défaut pour les applications fraichement installées.</string>
+    <string name="privacy_guard_default_summary">Ne pas accéder aux données personnelles par défaut pour les applications fraîchement installées.</string>
     <string name="privacy_guard_notification_title">Notification</string>
-    <string name="privacy_guard_notifiation_summary">Montrer la notification si privacy guard est actif.</string>
+    <string name="privacy_guard_notifiation_summary">Montrer une notification si privacy guard est actif.</string>
     <string name="privacy_guard_manager_title">Privacy guard</string>
     <string name="privacy_guard_manager_summary">Gérer quelles applications ont accès à vos données personnelles ainsi que d\'autres permissions.</string>
     <string name="privacy_guard_no_user_apps">Aucune application installée.</string>
