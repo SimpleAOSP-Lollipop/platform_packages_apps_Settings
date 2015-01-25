@@ -2611,7 +2611,6 @@
     <string name="volume_keys_control_media_stream_summary">Contrôler le volume des médias plutôt que des notifications avec les touches de volume.</string>
 
     <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">Options de réveil</string>
     <string name="pref_volume_wake_title">Réveil par les boutons de volume</string>
     <string name="pref_volume_wake_summary">Appuyer sur les boutons de volume haut/bas réveillera l\'appareil</string>
     <string name="wakeup_when_plugged_unplugged_title">Réveil par le chargeur</string>
