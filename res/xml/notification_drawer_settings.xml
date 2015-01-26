@@ -50,6 +50,11 @@
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
 
+ 	<ListPreference
+            android:key="qs_expanded_screentimeout_mode"
+            android:dialogTitle="@string/qs_screentimeout_mode_title"
+            android:title="@string/qs_screentimeout_mode_title"
+            android:entries="@array/entries_screentimeout_widget"
+            android:entryValues="@array/values_screentimeout_widget" />
     </PreferenceCategory>
-
 </PreferenceScreen>

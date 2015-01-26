@@ -6439,7 +6439,6 @@
     <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
     <string name="qs_advanced_location_title">Advanced location quick settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in quick settings</string>
-
     <string name="qs_tile_wifi">Wi\u2011Fi</string>
     <string name="qs_tile_bluetooth">Bluetooth</string>
     <string name="qs_tile_display_inversion">Color inversion</string>
@@ -6454,6 +6453,8 @@
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_compass">Compass</string>
     <string name="qs_tile_lockscreen">Lock screen</string>
+    <string name="qs_screentimeout_tile">Screen timeout</string>
+    <string name="qs_screentimeout_mode_title">Screen timeout modes</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->

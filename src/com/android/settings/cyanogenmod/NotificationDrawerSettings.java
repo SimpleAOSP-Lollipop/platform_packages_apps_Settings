@@ -16,21 +16,36 @@
 package com.android.settings.cyanogenmod;
 
 import android.os.Bundle;
+import android.preference.ListPreference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceScreen;
 import android.preference.Preference;
+import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.cyanogenmod.qs.QSTiles;
 
-public class NotificationDrawerSettings extends SettingsPreferenceFragment {
+    public class NotificationDrawerSettings extends SettingsPreferenceFragment
+		implements OnPreferenceChangeListener  {
+
+    private static final String QS_SCREENTIMEOUT_MODE = "qs_expanded_screentimeout_mode";
+
     private Preference mQSTiles;
+    private ListPreference mScreenTimeoutMode;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.notification_drawer_settings);
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         mQSTiles = findPreference("qs_order");
+
+	// Screen timeout mode
+        mScreenTimeoutMode = (ListPreference) prefSet.findPreference(QS_SCREENTIMEOUT_MODE);
+        mScreenTimeoutMode.setSummary(mScreenTimeoutMode.getEntry());
+        mScreenTimeoutMode.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -41,5 +56,18 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment {
         mQSTiles.setSummary(getResources().getQuantityString(R.plurals.qs_tiles_summary,
                     qsTileCount, qsTileCount));
     }
+
+   @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mScreenTimeoutMode) {
+            int value = Integer.valueOf((String) newValue);
+            int index = mScreenTimeoutMode.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_EXPANDED_SCREENTIMEOUT_MODE, value);
+            mScreenTimeoutMode.setSummary(mScreenTimeoutMode.getEntries()[index]);
+            return true;
+        }
+        return false;
+     }
 }
 
