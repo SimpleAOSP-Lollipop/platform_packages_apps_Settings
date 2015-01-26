@@ -2935,9 +2935,7 @@
     <string name="qs_category_title">Paramètres rapides</string>
     <string name="qs_order_title">Sélectionner et ordonner les tuiles</string>
     <string name="add_qs">Ajouter une nouvelle tuile</string>
-    <string name="cast_screen">Caster l\'écran</string>
-    <string name="hotspot">Point d\'accès</string>
-    <string name="notifications">Notifications</string>
+	
     <string name="qs_action_delete">Supprimer</string>
     <string name="qs_action_add">Ajouter</string>
     <string name="qs_action_no_more_tiles">Pas d\'autre tuiles disponibles</string>
@@ -2946,9 +2944,21 @@
     <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque rangée</string>
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
     <string name="qs_advanced_location_summary">Activer les paramètres avancés pour la localisation dans les paramètres rapides</string>
-    <string name="qs_title_nfc">NFC</string>
-    <string name="qs_title_compass">Boussole</string>
-    <string name="qs_title_lockscreen">Verrouillage de l\'écran</string>
+
+	<string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">inversion des couleurs</string>
+    <string name="qs_tile_cellular_data">Connexion de données</string>
+    <string name="qs_tile_airplane_mode">Mode avion</string>
+    <string name="qs_tile_display_rotation">Rotation</string>
+    <string name="qs_tile_flashlight">Lampe torche</string>
+    <string name="qs_tile_location">Localisation</string>
+    <string name="qs_tile_cast_screen">Caster l\'écran</string>
+    <string name="qs_tile_hotspot">Point d\'accès</string>
+    <string name="qs_tile_notifications">Notifications</string>
+    <string name="qs_tile_nfc">NFC</string>
+    <string name="qs_tile_compass">Boussole</string>
+    <string name="qs_tile_lockscreen">Verrouillage de l\'écran</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
