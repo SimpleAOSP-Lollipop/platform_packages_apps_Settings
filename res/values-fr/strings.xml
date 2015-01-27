@@ -2946,7 +2946,7 @@
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
     <string name="qs_advanced_location_summary">Activer les paramètres avancés pour la localisation dans les paramètres rapides</string>
 
-	<string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
     <string name="qs_tile_bluetooth">Bluetooth</string>
     <string name="qs_tile_display_inversion">inversion des couleurs</string>
     <string name="qs_tile_cellular_data">Connexion de données</string>
@@ -2960,6 +2960,9 @@
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_compass">Boussole</string>
     <string name="qs_tile_lockscreen">Verrouillage de l\'écran</string>
+    <string name="qs_screentimeout_tile">Mise en veille de l\'écran</string>
+    <string name="qs_screentimeout_mode_title">Modes de mise en veille de l\'écran</string>
+    <string name="qs_tile_lte">LTE</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
