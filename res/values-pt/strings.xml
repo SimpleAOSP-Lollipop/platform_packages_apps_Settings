@@ -2955,8 +2955,6 @@
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_compass">Bússola</string>
     <string name="qs_tile_lockscreen">Tela de bloqueio</string>
-    <string name="qs_screentimeout_tile">Tempo de tela</string>
-    <string name="qs_screentimeout_mode_title">Modos de tempo da tela</string>
     <string name="qs_tile_lte">LTE</string>
 
     <!-- Themes Settings -->
