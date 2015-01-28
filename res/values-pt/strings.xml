@@ -2852,7 +2852,6 @@
     <string name="lock_clock_title">Widget do relógio</string>
     <string name="lock_clock_summary">Ver ou mudar a forma como o widget \'cLock\' é exibido</string>
     <string name="weather_clock_title">Clima na barra de status</string>
-    <string name="weather_clock_summary">Ver ou mudar as configurações de clima da barra de status</string>
 
     <!-- Ignore last app when clearing recents -->
     <string name="recents_clear_all_dismiss_all_title">Limpeza de tarefas</string>
@@ -2955,4 +2954,14 @@
     <string name="lockscreen_default_target">Padrão</string>
     <string name="lockscreen_message">Toque em um ícone à esquerda ou à direita para voltar a atribuir um atalho a tela de bloqueio.</string>
     <string name="lockscreen_choose_action_title">Escolha uma ação</string>
+    <!--Status bar data and wifi activity -->
+    <string name="show_activity_indicators_title">Indicadores de atividade</string>
+    <string name="show_activity_indicators_summary">Exibe indicadores na barra de sinal</string>
+
+    <!--Status bar date -->
+
+    <string name="status_bar_date_title">Estilo da data</string>
+    <string name="status_bar_date_none">Oculto (padrão)</string>
+    <string name="status_bar_date_small">Pequeno</string>
+    <string name="status_bar_date_format_title">Formato da data</string>
 </resources>
