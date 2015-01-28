@@ -3005,9 +3005,9 @@
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Style de l\'horloge</string>
     <string name="status_bar_clock_category">Horloge</string>
-    <string name="status_bar_clock_style_right">Droite</string>
-    <string name="status_bar_clock_style_left">Gauche</string>
-    <string name="status_bar_clock_style_center">Centre</string>
+    <string name="status_bar_clock_style_right">A droite</string>
+    <string name="status_bar_clock_style_left">A gauche</string>
+    <string name="status_bar_clock_style_center">Centrée</string>
     <string name="status_bar_clock_style_hidden">Cachée</string>
 
     <string name="status_bar_am_pm_title">Style AM / PM</string>
