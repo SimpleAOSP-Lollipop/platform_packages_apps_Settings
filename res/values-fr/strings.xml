@@ -3027,4 +3027,15 @@
     <string name="lockscreen_default_target">Par défaut</string>
     <string name="lockscreen_message">Appuyer sur une des icônes de la gauche ou la droite pour attribuer un raccourci sur l\'écran de verrouillage.</string>
     <string name="lockscreen_choose_action_title">Choisir une action</string>
+    
+    <!--Status bar data and wifi activity -->
+    <string name="show_activity_indicators_title">indicateurs d\'activité</string>
+    <string name="show_activity_indicators_summary">Voir les indicateurs dans les barres de signal</string>
+    
+    <!--Status bar date -->
+    <string name="status_bar_date_title">Style de la date</string>
+    <string name="status_bar_date_none">Cachée (par défaut)</string>
+    <string name="status_bar_date_small">Petite</string>
+    <string name="status_bar_date_normal">Normale</string>
+    <string name="status_bar_date_format_title">Format de la date</string>
 </resources>
