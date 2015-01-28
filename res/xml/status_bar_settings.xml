@@ -3,8 +3,8 @@
     android:title="@string/status_bar_title" >
 
     <PreferenceCategory
-        android:key="status_bar_general_category"
-        android:title="@string/status_bar_general_category" >
+        android:key="status_bar_battery_category"
+        android:title="@string/status_bar_battery_style_category" >
 
     <ListPreference
         android:key="status_bar_battery_style"
@@ -20,6 +20,12 @@
         android:entries="@array/status_bar_battery_percentage_entries"
         android:entryValues="@array/status_bar_battery_percentage_values" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="status_bar_clock_category"
+        android:title="@string/status_bar_clock_category">
+
     <ListPreference
         android:key="status_bar_clock"
         android:title="@string/status_bar_clock_style_title"
@@ -33,6 +39,12 @@
         android:dialogTitle="@string/status_bar_am_pm_title"
         android:entries="@array/status_bar_am_pm_entries"
         android:entryValues="@array/status_bar_am_pm_values" />
+    
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="status_bar_general_category"
+        android:title="@string/status_bar_general_category" >
 
     <ListPreference
         android:key="quick_pulldown"
