@@ -91,7 +91,8 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
         }
 
         parseClockDateFormats();
-        enableStatusBarClockDependents();       
+        enableStatusBarClockDependents(); 
+        enableStatusBarDateDependents();      
     }
 
     @Override
@@ -129,6 +130,7 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
             Settings.System.putInt(
                     cr, STATUS_BAR_DATE_STYLE, statusBarDate);
             mStatusBarDate.setSummary(mStatusBarDate.getEntries()[index]);
+            enableStatusBarDateDependents();
             return true;
         } else if (preference ==  mStatusBarDateFormat) {
             int index = mStatusBarDateFormat.findIndexOfValue((String) newValue);
@@ -148,8 +150,20 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
         if (clockStyle == 0) {
             mStatusBarDate.setEnabled(false);
             mStatusBarDateFormat.setEnabled(false);
+            mStatusBarAmPm.setEnabled(false);
         } else {
             mStatusBarDate.setEnabled(true);
+            mStatusBarDateFormat.setEnabled(true);
+            mStatusBarAmPm.setEnabled(true);
+        }
+    }
+
+    private void enableStatusBarDateDependents() {
+        int dateStyle = Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUS_BAR_DATE, 1);
+        if (dateStyle == 0) {
+            mStatusBarDateFormat.setEnabled(false);
+        } else {
             mStatusBarDateFormat.setEnabled(true);
         }
     }
