@@ -23,6 +23,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -85,6 +86,9 @@ public class PrivacyGuardManager extends Fragment
     private SharedPreferences mPreferences;
     private AppOpsManager mAppOps;
 
+     // Privacy Guard Fragment
+    private final static String PRIVACY_GUARD_FRAGMENT_TAG = "privacy_guard_fragment";
+
     // holder for package data passed into the adapter
     public static final class AppInfo {
         String title;
@@ -98,22 +102,18 @@ public class PrivacyGuardManager extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-
         mActivity = getActivity();
         mPm = getPackageManager();
         mAppOps = (AppOpsManager)getActivity().getSystemService(Context.APP_OPS_SERVICE);
 
-        return inflater.inflate(R.layout.privacy_guard_manager, container, false);
-    }
+        View hostView = inflater.inflate(R.layout.privacy_guard_manager, container, false);
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        FragmentManager fm = getFragmentManager();
-        Fragment f = fm.findFragmentById(R.id.privacy_guard_prefs);
-        if (f != null && !fm.isDestroyed()) {
-            fm.beginTransaction().remove(f).commit();
-        }
+        Fragment privacyGuardPrefs = PrivacyGuardPrefs.newInstance();
+        FragmentTransaction fragmentTransaction = getChildFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.privacy_guard_prefs, privacyGuardPrefs,
+                PRIVACY_GUARD_FRAGMENT_TAG);
+        fragmentTransaction.commit();
+        return hostView;
     }
 
     @Override
