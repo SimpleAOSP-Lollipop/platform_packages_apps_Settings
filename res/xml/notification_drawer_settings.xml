@@ -25,13 +25,6 @@
             android:title="@string/qs_order_title"
             android:fragment="com.android.settings.cyanogenmod.qs.QSTiles" />
 
-        <ListPreference
-            android:key="qs_expanded_screentimeout_mode"
-            android:dialogTitle="@string/qs_screentimeout_mode_title"
-            android:title="@string/qs_screentimeout_mode_title"
-            android:entries="@array/entries_screentimeout_widget"
-            android:entryValues="@array/values_screentimeout_widget" />
-
         <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
             android:key="sysui_qs_main_tiles"
             android:title="@string/qs_main_tiles_title"

@@ -2958,8 +2958,6 @@
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_compass">Boussole</string>
     <string name="qs_tile_lockscreen">Verrouillage de l\'écran</string>
-    <string name="qs_screentimeout_tile">Mise en veille de l\'écran</string>
-    <string name="qs_screentimeout_mode_title">Modes de mise en veille de l\'écran</string>
     <string name="qs_tile_lte">LTE</string>
     <string name="qs_tile_headsup">Notifications flottantes</string>
 
