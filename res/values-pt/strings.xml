@@ -2513,8 +2513,9 @@
     <string name="status_bar_title">Barra de status</string>
 
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
-    <string name="status_bar_battery_style_category">Ícone da bateria</string>
+    <string name="status_bar_battery_style_title">Estilo do status de bateria</string>
+    <string name="status_bar_battery_title">Ícones de bateria</string>
+    <string name="status_bar_battery_summary">Alterar ícones de bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Retrato</string>
     <string name="status_bar_battery_style_icon_landscape">Paisagem</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
@@ -2526,6 +2527,7 @@
     <string name="status_bar_battery_percentage_default">Ocultar (padrão)</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+
 
     <!--  Volume rocker -->
     <string name="volume_rocker_screen_title">Volume rocker</string>
@@ -2611,7 +2613,7 @@
 
     <!-- Wakeup options -->
     <string name="pref_volume_wake_title">Acordar com volume rocker</string>
-    <string name="pref_volume_wake_summary">Pressione o botão de volume para cima ou baixo para ativar a tela</string>
+    <string name="pref_volume_wake_summary">Com a tela apagada, pressione o botão de volume para cima ou baixo para ativar a tela</string>
     <string name="wakeup_when_plugged_unplugged_title">Acordar na carga</string>
     <string name="wakeup_when_plugged_unplugged_summary">Ativar a tela do dispositivo ao plugar ou desplugar o carregador</string>
 
@@ -2624,7 +2626,8 @@
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Reinicialização avançada</string>
-    <string name="advanced_reboot_summary">Quando ativado libera novas opções no menu energia, reinicializar, reiniciar em recuperação, bootloader etc...</string>
+    <string name="advanced_reboot_summary">Quando ativado, inclui novas opções no menu energia para reiniciar em recuperação, bootloader ou reinicializar</string>
+
 
     <!-- Status bar double-tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Toque duplo para dormir</string>
@@ -2683,7 +2686,7 @@
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Luz de notificação</string>
     <string name="notification_light_general_title">Geral</string>
-    <string name="notification_light_applist_title">Apps</string>	
+    <string name="notification_light_applist_title">Apps</string>
     <string name="notification_light_phonelist_title">Telefone</string>
     <string name="notification_light_use_custom">Usar valores personalizados</string>
     <string name="notification_light_default_value">Padrão</string>
@@ -2721,10 +2724,10 @@
     <string name="blacklist_edit_dialog_title">Editar entrada na lista negra</string>
     <string name="blacklist_prefs">Definições</string>
     <string name="blacklist_button_delete">Excluir</string>
-    <string name="blacklist_empty_text">Você não tem nenhum número na lista negra. Adicione uma entrada no botão (+).</string>
+    <string name="blacklist_empty_text">Você não tem números na lista negra. Clique em (+) para adicionar uma entrada.</string>
     <string name="blacklist_disabled_empty_text">Para bloquear chamadas ou mensagens de determinados números, ative a lista negra.</string>
     <string name="blacklist_summary_disabled">Desativado</string>
-    <string name="blacklist_summary">Chamadas e mensagens recebidas de números de telefone na lista negra serão bloqueados</string>
+    <string name="blacklist_summary">Chamadas recebidas e mensagens de números de telefone na lista negra serão bloqueados</string>
     <string name="blacklist_notify">Mostrar notificação</string>
     <string name="blacklist_private_numbers_title">Números privados</string>
     <string name="blacklist_private_numbers_summary_disabled">Não bloquear chamadas de números privados</string>
@@ -2930,9 +2933,9 @@
     <!-- QS tiles -->
     <string name="notification_drawer_title">Gaveta de notificação</string>
     <string name="qs_category_title">Definições rápidas</string>
-    <string name="qs_order_title">Configurar tiles</string>
-    <string name="add_qs">Add nova tile</string>
-	
+    <string name="qs_order_title">Selecionar &amp; organizar tiles</string>
+    <string name="add_qs">Add (new) nova tile</string>
+
     <string name="qs_action_delete">Excluir</string>
     <string name="qs_action_add">Add</string>
     <string name="qs_action_no_more_tiles">Não há mais tiles disponíveis</string>
@@ -2956,6 +2959,8 @@
     <string name="qs_tile_compass">Bússola</string>
     <string name="qs_tile_lockscreen">Tela de bloqueio</string>
     <string name="qs_tile_lte">LTE</string>
+    <string name="qs_tile_screen_timeout">Tempo limite da tela</string>
+    <string name="qs_tile_headsup">Heads up</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
@@ -2966,8 +2971,8 @@
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_dlg_title">Ativar proteção de privacidade?</string>
-    <string name="privacy_guard_enable_dlg_text">Quando a proteção de privacidade estiver ativada, %s não terá acesso aos dados pessoais, como contatos, registros de chamadas ou mensagens.</string>
-    <string name="privacy_guard_enable_dlg_system_app_text">Ao ativar a proteção de privacidade para o app %s, o aplicativo não será capaz de acessar os dados pessoais, como contatos, mensagens, localização ou registros de chamadas. Isso pode causar mal comportamento em outros aplicativos.</string>
+    <string name="privacy_guard_enable_dlg_text">Quando a (privacy guard) proteção de privacidade estiver ativada, %s não terá acesso aos dados pessoais, como contatos, registros de chamadas ou mensagens.</string>
+    <string name="privacy_guard_enable_dlg_system_app_text">Ao ativar a proteção de privacidade para o app %s, o aplicativo não será capaz de acessar os dados pessoais, como contatos, mensagens, localização ou registros de chamadas. Isto pode causar mal comportamento em outros aplicativos.</string>
     <string name="privacy_guard_default_title">Ativar por padrão</string>
     <string name="privacy_guard_default_summary">Por padrão não permite que aplicativos recém-instalados acessem dados pessoais.</string>
     <string name="privacy_guard_notification_title">Notificação</string>
@@ -2988,17 +2993,19 @@
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Desktop expandido</string>
     <string name="expanded_hide_nothing">Não esconder nada</string>
-    <string name="expanded_hide_status">Esconder statusbar</string>
+    <string name="expanded_hide_status">Esconder barra de status</string>
     <string name="expanded_hide_navigation">Esconder barra de navegação</string>
     <string name="expanded_hide_both">Esconder ambos</string>
     <string name="expanded_nothing_to_show">Para adicionar uma configuração personalizada por-app para estado expandido, defina "Ativado para todos" para a posição desligado</string>
     <string name="expanded_desktop_state">Estado expandido</string>
-    <string name="expanded_enabled_for_all">Ativado para todos</string>
+    <string name="expanded_enabled_for_all">Ativar para todos</string>
     <string name="expanded_user_configurable">Configurável pelo usuário</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Estilo do relógio</string>
-    <string name="status_bar_clock_category">Relógio</string>
+    <string name="status_bar_clock">Relógio &amp; data</string>
+    <string name="status_bar_clock_title">Relógio</string>
+    <string name="status_bar_clock_summary">Permite mudar várias opções do relógio &amp; data</string> 
     <string name="status_bar_clock_style_right">Direita</string>
     <string name="status_bar_clock_style_left">Esquerda</string>
     <string name="status_bar_clock_style_center">Centro</string>
