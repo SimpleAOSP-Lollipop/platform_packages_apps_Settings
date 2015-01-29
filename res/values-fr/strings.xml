@@ -2516,7 +2516,8 @@
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Style du niveau de batterie</string>
-    <string name="status_bar_battery_style_category">Icône de la batterie</string>
+    <string name="status_bar_battery_title">Icône de la batterie</string>
+    <string name="status_bar_battery_summary">Changer l\'icône de la batterie</string>
     <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
     <string name="status_bar_battery_style_circle">Cercle</string>
@@ -2525,8 +2526,8 @@
 
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
-    <string name="status_bar_battery_percentage_default">Ne pas afficher (Par défaut)</string>
-    <string name="status_bar_battery_percentage_text_inside">Intérieur de l\'icône</string>
+    <string name="status_bar_battery_percentage_default">Ne pas afficher (par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">A l\'intérieur de l\'icône</string>
     <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
 
     <!--  Volume rocker -->
@@ -2544,7 +2545,7 @@
     <!-- Network traffic -->
     <string name="network_traffic_title">Trafic réseau</string>
     <string name="show_network_traffic_state">Moniteur de trafic sur la barre de statut</string>
-    <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans barre de statut</string>
+    <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans la barre de statut</string>
     <string name="show_network_traffic_unit">Afficher l\'unité</string>
     <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
     <string name="show_network_traffic_disable">Désactivée</string>
@@ -2959,6 +2960,7 @@
     <string name="qs_tile_compass">Boussole</string>
     <string name="qs_tile_lockscreen">Verrouillage de l\'écran</string>
     <string name="qs_tile_lte">LTE</string>
+    <string name="qs_tile_screen_timeout">Mise en veille de l\'écran</string>
     <string name="qs_tile_headsup">Notifications flottantes</string>
 
     <!-- Themes Settings -->
@@ -3002,10 +3004,12 @@
     
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Style de l\'horloge</string>
-    <string name="status_bar_clock_category">Horloge</string>
+    <string name="status_bar_clock">Heure et date</string>
+    <string name="status_bar_clock_title">Style de l\'heure et de la date</string>
+    <string name="status_bar_clock_summary">Modifier les options diverses de l\'horloge et de la date</string> 
     <string name="status_bar_clock_style_right">A droite</string>
     <string name="status_bar_clock_style_left">A gauche</string>
-    <string name="status_bar_clock_style_center">Centrée</string>
+    <string name="status_bar_clock_style_center">Au centre</string>
     <string name="status_bar_clock_style_hidden">Cachée</string>
 
     <string name="status_bar_am_pm_title">Style AM / PM</string>
