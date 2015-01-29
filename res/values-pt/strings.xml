@@ -2933,8 +2933,8 @@
     <!-- QS tiles -->
     <string name="notification_drawer_title">Gaveta de notificação</string>
     <string name="qs_category_title">Definições rápidas</string>
-    <string name="qs_order_title">Selecionar &amp; organizar tiles</string>
-    <string name="add_qs">Add (new) nova tile</string>
+    <string name="qs_order_title">Selec &amp; ordenar tiles</string>
+    <string name="add_qs">Add nova tile</string>
 
     <string name="qs_action_delete">Excluir</string>
     <string name="qs_action_add">Add</string>
@@ -2971,7 +2971,7 @@
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_dlg_title">Ativar proteção de privacidade?</string>
-    <string name="privacy_guard_enable_dlg_text">Quando a (privacy guard) proteção de privacidade estiver ativada, %s não terá acesso aos dados pessoais, como contatos, registros de chamadas ou mensagens.</string>
+    <string name="privacy_guard_enable_dlg_text">Quando a proteção de privacidade estiver ativada, %s não terá acesso aos dados pessoais, como contatos, registros de chamadas ou mensagens.</string>
     <string name="privacy_guard_enable_dlg_system_app_text">Ao ativar a proteção de privacidade para o app %s, o aplicativo não será capaz de acessar os dados pessoais, como contatos, mensagens, localização ou registros de chamadas. Isto pode causar mal comportamento em outros aplicativos.</string>
     <string name="privacy_guard_default_title">Ativar por padrão</string>
     <string name="privacy_guard_default_summary">Por padrão não permite que aplicativos recém-instalados acessem dados pessoais.</string>
