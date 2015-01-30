@@ -125,7 +125,7 @@ public class QSTileHolder {
                 stringId = R.string.qs_tile_lockscreen;
                 break;
 	    case QSConstants.TILE_HEADS_UP:
-                resourceName = "ic_qs_heads_up_on";
+                resourceName = "ic_qs_ringer_audible";
                 stringId = R.string.qs_tile_headsup;
                 break;
             case QSConstants.TILE_SCREEN_TIMEOUT:
