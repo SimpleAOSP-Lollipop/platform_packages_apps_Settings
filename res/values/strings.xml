@@ -6406,7 +6406,7 @@
 
     <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Show weather</string>
-    <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+    <string name="status_bar_show_weather_summary">Show the weather above the quick settings panel</string>
 
      <!--- Lock clock -->
     <string name="lock_clock_title">Clock widget</string>
