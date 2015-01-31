@@ -2484,7 +2484,7 @@
     <string name="encrypt_talkback_dialog_message_password" msgid="8166099418487083927">"Ao inserir sua senha para iniciar o dispositivo, serviços de disponibilidade como o <xliff:g id="SERVICE">%1$s</xliff:g> ainda não estarão disponíveis."</string>
 
     <!-- SimpleAOSP build date-->
-    <string name="build_date">Data da Build SimpleAOSP</string>
+    <string name="build_date">Data da build SimpleAOSP</string>
     <string name="build_date_default">2014-01-01-0000</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
@@ -2548,9 +2548,9 @@
     <string name="show_network_traffic_unit">Unidade de exibição</string>
     <string name="show_network_traffic_frequency">Intervalo de atualização</string>
     <string name="show_network_traffic_disable">Desativado</string>
-    <string name="show_network_traffic_up">Saída</string>
-    <string name="show_network_traffic_down">Entrada</string>
-    <string name="show_network_traffic_all">Saída e entrada</string>
+    <string name="show_network_traffic_up">Enviados</string>
+    <string name="show_network_traffic_down">Recebidos</string>
+    <string name="show_network_traffic_all">Enviados e Recebidos</string>
     <string name="show_network_traffic_bit">Bits por segundo</string>
     <string name="show_network_traffic_byte">Bytes por segundo</string>
     <string name="show_network_traffic_500">500 ms</string>
@@ -2558,7 +2558,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Auto ocultar</string>
-    <string name="network_traffic_autohide_summary">Ocultar monitor de tráfego durante inatividade</string>
+    <string name="network_traffic_autohide_summary">Ocultar automaticamente monitor de tráfego durante inatividade</string>
     <string name="network_traffic_autohide_threshold">Limite de inatividade</string>
 
     <!-- Generic strings -->
@@ -2589,7 +2589,7 @@
     <string name="color_default">Padrão</string>
 
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotação</string>
+    <string name="display_rotation_title">Rotação da tela</string>
     <string name="display_rotation_disabled">Desativado</string>
     <string name="display_rotation_unit">graus</string>
     <string name="display_rotation_category_title">Modos de rotação</string>
@@ -2612,9 +2612,9 @@
     <string name="volume_keys_control_media_stream_summary">Teclas de volume controlarão volume de mídia, em vez de notificações</string>
 
     <!-- Wakeup options -->
-    <string name="pref_volume_wake_title">Acordar com botão volume</string>
+    <string name="pref_volume_wake_title">Acordar com botões de volume</string>
     <string name="pref_volume_wake_summary">Com a tela apagada, pressione o botão de volume para cima ou baixo para ativar a tela</string>
-    <string name="wakeup_when_plugged_unplugged_title">Acordar ao conectar</string>
+    <string name="wakeup_when_plugged_unplugged_title">Acordar ao conectar ou desconectar</string>
     <string name="wakeup_when_plugged_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
 
     <!-- Volume adjust sound -->
@@ -2800,7 +2800,7 @@
     <string name="volume_button_toggle_info">Volume rocker deve estar desativado</string>
 
     <!-- Show notification count -->
-    <string name="status_bar_notif_count_title">Mostrar contador de notificação</string>
+    <string name="status_bar_notif_count_title">Contador de notificação</string>
     <string name="status_bar_notif_count_summary">Exibe o número de notificações pendentes na barra de status</string>
 
     <!--Quick unlock -->
@@ -2906,28 +2906,28 @@
     <string name="power_menu_bug_report_disabled">Relatório de Bug está desativado nas configurações de desenvolvimento</string>
 
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
-    <string name="quick_settings_vibrate_summary">Vibrar ao tocar nas tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrar ao tocar nas tiles</string>
+    <string name="quick_settings_vibrate_summary">Emite uma vibração ao tocar nas tiles</string>
 
     <!-- Weather in status bar -->
-    <string name="status_bar_show_weather_title">Mostrar clima</string>
-    <string name="status_bar_show_weather_summary">Mostrar clima no cabeçalho da barra de status</string>
+    <string name="status_bar_show_weather_title">Previsão do tempo</string>
+    <string name="status_bar_show_weather_summary">Exibe a previsão do tempo acima do painel de configurações rápidas</string>
 
      <!--- Lock clock -->
     <string name="lock_clock_title">Widget do cLock</string>
-    <string name="lock_clock_summary">Visualizar ou alterar como o \'cLock\' e widgets de tela de bloqueio são exibidos</string>
-    <string name="weather_clock_title">Clima na barra de status</string>
+    <string name="lock_clock_summary">Visualizar ou alterar como o \'cLock\' e widgets da tela de bloqueio são exibidos</string>
+    <string name="weather_clock_title">Previsão do tempo na barra de status</string>
 
     <!-- Ignore last app when clearing recents -->
-    <string name="recents_clear_all_dismiss_all_title">Limpeza de tarefas</string>
+    <string name="recents_clear_all_dismiss_all_title">Modo de ação do botão</string>
     <string name="recents_clear_all_dismiss_all_summary">Se ativado limpa todas as tarefas, se desativado ignora apenas as tarefas em primeiro plano</string>
 
     <!-- QuickSettings brightness slider -->
-    <string name="qs_brightness_slider_title">Mostrar controle de brilho deslizante</string>
+    <string name="qs_brightness_slider_title">Controle de brilho deslizante</string>
     <string name="qs_brightness_slider_summary">Exibe uma barra de brilho no painel de configurações rápidas</string>
 
     <!-- Linked / unlinked notification volume -->
-    <string name="link_volume_option_title">Unir volumes de toques e notificações</string>
+    <string name="link_volume_option_title">Unir volumes de toque e notificação</string>
     <string name="notification_volume_option_title">Volume de notificação</string>
 
     <!-- QS tiles -->
@@ -2952,14 +2952,14 @@
     <string name="qs_tile_display_rotation">Rotação</string>
     <string name="qs_tile_flashlight">Lanterna</string>
     <string name="qs_tile_location">Localização</string>
-    <string name="qs_tile_cast_screen">Espelhar tela</string>
+    <string name="qs_tile_cast_screen">Transmitir tela</string>
     <string name="qs_tile_hotspot">Hotspot</string>
     <string name="qs_tile_notifications">Notificações</string>
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_compass">Bússola</string>
     <string name="qs_tile_lockscreen">Tela de bloqueio</string>
     <string name="qs_tile_lte">LTE</string>
-    <string name="qs_tile_screen_timeout">Tempo limite de tela</string>
+    <string name="qs_tile_screen_timeout">Tempo de tela</string>
     <string name="qs_tile_headsup">Heads up</string>
 
     <!-- Themes Settings -->
@@ -3025,14 +3025,14 @@
 
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_settings_title">Tela de bloqueio</string>
-    <string name="lockscreen_targets_message">Atalhos tela de bloqueio</string>
+    <string name="lockscreen_targets_message">Atalhos da tela de bloqueio</string>
     <string name="lockscreen_default_target">Padrão</string>
-    <string name="lockscreen_message">Toque em um ícone à esquerda ou à direita para voltar a atribuir um atalho a tela de bloqueio.</string>
+    <string name="lockscreen_message">Toque em um ícone à esquerda ou à direita para atribuir um atalho a tela de bloqueio.</string>
     <string name="lockscreen_choose_action_title">Escolha uma ação</string>
 
     <!--Status bar data and wifi activity -->
-    <string name="show_activity_indicators_title">Indicadores de atividade</string>
-    <string name="show_activity_indicators_summary">Exibe indicadores na barra de sinal</string>
+    <string name="show_activity_indicators_title">Indicador de atividade</string>
+    <string name="show_activity_indicators_summary">Exibe um indicador de atividade dentro do ícone de sinal do Wi-Fi</string>
 
     <!--Status bar date -->
     <string name="status_bar_date_title">Estilo da data</string>
@@ -3051,10 +3051,14 @@
     <string name="navigation_bar_reset_message">Excluir configurações atuais e restaurar o layout padrão?</string>
 
     <!-- Navigation bar cursor -->
-    <string name="navigation_bar_arrow_keys_title">Mostrar teclas de seta durante a digitação</string>
+    <string name="navigation_bar_arrow_keys_title">Teclas de seta durante a digitação</string>
     <string name="navigation_bar_arrow_keys_summary">Exibe botões de cursor esquerda e direita durante a digitação. Substitui IME switcher.</string>
 
     <!-- Doze pulse (ambient display) notification timeout -->
-    <string name="doze_timeout_title">Tempo limite exibição de ambiente</string>
+    <string name="doze_timeout_title">Limite para exibição de ambiente</string>
     <string name="doze_timeout_summary">Tempo que a tela permanece acesa por pulso de notificação</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Fechar painel configurações rápidas</string>
+    <string name="quick_settings_collapse_summary">Fecha automaticamente o painel de configurações rápidas ao tocar e alternar opções</string>
 </resources>
