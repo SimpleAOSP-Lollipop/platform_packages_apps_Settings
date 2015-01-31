@@ -3055,4 +3055,8 @@
     <!-- Doze pulse (ambient display) notification timeout -->
     <string name="doze_timeout_title">Délai d\'affichage en mode veille</string>
     <string name="doze_timeout_summary">Durée d\'affichage à l\'écran d\'une nouvelle notification</string>
+    
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Fermeture automatique du panneau</string>
+    <string name="quick_settings_collapse_summary">Fermer le panneau des paramètres rapides lors du basculement</string>
 </resources>
