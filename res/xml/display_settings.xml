@@ -95,19 +95,5 @@
                 android:title="@string/wifi_display_settings_title"
                 settings:keywords="@string/keywords_display_cast_screen"
                 android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
-
-        <PreferenceScreen
-		android:key="status_bar"
-		android:fragment="com.android.settings.simpleaosp.StatusBarSettings"
-		android:title="@string/status_bar_title" />
-
-	<PreferenceScreen
-	        android:key="navigation_bar"
-	        android:fragment="com.android.settings.simpleaosp.NavigationBarSettings"
-	        android:title="@string/navigation_bar_title" />
-
-        <PreferenceScreen
-	        android:key="notification_drawer_settings"
-	        android:title="@string/notification_drawer_title"
-	        android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings" />
+        
 </PreferenceScreen>

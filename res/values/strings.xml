@@ -5989,6 +5989,8 @@
     <!-- Navigation Bar -->
     <string name="navigation_bar_general_category">General</string>
     <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Customize the navigation bar</string>
+    
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Height</string>
     <string name="navigation_bar_height_54">54dp</string>
@@ -6007,6 +6009,7 @@
     <!-- Status bar-->
     <string name="status_bar_general_category">General</string>
     <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_summary">Customize the status bar</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery status style</string>
@@ -6427,6 +6430,7 @@
 
     <!-- QS tiles -->
     <string name="notification_drawer_title">Notification drawer</string>
+    <string name="notification_drawer_summary">Customize the notification drawer &amp; the quick settings</string>
     <string name="qs_category_title">Quick settings</string>
     <string name="qs_order_title">Select &amp; order tiles</string>
     <string name="add_qs">Add new tile</string>
@@ -6535,4 +6539,8 @@
     <string name="status_bar_date_small">Small</string>
     <string name="status_bar_date_normal">Normal</string>
     <string name="status_bar_date_format_title">Date format</string>
+    
+    <!--  Ui Tweeks  -->
+    <string name="ui_tweeks_title">Ui Tweeks</string>
+    
 </resources>

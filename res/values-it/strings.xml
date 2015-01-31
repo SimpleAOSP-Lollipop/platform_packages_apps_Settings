@@ -2482,4 +2482,5 @@
     <string name="encrypt_talkback_dialog_message_pin" msgid="1890374082842868489">"Quando inserisci il tuo codice PIN per avviare questo dispositivo, i servizi di accessibilità quali <xliff:g id="SERVICE">%1$s</xliff:g> non saranno ancora disponibili."</string>
     <string name="encrypt_talkback_dialog_message_pattern" msgid="4474332516537386384">"Quando inserisci un pattern per avviare questo dispositivo, i servizi di accessibilità quali <xliff:g id="SERVICE">%1$s</xliff:g> non saranno ancora disponibili."</string>
     <string name="encrypt_talkback_dialog_message_password" msgid="8166099418487083927">"Quando inserisci una password per avviare questo dispositivo, i servizi di accessibilità quali <xliff:g id="SERVICE">%1$s</xliff:g> non saranno ancora disponibili."</string>
+
 </resources>

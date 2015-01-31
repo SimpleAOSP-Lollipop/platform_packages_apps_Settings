@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/display_settings"
+        settings:keywords="@string/keywords_display">
+		
+		<PreferenceScreen
+		        android:key="status_bar"
+		        android:fragment="com.android.settings.simpleaosp.StatusBarSettings"
+		        android:title="@string/status_bar_title" 
+		        android:summary="@string/status_bar_summary"/>
+
+	    <PreferenceScreen
+	            android:key="navigation_bar"
+	            android:fragment="com.android.settings.simpleaosp.NavigationBarSettings"
+	            android:title="@string/navigation_bar_title" 
+				android:summary="@string/navigation_bar_summary"/>
+
+        <PreferenceScreen
+	        android:key="notification_drawer_settings"
+	        android:title="@string/notification_drawer_title"
+	        android:summary="@string/notification_drawer_summary"
+	        android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings" />
+            
+</PreferenceScreen>

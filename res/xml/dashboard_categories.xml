@@ -83,7 +83,15 @@
                 android:fragment="com.android.settings.HomeSettings"
                 android:icon="@drawable/ic_settings_home"
                 />
-
+		
+        <!-- Ui Tweeks -->
+        <dashboard-tile
+                android:id="@+id/display_settings"
+                android:title="@string/ui_tweeks_title"
+                android:fragment="com.android.settings.UiTweeks"
+                android:icon="@drawable/ic_settings_display"
+                />
+        
         <!-- Display -->
         <dashboard-tile
                 android:id="@+id/display_settings"
@@ -91,7 +99,7 @@
                 android:fragment="com.android.settings.DisplaySettings"
                 android:icon="@drawable/ic_settings_display"
                 />
-
+        
         <!-- Notifications -->
         <dashboard-tile
                 android:id="@+id/notification_settings"
