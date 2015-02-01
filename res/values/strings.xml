@@ -6020,10 +6020,9 @@
 
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-
 
     <!--  Volume rocker -->
     <string name="volume_rocker_screen_title">Volume rocker</string>
@@ -6255,7 +6254,6 @@
     <!--- Sms security limit -->
     <string name="sms_security_check_limit_title">SMS message limit</string>
     <string name="sms_security_check_limit_summary">Apps can send %d messages in 30 minutes before requiring confirmation</string>
-    <string name="sms_security_check_limit_default">30 (default)</string>
 
     <!-- Protected Apps -->
     <string name="menu_hidden_apps_delete">Reset</string>
@@ -6506,7 +6504,7 @@
     <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+    <string name="status_bar_am_pm_hidden">Hidden</string>
 
     <!-- Extra bs strings needed -->
     <string name="profile_applist_title">Apps</string>
