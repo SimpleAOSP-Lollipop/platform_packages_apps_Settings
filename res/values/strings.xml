@@ -6556,4 +6556,7 @@
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Auto close panel</string>
     <string name="quick_settings_collapse_summary">Close the quick settings panel upon toggle</string>
+
+    <!-- QuickSettings 4 columns -->
+    <string name="qs_four_columns_title">Show four tiles per row</string>
 </resources>
