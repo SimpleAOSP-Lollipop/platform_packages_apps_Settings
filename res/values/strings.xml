@@ -6539,9 +6539,12 @@
     <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
     <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
 
-    <!-- Doze pulse (ambient display) notification timeout -->
+    <!-- Doze options -->
     <string name="doze_timeout_title">Ambient display timeout</string>
     <string name="doze_timeout_summary">Time that the screen stays on for notification pulse</string>
+    <string name="doze_trigger_motion_title">Ambient trigger sensors</string>
+    <string name="doze_trigger_motion_summary_on">Ambient pulse will be triggered by pick up gesture/significant motion sensor and notifications</string>
+    <string name="doze_trigger_motion_summary_off">Ambient pulse will only be triggered by notifications</string>
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Auto close panel</string>
