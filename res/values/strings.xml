@@ -6454,6 +6454,8 @@
     <string name="qs_tile_lte">LTE</string>
     <string name="qs_tile_screen_timeout">Screen timeout</string>
     <string name="qs_tile_headsup">Heads up</string>
+    <string name="qs_screenshot_tile">Screenshot</string>
+    <string name="qs_sync_tile">Sync</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
