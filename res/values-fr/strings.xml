@@ -2993,7 +2993,7 @@
     <string name="expanded_hide_status">Masquer la barre de statut</string>
     <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
     <string name="expanded_hide_both">Tout masquer</string>
-    <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application un état étendu, Régler "Activé pour tous" en position arrêt</string>
+    <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application un état étendu, Régler \'Activé pour tous\' en position arrêt</string>
     <string name="expanded_desktop_state">État étendu</string>
     <string name="expanded_enabled_for_all">Activé pour tous</string>
     <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
