@@ -2943,7 +2943,7 @@
     <string name="qs_advanced_location_summary">Ativa opções avançadas de localização no painel de configurações rápidas</string>
     <string name="qs_tile_wifi">Wi\u2011Fi</string>
     <string name="qs_tile_bluetooth">Bluetooth</string>
-    <string name="qs_tile_display_inversion">Inverter cores</string>
+    <string name="qs_tile_display_inversion">Inversão de cores</string>
     <string name="qs_tile_cellular_data">Dados móveis</string>
     <string name="qs_tile_airplane_mode">Modo avião</string>
     <string name="qs_tile_display_rotation">Rotação</string>
@@ -2958,6 +2958,8 @@
     <string name="qs_tile_lte">LTE</string>
     <string name="qs_tile_screen_timeout">Tempo de tela</string>
     <string name="qs_tile_headsup">Heads up</string>
+    <string name="qs_screenshot_tile">Capturar tela</string>
+    <string name="qs_sync_tile">Sincronização</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
@@ -3058,4 +3060,7 @@
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Fechar painel configurações rápidas</string>
     <string name="quick_settings_collapse_summary">Fecha automaticamente o painel de configurações rápidas ao tocar e alternar opções</string>
+
+    <!-- QuickSettings 4 columns -->
+    <string name="qs_four_columns_title">Exibir quatro tiles por linha</string>
 </resources>
