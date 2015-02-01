@@ -2722,7 +2722,7 @@
     <string name="ime_switcher_notify_summary">Mostra l\'icona per cmabiare metodo di immisione</string>
 
     <!--Power menu -->
-    <string name="lockscreen_enable_power_menu_title">Mostra il power menu nella lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Lockscreen power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Mostra il power menu anche se è impostato un codice di blocco</string>
 
     <!--- Sms security limit -->
@@ -2765,7 +2765,7 @@
     <!-- Volume rocker music seek options -->
     <string name="volbtn_music_controls_title">Controllo della musica dai tasti del volume</string>
     <string name="volbtn_music_controls_summary">A schermo spento mantenendo premuti i tasti del volume su/giu si passera alla canzone successiva/precedente</string>
-    <string name="volume_button_toggle_info">Il risveglio con i tatsi del violume deve essere disabilitato</string>
+    <string name="volume_button_toggle_info">Il risveglio con i tatsi del volume deve essere disabilitato</string>
 
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Contatore delle notifiche</string>
@@ -2803,7 +2803,7 @@
     <string name="add_heads_up_blacklist_summary">Non mostrare le notifiche Heads up di questa app</string>
     <string name="heads_up_dnd_title">Non disturbare</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="heads_up_disabled_notice">Per visualizzare le notifiche in una in una una finestra pop-up attiva le notifiche Heads up.</string>
+    <string name="heads_up_disabled_notice">Per visualizzare le notifiche in una in finestra pop-up attiva le notifiche Heads up.</string>
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
@@ -2895,7 +2895,7 @@
     <string name="qs_brightness_slider_summary">Mostra lo slider della luminosita nei quick settings</string>
 
     <!-- Linked / unlinked notification volume -->
-    <string name="link_volume_option_title">Unisci volume chiamate &amp; volume notifiche</string>
+    <string name="link_volume_option_title">Unisci volume delle chiamate e il volume delle notifiche</string>
 
     <!-- QS tiles -->
     <string name="notification_drawer_title">Notification drawer</string>
@@ -2926,7 +2926,7 @@
     <string name="qs_tile_compass">Bussola</string>
     <string name="qs_tile_lockscreen">Lock screen</string>
     <string name="qs_screentimeout_tile">Timeout display</string>
-    <string name="qs_screentimeout_mode_title">Modalitò timeout display</string>
+    <string name="qs_screentimeout_mode_title">Modalità timeout display</string>
     <string name="qs_tile_lte">LTE</string>
     <string name="qs_tile_headsup">Heads up</string>
 
@@ -2949,7 +2949,7 @@
     <string name="privacy_guard_manager_summary">Gestisci i permessi delle applicazioni</string>
     <string name="privacy_guard_no_user_apps">Nessuna app installata</string>
     <string name="privacy_guard_filter_does_not_match">Nessuna app installata con permessi \'Pericolosi\'</string>
-    <string name="privacy_guard_help_text">In this screen you can choose for which apps Privacy Guard should be active by simply tapping on them. Selected apps will not be able to access your personal data, such as contacts, messages, location or call logs. Long pressing on an entry allows to set specifically app permissions.\n\nBy default built-in apps are not shown. If you want to show them or filter apps to show only the ones requesting access to personal data by their permissions, select the respective options in the menu.</string>
+    <string name="privacy_guard_help_text">In questa schermata si puo scieglere pre quale app privacy guard sarà attivo semplicemente cliccando su di essa. L\'applicazione selezionata non sarà in grado di accedere ai dati personali(Contatti, SMS, Posiozione, Registro chiamate). Con un click prolumgato si potra configurare ogni singolo permesso della sudetta app.\n\n Di default le app di sistema sono nascoste. Se vuoi visualizzarele o mostare solo le app che acedono ai tuoi dati personali, seleziona la rispettiva opzione nel menu.</string>
     <string name="privacy_guard_manager_show_system_apps">Mostra app di sistema</string>
     <string name="privacy_guard_manager_filter_permissions">Filtra permessi</string>
     <string name="privacy_guard_app_ops_detail_dialog_title">Attenzione</string>
@@ -2964,7 +2964,7 @@
     <string name="expanded_hide_status">Nascondi status bar</string>
     <string name="expanded_hide_navigation">Nascondi navigation bar</string>
     <string name="expanded_hide_both">Nascondi entrambe</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
+    <string name="expanded_nothing_to_show">Se vuoi gestire ogni singola app singolarmente disattiva, "Attiva per tutte".</string>
     <string name="expanded_desktop_state">Desktop esteso</string>
     <string name="expanded_enabled_for_all">Attiva per tutte</string>
     <string name="expanded_user_configurable">Configurabile dall\'utente</string>
@@ -3008,5 +3008,25 @@
     <string name="status_bar_date_small">Piccolo</string>
     <string name="status_bar_date_normal">Normale</string>
     <string name="status_bar_date_format_title">Formato della data</string>
+	
+    <!-- Nav bar customization -->
+    <string name="navigation_bar_settings_title">Pulsanti e disposizione</string>
+    <string name="navigation_bar_settings_summary">Modifica e riordina i pulsanti della nav bar</string>
+    <string name="navigation_bar_help_text">Per iniziare clicca l\'icona modifica per sbloccare la nav bar,\n\nPuoi cliccare su un tatso per modificare la sua funzione, o mantenerlo permuto per spostarlo.\n\nPremi salva per confermare i cambiamenti, ripristina per resettarla. </string>
+    <string name="navigation_restore_button_text">Ripristina\ndefaults</string>
+    <string name="navigation_edit_button_text">Modifica</string>
+    <string name="navigation_save_button_text">Salva</string>
+    <string name="navigation_bar_reset_message">Eliminare le impostazioni attuali e tornare a quelle originali?</string>
 
+    <!-- Navigation bar cursor -->
+    <string name="navigation_bar_arrow_keys_title">Mostra pulsanti cursore</string>
+    <string name="navigation_bar_arrow_keys_summary">Mostra una freccetta in basso a destra e a sinistra per muovere il cursore quando si apre la tastiera</string>
+
+    <!-- Doze pulse (ambient display) notification timeout -->
+    <string name="doze_timeout_title">Ambient display timeout</string>
+    <string name="doze_timeout_summary">Modifica il tempo che il display resta acceso per mostrare le notifiche</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Chiudi automaticamente il pannello</string>
+    <string name="quick_settings_collapse_summary">Chiude automaticamente il pannello dei quick settings dopo aver perumuto su un tile</string>
 </resources>
