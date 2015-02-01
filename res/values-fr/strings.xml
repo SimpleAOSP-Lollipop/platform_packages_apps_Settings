@@ -2526,7 +2526,7 @@
 
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
-    <string name="status_bar_battery_percentage_default">Ne pas afficher (par défaut)</string>
+    <string name="status_bar_battery_percentage_default">Ne pas afficher</string>
     <string name="status_bar_battery_percentage_text_inside">A l\'intérieur de l\'icône</string>
     <string name="status_bar_battery_percentage_text_next">A côté de l\'icône</string>
 
@@ -2760,7 +2760,6 @@
     <!--- Sms security limit -->
     <string name="sms_security_check_limit_title">Limite des messages SMS</string>
     <string name="sms_security_check_limit_summary">Les applications peuvent envoyer %d messages en 30 minutes avant d\'exiger une confirmation</string>
-    <string name="sms_security_check_limit_default">30 (par défaut)</string>
 
     <!-- Protected Apps -->
     <string name="menu_hidden_apps_delete">Réinitialiser</string>
@@ -3016,7 +3015,7 @@
     <string name="status_bar_am_pm_info">Le format 24 heures est activé</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Petit</string>
-    <string name="status_bar_am_pm_hidden">Caché (par défaut)</string>
+    <string name="status_bar_am_pm_hidden">Caché</string>
 	
     <!-- Extra bs strings needed -->
     <string name="profile_applist_title">Applications</string>
