@@ -3,65 +3,59 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/navigation_bar_title" >
+
+<ListPreference
+    android:key="navigation_bar_height"
+    android:dialogTitle="@string/navigation_bar_height"
+    android:title="@string/navigation_bar_height"
+    android:entries="@array/navigation_bar_height_entries"
+    android:entryValues="@array/navigation_bar_height_values"
+    android:defaultValue="48"
+    android:persistent="false" />
+
+<PreferenceScreen
+    android:key="navigation_bar"
+    android:fragment="com.android.settings.cyanogenmod.NavBar"
+    android:summary="@string/navigation_bar_settings_summary"
+    android:title="@string/navigation_bar_settings_title" />
+
+<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+    android:key="navigation_bar_menu_arrow_keys"
+    android:title="@string/navigation_bar_arrow_keys_title"
+    android:summary="@string/navigation_bar_arrow_keys_summary"
+    android:defaultValue="false" />
+
+<PreferenceCategory
+    android:key="recents_panel_category"
+    android:title="@string/recents_panel_category" >
+
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="recents_show_hide_search_bar"
+        android:title="@string/recents_show_searchbar"
+        android:summary="@string/recents_show_searchbar_summary"
+        android:defaultValue="false" />
     
-    <PreferenceCategory
-        android:key="navigation_bar_general_category"
-        android:title="@string/navigation_bar_general_category" >
+    <SwitchPreference
+        android:key="show_clear_all_recents"
+        android:title="@string/show_clear_all_recents_button_title"
+        android:summary="@string/show_clear_all_recents_button_summary"
+	android:defaultValue="false" />
 
-        <ListPreference
-            android:key="navigation_bar_height"
-            android:dialogTitle="@string/navigation_bar_height"
-            android:title="@string/navigation_bar_height"
-            android:entries="@array/navigation_bar_height_entries"
-            android:entryValues="@array/navigation_bar_height_values"
-            android:defaultValue="48"
-            android:persistent="false" />
+    <ListPreference
+        android:key="recents_clear_all_location"
+        android:title="@string/recents_clear_all_location_title"
+        android:entries="@array/recents_clear_all_location_entries"
+        android:entryValues="@array/recents_clear_all_location_values"
+        android:defaultValue="3"
+        android:dependency="show_clear_all_recents" />
 
-        <PreferenceScreen
-            android:key="navigation_bar"
-            android:fragment="com.android.settings.cyanogenmod.NavBar"
-            android:summary="@string/navigation_bar_settings_summary"
-            android:title="@string/navigation_bar_settings_title" />
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="recents_clear_all_dismiss_all"
+        android:title="@string/recents_clear_all_dismiss_all_title"
+        android:summary="@string/recents_clear_all_dismiss_all_summary"
+        android:defaultValue="true"
+        android:dependency="show_clear_all_recents" />
 
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-            android:key="navigation_bar_menu_arrow_keys"
-            android:title="@string/navigation_bar_arrow_keys_title"
-            android:summary="@string/navigation_bar_arrow_keys_summary"
-            android:defaultValue="false" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="recents_panel_category"
-        android:title="@string/recents_panel_category" >
-
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-            android:key="recents_show_hide_search_bar"
-            android:title="@string/recents_show_searchbar"
-            android:summary="@string/recents_show_searchbar_summary"
-            android:defaultValue="false" />
-
-	<SwitchPreference
-            android:key="show_clear_all_recents"
-            android:title="@string/show_clear_all_recents_button_title"
-            android:summary="@string/show_clear_all_recents_button_summary"
-	    android:defaultValue="false" />
-
-        <ListPreference
-            android:key="recents_clear_all_location"
-            android:title="@string/recents_clear_all_location_title"
-            android:entries="@array/recents_clear_all_location_entries"
-            android:entryValues="@array/recents_clear_all_location_values"
-            android:defaultValue="3"
-            android:dependency="show_clear_all_recents" />
-
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-            android:key="recents_clear_all_dismiss_all"
-            android:title="@string/recents_clear_all_dismiss_all_title"
-            android:summary="@string/recents_clear_all_dismiss_all_summary"
-            android:defaultValue="true"
-            android:dependency="show_clear_all_recents" />
-
-    </PreferenceCategory>  
+</PreferenceCategory>  
 
 </PreferenceScreen>
