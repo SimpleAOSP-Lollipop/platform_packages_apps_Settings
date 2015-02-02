@@ -40,6 +40,7 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
+import android.provider.Settings;
 import android.provider.Settings.Global;
 import android.service.notification.Condition;
 import android.service.notification.ZenModeConfig;
@@ -142,6 +143,8 @@ public class ZenModeSettings extends SettingsPreferenceFragment implements Index
     private Preference mEntry;
     private Preference mConditionProviders;
     private AlertDialog mDialog;
+
+    private Preference mHeadsUp;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -335,6 +338,8 @@ public class ZenModeSettings extends SettingsPreferenceFragment implements Index
         });
         mConditionProviders = findPreference(KEY_CONDITION_PROVIDERS);
 
+        mHeadsUp = findPreference(Settings.System.HEADS_UP_NOTIFICATION);
+
         updateControls();
     }
 
@@ -447,6 +452,11 @@ public class ZenModeSettings extends SettingsPreferenceFragment implements Index
         super.onResume();
         updateControls();
         mSettingsObserver.register();
+
+        boolean headsUpEnabled = Settings.System.getInt(
+                getContentResolver(), Settings.System.HEADS_UP_NOTIFICATION, 1) != 0;
+        mHeadsUp.setSummary(headsUpEnabled
+                ? R.string.summary_heads_up_enabled : R.string.summary_heads_up_disabled);
     }
 
     @Override
