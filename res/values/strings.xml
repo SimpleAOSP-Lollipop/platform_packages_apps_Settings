@@ -6093,9 +6093,8 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
-    <!-- Sound settings -->
-    <string name="advanced_sound_title">Advanced sounds</string>
-    <string name="sound_title">Sound</string>
+    <!-- Advanced sound category -->
+    <string name="advanced_sound_category">Advanced sounds</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
