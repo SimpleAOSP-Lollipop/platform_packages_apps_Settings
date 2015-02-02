@@ -59,14 +59,50 @@
             android:switchTextOn=""
             android:persistent="false" />
 
-    <!-- Less Notification sounds -->
-    <ListPreference
-            android:key="less_notification_sounds"
-            android:title="@string/less_notification_sounds_title"
-            android:summary="@string/less_notification_sounds_summary"
-            android:entries="@array/less_notification_sounds_entries"
-            android:entryValues="@array/less_notification_sounds_values"
-            android:persistent="false" />
+    <PreferenceCategory
+        android:key="advanced_sound_category"
+        android:title="@string/advanced_sound_category" > 
+
+        <!-- Less Notification sounds -->
+        <ListPreference
+                android:key="less_notification_sounds"
+                android:title="@string/less_notification_sounds_title"
+                android:summary="@string/less_notification_sounds_summary"
+                android:entries="@array/less_notification_sounds_entries"
+                android:entryValues="@array/less_notification_sounds_values"
+                android:persistent="false" />
+
+        <!-- Safe headset volume -->
+        <SwitchPreference
+                android:key="safe_headset_volume"
+                android:title="@string/safe_headset_volume_title"
+                android:summary="@string/safe_headset_volume_summary"
+                android:persistent="false"
+                android:defaultValue="true" />
+
+        <!-- Volume adjust sound -->
+        <SwitchPreference
+                android:key="volume_key_adjust_sound"
+                android:title="@string/volume_key_adjust_sound_title"
+                android:summary="@string/volume_key_adjust_sound_summary" />
+
+        <!-- Volume music controls -->
+        <SwitchPreference
+                android:key="volbtn_music_controls"
+                android:title="@string/volbtn_music_controls_title"
+                android:summary="@string/volbtn_music_controls_summary"
+                android:persistent="false"
+                android:defaultValue="true" />
+
+        <!-- Volume keys media stream control -->
+        <SwitchPreference
+                android:key="volume_keys_control_media_stream"
+                android:title="@string/volume_keys_control_media_stream"
+                android:summary="@string/volume_keys_control_media_stream_summary"
+                android:defaultValue="false"
+                android:persistent="false" />
+
+    </PreferenceCategory>
 
     <!-- Dock speaker plays -->
     <com.android.settings.notification.DropDownPreference
