@@ -5987,7 +5987,6 @@
     <string name="supersu_title">SuperSU</string>
 
     <!-- Navigation Bar -->
-    <string name="navigation_bar_general_category">General</string>
     <string name="navigation_bar_title">Navigation bar</string>
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Height</string>
@@ -6005,7 +6004,6 @@
     <string name="navigation_bar_height_0">0dp (hide)</string>
  
     <!-- Status bar-->
-    <string name="status_bar_general_category">General</string>
     <string name="status_bar_title">Status bar</string>
 
     <!-- Status bar - Battery -->
@@ -6537,7 +6535,7 @@
 
     <!-- Nav bar customization -->
     <string name="navigation_bar_settings_title">Buttons &amp; layout</string>
-    <string name="navigation_bar_settings_summary">Edit and rearrange navigation bar buttons</string>
+    <string name="navigation_bar_settings_summary">Edit and re-arrange navigation bar buttons</string>
     <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap save to commit your changes, or restore to reset the layout to default settings.</string>
     <string name="navigation_restore_button_text">Restore\ndefaults</string>
     <string name="navigation_edit_button_text">Edit</string>

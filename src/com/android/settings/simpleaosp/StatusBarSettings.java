@@ -21,8 +21,6 @@ import com.android.settings.Utils;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    // Statusbar general category
-    private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
     private static final String PRE_QUICK_PULLDOWN = "quick_pulldown";
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_LOCK_CLOCK_PACKAGE_NAME = "com.cyanogenmod.lockclock";

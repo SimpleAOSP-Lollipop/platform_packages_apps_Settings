@@ -19,11 +19,11 @@ import com.android.settings.SettingsPreferenceFragment;
 public class NavigationBarSettings extends SettingsPreferenceFragment implements
 OnPreferenceChangeListener {
 
-    // General
-    private static String NAVIGATION_BAR_GENERAL_CATEGORY = "navigation_bar_general_category";
-    private static String RECENTS_PANEL_CATEGORY = "recents_panel_category";
     // Navigation bar height
     private static final String KEY_NAVIGATION_BAR_HEIGHT = "navigation_bar_height";
+    
+    // Recents panel
+    private static String RECENTS_PANEL_CATEGORY = "recents_panel_category";
     private static final String SHOW_CLEAR_ALL_RECENTS = "show_clear_all_recents";
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
