@@ -2,6 +2,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/status_bar_title" >
 
+    <ListPreference
+        android:key="quick_pulldown"
+        android:title="@string/title_quick_pulldown"
+        android:entries="@array/quick_pulldown_entries"
+        android:entryValues="@array/quick_pulldown_values"
+        android:persistent="false" />
+
     <PreferenceScreen
         android:fragment="com.android.settings.simpleaosp.BatterySettings"
         android:key="battery_style_pref"
@@ -19,17 +26,6 @@
 	android:fragment="com.android.settings.simpleaosp.NetworkTraffic"
  	android:summary="@string/network_traffic_summary"
 	android:title="@string/network_traffic_title" />
-
-    <PreferenceCategory
-        android:key="status_bar_general_category"
-        android:title="@string/status_bar_general_category" >
-
-    <ListPreference
-        android:key="quick_pulldown"
-        android:title="@string/title_quick_pulldown"
-        android:entries="@array/quick_pulldown_entries"
-        android:entryValues="@array/quick_pulldown_values"
-        android:persistent="false" />
   
     <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
         android:key="status_bar_brightness_control"
@@ -48,25 +44,24 @@
         android:summary="@string/status_bar_double_tap_to_sleep_summary"
         android:title="@string/status_bar_double_tap_to_sleep_title" />
 
-    </PreferenceCategory>
-
     <PreferenceCategory
         android:key="weather_clock_category"
         android:title="@string/weather_clock_title" >
 
-    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-        android:key="status_bar_show_weather"
-        android:title="@string/status_bar_show_weather_title"
-        android:summary="@string/status_bar_show_weather_summary"
-        android:defaultValue="false" />
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="status_bar_show_weather"
+            android:title="@string/status_bar_show_weather_title"
+            android:summary="@string/status_bar_show_weather_summary"
+            android:defaultValue="false" />
 
-    <PreferenceScreen
-        android:key="lock_clock"
-        android:title="@string/lock_clock_title"
-        android:summary="@string/lock_clock_summary">
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.cyanogenmod.lockclock"
-            android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
+        <PreferenceScreen
+            android:key="lock_clock"
+            android:title="@string/lock_clock_title"
+            android:summary="@string/lock_clock_summary">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.lockclock"
+                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
     	</PreferenceScreen>
+
     </PreferenceCategory>
 </PreferenceScreen>
