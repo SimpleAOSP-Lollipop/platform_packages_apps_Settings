@@ -2483,16 +2483,8 @@
     <string name="encrypt_talkback_dialog_message_pattern" msgid="4474332516537386384">"Ao inserir seu padrão para iniciar o dispositivo, serviços de disponibilidade como o <xliff:g id="SERVICE">%1$s</xliff:g> ainda não estarão disponíveis."</string>
     <string name="encrypt_talkback_dialog_message_password" msgid="8166099418487083927">"Ao inserir sua senha para iniciar o dispositivo, serviços de disponibilidade como o <xliff:g id="SERVICE">%1$s</xliff:g> ainda não estarão disponíveis."</string>
 
-    <!-- SimpleAOSP build date-->
-    <string name="build_date">Data da build SimpleAOSP</string>
-    <string name="build_date_default">2014-01-01-0000</string>
-
-    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
-    <string name="supersu_title">SuperSU</string>
-
     <!-- Navigation Bar -->
     <string name="navigation_bar_general_category">Geral</string>
-    <string name="navigation_bar_title">Barra de navegação</string>
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Altura</string>
     <string name="navigation_bar_height_54">54dp</string>
@@ -2510,7 +2502,6 @@
  
     <!-- Status bar-->
     <string name="status_bar_general_category">Geral</string>
-    <string name="status_bar_title">Barra de status</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
@@ -2597,9 +2588,8 @@
     <string name="display_rotation_180_title">180 graus</string>
     <string name="display_rotation_270_title">270 graus</string>
 
-    <!-- Sound settings -->
-    <string name="advanced_sound_title">Opções avançadas</string>
-    <string name="sound_title">Som</string>
+    <!-- Advanced sound category -->
+    <string name="advanced_sound_category">Opções avançadas</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume seguro do fone de ouvido</string>
@@ -3063,4 +3053,33 @@
 
     <!-- QuickSettings 4 columns -->
     <string name="qs_four_columns_title">Exibir quatro tiles por linha</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Notificações</string>
+    <string name="less_notification_sounds_title">Sons de notificação menos frequentes</string>
+    <string name="less_notification_sounds_summary">Permite limitar os sons de notificação de cada app para tocar por período de tempo ajustado</string>
+    <string name="less_notification_sounds_default">Padrão de comportamento</string>
+    <string name="less_notification_sounds_3s">3 segundos</string>
+    <string name="less_notification_sounds_5s">5 segundos</string>
+    <string name="less_notification_sounds_10s">10 segundos</string>
+    <string name="less_notification_sounds_15s">15 segundos</string>
+    <string name="less_notification_sounds_30s">30 segundos</string>
+    <string name="less_notification_sounds_45s">45 segundos</string>
+    <string name="less_notification_sounds_1m">1 minuto</string>
+    <string name="less_notification_sounds_2m">2 minutos</string>
+    <string name="less_notification_sounds_5m">5 minutos</string>
+
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Som do carregador</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Ativado</string>
+    <string name="power_notifications_enable_summary">Tocar um som quando conectar ou desconectar o carregador</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibrar</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Som de notificação</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silencioso</string>
 </resources>
