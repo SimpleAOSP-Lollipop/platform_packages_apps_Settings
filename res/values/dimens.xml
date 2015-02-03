@@ -244,9 +244,6 @@
     <dimen name="qs_tile_max_padding">10dp</dimen>
     <dimen name="qs_tile_dragged_z">10dp</dimen>
 
-    <!-- Expanded desktop -->
-    <dimen name="fab_line_width">2dp</dimen>
-
     <!-- Lockscreen shortcuts -->
     <dimen name="shortcut_picker_left_padding">40dip</dimen>
     <dimen name="lockscreen_icon_side_padding">10dp</dimen>
