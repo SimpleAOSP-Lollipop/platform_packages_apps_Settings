@@ -9,23 +9,33 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 import com.android.internal.util.cm.LockscreenShortcutsHelper;
 import com.android.settings.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.android.settings.SettingsActivity;
+import com.android.settings.cyanogenmod.BaseSecureSettingSwitchBar;
+
 public class LockscreenShortcuts extends Fragment implements View.OnClickListener,
-        ShortcutPickHelper.OnPickListener, View.OnTouchListener {
+        ShortcutPickHelper.OnPickListener, View.OnTouchListener,
+                BaseSecureSettingSwitchBar.SwitchBarChangeCallback {
 
     private static final int[] sIconIds = new int[]{R.id.left_button, R.id.right_button};
     private static final String ACTION_APP = "action_app";
+
+    private BaseSecureSettingSwitchBar mEnabledSwitch;
+    private boolean mLastEnabledState;
+    private TextView mInfoText;
 
     private ActionHolder mActions;
     private ShortcutPickHelper mPicker;
@@ -98,6 +108,7 @@ public class LockscreenShortcuts extends Fragment implements View.OnClickListene
         super.onViewCreated(view, savedInstanceState);
         mPicker = new ShortcutPickHelper(getActivity(), this);
         mShortcutHelper = new LockscreenShortcutsHelper(getActivity(), null);
+        mInfoText = (TextView)view.findViewById(R.id.info_text);
         createActionList();
         initiateViews(view);
         setUnlockIcon(view);
@@ -134,12 +145,64 @@ public class LockscreenShortcuts extends Fragment implements View.OnClickListene
             v.setColorFilter(item.colorFilter);
             v.setImageDrawable(item.icon);
             v.setTag(item.uri);
-            if (LockscreenShortcutsHelper.NONE.equals(item.uri)) {
+            if (!mLastEnabledState) {
+                v.setImageDrawable(null);
+            } else if (LockscreenShortcutsHelper.NONE.equals(item.uri) && mLastEnabledState) {
                 v.setImageTintList(mDefaultTintList);
             } else {
                 v.setImageTintList(null);
             }
         }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        SettingsActivity activity = (SettingsActivity) getActivity();
+        mEnabledSwitch = new BaseSecureSettingSwitchBar(activity, activity.getSwitchBar(),
+                Settings.Secure.ENABLE_LOCKSCREEN_TARGETS, true, this);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mEnabledSwitch != null) {
+            mEnabledSwitch.resume(getActivity());
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        if (mEnabledSwitch != null) {
+            mEnabledSwitch.pause();
+        }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        if (mEnabledSwitch != null) {
+            mEnabledSwitch.teardownSwitchBar();
+        }
+    }
+
+    private void updateEnabledState() {
+        if (mLastEnabledState) {
+            mInfoText.setText(getResources().getString(
+                R.string.lockscreen_message));
+        } else {
+            mInfoText.setText(getResources().getString(
+                R.string.lockscreen_message_disabled));
+        }
+        updateDrawables();
+    }
+
+    @Override
+    public void onEnablerChanged(boolean isEnabled) {
+        mLastEnabledState = Settings.Secure.getInt(getActivity().getContentResolver(),
+                Settings.Secure.ENABLE_LOCKSCREEN_TARGETS, 1) == 1;
+        updateEnabledState();
     }
 
     private void createActionList() {
@@ -158,6 +221,8 @@ public class LockscreenShortcuts extends Fragment implements View.OnClickListene
     @Override
     public void onClick(View v) {
         mSelectedView = v;
+
+        if (!mLastEnabledState) { return; }
 
         final GlowBackground background = (GlowBackground) mSelectedView.getBackground();
 

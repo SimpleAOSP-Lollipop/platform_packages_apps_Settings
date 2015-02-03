@@ -6513,10 +6513,13 @@
     <string name="select_custom_activity_title">Select custom activity</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_targets_message">Lock screen shortcuts</string>
+    <string name="lockscreen_targets_message">Shortcuts</string>
     <string name="lockscreen_default_target">Default</string>
     <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
     <string name="lockscreen_choose_action_title">Choose action</string>
+    <string name="lockscreen_message_disabled">Shortcuts are disabled.</string>
+    <string name="lockscreen_shortcuts_enabled">Lock screen shortcuts are enabled</string>
+    <string name="lockscreen_shortcuts_disabled">Lock screen shortcuts are disabled</string>
 
     <!--Status bar data and wifi activity -->
     <string name="show_activity_indicators_title">Activity indicators</string>
