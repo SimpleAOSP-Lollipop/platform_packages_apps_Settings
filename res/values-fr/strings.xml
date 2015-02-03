@@ -2492,7 +2492,6 @@
     <string name="supersu_title">SuperSU</string>
 	
     <!-- Navigation Bar -->
-    <string name="navigation_bar_general_category">Générale</string>
     <string name="navigation_bar_title">Barre de navigation</string>
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Hauteur</string>
@@ -2510,7 +2509,6 @@
     <string name="navigation_bar_height_0">0dp (Cacher)</string>
  
     <!-- Status bar-->
-    <string name="status_bar_general_category">Générale</string>
     <string name="status_bar_title">Barre de statut</string>
 
     <!-- Status bar - Battery -->
@@ -2599,8 +2597,7 @@
     <string name="display_rotation_270_title">270 degrés</string>
 
     <!-- Sound settings -->
-    <string name="advanced_sound_title">Options avancées</string>
-    <string name="sound_title">Son</string>
+    <string name="advanced_sound_category">Options avancées</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume sécurisé</string>
@@ -2939,7 +2936,7 @@
     <string name="qs_action_no_more_tiles">Pas d\'autre tuiles disponibles</string>
     <string name="qs_main_tiles_title">Gestion de la première rangée</string>
     <string name="qs_main_tiles_summary_on">Deux principales tuiles sur la première rangée</string>
-    <string name="qs_main_tiles_summary_off">Trois tuiles sur chaque rangée</string>
+    <string name="qs_main_tiles_summary_off">Trois ou quatre tuiles sur chaque rangée</string>
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
     <string name="qs_advanced_location_summary">Activer les paramètres avancés pour la localisation dans les paramètres rapides</string>
 
@@ -2953,7 +2950,7 @@
     <string name="qs_tile_location">Localisation</string>
     <string name="qs_tile_cast_screen">Caster l\'écran</string>
     <string name="qs_tile_hotspot">Point d\'accès</string>
-    <string name="qs_tile_notifications">Notifications</string>
+    <string name="qs_tile_notifications">Sons de notification</string>
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_compass">Boussole</string>
     <string name="qs_tile_lockscreen">Verrouillage de l\'écran</string>
@@ -2998,9 +2995,7 @@
     <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
     <string name="expanded_hide_both">Tout masquer</string>
     <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application un état étendu, Régler \'Activé pour tous\' en position arrêt</string>
-    <string name="expanded_desktop_state">État étendu</string>
     <string name="expanded_enabled_for_all">Activé pour tous</string>
-    <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
     
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Style de l\'horloge</string>
@@ -3025,7 +3020,6 @@
     <string name="select_custom_activity_title">Sélectionner une activité personnalisée</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_settings_title">Écran de verrouillage</string>
     <string name="lockscreen_targets_message">Raccourcis de l\'écran de verrouillage</string>
     <string name="lockscreen_default_target">Par défaut</string>
     <string name="lockscreen_message">Appuyer sur une des icônes de la gauche ou la droite pour attribuer un raccourci sur l\'écran de verrouillage.</string>
@@ -3065,4 +3059,38 @@
     
     <!-- QuickSettings 4 columns -->
     <string name="qs_four_columns_title">Afficher quatre tuiles par rangée</string>
+	
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Sons de notification</string>
+    <string name="less_notification_sounds_title">Fréquences des sons de notification</string>
+    <string name="less_notification_sounds_summary">Limiter les sons de notification de chaque application pour jouer une fois dans une période de temps choisi</string>
+    <string name="less_notification_sounds_default">Comportement par défaut</string>
+    <string name="less_notification_sounds_3s">3 secondes</string>
+    <string name="less_notification_sounds_5s">5 secondes</string>
+    <string name="less_notification_sounds_10s">10 secondes</string>
+    <string name="less_notification_sounds_15s">15 secondes</string>
+    <string name="less_notification_sounds_30s">30 secondes</string>
+    <string name="less_notification_sounds_45s">45 secondes</string>
+    <string name="less_notification_sounds_1m">1 minute</string>
+    <string name="less_notification_sounds_2m">2 minutes</string>
+    <string name="less_notification_sounds_5m">5 minutes</string>
+	
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Sons de chargement</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Activer</string>
+    <string name="power_notifications_enable_summary">Jouer un son lors du branchement ou du débranchement du chargeur</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibreur</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Son de notification</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silencieux</string>
+	
+    <!-- Navigation ring shortcuts -->
+    <string name="navigation_ring_title">Cibles de l\'anneau de navigation</string>
+    <string name="navigation_ring_summary">Éditer et réarranger les raccourcis de l\'anneau de navigation</string>
+    <string name="navigation_ring_message">Appuyez sur l\'icône d\'édition pour ouvrir l\'anneau de navigation pour l\'édition.\n\nSélectionner une cible pour configurer son comportement.\n\nAppuyer sur la case a cocher de l\'icône pour enregistrer vos modifications ou restaurer pour réinitialiser les paramètres par défaut.</string>
 </resources>
