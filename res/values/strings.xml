@@ -6383,7 +6383,6 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_title_summary">View or change power menu entries</string>
     <string name="power_menu_power_title">Power off</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
