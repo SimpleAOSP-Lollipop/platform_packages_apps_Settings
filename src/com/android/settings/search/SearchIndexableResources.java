@@ -47,6 +47,11 @@ import com.android.settings.voice.VoiceInputSettings;
 import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
+import com.android.settings.simpleaosp.StatusBarSettings;
+import com.android.settings.simpleaosp.NavigationBarSettings;
+import com.android.settings.cyanogenmod.NotificationDrawerSettings;
+import com.android.settings.cyanogenmod.PowerMenuActions;
+import com.android.settings.headsup.HeadsUpSettings;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -254,6 +259,43 @@ public final class SearchIndexableResources {
                         NO_DATA_RES_ID,
                         DeviceInfoSettings.class.getName(),
                         R.drawable.ic_settings_about));
+
+	sResMap.put(StatusBarSettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(StatusBarSettings.class.getName()),
+                        R.xml.status_bar_settings,
+                        StatusBarSettings.class.getName(),
+                        R.drawable.ic_settings_display));
+
+ 	sResMap.put(NotificationDrawerSettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(NotificationDrawerSettings.class.getName()),
+                        R.xml.notification_drawer_settings,
+                        NotificationDrawerSettings.class.getName(),
+                        R.drawable.ic_settings_display));
+
+
+	sResMap.put(PowerMenuActions.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(PowerMenuActions.class.getName()),
+                        R.xml.power_menu_settings,
+                        PowerMenuActions.class.getName(),
+                        R.drawable.ic_settings_display));
+
+	sResMap.put(NavigationBarSettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(NavigationBarSettings.class.getName()),
+                        R.xml.navigation_bar_settings,
+                        NavigationBarSettings.class.getName(),
+                        R.drawable.ic_settings_display));
+
+	sResMap.put(HeadsUpSettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(HeadsUpSettings.class.getName()),
+                        R.xml.heads_up_settings,
+                        HeadsUpSettings.class.getName(),
+                        R.drawable.ic_settings_notifications));
+
     }
 
     private SearchIndexableResources() {
