@@ -2484,7 +2484,7 @@
     <string name="encrypt_talkback_dialog_message_password" msgid="8166099418487083927">"Ao inserir sua senha para iniciar o dispositivo, serviços de disponibilidade como o <xliff:g id="SERVICE">%1$s</xliff:g> ainda não estarão disponíveis."</string>
 
     <!-- Navigation Bar -->
-    <string name="navigation_bar_general_category">Geral</string>
+    <string name="navigation_bar_title">Barra de navegação</string>
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Altura</string>
     <string name="navigation_bar_height_54">54dp</string>
@@ -2501,7 +2501,7 @@
     <string name="navigation_bar_height_0">0dp (ocultar)</string>
  
     <!-- Status bar-->
-    <string name="status_bar_general_category">Geral</string>
+    <string name="status_bar_title">Barra de status</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
