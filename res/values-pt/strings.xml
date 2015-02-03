@@ -2880,7 +2880,6 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu de energia</string>
-    <string name="power_menu_title_summary">Ver ou alterar as entradas do menu de energia</string>
     <string name="power_menu_power_title">Desligar</string>
     <string name="power_menu_reboot_title">Menu reiniciar</string>
     <string name="power_menu_screenshot_title">Capturar tela</string>
@@ -2986,9 +2985,7 @@
     <string name="expanded_hide_navigation">Ocultar barra de navegação</string>
     <string name="expanded_hide_both">Ocultar ambos</string>
     <string name="expanded_nothing_to_show">Para adicionar uma configuração personalizada por-app, ajuste \'Ativadar para todos\' para a posição desligado</string>
-    <string name="expanded_desktop_state">Estado expandido</string>
     <string name="expanded_enabled_for_all">Ativar para todos</string>
-    <string name="expanded_user_configurable">Configurável pelo usuário</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Estilo do relógio</string>
@@ -3013,7 +3010,6 @@
     <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_settings_title">Tela de bloqueio</string>
     <string name="lockscreen_targets_message">Atalhos da tela de bloqueio</string>
     <string name="lockscreen_default_target">Padrão</string>
     <string name="lockscreen_message">Toque em um ícone à esquerda ou à direita para atribuir um atalho a tela de bloqueio.</string>
@@ -3082,4 +3078,9 @@
     <string name="power_notifications_ringtone_title">Som de notificação</string>
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silencioso</string>
+
+    <!-- Navigation ring shortcuts -->
+    <string name="navigation_ring_title">Anel de navegação</string>
+    <string name="navigation_ring_summary">Permite editar e rearranjar o atalho do anel de navegação</string>
+    <string name="navigation_ring_message">Toque no ícone de edição para abrir o anel de navegação para edição.\n\nSelecione um destino para configurar o seu comportamento.\n\nToque no ícone de marca de seleção para salvar suas alterações, ou restaurar para redefinir as configurações padrão.</string>
 </resources>
