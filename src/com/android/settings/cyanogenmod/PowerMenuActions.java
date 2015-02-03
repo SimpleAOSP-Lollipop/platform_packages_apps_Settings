@@ -29,6 +29,7 @@ import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.preference.ListPreference;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.provider.SearchIndexableResource;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 
@@ -36,6 +37,9 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.cyanogenmod.SystemSettingSwitchPreference;
 import com.android.internal.util.cm.PowerMenuConstants;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
 
 import static com.android.internal.util.cm.PowerMenuConstants.*;
 import com.android.internal.widget.LockPatternUtils;
@@ -45,7 +49,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PowerMenuActions extends SettingsPreferenceFragment {
+public class PowerMenuActions extends SettingsPreferenceFragment implements Indexable {
     final static String TAG = "PowerMenuActions";
 
     private static final String KEY_POWER_MENU_LOCKSCREEN = "lockscreen_enable_power_menu";
@@ -315,4 +319,26 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         u.setAction(Intent.UPDATE_POWER_MENU);
         mContext.sendBroadcastAsUser(u, UserHandle.ALL);
     }
+
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                                                                            boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.power_menu_settings;
+                    result.add(sir);
+
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    ArrayList<String> result = new ArrayList<String>();
+                    return result;
+                }
+            };
 }

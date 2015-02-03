@@ -1,6 +1,7 @@
 
 package com.android.settings.simpleaosp;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.content.ContentResolver;
@@ -8,6 +9,7 @@ import android.content.res.Resources;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.provider.SearchIndexableResource;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
@@ -15,9 +17,15 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class NavigationBarSettings extends SettingsPreferenceFragment implements
-OnPreferenceChangeListener {
+OnPreferenceChangeListener, Indexable {
 
     // Navigation bar height
     private static final String KEY_NAVIGATION_BAR_HEIGHT = "navigation_bar_height";
@@ -115,4 +123,26 @@ OnPreferenceChangeListener {
             mRecentsClearAllLocation.setSummary(res.getString(summary));
         }
     }
+
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                                                                            boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.navigation_bar_settings;
+                    result.add(sir);
+
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    ArrayList<String> result = new ArrayList<String>();
+                    return result;
+                }
+            };
 }
