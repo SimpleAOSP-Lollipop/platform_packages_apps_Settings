@@ -71,6 +71,11 @@
 
     </dashboard-category>
 
+    <!-- DEVICE -->
+    <dashboard-category
+            android:id="@+id/device_section"
+            android:title="@string/header_category_device" >
+			
         <!-- BitSyko Layers App -->
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"
@@ -81,13 +86,6 @@
                     android:targetPackage="org.bitsyko.overlaymanager"
                     android:targetClass="org.bitsyko.overlaymanager.main" />
         </dashboard-tile>
-
-    </dashboard-category>
-
-    <!-- DEVICE -->
-    <dashboard-category
-            android:id="@+id/device_section"
-            android:title="@string/header_category_device" >
 
         <!-- Home -->
         <dashboard-tile
