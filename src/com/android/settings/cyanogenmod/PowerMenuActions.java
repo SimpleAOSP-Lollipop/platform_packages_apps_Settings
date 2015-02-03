@@ -16,6 +16,7 @@
 
 package com.android.settings.cyanogenmod;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.UserInfo;
@@ -33,9 +34,12 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.cyanogenmod.SystemSettingSwitchPreference;
 import com.android.internal.util.cm.PowerMenuConstants;
 
 import static com.android.internal.util.cm.PowerMenuConstants.*;
+import com.android.internal.widget.LockPatternUtils;
+
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -45,6 +49,7 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     final static String TAG = "PowerMenuActions";
 
     private static final String ADVANCED_REBOOT_KEY = "advanced_reboot";
+    private static final String KEY_POWER_MENU_LOCKSCREEN = "lockscreen_enable_power_menu";
 
     private SwitchPreference mPowerPref;
     private SwitchPreference mRebootPref;
@@ -57,6 +62,7 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private SwitchPreference mBugReportPref;
     private SwitchPreference mSilentPref;
     private SwitchPreference mAdvancedReboot;
+    private SystemSettingSwitchPreference mPowerMenuLockscreen;
 
     Context mContext;
     private ArrayList<String> mLocalUserConfig = new ArrayList<String>();
@@ -71,6 +77,14 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         mContext = getActivity().getApplicationContext();
 
 	mAdvancedReboot = (SwitchPreference) findPreference(ADVANCED_REBOOT_KEY);
+
+	final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
+
+	mPowerMenuLockscreen = (SystemSettingSwitchPreference) findPreference(KEY_POWER_MENU_LOCKSCREEN);
+	final PreferenceScreen prefScreen = getPreferenceScreen();
+        if (!lockPatternUtils.isSecure() && mPowerMenuLockscreen != null) {
+            prefScreen.removePreference(mPowerMenuLockscreen);
+        }
 
         mAvailableActions = getActivity().getResources().getStringArray(
                 R.array.power_menu_actions_array);
