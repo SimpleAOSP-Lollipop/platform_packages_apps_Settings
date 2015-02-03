@@ -118,9 +118,6 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private static final String KEY_APP_SECURITY_CATEGORY = "app_security";
     private static final String KEY_BLACKLIST = "blacklist";
 
-    private static final String PREF_BLOCK_ON_SECURE_KEYGUARD = "block_on_secure_keyguard";
-    private static final String KEY_POWER_MENU_LOCKSCREEN = "lockscreen_enable_power_menu";
-
     private PackageManager mPM;
     private DevicePolicyManager mDPM;
 
@@ -150,9 +147,6 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private Intent mTrustAgentClickIntent;
     // CyanogenMod Additions
     private PreferenceScreen mBlacklist;
-
-    private SwitchPreference mBlockOnSecureKeyguard;
-    private SystemSettingSwitchPreference mPowerMenuLockscreen;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -364,23 +358,6 @@ public class SecuritySettings extends SettingsPreferenceFragment
             mSmsSecurityCheck.setOnPreferenceChangeListener(this);
             int smsSecurityCheck = Integer.valueOf(mSmsSecurityCheck.getValue());
             updateSmsSecuritySummary(smsSecurityCheck);
-        }
-
-	final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
-	PreferenceScreen prefSet = getPreferenceScreen();
-        mBlockOnSecureKeyguard = (SwitchPreference) findPreference(PREF_BLOCK_ON_SECURE_KEYGUARD);
-        if (lockPatternUtils.isSecure()) {
-            mBlockOnSecureKeyguard.setChecked(Settings.Secure.getInt(getContentResolver(),
-                    Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD, 1) == 1);
-            mBlockOnSecureKeyguard.setOnPreferenceChangeListener(this);
-        } else if (mBlockOnSecureKeyguard != null) {
-            prefSet.removePreference(mBlockOnSecureKeyguard);
-        }
-
-        mPowerMenuLockscreen = (SystemSettingSwitchPreference) findPreference(KEY_POWER_MENU_LOCKSCREEN);
-	final PreferenceScreen prefScreen = getPreferenceScreen();
-        if (!lockPatternUtils.isSecure() && mPowerMenuLockscreen != null) {
-            prefScreen.removePreference(mPowerMenuLockscreen);
         }
 
         // Show password
@@ -766,11 +743,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
                     Integer.valueOf((String) value));
             mLockNumpadRandom.setValue(String.valueOf(value));
             mLockNumpadRandom.setSummary(mLockNumpadRandom.getEntry());
-        } else if (preference == mBlockOnSecureKeyguard) {
-            Settings.Secure.putInt(getContentResolver(),
-                    Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD,
-                    (Boolean) value ? 1 : 0);
-	}
+        }
         return result;
     }
 
