@@ -61,12 +61,12 @@
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
 
-	<SwitchPreference
+    </PreferenceCategory>
+    
+        <SwitchPreference
 	    android:key="block_on_secure_keyguard"
 	    android:title="@string/block_on_secure_keyguard_title"
 	    android:summary="@string/block_on_secure_keyguard_summary"
 	    android:persistent="false" />
-
-    </PreferenceCategory>
 
 </PreferenceScreen>
