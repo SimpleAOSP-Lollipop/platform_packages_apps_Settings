@@ -2485,7 +2485,6 @@
 
     <!-- Navigation Bar -->
     <string name="navigation_bar_general_category">Geral</string>
-    <string name="navigation_bar_title">Barra de navegação</string>
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Altura</string>
     <string name="navigation_bar_height_54">54dp</string>
@@ -2503,7 +2502,6 @@
  
     <!-- Status bar-->
     <string name="status_bar_general_category">Geral</string>
-    <string name="status_bar_title">Barra de status</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
