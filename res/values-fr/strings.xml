@@ -2992,9 +2992,7 @@
     <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
     <string name="expanded_hide_both">Tout masquer</string>
     <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application un état étendu, Régler \'Activé pour tous\' en position arrêt</string>
-    <string name="expanded_desktop_state">État étendu</string>
     <string name="expanded_enabled_for_all">Activé pour tous</string>
-    <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
     
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Style de l\'horloge</string>
@@ -3019,7 +3017,6 @@
     <string name="select_custom_activity_title">Sélectionner une activité personnalisée</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_settings_title">Écran de verrouillage</string>
     <string name="lockscreen_targets_message">Raccourcis de l\'écran de verrouillage</string>
     <string name="lockscreen_default_target">Par défaut</string>
     <string name="lockscreen_message">Appuyer sur une des icônes de la gauche ou la droite pour attribuer un raccourci sur l\'écran de verrouillage.</string>
