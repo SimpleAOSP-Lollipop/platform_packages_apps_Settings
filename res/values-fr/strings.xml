@@ -3091,5 +3091,6 @@
 	
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Cibles de l\'anneau de navigation</string>
+    <string name="navigation_ring_summary">Éditer et réarranger les raccourcis de l\'anneau de navigation</string>
     <string name="navigation_ring_message">Appuyez sur l\'icône d\'édition pour ouvrir l\'anneau de navigation pour l\'édition.\n\nSélectionner une cible pour configurer son comportement.\n\nAppuyer sur la case a cocher de l\'icône pour enregistrer vos modifications ou restaurer pour réinitialiser les paramètres par défaut.</string>
 </resources>
