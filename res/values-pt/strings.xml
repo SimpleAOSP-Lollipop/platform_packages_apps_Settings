@@ -3010,10 +3010,13 @@
     <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_targets_message">Atalhos da tela de bloqueio</string>
+    <string name="lockscreen_targets_message">Atalhos</string>
     <string name="lockscreen_default_target">Padrão</string>
     <string name="lockscreen_message">Toque em um ícone à esquerda ou à direita para atribuir um atalho a tela de bloqueio.</string>
     <string name="lockscreen_choose_action_title">Escolha uma ação</string>
+	<string name="lockscreen_message_disabled">Atalhos estão desativados.</string>
+    <string name="lockscreen_shortcuts_enabled">Atalhos da tela de bloqueio estão ativados</string>
+    <string name="lockscreen_shortcuts_disabled">Atalhos da tela de bloqueio estão desativados</string>
 
     <!--Status bar data and wifi activity -->
     <string name="show_activity_indicators_title">Indicador de atividade</string>
