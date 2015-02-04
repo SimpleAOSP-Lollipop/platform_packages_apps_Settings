@@ -2888,7 +2888,6 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu d\'alimentation</string>
-    <string name="power_menu_title_summary">Afficher ou modifier les entrées du menu d\'alimentation</string>
     <string name="power_menu_power_title">Éteindre</string>
     <string name="power_menu_reboot_title">Menu de redémarrage</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>
