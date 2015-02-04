@@ -6515,6 +6515,7 @@
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_targets_message">Shortcuts</string>
     <string name="lockscreen_default_target">Default</string>
+    <string name="lockscreen_none_target">None</string>
     <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
     <string name="lockscreen_choose_action_title">Choose action</string>
     <string name="lockscreen_message_disabled">Shortcuts are disabled.</string>
