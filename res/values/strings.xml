@@ -6593,4 +6593,7 @@
     <string name="lcd_density_default">Device default</string>
     <string name="lcd_density_unsupported">Unsupported</string>
     <string name="restarting_ui">Restarting</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Enable navigation rings</string>
 </resources>
