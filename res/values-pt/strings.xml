@@ -3012,6 +3012,7 @@
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_targets_message">Atalhos da tela de bloqueio</string>
     <string name="lockscreen_default_target">Padrão</string>
+    <string name="lockscreen_none_target">Nenhum</string>
     <string name="lockscreen_message">Toque em um ícone à esquerda ou à direita para atribuir um atalho a tela de bloqueio.</string>
     <string name="lockscreen_choose_action_title">Escolha uma ação</string>
 
