@@ -3019,10 +3019,13 @@
     <string name="select_custom_activity_title">Sélectionner une activité personnalisée</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_targets_message">Raccourcis de l\'écran de verrouillage</string>
+    <string name="lockscreen_targets_message">Raccourcis</string>
     <string name="lockscreen_default_target">Par défaut</string>
     <string name="lockscreen_message">Appuyer sur une des icônes de la gauche ou la droite pour attribuer un raccourci sur l\'écran de verrouillage.</string>
     <string name="lockscreen_choose_action_title">Choisir une action</string>
+    <string name="lockscreen_message_disabled">Les raccourcis sont désactivés.</string>
+    <string name="lockscreen_shortcuts_enabled">Les raccourcis de l\'écran de verrouillage sont activés</string>
+    <string name="lockscreen_shortcuts_disabled">Les raccourcis de l\'écran de verrouillage sont désactivés</string>
     
     <!--Status bar data and wifi activity -->
     <string name="show_activity_indicators_title">indicateurs d\'activité</string>
@@ -3045,7 +3048,7 @@
     <string name="navigation_bar_reset_message">Supprimer les paramètres actuels et restaurer la configuration par défaut ?</string>
 	
     <!-- Navigation bar cursor -->
-    <string name="navigation_bar_arrow_keys_title">Afficher les touches fléchées pendant la frappe</string>
+    <string name="navigation_bar_arrow_keys_title">Afficher les touches fléchées</string>
     <string name="navigation_bar_arrow_keys_summary">Afficher les touches curseur gauche et droite lors de la saisie. Remplace le sélecteur de clavier.</string>
 	
     <!-- Doze pulse (ambient display) notification timeout -->
