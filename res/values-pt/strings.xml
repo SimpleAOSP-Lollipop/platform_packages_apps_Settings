@@ -3030,7 +3030,7 @@
     <!-- Nav bar customization -->
     <string name="navigation_bar_settings_title">Botões &amp; layout</string>
     <string name="navigation_bar_settings_summary">Edite e organize os botões da barra de navegação</string>
-    <string name="navigation_bar_help_text">Para começar toque no ícone de edição para desbloquear a barra de navegação para edição.\n\nVocê pode tocar em um ícone para alterar seu atalho, ou pressione e segure um ícone para reorganizar o layout.\n\nToque em salvar para confirmar as alterações, ou restaurar para redefinir o layout para as configurações padrão.</string>
+    <string name="navigation_bar_help_text">Para começar toque no ícone de edição para desbloquear a barra de navegação para edição.\n\nVocê pode tocar em um ícone para alterar seu atalho, ou pressione e segure um ícone para reorganizar o layout.\n\nToque \'Salvar\' para confirmar as alterações, ou \'Restaurar padrão\' para redefinir o layout para as configurações padrão.</string>
     <string name="navigation_restore_button_text">Restaurar\npadrão</string>
     <string name="navigation_edit_button_text">Editar</string>
     <string name="navigation_save_button_text">Salvar</string>
@@ -3082,6 +3082,16 @@
 
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Anel de navegação</string>
-    <string name="navigation_ring_summary">Permite editar e rearranjar o atalho do anel de navegação</string>
-    <string name="navigation_ring_message">Toque no ícone de edição para abrir o anel de navegação para edição.\n\nSelecione um destino para configurar o seu comportamento.\n\nToque no ícone de marca de seleção para salvar suas alterações, ou restaurar para redefinir as configurações padrão.</string>
+    <string name="navigation_ring_summary">Permite editar e organizar os atalhos do anel de navegação</string>
+    <string name="navigation_ring_message">Toque no ícone de edição para abrir o anel de navegação para edição.\n\nSelecione um destino para configurar o seu comportamento.\n\nToque no \'\u2713\' ícone de marcar seleção para salvar suas alterações, ou \'Restaurar padrão\' para redefinir as configurações padrão.</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">Densidade do LCD</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">Padrão do dispositivo</string>
+    <string name="lcd_density_unsupported">Não suportado</string>
+    <string name="restarting_ui">Reiniciando</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Ativar anéis de navegação</string>
 </resources>
