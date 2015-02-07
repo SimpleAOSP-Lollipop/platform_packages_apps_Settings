@@ -2731,9 +2731,9 @@
     <string name="blacklist_unknown_numbers_title">Неизвестные номера</string>
     <string name="blacklist_unknown_numbers_summary_disabled">Не блокировать звонки и сообщения от тех, кто не добвлен в контакты</string>
     <string name="blacklist_unknown_numbers_summary">Блокировать входящие <xliff:g id="type">%s</xliff:g> от номеров, которые не добавлены в контакты</string>
-    <string name="blacklist_summary_type_calls_only">звонков</string>
-    <string name="blacklist_summary_type_messages_only">сообщений</string>
-    <string name="blacklist_summary_type_calls_and_messages">звонков и сообщений</string>
+    <string name="blacklist_summary_type_calls_only">звонки</string>
+    <string name="blacklist_summary_type_messages_only">сообщения</string>
+    <string name="blacklist_summary_type_calls_and_messages">звонки и сообщения</string>
     <string name="blacklist_regex_title">Использовать символы</string>
     <string name="blacklist_regex_summary">Используйте . в качестве шаблона и * для повторения. Например 123. * блокирует номера, начинающиеся с 123 и. * 123. * блокирует цифры содержащие 123</string>
     <string name="blacklist_policy_block_calls">Блокировать входящие звонки</string>
