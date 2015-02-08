@@ -2712,16 +2712,16 @@
     <string name="blacklist_edit_dialog_title">Editar entrada na lista negra</string>
     <string name="blacklist_prefs">Definições</string>
     <string name="blacklist_button_delete">Excluir</string>
-    <string name="blacklist_empty_text">Você não tem números na lista negra. Clique em (+) para adicionar uma entrada.</string>
+    <string name="blacklist_empty_text">Você não\'tem números na lista negra. Clique em (+) para adicionar uma entrada.</string>
     <string name="blacklist_disabled_empty_text">Para bloquear chamadas ou mensagens de determinados números, ative a lista negra.</string>
     <string name="blacklist_summary_disabled">Desativado</string>
     <string name="blacklist_summary">Chamadas recebidas e mensagens de números de telefone na lista negra serão bloqueados</string>
     <string name="blacklist_notify">Mostrar notificação</string>
     <string name="blacklist_private_numbers_title">Números privados</string>
-    <string name="blacklist_private_numbers_summary_disabled">Não bloquear chamadas de números privados</string>
+    <string name="blacklist_private_numbers_summary_disabled">Não\'bloquear chamadas de números privados</string>
     <string name="blacklist_private_numbers_summary">Bloquear chamada <xliff:g id="type">%s</xliff:g> de números privados</string>
     <string name="blacklist_unknown_numbers_title">Números desconhecidos</string>
-    <string name="blacklist_unknown_numbers_summary_disabled">Não bloquear chamadas ou mensagens de números que não estejam na lista de contatos</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">Não\'bloquear chamadas ou mensagens de números que não estejam na lista de contatos</string>
     <string name="blacklist_unknown_numbers_summary">Bloquear chamada <xliff:g id="type">%s</xliff:g> de números que não estejam na lista de contatos</string>
     <string name="blacklist_summary_type_calls_only">Chamadas</string>
     <string name="blacklist_summary_type_messages_only">Messages</string>
@@ -2818,7 +2818,7 @@
     <string name="summary_heads_up_enabled">As notificações pop-up estão ativadas</string>
     <string name="summary_heads_up_disabled">As notificações pop-up estão desativadas</string>
     <string name="add_heads_up_package">Adicionar aplicação</string>
-    <string name="add_heads_up_dnd_summary">Não mostrar notificações pop-ups dentro destes aplicativos</string>
+    <string name="add_heads_up_dnd_summary">Não\'mostrar notificações pop-ups dentro destes aplicativos</string>
     <string name="add_heads_up_blacklist_summary">Não exibir notificações pop-ups destes aplicativos</string>
     <string name="heads_up_dnd_title">Não perturbe</string>
     <string name="heads_up_blacklist_title">Lista negra</string>
@@ -2876,7 +2876,7 @@
 
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Bloquear eventos de gestos de touch</string>
-    <string name="edge_gesture_service_summary">Não enviar eventos de touch da barra de navegação e status para os apps</string>
+    <string name="edge_gesture_service_summary">Não\'enviar eventos de touch da barra de navegação e status para os apps</string>
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu de energia</string>
@@ -3055,7 +3055,7 @@
     <string name="notifications_category_title">Notificações</string>
     <string name="less_notification_sounds_title">Sons de notificação menos frequentes</string>
     <string name="less_notification_sounds_summary">Permite limitar os sons de notificação de cada app para tocar por período de tempo ajustado</string>
-    <string name="less_notification_sounds_default">Padrão de comportamento</string>
+    <string name="less_notification_sounds_default">Comportamento padrão</string>
     <string name="less_notification_sounds_3s">3 segundos</string>
     <string name="less_notification_sounds_5s">5 segundos</string>
     <string name="less_notification_sounds_10s">10 segundos</string>
@@ -3071,7 +3071,7 @@
     <string name="power_notifications_category_title">Som do carregador</string>
 
     <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-    <string name="power_notifications_enable_title">Ativado</string>
+    <string name="power_notifications_enable_title">Ativar ou desativar</string>
     <string name="power_notifications_enable_summary">Tocar um som quando conectar ou desconectar o carregador</string>
     <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
     <string name="power_notifications_vibrate_title">Vibrar</string>
@@ -3094,4 +3094,8 @@
 
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Ativar anéis de navegação</string>
+
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Detecção do captive portal</string>
+    <string name="captive_portal_detection_summary">Se desativado, uma ligação aos servidores da google não é necessária a fim de detectar a ligação de dados.</string>
 </resources>
