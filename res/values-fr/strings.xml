@@ -2925,7 +2925,7 @@
     <string name="notification_volume_option_title">Volume de notification</string>
     
     <!-- QS tiles -->
-    <string name="notification_drawer_title">Tiroir de notification</string>
+    <string name="notification_drawer_title">Volet des paramètres rapides</string>
     <string name="qs_category_title">Paramètres rapides</string>
     <string name="qs_order_title">Sélectionner et ordonner les tuiles</string>
     <string name="add_qs">Ajouter une nouvelle tuile</string>
@@ -3103,4 +3103,8 @@
     
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Activer les anneaux de navigation</string>
+	
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Détection des portails captifs</string>
+    <string name="captive_portal_detection_summary">Si désactivé, la connexion aux serveurs de Google ne sera pas nécessaire afin de détecter la connexion de données.</string>
 </resources>
