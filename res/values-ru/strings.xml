@@ -2723,7 +2723,7 @@
     <string name="blacklist_empty_text">У вас нет номеров в черном списке. Добавьте запись нажатием на кнопку добавить(+).</string>
     <string name="blacklist_disabled_empty_text">Чтобы блокировать звонки и сообщения от этих номеров, включите черный список.</string>
     <string name="blacklist_summary_disabled">Выключено</string>
-    <string name="blacklist_summary">Входящие звокни и сообщения от этого номера будут заблокированы</string>
+    <string name="blacklist_summary">Входящие звонки и сообщения от номеров в черном списке будут блокированы</string>
     <string name="blacklist_notify">Показывать уведомленние</string>
     <string name="blacklist_private_numbers_title">Скрытые номера</string>
     <string name="blacklist_private_numbers_summary_disabled">Блокировать звонки со скрытых номеров</string>
@@ -2747,7 +2747,7 @@
 
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Значок выбора</string>
-    <string name="ime_switcher_notify_summary">Показывать кнопку выбора способо ввода</string>
+    <string name="ime_switcher_notify_summary">Показывать кнопку выбора способа ввода</string>
 
     <!--Power menu -->
     <string name="lockscreen_enable_power_menu_title">Показывать меню питания</string>
@@ -2826,7 +2826,7 @@
     <string name="summary_heads_up_enabled">Всплывающие уведомления включены</string>
     <string name="summary_heads_up_disabled">Всплывающие уведомления выключены</string>
     <string name="add_heads_up_package">Добавить</string>
-    <string name="add_heads_up_dnd_summary">Не показыват всплывающие уведомления в этих приложениях</string>
+    <string name="add_heads_up_dnd_summary">Не показывать всплывающие уведомления в этих приложениях</string>
     <string name="add_heads_up_blacklist_summary">Не показывать всплывающие уведомления от этих приложений</string>
     <string name="heads_up_dnd_title">Не беспокоить</string>
     <string name="heads_up_blacklist_title">Черный список</string>
@@ -3099,10 +3099,14 @@
    <!-- Display settings screen, setting options for LCD density -->
     <string name="lcd_density">Плотность экрана</string>
     <string name="lcd_density_summary">%d DPI</string>
-    <string name="lcd_density_default">По умолчанию</string>
+    <string name="lcd_density_default">по умолчанию</string>
     <string name="lcd_density_unsupported">Не поддерживается</string>
     <string name="restarting_ui">Перезапуск</string>
 
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Включить ярлыки панели навигации</string>
-	</resources>
+    
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Обнаружение кэптивного портала</string>
+    <string name="captive_portal_detection_summary">Если отключено, соединение с Google серверами не требуется для того, чтобы обнаружить подключение передачи данных.</string>
+</resources>
