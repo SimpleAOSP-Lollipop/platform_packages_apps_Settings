@@ -1689,6 +1689,7 @@
     <string name="battery_saver" msgid="1426682272004907982">"Économiseur de batterie"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="9023847300114669426">"Activer automatiquement"</string>
     <string name="battery_saver_turn_on_automatically_never" msgid="6610846456314373">"Jamais"</string>
+    <string name="battery_saver_turn_on_automatically_pct">À %1$d%% de batteriey</string>
     <!-- String.format failed for translation -->
     <!-- no translation found for battery_saver_turn_on_automatically_pct (3033681629861428940) -->
     <skip />
@@ -2926,7 +2927,7 @@
     <string name="notification_volume_option_title">Volume de notification</string>
     
     <!-- QS tiles -->
-    <string name="notification_drawer_title">Tiroir de notification</string>
+    <string name="notification_drawer_title">Volet des paramètres rapides</string>
     <string name="qs_category_title">Paramètres rapides</string>
     <string name="qs_order_title">Sélectionner et ordonner les tuiles</string>
     <string name="add_qs">Ajouter une nouvelle tuile</string>
@@ -3048,7 +3049,7 @@
 	
     <!-- Doze pulse (ambient display) notification timeout -->
     <string name="doze_timeout_title">Délai d\'affichage en mode veille</string>
-    <string name="doze_timeout_summary">Durée d\'affichage à l\'écran d\'une nouvelle notification</string>
+    <string name="doze_timeout_summary">Délai d\'affichage de la notification</string>
     
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Fermeture automatique du panneau</string>
@@ -3100,4 +3101,8 @@
     
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Activer les anneaux de navigation</string>
+	
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Détection des portails captifs</string>
+    <string name="captive_portal_detection_summary">Si désactivé, la connexion aux serveurs de Google ne sera pas nécessaire afin de détecter la connexion de données.</string>
 </resources>
