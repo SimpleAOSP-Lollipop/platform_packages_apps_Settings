@@ -1689,6 +1689,7 @@
     <string name="battery_saver" msgid="1426682272004907982">"Économiseur de batterie"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="9023847300114669426">"Activer automatiquement"</string>
     <string name="battery_saver_turn_on_automatically_never" msgid="6610846456314373">"Jamais"</string>
+    <string name="battery_saver_turn_on_automatically_pct">À %1$d%% de batteriey</string>
     <!-- String.format failed for translation -->
     <!-- no translation found for battery_saver_turn_on_automatically_pct (3033681629861428940) -->
     <skip />
