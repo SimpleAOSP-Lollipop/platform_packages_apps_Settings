@@ -2601,6 +2601,7 @@
     <string name="volume_keys_control_media_stream_summary">Teclas de volume controlarão volume de mídia, em vez de notificações</string>
 
     <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Opções para acordar</string>
     <string name="pref_volume_wake_title">Acordar com botões de volume</string>
     <string name="pref_volume_wake_summary">Com a tela apagada, pressione o botão de volume para cima ou baixo para ativar a tela</string>
     <string name="wakeup_when_plugged_unplugged_title">Acordar ao conectar ou desconectar</string>
@@ -3040,9 +3041,12 @@
     <string name="navigation_bar_arrow_keys_title">Teclas de seta durante a digitação</string>
     <string name="navigation_bar_arrow_keys_summary">Exibe botões de cursor esquerda e direita durante a digitação. Substitui IME switcher.</string>
 
-    <!-- Doze pulse (ambient display) notification timeout -->
+    <!-- Doze options -->
     <string name="doze_timeout_title">Limite para exibição de ambiente</string>
-    <string name="doze_timeout_summary">Tempo que a tela permanece acesa por pulso de notificação</string>
+    <string name="doze_timeout_summary">Tempo em que a tela permanece acesa por pulso de notificação</string>
+    <string name="doze_trigger_motion_title">Disparador do sensor de ambiente</string>
+    <string name="doze_trigger_motion_summary_on">O pulso de ambiente será disparado por gestos, sensor de movimentos significativos e notificações</string>
+    <string name="doze_trigger_motion_summary_off">O pulso de ambiente só será disparado por notificações</string>
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Fechar painel configurações rápidas</string>
