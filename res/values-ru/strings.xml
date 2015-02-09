@@ -2609,6 +2609,7 @@
     <string name="volume_keys_control_media_stream_summary">Громкость регулирует воспроизведения мультимедийных файлов, а не уведомлений</string>
 
     <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Параметры пробуждения</string>
     <string name="pref_volume_wake_title">Пробуждение устройства</string>
     <string name="pref_volume_wake_summary">Нажатие на кнопки громкости будет пробуждать устройство</string>
     <string name="wakeup_when_plugged_unplugged_title">Пробуждаться при зарядке</string>
@@ -3051,9 +3052,12 @@
     <string name="navigation_bar_arrow_keys_title">Отображение кнопок со стрелками</string>
     <string name="navigation_bar_arrow_keys_summary">Показывать левую и правую кнопки курсора во время набора текста. Заменяет кнопку выбора способа ввода.</string>
 
-    <!-- Doze pulse (ambient display) notification timeout -->
+    <!-- Doze options -->
     <string name="doze_timeout_title">Тайм-аут запрета спящего режима</string>
     <string name="doze_timeout_summary">Время, на которое экран остается включенным, для показа уведомления</string>
+    <string name="doze_trigger_motion_title">Триггерные датчики</string>
+    <string name="doze_trigger_motion_summary_on">Выход из спящего режима будет вызван жестом/датчиком движения и уведомлениями</string>
+    <string name="doze_trigger_motion_summary_off">Выход из спящего режима будет вызван только уведомлениями</string>
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Автозакрытие панели</string>
