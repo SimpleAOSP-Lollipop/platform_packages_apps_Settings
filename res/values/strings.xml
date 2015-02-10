@@ -6202,11 +6202,11 @@
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
-    <!-- per app controls for keyguard notifications -->
+    <!-- Per app controls for LP keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Show on lock screen</string>
     <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lock screen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lock screen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lock screen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Disable persistent notification on lock screen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show persistent notifications from this app on the lock screen</string>
 
     <!-- App secuirty -->
     <string name="app_security_title">App security</string>
