@@ -2699,7 +2699,7 @@
     <string name="recents_clear_all_location_bottom_left">Abaixo a esquerda</string>
     <string name="recents_clear_all_location_bottom_center">Abaixo no meio</string>
 
-    <!-- per app controls for keyguard notifications -->
+    <!-- Per app controls for LP keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Mostrar na tela de bloqueio</string>
     <string name="app_notification_show_on_keyguard_summary">Mostrar notificações deste app na tela de bloqueio</string>
     <string name="app_notification_no_ongoing_on_keyguard_title">Desativar em andamento na tela de bloqueio</string>
@@ -2950,6 +2950,10 @@
     <string name="qs_tile_headsup">Heads up</string>
     <string name="qs_screenshot_tile">Capturar tela</string>
     <string name="qs_sync_tile">Sincronização</string>
+    <string name="qs_battery_saver_tile">Economia de bateria</string>
+    <string name="qs_brightness_tile">Brilho</string>
+    <string name="qs_expanded_desktop_tile">Área de trabalho expandida</string>
+    <string name="qs_screen_off_tile">Apagar tela</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
