@@ -2610,6 +2610,7 @@
     <string name="volume_keys_control_media_stream_summary">Contrôler le volume des médias plutôt que des notifications avec les touches de volume.</string>
 
     <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Options de réveil</string>
     <string name="pref_volume_wake_title">Réveil par les boutons de volume</string>
     <string name="pref_volume_wake_summary">Appuyer sur les boutons de volume haut/bas réveillera l\'appareil</string>
     <string name="wakeup_when_plugged_unplugged_title">Réveil par le chargeur</string>
@@ -2750,11 +2751,11 @@
     <string name="ime_switcher_notify">Icône du sélecteur de clavier</string>
     <string name="ime_switcher_notify_summary">Afficher l\'icône du sélecteur de clavier</string>
 
-    <!--Power menu -->
+    <!-- Power menu -->
     <string name="lockscreen_enable_power_menu_title">Afficher le menu d\'alimentation sur l\'écran de verrouillage</string>
     <string name="lockscreen_enable_power_menu_summary">Activer l\'accès au menu d\'alimentation sur l\'écrans de verrouillage sécurisé</string>
 
-    <!--- Sms security limit -->
+    <!-- Sms security limit -->
     <string name="sms_security_check_limit_title">Limite des messages SMS</string>
     <string name="sms_security_check_limit_summary">Les applications peuvent envoyer %d messages en 30 minutes avant d\'exiger une confirmation</string>
 
@@ -2930,7 +2931,6 @@
     <string name="qs_category_title">Paramètres rapides</string>
     <string name="qs_order_title">Sélectionner et ordonner les tuiles</string>
     <string name="add_qs">Ajouter une nouvelle tuile</string>
-	
     <string name="qs_action_delete">Supprimer</string>
     <string name="qs_action_add">Ajouter</string>
     <string name="qs_action_no_more_tiles">Pas d\'autre tuiles disponibles</string>
@@ -2939,7 +2939,6 @@
     <string name="qs_main_tiles_summary_off">Trois ou quatre tuiles sur chaque rangée</string>
     <string name="qs_advanced_location_title">Emplacement des paramètres rapides avancés</string>
     <string name="qs_advanced_location_summary">Activer les paramètres avancés pour la localisation dans les paramètres rapides</string>
-
     <string name="qs_tile_wifi">Wi\u2011Fi</string>
     <string name="qs_tile_bluetooth">Bluetooth</string>
     <string name="qs_tile_display_inversion">inversion des couleurs</string>
@@ -2959,6 +2958,10 @@
     <string name="qs_tile_headsup">Notifications flottantes</string>
     <string name="qs_screenshot_tile">Capture d\'écran</string>
     <string name="qs_sync_tile">Synchroniser</string>
+    <string name="qs_battery_saver_tile">Économiseur de batterie</string>
+    <string name="qs_brightness_tile">Luminosité</string>
+    <string name="qs_expanded_desktop_tile">Bureau étendu</string>
+    <string name="qs_screen_off_tile">Éteindre l\'écran</string>
     
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
