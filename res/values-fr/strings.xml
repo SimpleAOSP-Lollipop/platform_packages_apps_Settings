@@ -1689,7 +1689,7 @@
     <string name="battery_saver" msgid="1426682272004907982">"Économiseur de batterie"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="9023847300114669426">"Activer automatiquement"</string>
     <string name="battery_saver_turn_on_automatically_never" msgid="6610846456314373">"Jamais"</string>
-    <string name="battery_saver_turn_on_automatically_pct">À %1$d%% de batteriey</string>
+    <string name="battery_saver_turn_on_automatically_pct">À %1$d%% de batterie</string>
     <!-- String.format failed for translation -->
     <!-- no translation found for battery_saver_turn_on_automatically_pct (3033681629861428940) -->
     <skip />
@@ -2708,11 +2708,11 @@
     <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
     <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
 	
-    <!-- per app controls for keyguard notifications -->
+    <!-- Per app controls for LP keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Afficher sur l\'écran de verrouillage</string>
     <string name="app_notification_show_on_keyguard_summary">Afficher les notifications de cette application sur l\'écran de verrouillage</string>
-    <string name="app_notification_no_ongoing_on_keyguard_title">Désactiver les notifications en cours sur l\'écran de verrouillage</string>
-    <string name="app_notification_no_ongoing_on_keyguard_summary">Ne jamais montrer les notifications en cours de cette application sur l\'écran de verrouillage</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Désactiver les notifications persistantes sur l\'écran de verrouillage</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Ne jamais montrer les notifications persistantes de cette application sur l\'écran de verrouillage</string>
 
     <!-- App secuirty -->
     <string name="app_security_title">Sécurité des applications</string>
@@ -2997,8 +2997,11 @@
     <string name="expanded_hide_status">Masquer la barre de statut</string>
     <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
     <string name="expanded_hide_both">Tout masquer</string>
-    <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application un état étendu, Régler \'Activé pour tous\' en position arrêt</string>
+    <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application du bureau étendu, Régler \'Activé pour tous\' en position arrêt</string>
     <string name="expanded_enabled_for_all">Activé pour tous</string>
+    <string name="expanded_desktop_style">Style du bureau étendu</string>
+    <string name="expanded_desktop_style_description">Choisir le style du bureau étendu par défaut</string>
+    <string name="expanded_desktop_title">Options du bureau étendu</string>
     
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Style de l\'horloge</string>
