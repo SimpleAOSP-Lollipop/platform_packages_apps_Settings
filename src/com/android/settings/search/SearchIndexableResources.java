@@ -31,9 +31,12 @@ import com.android.settings.SecuritySettings;
 import com.android.settings.WirelessSettings;
 import com.android.settings.accessibility.AccessibilitySettings;
 import com.android.settings.bluetooth.BluetoothSettings;
+import com.android.settings.cyanogenmod.NotificationDrawerSettings;
+import com.android.settings.cyanogenmod.PowerMenuActions;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.fuelgauge.BatterySaverSettings;
 import com.android.settings.fuelgauge.PowerUsageSummary;
+import com.android.settings.headsup.HeadsUpSettings;
 import com.android.settings.inputmethod.InputMethodAndLanguageSettings;
 import com.android.settings.location.LocationSettings;
 import com.android.settings.net.DataUsageMeteredSettings;
@@ -42,16 +45,14 @@ import com.android.settings.notification.OtherSoundSettings;
 import com.android.settings.notification.ZenModeSettings;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.sim.SimSettings;
+import com.android.settings.simpleaosp.AmbientSettings;
+import com.android.settings.simpleaosp.NavigationBarSettings;
+import com.android.settings.simpleaosp.StatusBarSettings;
 import com.android.settings.users.UserSettings;
 import com.android.settings.voice.VoiceInputSettings;
 import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
-import com.android.settings.simpleaosp.StatusBarSettings;
-import com.android.settings.simpleaosp.NavigationBarSettings;
-import com.android.settings.cyanogenmod.NotificationDrawerSettings;
-import com.android.settings.cyanogenmod.PowerMenuActions;
-import com.android.settings.headsup.HeadsUpSettings;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -260,6 +261,13 @@ public final class SearchIndexableResources {
                         DeviceInfoSettings.class.getName(),
                         R.drawable.ic_settings_about));
 
+        sResMap.put(AmbientSettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(AmbientSettings.class.getName()),
+                        NO_DATA_RES_ID,
+                        AmbientSettings.class.getName(),
+                        R.drawable.ic_settings_display));
+
 	sResMap.put(StatusBarSettings.class.getName(),
                 new SearchIndexableResource(
                         Ranking.getRankForClassName(StatusBarSettings.class.getName()),
@@ -274,8 +282,7 @@ public final class SearchIndexableResources {
                         NotificationDrawerSettings.class.getName(),
                         R.drawable.ic_settings_display));
 
-
-	sResMap.put(PowerMenuActions.class.getName(),
+        sResMap.put(PowerMenuActions.class.getName(),
                 new SearchIndexableResource(
                         Ranking.getRankForClassName(PowerMenuActions.class.getName()),
                         R.xml.power_menu_settings,
