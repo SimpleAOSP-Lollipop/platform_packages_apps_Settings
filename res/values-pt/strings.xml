@@ -2990,6 +2990,9 @@
     <string name="expanded_hide_both">Ocultar ambos</string>
     <string name="expanded_nothing_to_show">Para adicionar uma configuração personalizada por-app, ajuste \'Ativadar para todos\' para a posição desligado</string>
     <string name="expanded_enabled_for_all">Ativar para todos</string>
+    <string name="expanded_desktop_style">Estilo da área expandida</string>
+    <string name="expanded_desktop_style_description">Escolha um estilo padrão da área de trabalho expandida</string>
+    <string name="expanded_desktop_title">Opções da área de trabalho expandida</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Estilo do relógio</string>
