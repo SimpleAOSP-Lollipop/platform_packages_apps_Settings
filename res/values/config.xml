@@ -39,4 +39,7 @@
         Setting to false will disable Volume Rocker Wake support -->
     <bool name="config_show_volumeRockerWake">true</bool>
 
+   <!-- Volume Rocker media control Support -->
+    <bool name="config_show_VolumeKeysControlMedia">true</bool>
+
 </resources>

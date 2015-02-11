@@ -39,6 +39,7 @@ import android.os.Vibrator;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
+import android.preference.PreferenceCategory;
 import android.preference.SwitchPreference;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -110,6 +111,7 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
     private SwitchPreference mVolBtnMusicCtrl;
     private SwitchPreference mPowerSounds;
     private SwitchPreference mPowerSoundsVibrate;
+    private PreferenceCategory mMediaControl;
 
     private static final SettingPref PREF_DIAL_PAD_TONES = new SettingPref(
             TYPE_SYSTEM, KEY_DIAL_PAD_TONES, System.DTMF_TONE_WHEN_DIALING, DEFAULT_ON) {
@@ -218,16 +220,24 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         addPreferencesFromResource(R.xml.other_sound_settings);
 
         mContext = getActivity();
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         mSafeHeadsetVolume = (SwitchPreference) findPreference(KEY_SAFE_HEADSET_VOLUME);
         mSafeHeadsetVolume.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.SAFE_HEADSET_VOLUME, 1) != 0);
         mSafeHeadsetVolume.setOnPreferenceChangeListener(this);
 
+        mMediaControl = (PreferenceCategory) prefSet.findPreference(ADVANCED_SOUND_CATEGORY);
         mVolumeKeysControlMedia = (SwitchPreference) findPreference(KEY_VOL_MEDIA);
-        mVolumeKeysControlMedia.setChecked(Settings.System.getInt(getContentResolver(),
+        if (mVolumeKeysControlMedia != null) {
+            if (!getResources().getBoolean(R.bool.config_show_VolumeKeysControlMedia)) {
+                mMediaControl.removePreference(mVolumeKeysControlMedia);
+            } else {
+                 mVolumeKeysControlMedia.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM, 0) != 0);
-        mVolumeKeysControlMedia.setOnPreferenceChangeListener(this);
+       		 mVolumeKeysControlMedia.setOnPreferenceChangeListener(this);
+            }
+        }
 
         mVolumeKeyAdjustSound = (SwitchPreference) findPreference(VOLUME_KEY_ADJUST_SOUND);
         mVolumeKeyAdjustSound.setOnPreferenceChangeListener(this);
