@@ -2709,8 +2709,8 @@
     <!-- per app controls for keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Показывать на экране блокировки</string>
     <string name="app_notification_show_on_keyguard_summary">Показывать уведомления от этого приложения на экране блокировки</string>
-    <string name="app_notification_no_ongoing_on_keyguard_title">Отключить постоянно на экране блокировки</string>
-    <string name="app_notification_no_ongoing_on_keyguard_summary">Никогда не показывать уведомления от этого приложения на экране блокировки</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Отключить постоянное уведомление на экране блокировки</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Никогда не показывать постоянное уведомление от этого приложения на экране блокировки</string>
 
     <!-- App secuirty -->
     <string name="app_security_title">Безопасность приложения</string>
@@ -2992,8 +2992,11 @@
     <string name="expanded_hide_status">Скрыть строку состояния</string>
     <string name="expanded_hide_navigation">Скрыть панель навигации</string>
     <string name="expanded_hide_both">Скрыть оба</string>
-    <string name="expanded_nothing_to_show">Чтобы добавить пользовательскую конфигурацию в-приложение для расширенном состоянии, установите \'Включено для всех\' в выключенное положение</string>
+    <string name="expanded_nothing_to_show">Чтобы добавить пользовательскую конфигурацию в приложение для расширенного состояния, установите \'Включено для всех\' в выключенное положение</string>
     <string name="expanded_enabled_for_all">Включено для всех</string>
+    <string name="expanded_desktop_style">Стиль расширенного экрана</string>
+    <string name="expanded_desktop_style_description">Выберите по умолчанию стиль расширенного рабочего стола</string>
+    <string name="expanded_desktop_title">Настройки расширенного экрана</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Стиль часов</string>
