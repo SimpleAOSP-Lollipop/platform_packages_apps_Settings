@@ -3105,4 +3105,8 @@
     <!-- Captive Portal -->
     <string name="captive_portal_detection">Detecção do captive portal</string>
     <string name="captive_portal_detection_summary">Se desativado, uma ligação aos servidores da google não é necessária a fim de detectar a ligação de dados.</string>
+
+    <!-- Keyboard and Input ASS methods -->
+    <string name="show_enter_key_title">Mostrar tecla entrar</string>
+    <string name="show_enter_key_summary">Força o teclado a exibir a tecla entrar em vez de emoticon</string>
 </resources>
