@@ -23,8 +23,8 @@ import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.SearchIndexableResource;
-
 import android.provider.Settings;
+import android.os.Vibrator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,20 +41,28 @@ import com.android.settings.search.Indexable;
 public class NotificationDrawerSettings extends SettingsPreferenceFragment
 	implements OnPreferenceChangeListener, Indexable {
 
+    private static final String QS_VIBRATE = "quick_settings_vibrate";
     private static final String PREF_BLOCK_ON_SECURE_KEYGUARD = "block_on_secure_keyguard";
 
     private Preference mQSTiles;
+    private SwitchPreference mQsVibrate;
     private SwitchPreference mBlockOnSecureKeyguard;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.notification_drawer_settings);
+        PreferenceScreen prefSet = getPreferenceScreen();
+        Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
         mQSTiles = findPreference("qs_order");
 
+        mQsVibrate = (SwitchPreference) findPreference(QS_VIBRATE);
+        if (vibrator == null || !vibrator.hasVibrator()) {
+            prefSet.removePreference(mQsVibrate);
+        }
+
 	final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
-	PreferenceScreen prefSet = getPreferenceScreen();
         mBlockOnSecureKeyguard = (SwitchPreference) findPreference(PREF_BLOCK_ON_SECURE_KEYGUARD);
         if (lockPatternUtils.isSecure()) {
             mBlockOnSecureKeyguard.setChecked(Settings.Secure.getInt(getContentResolver(),
@@ -106,4 +114,3 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
                 }
             };
 }
-
