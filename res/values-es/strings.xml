@@ -2482,4 +2482,640 @@
     <string name="encrypt_talkback_dialog_message_pin" msgid="1890374082842868489">"Cuando introduzcas tu PIN para iniciar este dispositivo, los servicios de accesibilidad como <xliff:g id="SERVICE">%1$s</xliff:g> aún no estarán disponibles."</string>
     <string name="encrypt_talkback_dialog_message_pattern" msgid="4474332516537386384">"Cuando introduzcas tu patrón para iniciar este dispositivo, los servicios de accesibilidad como <xliff:g id="SERVICE">%1$s</xliff:g> aún no estarán disponibles."</string>
     <string name="encrypt_talkback_dialog_message_password" msgid="8166099418487083927">"Cuando introduzcas tu contraseña para iniciar este dispositivo, los servicios de accesibilidad como <xliff:g id="SERVICE">%1$s</xliff:g> aún no estarán disponibles."</string>
+
+     <!-- SimpleAOSP build date-->
+    <string name="build_date">Fecha de compilación de SimpleAOSP</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_title">Barra de navegación</string>
+    <!-- Navigation Bar Height -->
+    <string name="navigation_bar_height">Altura</string>
+    <string name="navigation_bar_height_54">54dp</string>
+    <string name="navigation_bar_height_52">52dp</string>
+    <string name="navigation_bar_height_50">50dp</string>
+    <string name="navigation_bar_height_48">48dp (por defecto)</string>
+    <string name="navigation_bar_height_44">44dp</string>
+    <string name="navigation_bar_height_40">40dp</string>
+    <string name="navigation_bar_height_36">36dp</string>
+    <string name="navigation_bar_height_32">32dp</string>
+    <string name="navigation_bar_height_28">28dp</string>
+    <string name="navigation_bar_height_24">24dp</string>
+    <string name="navigation_bar_height_20">20dp</string>
+    <string name="navigation_bar_height_0">0dp (oculto)</string>
+ 
+    <!-- Status bar-->
+    <string name="status_bar_title">Barra de estado</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Estilo de estado de la batería</string>
+    <string name="status_bar_battery_title">Icono de batería</string>
+    <string name="status_bar_battery_summary">Cambiar icono de la batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_landscape">Icono horizontal</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+
+    <!--  Volume rocker -->
+    <string name="volume_rocker_screen_title">Control de volumen</string>
+    <!--- Volume key cursor control -->
+    <string name="volume_key_cursor_control_title">Controlar cursor con las teclas de volumen</string>
+    <string name="volume_key_cursor_control_off">Desactivado</string>
+    <string name="volume_key_cursor_control_on">Volumen arriba/abajo mueve el cursor izquierda/derecha</string>
+    <string name="volume_key_cursor_control_on_reverse">Volumen arriba/abajo mueve el cursor derecha/izquierda</string>
+
+    <!-- Developer options - kill app long press back -->
+    <string name="kill_app_longpress_back">Botón de retroceso para cerrar aplicación</string>
+    <string name="kill_app_longpress_back_summary">Cerrar la aplicación en segundo plano pulsando la tecla de retroceso</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Tráfico de red</string>
+    <string name="show_network_traffic_state">Monitor del tráfico en la barra de estado</string>
+    <string name="network_traffic_summary">Habilitar varias opciones de trabajo de red en la barra de estado</string>
+    <string name="show_network_traffic_unit">Mostrar unidad</string>
+    <string name="show_network_traffic_frequency">Actualizar intervalo</string>
+    <string name="show_network_traffic_disable">Desactivado</string>
+    <string name="show_network_traffic_up">Saliente</string>
+    <string name="show_network_traffic_down">Entrante</string>
+    <string name="show_network_traffic_all">Saliente y entrante</string>
+    <string name="show_network_traffic_bit">Bits por segundo</string>
+    <string name="show_network_traffic_byte">Bytes por segundo</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto ocultar</string>
+    <string name="network_traffic_autohide_summary">Ocultar el monitor de tráfico cuando no haya actividad</string>
+    <string name="network_traffic_autohide_threshold">Umbral de inactividad</string>
+
+    <!-- Generic strings -->
+    <string name="ok_string">Vale</string>
+    <string name="default_string">Por defecto</string>
+    <string name="enabled_string">Activado</string>
+    <string name="disabled_string">Desactivado</string>
+    <string name="general_string">General</string>
+    <string name="reset_string">Reset</string>
+    <string name="reset">Restablecer</string>
+    <string name="reset_message">¿Restablecer todas las entradas a los valores por defecto?</string>
+    <string name="empty_string">Vacío</string>
+    <string name="ok">Vale</string>
+    <string name="font_size_sample">Ejemplo</string>
+    <string name="attention">Atención</string>
+    <string name="additional_options_title">Opciones adicionales</string>
+    <string name="style_title">Style</string>
+    <string name="add">Añadir</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selección de color</string>
+    <string name="press_color_to_apply">Presiona un color debajo para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Escoger</string>
+    <string name="color_default">Por defecto</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotación</string>
+    <string name="display_rotation_disabled">Desactivado</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
+
+    <!-- Advanced sound category -->
+    <string name="advanced_sound_category">Sonidos avanzados</string>
+
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">Volumen seguro de los auriculares</string>
+    <string name="safe_headset_volume_summary">Prevenir niveles altos de volumen cuando los auriculares se conectan por pimera vez</string>
+    <string name="safe_headset_volume_warning_dialog_text">Escuchar a un volumen alto durante períodos prolongados puede dañar la audición. Desactivar con precaución.</string>
+
+    <!-- Volume Keys Media Control -->
+    <string name="volume_keys_control_media_stream">Control media</string>
+    <string name="volume_keys_control_media_stream_summary">Las teclas de volumen controlan el volumen en lugar de notificaciones</string>
+
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Opciones de despierte</string>
+    <string name="pref_volume_wake_title">Despertar con los botones de volumen</string>
+    <string name="pref_volume_wake_summary">Presionando el botón de volumen arriba/abajo despertará el dispositivo</string>
+    <string name="wakeup_when_plugged_unplugged_title">Despertar en la carga</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Despertar dispositivo si el cargador está conectado/desconectado</string>
+
+    <!-- Volume adjust sound -->
+    <string name="volume_key_adjust_sound_title">Ajustar sonido con las teclas de volumen</string>
+    <string name="volume_key_adjust_sound_summary">Reproducir sonido al ajustar volumen con las teclas de volumen</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Reiniciar SystemUI</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Reinicio avanzado</string>
+    <string name="advanced_reboot_summary">Cuando esté desbloqueado, incluir opciones para reiniciar en Recovery, bootloader o realizar un reinicio por software</string>
+
+    <!-- Status bar double-tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Doble pulsación para dormir</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Presionar dos veces la barra de estado pondrá en reposo el disposiivo</string>
+
+    <!-- Status bar brightness control -->
+    <string name="status_bar_toggle_brightness">Control de brillo</string>
+    <string name="status_bar_toggle_brightness_summary">Ajustar brillo deslizando el dedo a cada lado de la barra de estado</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Tono progresivo</string>
+    <string name="increasing_ring_min_volume_title">Volumen de inicio</string>
+    <string name="increasing_ring_ramp_up_time_title">Tiempo de arranque</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">Retraso para cerrar la aplicación</string>
+
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">Ajustes de LAN</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Nombre de host del dispositivo</string>
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">Notificación de depuración</string>
+    <string name="adb_notify_summary">Mostrar una notificación cuando la depuración por USB esté activada</string>
+  
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Editar ajustes de luz</string>
+    <string name="pulse_speed_title">Velocidad y duración</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Personalizado</string>
+    <string name="dialog_delete_title">Eliminar</string>
+    <string name="dialog_delete_message">¿Eliminar los elementos seleccionados?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Siempre en</string>
+    <string name="pulse_length_very_short">Muy corto</string>
+    <string name="pulse_length_short">Corto</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Largo</string>
+    <string name="pulse_length_very_long">Muy largo</string>
+    <string name="pulse_speed_very_fast">Muy rápido</string>
+    <string name="pulse_speed_fast">Rápido</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Lento</string>
+    <string name="pulse_speed_very_slow">Muy lento</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Luz de batería</string>
+    <string name="battery_low_pulse_title">Mostrar si la batería es baja</string>
+    <string name="battery_light_list_title">Colores</string>
+    <string name="battery_light_low_color_title">Batería baja</string>
+    <string name="battery_light_medium_color_title">Cargando</string>
+    <string name="battery_light_full_color_title">Completamente cargada</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Luz de notificación</string>
+    <string name="notification_light_general_title">General</string>
+    <string name="notification_light_applist_title">Aplicaciones</string>
+    <string name="notification_light_phonelist_title">Teléfono</string>
+    <string name="notification_light_use_custom">Usar valores personalizados</string>
+    <string name="notification_light_default_value">Por defecto</string>
+    <string name="notification_light_missed_call_title">Llamada perdida</string>
+    <string name="notification_light_voicemail_title">Buzón de voz</string>
+
+    <!-- Profiles -->
+    <string name="profile_reset_title">Restablecer</string>
+    <string name="profiles_add">Añadir</string>
+    <string name="profile_choose_app">Escoger aplicación</string>
+
+    <!-- Recents panel settings -->
+    <string name="recents_panel_category">Aplicaciones recientes del panel</string>
+    <string name="show_clear_all_recents_button_title">Botón para limpiar todas las recientes</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botón para limpiar todo en el panel de recientes</string>
+    <string name="recents_clear_all_location_title">Localización del botón</string>
+    <string name="recents_clear_all_location_top_right">Arriba a la derecha</string>
+    <string name="recents_clear_all_location_top_left">Arriba a la izquierda</string>
+    <string name="recents_clear_all_location_top_center">Arriba en el centro</string>
+    <string name="recents_clear_all_location_bottom_right">Abajo a la derecha</string>
+    <string name="recents_clear_all_location_bottom_left">Abajo a la izquierda</string>
+    <string name="recents_clear_all_location_bottom_center">Abajo en el centro</string>
+
+    <!-- Per app controls for LP keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Mostrar en la pantala de bloqueo</string>
+    <string name="app_notification_show_on_keyguard_summary">Mostrar notificaciones de esta aplicación en la pantalla de bloqueo</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Desactivar notificación persistente en la pantalla de bloqueo</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Nunca mostrar notificaciones persistentes de esta aplicación en la pantalla de bloqueo</string>
+
+    <!-- App secuirty -->
+    <string name="app_security_title">Seguridad de la aplicación</string>
+
+   <!-- Blacklist preferences -->
+    <string name="blacklist_title">Lista negra</string>
+    <string name="blacklist_edit_dialog_title">Editar entrada de la lista negra</string>
+    <string name="blacklist_prefs">Ajustes</string>
+    <string name="blacklist_button_delete">Eliminar</string>
+    <string name="blacklist_empty_text">No tienes números en la lista negra. Añade una entrada presionando el botón de Añadir (+).</string>
+    <string name="blacklist_disabled_empty_text">Para bloquear llamadas y/o mensajes de números concretos, activa la lista negra.</string>
+    <string name="blacklist_summary_disabled">Desactivado</string>
+    <string name="blacklist_summary">Las llamadas entrantes y mensajes de los números de teléfono en la lista negra serán bloqueados</string>
+    <string name="blacklist_notify">Mostrar notificación</string>
+    <string name="blacklist_private_numbers_title">Números privados</string>
+    <string name="blacklist_private_numbers_summary_disabled">No bloquear llamadas de números privados</string>
+    <string name="blacklist_private_numbers_summary">Bloquear los entrantes <xliff:g id="type">%s</xliff:g> de números privados</string>
+    <string name="blacklist_unknown_numbers_title">Números desconocidos</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">No bloquear llamadas o mensajes de números que no están en la lista de contactos</string>
+    <string name="blacklist_unknown_numbers_summary">Bloquear los entrantes <xliff:g id="type">%s</xliff:g> de números que no están en la lista de contactos</string>
+    <string name="blacklist_summary_type_calls_only">llamadas</string>
+    <string name="blacklist_summary_type_messages_only">mensajes</string>
+    <string name="blacklist_summary_type_calls_and_messages">llamadas y mensajes</string>
+    <string name="blacklist_regex_title">Utilizar caracteres genéricos</string>
+    <string name="blacklist_regex_summary">Usar . como un caracter genérico y * para la repetición. Por ejemplo, 123.* bloquea números que empiezan con 123 y .*123.* bloquea números que contienen 123</string>
+    <string name="blacklist_policy_block_calls">Bloquear llamadas entrantes</string>
+    <string name="blacklist_policy_block_messages">Bloquear mensajes entrantes</string>
+    <string name="blacklist_bad_number_add">No se puede añadir un número no válido a la lista negra</string>
+
+    <!-- Blacklist management -->
+    <string name="remove_blacklist_number_title">Eliminar número</string>
+    <string name="remove_blacklist_entry">¿Quieres eliminar esta entrada de la lista negra?</string>
+    <string name="select_contact">Seleccionar contacto</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Selector de icono</string>
+    <string name="ime_switcher_notify_summary">Mostrar el selector de icono de teclado</string>
+
+    <!--Power menu -->
+    <string name="lockscreen_enable_power_menu_title">Mostrar menú de encendido en la pantalla de bloqueo</string>
+    <string name="lockscreen_enable_power_menu_summary">Permitir acceder al menú de encendido en las pantallas de bloqueo seguras</string>
+
+    <!--- Sms security limit -->
+    <string name="sms_security_check_limit_title">Límite de mensajes SMS</string>
+    <string name="sms_security_check_limit_summary">Las aplicaciones pueden enviar %d mensajes en 30 minutos antes de requerir confirmación</string>
+
+    <!-- Protected Apps -->
+    <string name="menu_hidden_apps_delete">Restablecer</string>
+    <string name="menu_hidden_apps_reset_lock">Restablecer patrón de desbloqueo</string>
+    <string name="protected_apps">Aplicaciones protegidas</string>
+    <string name="saving_protected_components">Guardando el estado del componente\u2026</string>
+
+    <!-- Protected apps lockpattern reset button -->
+    <string name="lockpattern_reset_button">Restablecer patrón</string>
+    <string name="lockpattern_settings_reset_summary">Introducir el correo primario y la contraseña asociada a la cuenta para restablecer el patrón de desbloqueo</string>
+    
+    <!-- Protected apps reset -->
+    <string name="pa_login_username_hint">Nombre de usuario (correo electrónico)</string>
+    <string name="pa_login_password_hint">Contraseña</string>
+    <string name="pa_login_submit_button">Iniciar sesión</string>
+    <string name="pa_login_checking_password">Comprobando cuenta\u2026</string>
+    <string name="pa_login_incorrect_login">El nombre de usuario o contraseña no es correcto</string>
+
+    <!-- Development shortcut -->
+    <string name="development_shortcut_title">Acceso directo de desarrollo</string>
+    <string name="development_shortcut_summary">Habilitar aplicaciones de gestión de accesos directos en la lista de aplicaciones recientes</string>
+
+    <!-- Quick settings disable on lockscreen -->
+    <string name="block_on_secure_keyguard_title">Desactivar ajustes rápidos en la pantalla de bloqueo</string>
+    <string name="block_on_secure_keyguard_summary">Desactivar acceso a los ajustes rápidos en las pantallas de bloqueo seguros</string>
+
+    <!-- QuickSettings: Quick Pulldown -->
+    <string name="title_quick_pulldown">Desplegable rápido</string>
+    <string name="summary_quick_pulldown">El deslizamiento lateral %1$s de la barra de estado muestra las configuraciones rápidas</string>
+    <string name="quick_pulldown_off">Apagado</string>
+    <string name="quick_pulldown_left">Izquierda</string>
+    <string name="quick_pulldown_right">Derecha</string>
+
+    <!-- Volume rocker music seek options -->
+    <string name="volbtn_music_controls_title">Controles de volumen de música</string>
+    <string name="volbtn_music_controls_summary">Cuando la pantalla está apagada, una larga pulsación del botón de volumen buscará pistas de música</string>
+    <string name="volume_button_toggle_info">La opción de despertar con el botón de volumen debe estar desactivada</string>
+
+    <!-- Show notification count -->
+    <string name="status_bar_notif_count_title">Mostrar contador de notificaciones</string>
+    <string name="status_bar_notif_count_summary">Mostrar el número de notificaciones pendientes</string>
+
+    <!--Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se ha escrito el PIN o contraseña correcta</string>
+
+    <!-- Lockscreen pin shuffle -->
+    <string name="lock_numpad_random_title">Cambiar el orden de los números en el teclado numérico</string>
+    <string name="lock_numpad_random_dialog_title">Orden aleatorio del teclado numérico</string>
+    <string name="lock_numpad_random_off">Desactivado</string>
+    <string name="lock_numpad_random_always">Siempre</string>
+    <string name="lock_numpad_random_on_request">A solicitud</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Mostrar las estadísticas desconocidas/sobrecontadas</string>
+    <string name="show_unac_and_overcounted_stats_summary">Mostrar las estadísticas desconocidas/sobrecontadas en el uso de la batería</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Desactivar barra de búsqueda en el menú de recientes</string>
+    <string name="recents_show_searchbar_summary">Desactivar o activar la barra de búsqueda en el menú de recientes</string>
+
+    <!-- Battery saver -->
+    <string name="battery_saver_title">Color de advertencia</string>
+    <string name="battery_saver_style_reset_message">¿Restablecer el color de advertencia del ahorro de batería?</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Notificaciones flotantes</string>
+    <string name="summary_heads_up_enabled">Las notificaciones flotantes están activadas</string>
+    <string name="summary_heads_up_disabled">Las notificaciones flotantes están desactivadas</string>
+    <string name="add_heads_up_package">Añadir aplicación</string>
+    <string name="add_heads_up_dnd_summary">No mostrar notificaciones flotantes en estas aplicaciones</string>
+    <string name="add_heads_up_blacklist_summary">No mostrar notificaciones flotantes de estas aplicaciones</string>
+    <string name="heads_up_dnd_title">No molestar</string>
+    <string name="heads_up_blacklist_title">Lista negra</string>
+    <string name="heads_up_disabled_notice">Para permitir que las aplicaciones muestren notificaciones interactivas en una ventana emergente de tu pantalla, activa las notificaciones flotantes</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Temporizador</string>
+    <string name="heads_up_time_out_summary">La notificación se mostrará <xliff:g id="number">%d</xliff:g> segundos</string>
+    <string name="heads_up_time_out_never_summary">La notificación se mostrará hasta que se descarte</string>
+    <string name="heads_up_time_out_2sec">2 segundos</string>
+    <string name="heads_up_time_out_4sec">4 segundos</string>
+    <string name="heads_up_time_out_6sec">6 segundos</string>
+    <string name="heads_up_time_out_8sec">8 segundos</string>
+    <string name="heads_up_time_out_10sec">10 segundos</string>
+    <string name="heads_up_time_out_never">Nunca</string>
+
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Grabador de pantalla</string>
+    <string name="screen_recorder_summary">Ajustes del grabador de pantalla</string>
+    <string name="screen_recorder_video_dimensions_title">Tamaño de vídeo</string>
+    <string name="screen_recorder_video_bitrate_title">Bitrate</string>
+    <string name="power_menu_screenrecord_title">Grabacion de pantalla</string>
+    <string name="screen_recorder_power_menu_summary">Añadir una entrada a la grabación de pantalla en el menú de encendido</string>
+    <!-- video sizes -->
+    <string name="screen_recorder_size_240x400">240x400</string>
+    <string name="screen_recorder_size_360x640">360x640</string>
+    <string name="screen_recorder_size_480x800">480x800</string>
+    <string name="screen_recorder_size_480x854">480x854</string>
+    <string name="screen_recorder_size_540x960">540x960</string>
+    <string name="screen_recorder_size_600x1024">600x1024</string>
+    <string name="screen_recorder_size_720x1280">720x1280</string>
+    <!-- frame rates -->
+    <string name="screen_recorder_bitrate_title_100000">100 kB/s</string>
+    <string name="screen_recorder_bitrate_title_250000">250 kB/s</string>
+    <string name="screen_recorder_bitrate_title_500000">500 kB/s</string>
+    <string name="screen_recorder_bitrate_title_1000000">1 MB/s</string>
+    <string name="screen_recorder_bitrate_title_2000000">2 MB/s</string>
+    <string name="screen_recorder_bitrate_title_3000000">3 MB/s</string>
+    <string name="screen_recorder_bitrate_title_4000000">4 MB/s</string>
+    <string name="screen_recorder_bitrate_title_5000000">5 MB/s</string>
+    <string name="screen_recorder_bitrate_title_10000000">10 MB/s</string>
+    <string name="screen_recorder_bitrate_title_20000000">20 MB/s</string>
+    <string name="screen_recorder_bitrate_100000">100000</string>
+    <string name="screen_recorder_bitrate_250000">250000</string>
+    <string name="screen_recorder_bitrate_500000">500000</string>
+    <string name="screen_recorder_bitrate_1000000">1000000</string>
+    <string name="screen_recorder_bitrate_2000000">2000000</string>
+    <string name="screen_recorder_bitrate_3000000">3000000</string>
+    <string name="screen_recorder_bitrate_4000000">4000000</string>
+    <string name="screen_recorder_bitrate_5000000">5000000</string>
+    <string name="screen_recorder_bitrate_10000000">10000000</string>
+    <string name="screen_recorder_bitrate_20000000">20000000</string>
+    <string name="screen_recorder_record_audio_title">Audio externo</string>
+    <string name="screen_recorder_record_audio_summary">Grabar audio desde un micrófono</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Bloquear los gestos de toques táctiles</string>
+    <string name="edge_gesture_service_summary">No enviar los eventos de toque en la navegación de aplicaciones y la barra de estado</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Menú de encendido</string>
+    <string name="power_menu_power_title">Apagar</string>
+    <string name="power_menu_reboot_title">Menú de reinicio</string>
+    <string name="power_menu_screenshot_title">Captura de pantalla</string>
+    <string name="power_menu_airplane_title">Modo avión</string>
+    <string name="power_menu_users_title">Cambiar usuario</string>
+    <string name="power_menu_settings_title">Ajustes de acceso directo</string>
+    <string name="power_menu_lockdown_title">Bloquear dispositivo</string>
+    <string name="power_menu_bug_report_title">Reportar fallo</string>
+    <string name="power_menu_sound_title">Panel de sonido</string>
+    <string name="power_menu_bug_report_disabled">Reportar error está desactivado en los ajustes de desarrollo</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrar al tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar al tocar las teclas</string>
+
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Mostrar tiempo</string>
+    <string name="status_bar_show_weather_summary">Mostrar el tiempo debajo del panel de ajustes rápidos</string>
+
+     <!--- Lock clock -->
+    <string name="lock_clock_title">Widget de reloj</string>
+    <string name="lock_clock_summary">Ver o cambiar como el widget \'cLock\' se mostrará</string>
+    <string name="weather_clock_title">Tiempo en la barra de estado</string>
+
+    <!-- Ignore last app when clearing recents -->
+    <string name="recents_clear_all_dismiss_all_title">Limpiar todas las tareas</string>
+    <string name="recents_clear_all_dismiss_all_summary">Incluir tareas en segundo plano al limpiarlas</string>
+
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Mostrar control deslizante de brillo</string>
+    <string name="qs_brightness_slider_summary">Mostrar un control deslizante de brillo en el panel de ajustes rápidos</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Vincular el volumen de timbre y notificación</string>
+    <string name="notification_volume_option_title">Volumen de notificación</string>
+
+    <!-- QS tiles -->
+    <string name="notification_drawer_title">Panel de notificaciones</string>
+    <string name="qs_category_title">Ajustes rápidos</string>
+    <string name="qs_order_title">Seleccionar orden de las casillas</string>
+    <string name="add_qs">Añadir nueva casilla</string>
+    <string name="qs_action_delete">Eliminar</string>
+    <string name="qs_action_add">Añadir</string>
+    <string name="qs_action_no_more_tiles">No hay más casillas disponibles</string>
+    <string name="qs_main_tiles_title">Agrandar primera fila</string>
+    <string name="qs_main_tiles_summary_on">Dos casillas principales en la primera fila</string>
+    <string name="qs_main_tiles_summary_off">Tres o cuatro casillas en cada fila</string>
+    <string name="qs_advanced_location_title">Ajustes rápidos avanzados de localización</string>
+    <string name="qs_advanced_location_summary">Habilitar ajustes avanzados para la localización en los ajustes rápidos</string>
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">Inversión de color</string>
+    <string name="qs_tile_cellular_data">Conexión de datos</string>
+    <string name="qs_tile_airplane_mode">Modo avión</string>
+    <string name="qs_tile_display_rotation">Rotación</string>
+    <string name="qs_tile_flashlight">Linterna</string>
+    <string name="qs_tile_location">Localización</string>
+    <string name="qs_tile_cast_screen">Enviar pantalla</string>
+    <string name="qs_tile_hotspot">Punto de acceso</string>
+    <string name="qs_tile_notifications">Notificaciones</string>
+    <string name="qs_tile_nfc">NFC</string>
+    <string name="qs_tile_compass">Compás</string>
+    <string name="qs_tile_lockscreen">Pantalla de bloqueo</string>
+    <string name="qs_tile_lte">LTE</string>
+    <string name="qs_tile_screen_timeout">Tiempo de espera de pantalla</string>
+    <string name="qs_tile_headsup">Notificaciones flotantes</string>
+    <string name="qs_screenshot_tile">Captura de pantalla</string>
+    <string name="qs_sync_tile">Sincronizar</string>
+    <string name="qs_battery_saver_tile">Ahorro de batería</string>
+    <string name="qs_brightness_tile">Brillo</string>
+    <string name="qs_expanded_desktop_tile">Escritorio expandido</string>
+    <string name="qs_screen_off_tile">Apagar pantalla</string>
+
+    <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Temas</string>
+
+    <!-- Default alarm ringtone -->
+    <string name="alarm_ringtone_title">Tono de alarma predeterminado</string>
+
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_dlg_title">¿Habilitar Privacy Guard?</string>
+    <string name="privacy_guard_enable_dlg_text">Cuando Privacy Guard está activado, %s no podrá acceder a los datos personales como contactos, mensajes, localización o registro de llamadas.</string>
+    <string name="privacy_guard_enable_dlg_system_app_text">Activando Privacy Guard para las aplicaciones integradas %s, la aplicación no podrá acceder a los datos personales como contactos, mensajes, localización o registro de llamadas. Esto puede ocasionar que otras aplicaciones se comporten de manera no correcta.</string>
+    <string name="privacy_guard_default_title">Activado por defecto</string>
+    <string name="privacy_guard_default_summary">No acceder a datos personales por defecto en las nuevas aplicaciones instaladas</string>
+    <string name="privacy_guard_notification_title">Notificación</string>
+    <string name="privacy_guard_notifiation_summary">Mostrar notificación si Privacy Guard está activado</string>
+    <string name="privacy_guard_manager_title">Privacy Guard</string>
+    <string name="privacy_guard_manager_summary">Gestionar cuales aplicaciones tienen acceso a los datos personales y otros permisos de aplicaciones</string>
+    <string name="privacy_guard_no_user_apps">No hay aplicaciones instaladas</string>
+    <string name="privacy_guard_filter_does_not_match">No hay aplicaciones con permisos relevantes instaladas</string>
+    <string name="privacy_guard_help_text">En esta pantalla puedes escoger para que aplicaciones Privacy Guard debe ser activado con un simple toque sobre ellos. Las aplicaciones seleccionadas no podrán acceder a los datos personales, como contactos, mensajes, localización o registro de llamadas. Una pulsación larga en una entrada permite ajustar los permisos específicos de la aplicación.\n\nPor defecto las aplicaciones integradas no se muestran. Si quieres mostrarlas o filtrar las aplicaciones para mostrar solo las que requieren acceso a datos personales por sus permisos, selecciona las respectivas opciones en el menú.</string>
+    <string name="privacy_guard_manager_show_system_apps">Mostrar aplicaciones integradas</string>
+    <string name="privacy_guard_manager_filter_permissions">Filtrar permisos</string>
+    <string name="privacy_guard_app_ops_detail_dialog_title">Atención</string>
+    <string name="privacy_guard_app_ops_detail_dialog_text">La aplicación seleccionada no requiere permisos que accedan a datos personales ¿Quieres modificar los otros permisos?</string>
+    <string name="privacy_guard_app_ops_detail_reset_dialog_text">¿Restablecer los permisos a predeterminados?</string>
+    <string name="app_ops_btn_text">Modificar</string>
+    <string name="app_ops_no_item_text">Esta aplicación no tiene permisos cambiables</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Escritorio expandido</string>
+    <string name="expanded_hide_nothing">No ocultar nada</string>
+    <string name="expanded_hide_status">Ocultar barra de estado</string>
+    <string name="expanded_hide_navigation">Ocultar barra de navegación</string>
+    <string name="expanded_hide_both">Ocultar ambos</string>
+    <string name="expanded_nothing_to_show">Para añadir una configuración personalizada por aplicación, ajusta \'Habilitado para todas\' a la posición de apagado</string>
+    <string name="expanded_enabled_for_all">Habilitado para todas</string>
+    <string name="expanded_desktop_style">Estilo de escritorio expandido</string>
+    <string name="expanded_desktop_style_description">Escoge un estilo de escritorio expandido por defecto</string>
+    <string name="expanded_desktop_title">Opciones de escritorio expandido</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_style_title">Estilo del reloj</string>
+    <string name="status_bar_clock">Hora y fecha</string>
+    <string name="status_bar_clock_title">Estilo de la hora y fecha</string>
+    <string name="status_bar_clock_summary">Cambiar varias opciones de hora y fecha</string> 
+    <string name="status_bar_clock_style_right">Derecha</string>
+    <string name="status_bar_clock_style_left">Izquierda</string>
+    <string name="status_bar_clock_style_center">Centrado</string>
+    <string name="status_bar_clock_style_hidden">Oculto</string>
+
+    <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="status_bar_am_pm_info">El reloj de 24-horas está activado</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Pequeño</string>
+    <string name="status_bar_am_pm_hidden">Oculto</string>
+
+    <!-- Extra bs strings needed -->
+    <string name="profile_applist_title">Aplicaciones</string>
+    <string name="picker_activities">Actividades</string>
+    <string name="select_custom_app_title">Seleccionar una aplicación personalizada</string>
+    <string name="select_custom_activity_title">Seleccionar una actividad personalizada</string>
+
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_targets_message">Accesos directos de la pantalla de bloqueo</string>
+    <string name="lockscreen_default_target">Por defecto</string>
+    <string name="lockscreen_none_target">Ninguno</string>
+    <string name="lockscreen_message">Pulsar un icono en la izquierda o derecha para reasignar un acceso directo de la pantalla de bloqueo.</string>
+    <string name="lockscreen_choose_action_title">Escoger acción</string>
+
+    <!--Status bar data and wifi activity -->
+    <string name="show_activity_indicators_title">Indicadores de actividad</string>
+    <string name="show_activity_indicators_summary">Mostrar indicadores Show indicators en las barras de señal</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_date_title">Estilo de fecha</string>
+    <string name="status_bar_date_none">Oculto (por defecto)</string>
+    <string name="status_bar_date_small">Pequeño</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Formato de fecha</string>
+
+    <!-- Nav bar customization -->
+    <string name="navigation_bar_settings_title">Botones y diseño</string>
+    <string name="navigation_bar_settings_summary">Edita y reordena los botones de la barra de navegación</string>
+    <string name="navigation_bar_help_text">Para comenzar pulsa el icono de editar para desbloquear la barra de navegación para edición.\n\nPuedes pulsar un icono y cambiar su acceso directo, o una larga pulsación para cambiarlo de posición.\n\nPulsa \'Guardar\' para aplicar los cambios, o \'Restablecer predeterminados\' para restablecer a los ajustes por defecto.</string>
+    <string name="navigation_restore_button_text">Restablecer\npredeterminados</string>
+    <string name="navigation_edit_button_text">Editar</string>
+    <string name="navigation_save_button_text">Guardar</string>
+    <string name="navigation_bar_reset_message">¿Eliminar los ajustes actuales y restablecer a la configuración por defecto?</string>
+
+    <!-- Navigation bar cursor -->
+    <string name="navigation_bar_arrow_keys_title">Mostrar las teclas de dirección mientras se escribe</string>
+    <string name="navigation_bar_arrow_keys_summary">Mostrar los botones de cursor izquierdo y derecho mientras se escribe. Sobreescibe el selector de teclado.</string>
+
+    <!-- Doze options -->
+    <string name="doze_timeout_title">Tiempo de espera de pantalla ambiente</string>
+    <string name="doze_timeout_summary">Tiempo que la pantalla permanece encendida para la notificación</string>
+    <string name="doze_trigger_motion_title">Sensores de ambiente</string>
+    <string name="doze_trigger_motion_summary_on">La pantalla ambiente se mostrará al detectar un gesto de movimiento y notificaciones</string>
+    <string name="doze_trigger_motion_summary_off">El sensor de la pantalla ambiente se mostrará solo con las notificaciones</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Cerrar panel automáticamente</string>
+    <string name="quick_settings_collapse_summary">Cerrar el panel de ajustes rápidos al pulsar</string>
+
+    <!-- QuickSettings 4 columns -->
+    <string name="qs_four_columns_title">Mostrar cuatro casillas por fila</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Notificaciones</string>
+    <string name="less_notification_sounds_title">Sonidos de notificación menos frecuentes</string>
+    <string name="less_notification_sounds_summary">Limitar los sonidos de notificaciones de cada aplicación para solo reproducirse una vez por cada periodo de tiempo</string>
+    <string name="less_notification_sounds_default">Comportamiento predeterminado</string>
+    <string name="less_notification_sounds_3s">3 segundos</string>
+    <string name="less_notification_sounds_5s">5 segundos</string>
+    <string name="less_notification_sounds_10s">10 segundos</string>
+    <string name="less_notification_sounds_15s">15 segundos</string>
+    <string name="less_notification_sounds_30s">30 segundos</string>
+    <string name="less_notification_sounds_45s">45 segundos</string>
+    <string name="less_notification_sounds_1m">1 minuto</string>
+    <string name="less_notification_sounds_2m">2 minutos</string>
+    <string name="less_notification_sounds_5m">5 minutos</string>
+
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Sonidos de carga</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Activar</string>
+    <string name="power_notifications_enable_summary">Reproducir un sonido al conectar o desconectar el cargador</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibrar</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Sonido de notificación</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silenciado</string>
+
+    <!-- Navigation ring shortcuts -->
+    <string name="navigation_ring_title">Tono de navegación</string>
+    <string name="navigation_ring_summary">Editar y reordenar los accesos directos de tonos de navegación</string>
+    <string name="navigation_ring_message">Pulsa el icono de editar para abrir la edición de tono de navegación.\n\nSelecciona el destino para configurar su comportamiento.\n\nPulsa el \'\u2713\' icono para guardar los cambios, o \'Restablecer predeterminados\' para restablecer los ajustes por defecto</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">Densidad LCD</string>
+    <string name="lcd_density_summary">DPI %d</string>
+    <string name="lcd_density_default">Dispositivo por defecto</string>
+    <string name="lcd_density_unsupported">No soportado</string>
+    <string name="restarting_ui">Reiniciando</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Activar tonos de navegación</string>
+
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Detección de portal cautivo</string>
+    <string name="captive_portal_detection_summary">Si está desactivado, una conexión a los servidores de Google no es necesaria para detectar la conexión a datos.</string>
+
+    <!-- Keyboard and Input ASS methods -->
+    <string name="show_enter_key_title">Mostrar tecla 'Enter'</string>
+    <string name="show_enter_key_summary">Forzar teclado a mostrar 'Enter' en lugar de la tecla de emoticonos</string>
 </resources>
