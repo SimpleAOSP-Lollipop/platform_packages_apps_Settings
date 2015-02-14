@@ -3111,6 +3111,13 @@
     <string name="captive_portal_detection_summary">Se desativado, uma ligação aos servidores da google não é necessária a fim de detectar a ligação de dados.</string>
 
     <!-- Keyboard and Input ASS methods -->
-    <string name="show_enter_key_title">Mostrar tecla entrar</string>
-    <string name="show_enter_key_summary">Força o teclado a exibir a tecla entrar em vez de emoticon</string>
+    <string name="show_enter_key_title">Mostrar tecla \'Enter\'</string>
+    <string name="show_enter_key_summary">Força o teclado a exibir a tecla \'Enter\' em vez de emoticons</string>
+
+    <!-- USB charging -->
+    <string name="usb_charging_title">Somente Carregar</string>
+    <string name="usb_charging_summary">Permite colocar o dispositivo somente para carregar, isto desabilita todos os dados e conexão de transferência de arquivos com o computador</string>
+
+    <!-- Setting switch summary when device is in Charging mode -->
+    <string name="enable_adb_summary_charging">Dispositivo está no modo carregar, depuração USB está desativada</string>
 </resources>
