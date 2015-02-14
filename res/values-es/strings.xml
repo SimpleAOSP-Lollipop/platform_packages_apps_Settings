@@ -3116,6 +3116,6 @@
     <string name="captive_portal_detection_summary">Si está desactivado, una conexión a los servidores de Google no es necesaria para detectar la conexión a datos.</string>
 
     <!-- Keyboard and Input ASS methods -->
-    <string name="show_enter_key_title">Mostrar tecla 'Enter'</string>
-    <string name="show_enter_key_summary">Forzar teclado a mostrar 'Enter' en lugar de la tecla de emoticonos</string>
+    <string name="show_enter_key_title">Mostrar tecla Enter</string>
+    <string name="show_enter_key_summary">Forzar teclado a mostrar Enter en lugar de la tecla de emoticonos</string>
 </resources>
