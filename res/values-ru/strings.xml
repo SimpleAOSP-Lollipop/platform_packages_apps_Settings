@@ -2797,6 +2797,10 @@
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Показать счетчик уведомлений</string>
     <string name="status_bar_notif_count_summary">Показывать счетчик количества уведомлений</string>
+    
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Тикер уведомления</string>
+    <string name="status_bar_ticker_summary">Текстовая анимация уведомления в строке состояния</string>
 
     <!--Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
@@ -2957,6 +2961,10 @@
     <string name="qs_tile_headsup">Всплывающие уведомления</string>
     <string name="qs_screenshot_tile">Скриншот</string>
     <string name="qs_sync_tile">Синхронизация</string>
+    <string name="qs_battery_saver_tile">Экономия батареи</string>
+    <string name="qs_brightness_tile">Яркость</string>
+    <string name="qs_expanded_desktop_tile">Расширенный экран</string>
+    <string name="qs_screen_off_tile">Выключить экран</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
@@ -3114,6 +3122,13 @@
     <string name="captive_portal_detection_summary">Если отключено, соединение с Google серверами не требуется для того, чтобы обнаружить подключение передачи данных.</string>
 
     <!-- Keyboard and Input ASS methods -->
-    <string name="show_enter_key_title">Показывать клавишу Enter</string>
-    <string name="show_enter_key_summary">Показывать на клавиатуре Enter вместо клавиши смайликов</string>
+    <string name="show_enter_key_title">Показывать клавишу \'Enter\'</string>
+    <string name="show_enter_key_summary">Показывать на клавиатуре \'Enter\' вместо клавиши смайликов</string>
+    
+    <!-- USB charging -->
+    <string name="usb_charging_title">Зарядка</string>
+    <string name="usb_charging_summary">Позволяет отключить все данные и соединения для передачи файлов с компьютером и поместить устройство в режим только зарядки</string>
+
+    <!-- Setting switch summary when device is in Charging mode -->
+    <string name="enable_adb_summary_charging">Устройство в режиме зарядки, USB отладка отключена</string>
 </resources>
