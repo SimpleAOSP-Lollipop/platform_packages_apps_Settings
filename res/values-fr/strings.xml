@@ -2800,6 +2800,10 @@
     <string name="status_bar_notif_count_title">Compteur de notifications</string>
     <string name="status_bar_notif_count_summary">Afficher le nombre de notifications similaires en attente</string>
 
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Notification texte</string>
+    <string name="status_bar_ticker_summary">Animation des notifications texte dans la barre de statut</string>
+
     <!--Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le PIN / mot de passe correct est entré</string>
@@ -3117,4 +3121,11 @@
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Afficher la touche Entrée</string>
     <string name="show_enter_key_summary">Forcer le clavier à afficher la touche entrée à la place de la touche émoticône</string>
+
+    <!-- USB charging -->
+    <string name="usb_charging_title">Chargement</string>
+    <string name="usb_charging_summary">Permet de désactiver toutes les données, transfert de fichiers avec l\'ordinateur et mettre l\'appareil en mode chargement uniquement</string>
+
+    <!-- Setting switch summary when device is in Charging mode -->
+    <string name="enable_adb_summary_charging">L\'appareil est en mode chargement, le débogage USB est désactivé</string>
 </resources>
