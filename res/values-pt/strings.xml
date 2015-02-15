@@ -2790,6 +2790,10 @@
     <string name="status_bar_notif_count_title">Contador de notificação</string>
     <string name="status_bar_notif_count_summary">Exibe o número de notificações pendentes na barra de status</string>
 
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Notificação animada</string>
+    <string name="status_bar_ticker_summary">Permite animação do texto de notificação na barra de status</string>
+
     <!--Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha for corretamente digitado</string>
@@ -3111,9 +3115,9 @@
     <string name="show_enter_key_summary">Força o teclado a exibir a tecla \'Enter\' em vez de emoticons</string>
 
     <!-- USB charging -->
-    <string name="usb_charging_title">Somente Carregar</string>
-    <string name="usb_charging_summary">Permite colocar o dispositivo somente para carregar, isto desabilita todos os dados e conexão de transferência de arquivos com o computador</string>
+    <string name="usb_charging_title">Modo carregamento</string>
+    <string name="usb_charging_summary">Isto coloca o dispositivo somente para carregar, desabilita todos os dados e conexão de transferência de arquivos com o computador</string>
 
     <!-- Setting switch summary when device is in Charging mode -->
-    <string name="enable_adb_summary_charging">Dispositivo está no modo carregar, depuração USB está desativada</string>
+    <string name="enable_adb_summary_charging">Dispositivo está no modo carregamento, depuração USB está desativada</string>
 </resources>
