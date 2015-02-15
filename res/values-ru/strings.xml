@@ -2962,6 +2962,10 @@
     <string name="qs_tile_headsup">Всплывающие уведомления</string>
     <string name="qs_screenshot_tile">Скриншот</string>
     <string name="qs_sync_tile">Синхронизация</string>
+    <string name="qs_battery_saver_tile">Экономия батареи</string>
+    <string name="qs_brightness_tile">Яркость</string>
+    <string name="qs_expanded_desktop_tile">Расширенный экран</string>
+    <string name="qs_screen_off_tile">Выключить экран</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
