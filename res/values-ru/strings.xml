@@ -2801,7 +2801,7 @@
     
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Тикер уведомления</string>
-    <string name="status_bar_ticker_summary">Текстовая анимация уведомления в статус баре</string>
+    <string name="status_bar_ticker_summary">Текстовая анимация уведомления в строке состояния</string>
 
     <!--Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
