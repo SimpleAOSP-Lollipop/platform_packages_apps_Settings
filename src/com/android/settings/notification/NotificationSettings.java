@@ -32,6 +32,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.UserHandle;
 import android.os.Vibrator;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceCategory;
@@ -55,7 +56,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class NotificationSettings extends SettingsPreferenceFragment implements Indexable {
+public class NotificationSettings extends SettingsPreferenceFragment implements Indexable,
+ 	Preference.OnPreferenceChangeListener {
     private static final String TAG = "NotificationSettings";
 
     private static final String KEY_SOUND = "sound";
@@ -75,6 +77,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private static final String KEY_INCREASING_RING_VOLUME = "increasing_ring_volume";
     private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
     private static final String KEY_BATTERY_LIGHT = "battery_light";
+    private static final String KEY_VOLUME_PANEL_TIMEOUT = "volume_panel_time_out";
 
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
 
@@ -99,6 +102,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     private TwoStatePreference mIncreasingRing;
     private IncreasingRingVolumePreference mIncreasingRingVolume;
+    private ListPreference mVolumePanelTimeOut;
     private Preference mPhoneRingtonePreference;
     private Preference mNotificationRingtonePreference;
     private TwoStatePreference mVibrateWhenRinging;
@@ -147,6 +151,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
         mNotificationAccess = findPreference(KEY_NOTIFICATION_ACCESS);
         refreshNotificationListeners();
+
+        mVolumePanelTimeOut = (ListPreference) findPreference(KEY_VOLUME_PANEL_TIMEOUT);
+        int volumePanelTimeOut = Settings.System.getInt(getContentResolver(),
+                Settings.System.VOLUME_PANEL_TIMEOUT, 3000);
+        mVolumePanelTimeOut.setValue(String.valueOf(volumePanelTimeOut));
+        mVolumePanelTimeOut.setOnPreferenceChangeListener(this);
+        updateVolumePanelTimeOutSummary(volumePanelTimeOut);
     }
 
     @Override
@@ -163,6 +174,26 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         super.onPause();
         mVolumeCallback.stopSample();
         mSettingsObserver.register(false);
+    }
+
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        if (preference == mVolumePanelTimeOut) {
+            int volumePanelTimeOut = Integer.valueOf((String) objValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.VOLUME_PANEL_TIMEOUT,
+                    volumePanelTimeOut);
+            updateVolumePanelTimeOutSummary(volumePanelTimeOut);
+            return true;
+        }
+        return false;
+    }
+
+    private void updateVolumePanelTimeOutSummary(int value) {
+        String summary = getResources().getString(R.string.volume_panel_time_out_summary,
+                value / 1000);
+        mVolumePanelTimeOut.setSummary(summary);
     }
 
     // === Volumes ===
