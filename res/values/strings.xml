@@ -6711,4 +6711,9 @@
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notification</string>
     <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
+
+    <!-- Ignore interruptions during media playback -->
+    <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
+    <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when
+ a notification arrives</string>
 </resources>
