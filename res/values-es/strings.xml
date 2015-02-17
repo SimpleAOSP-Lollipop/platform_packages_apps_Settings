@@ -3118,4 +3118,11 @@
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Mostrar tecla \'Enter\'</string>
     <string name="show_enter_key_summary">Forzar teclado a mostrar \'Enter\' en lugar de la tecla de emoticonos</string>
+
+    <!-- USB charging -->
+    <string name="usb_charging_title">Cargando</string>
+    <string name="usb_charging_summary">Permite desactivar todas las conexiones de dato y transferencia de archivos con el ordenador y deja el dispositivo únicamente en modo de carga</string>
+
+    <!-- Setting switch summary when device is in Charging mode -->
+    <string name="enable_adb_summary_charging">El dispositivo está en modo de carga, la depuración USB está desactivada</string>
 </resources>
