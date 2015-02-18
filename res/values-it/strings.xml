@@ -2862,7 +2862,6 @@
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_title_summary">Modifica le voci del power menu</string>
-    <string name="power_menu_power_title">Spegni</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_airplane_title">Modalità aereo</string>

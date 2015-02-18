@@ -2884,7 +2884,6 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu energia</string>
-    <string name="power_menu_power_title">Desligar</string>
     <string name="power_menu_reboot_title">Menu reiniciar</string>
     <string name="power_menu_screenshot_title">Capturar tela</string>
     <string name="power_menu_airplane_title">Modo avião</string>
