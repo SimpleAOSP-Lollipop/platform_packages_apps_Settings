@@ -2487,18 +2487,18 @@
     <string name="navigation_bar_title">Barra de navegação</string>
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Altura</string>
-    <string name="navigation_bar_height_54">54dp</string>
-    <string name="navigation_bar_height_52">52dp</string>
-    <string name="navigation_bar_height_50">50dp</string>
-    <string name="navigation_bar_height_48">48dp (padrão)</string>
-    <string name="navigation_bar_height_44">44dp</string>
-    <string name="navigation_bar_height_40">40dp</string>
-    <string name="navigation_bar_height_36">36dp</string>
-    <string name="navigation_bar_height_32">32dp</string>
-    <string name="navigation_bar_height_28">28dp</string>
-    <string name="navigation_bar_height_24">24dp</string>
-    <string name="navigation_bar_height_20">20dp</string>
-    <string name="navigation_bar_height_0">0dp (ocultar)</string>
+    <string name="navigation_bar_height_54">54 dpi</string>
+    <string name="navigation_bar_height_52">52 dpi</string>
+    <string name="navigation_bar_height_50">50 dpi</string>
+    <string name="navigation_bar_height_48">48 dpi (padrão)</string>
+    <string name="navigation_bar_height_44">44 dpi</string>
+    <string name="navigation_bar_height_40">40 dpi</string>
+    <string name="navigation_bar_height_36">36 dpi</string>
+    <string name="navigation_bar_height_32">32 dpi</string>
+    <string name="navigation_bar_height_28">28 dpi</string>
+    <string name="navigation_bar_height_24">24 dpi</string>
+    <string name="navigation_bar_height_20">20 dpi</string>
+    <string name="navigation_bar_height_0">0 dpi (ocultar)</string>
  
     <!-- Status bar-->
     <string name="status_bar_title">Barra de status</string>
@@ -2506,7 +2506,7 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
     <string name="status_bar_battery_title">Ícones da bateria</string>
-    <string name="status_bar_battery_summary">Alterar ícones da bateria</string>
+    <string name="status_bar_battery_summary">Personalize e configure seu ícone de bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Retrato</string>
     <string name="status_bar_battery_style_icon_landscape">Paisagem</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
@@ -2533,8 +2533,8 @@
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Tráfego de rede</string>
-    <string name="show_network_traffic_state">Monitor de tráfego na barra de status</string>
-    <string name="network_traffic_summary">Permite várias opções de tráfego de rede na barra de status</string>
+    <string name="show_network_traffic_state">Monitorar tráfego de dados</string>
+    <string name="network_traffic_summary">Configure o tráfego de rede na barra de status</string>
     <string name="show_network_traffic_unit">Unidade de exibição</string>
     <string name="show_network_traffic_frequency">Intervalo de atualização</string>
     <string name="show_network_traffic_disable">Desativado</string>
@@ -2603,9 +2603,9 @@
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Opções para acordar</string>
     <string name="pref_volume_wake_title">Acordar com botões de volume</string>
-    <string name="pref_volume_wake_summary">Com a tela apagada, pressione o botão de volume para cima ou baixo para ativar a tela</string>
+    <string name="pref_volume_wake_summary">Com a tela apagada, pressione o botão de volume para cima ou baixo para ligar a tela</string>
     <string name="wakeup_when_plugged_unplugged_title">Acordar ao conectar ou desconectar</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Ligar a tela quando conectar ou desconectar o carregador</string>
 
     <!-- Volume adjust sound -->
     <string name="volume_key_adjust_sound_title">Som do ajuste de volume</string>
@@ -2620,7 +2620,7 @@
 
     <!-- Status bar double-tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Toque duplo para dormir</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status para apagar a tela</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status para desligar a tela</string>
 
     <!-- Status bar brightness control -->
     <string name="status_bar_toggle_brightness">Controle de brilho</string>
@@ -2812,7 +2812,7 @@
 
     <!-- Show/Hide Search Bar -->
     <string name="recents_show_searchbar">Barra de pesquisa no menu recentes</string>
-    <string name="recents_show_searchbar_summary">Ativa ou desativa a barra de pesquisa no menu recentes</string>
+    <string name="recents_show_searchbar_summary">Desativa ou ativa a barra de pesquisa no menu recentes</string>
 
     <!-- Battery saver -->
     <string name="battery_saver_title">Cor do aviso</string>
@@ -2905,8 +2905,8 @@
     <string name="status_bar_show_weather_summary">Exibe a previsão do tempo acima do painel de configurações rápidas</string>
 
      <!--- Lock clock -->
-    <string name="lock_clock_title">Widget do cLock</string>
-    <string name="lock_clock_summary">Visualizar ou alterar como o \'cLock\' e widgets da tela de bloqueio são exibidos</string>
+    <string name="lock_clock_title">Widget e Relógio</string>
+    <string name="lock_clock_summary">Visualize ou ajuste como o \'cLock\' e widgets são exibidos</string>
     <string name="weather_clock_title">Painel do tempo na barra de status</string>
 
     <!-- Ignore last app when clearing recents -->
@@ -2930,11 +2930,11 @@
     <string name="qs_action_delete">Apagar</string>
     <string name="qs_action_add">Add</string>
     <string name="qs_action_no_more_tiles">Não há mais tiles disponíveis</string>
-    <string name="qs_main_tiles_title">Primeira linha de tiles</string>
-    <string name="qs_main_tiles_summary_on">Ampliar os dois principais tiles na primeira linha</string>
-    <string name="qs_main_tiles_summary_off">Colocar três tiles em cada linha</string>
+    <string name="qs_main_tiles_title">Linha de tiles</string>
+    <string name="qs_main_tiles_summary_on">Ampliando dois principais na primeira linha</string>
+    <string name="qs_main_tiles_summary_off">Exibindo três tiles em cada linha</string>
     <string name="qs_advanced_location_title">Localização avançada</string>
-    <string name="qs_advanced_location_summary">Ativa opções avançadas de localização no painel de configurações rápidas</string>
+    <string name="qs_advanced_location_summary">Ativar opções avançadas de localização no painel de configurações rápidas</string>
     <string name="qs_tile_wifi">Wi\u2011Fi</string>
     <string name="qs_tile_bluetooth">Bluetooth</string>
     <string name="qs_tile_display_inversion">Inversão de cores</string>
@@ -2956,8 +2956,8 @@
     <string name="qs_sync_tile">Sincronização</string>
     <string name="qs_battery_saver_tile">Economia de bateria</string>
     <string name="qs_brightness_tile">Brilho</string>
-    <string name="qs_expanded_desktop_tile">Área de trabalho expandida</string>
-    <string name="qs_screen_off_tile">Apagar tela</string>
+    <string name="qs_expanded_desktop_tile">Tela expandida</string>
+    <string name="qs_screen_off_tile">Desligar tela</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
@@ -2988,22 +2988,22 @@
     <string name="app_ops_no_item_text">Este aplicativo não tem permissões mutáveis</string>
 
     <!-- Expanded desktop -->
-    <string name="power_menu_expanded_desktop">Área de trabalho expandida</string>
+    <string name="power_menu_expanded_desktop">Tela expansível</string>
     <string name="expanded_hide_nothing">Não ocultar nada</string>
     <string name="expanded_hide_status">Ocultar barra de status</string>
     <string name="expanded_hide_navigation">Ocultar barra de navegação</string>
-    <string name="expanded_hide_both">Ocultar ambos</string>
+    <string name="expanded_hide_both">Ocultar tudo</string>
     <string name="expanded_nothing_to_show">Para adicionar uma configuração personalizada por-app, ajuste \'Ativadar para todos\' para a posição desligado</string>
     <string name="expanded_enabled_for_all">Ativar para todos</string>
-    <string name="expanded_desktop_style">Estilo da área expandida</string>
-    <string name="expanded_desktop_style_description">Escolha um estilo padrão da área de trabalho expandida</string>
-    <string name="expanded_desktop_title">Opções da área de trabalho expandida</string>
+    <string name="expanded_desktop_style">Modo de operação</string>
+    <string name="expanded_desktop_style_description">Escolha um modo de operação padrão para a tela expansível</string>
+    <string name="expanded_desktop_title">Opções da tela expansível</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Estilo do relógio</string>
     <string name="status_bar_clock">Relógio &amp; data</string>
     <string name="status_bar_clock_title">Relógio</string>
-    <string name="status_bar_clock_summary">Permite mudar várias opções do relógio &amp; data</string> 
+    <string name="status_bar_clock_summary">Personalize e configure o seu relógio &amp; data</string> 
     <string name="status_bar_clock_style_right">Direita</string>
     <string name="status_bar_clock_style_left">Esquerda</string>
     <string name="status_bar_clock_style_center">Centro</string>
@@ -3061,10 +3061,10 @@
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Fechar painel configurações rápidas</string>
-    <string name="quick_settings_collapse_summary">Fecha automaticamente o painel de configurações rápidas ao tocar e alternar opções</string>
+    <string name="quick_settings_collapse_summary">Fechar automaticamente o painel de configurações rápidas ao tocar em uma tile</string>
 
     <!-- QuickSettings 4 columns -->
-    <string name="qs_four_columns_title">Exibir quatro tiles por linha</string>
+    <string name="qs_four_columns_title">Quatro por linha</string>
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Notificações</string>
@@ -3096,8 +3096,8 @@
     <string name="power_notifications_ringtone_silent">Silencioso</string>
 
     <!-- Navigation ring shortcuts -->
-    <string name="navigation_ring_title">Anel de navegação</string>
-    <string name="navigation_ring_summary">Permite editar e organizar os atalhos do anel de navegação</string>
+    <string name="navigation_ring_title">Opções dos anéis</string>
+    <string name="navigation_ring_summary">Adicione, remova ou organize os anéis de navegação</string>
     <string name="navigation_ring_message">Toque no ícone de edição para abrir o anel de navegação para edição.\n\nSelecione um destino para configurar o seu comportamento.\n\nToque no \'\u2713\' ícone de marcar seleção para salvar suas alterações, ou \'Restaurar padrão\' para redefinir as configurações padrão.</string>
 
     <!-- Display settings screen, setting options for LCD density -->
@@ -3108,7 +3108,7 @@
     <string name="restarting_ui">Reiniciando</string>
 
     <!-- Navring targets (enable/disable) -->
-    <string name="navigation_ring_enable_title">Ativar anéis de navegação</string>
+    <string name="navigation_ring_enable_title">Anéis de navegação</string>
 
     <!-- Captive Portal -->
     <string name="captive_portal_detection">Detecção do captive portal</string>
