@@ -69,15 +69,6 @@
                 android:summary="@string/doze_timeout_summary"
                 android:dependency="doze" />
 
-       <!-- Ambient trigger motion -->
-       <SwitchPreference
-                android:key="doze_trigger_motion"
-                android:title="@string/doze_trigger_motion_title"
-                android:summaryOn="@string/doze_trigger_motion_summary_on"
-                android:summaryOff="@string/doze_trigger_motion_summary_off"
-                android:persistent="false"
-                android:dependency="doze" />
-
         <ListPreference
                 android:key="lcd_density"
                 android:title="@string/lcd_density"

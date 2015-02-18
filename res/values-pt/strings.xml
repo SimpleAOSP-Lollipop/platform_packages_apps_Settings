@@ -3055,9 +3055,6 @@
     <!-- Doze options -->
     <string name="doze_timeout_title">Limite para exibição de ambiente</string>
     <string name="doze_timeout_summary">Tempo em que a tela permanece acesa por pulso de notificação</string>
-    <string name="doze_trigger_motion_title">Disparador do sensor de ambiente</string>
-    <string name="doze_trigger_motion_summary_on">O pulso de ambiente será disparado por gestos, sensor de movimentos significativos e notificações</string>
-    <string name="doze_trigger_motion_summary_off">O pulso de ambiente só será disparado por notificações</string>
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Fechar painel configurações rápidas</string>
