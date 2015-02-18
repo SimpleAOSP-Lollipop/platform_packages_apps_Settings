@@ -2893,7 +2893,6 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Меню питания</string>
-    <string name="power_menu_power_title">Выключение</string>
     <string name="power_menu_reboot_title">Меню перезагрузки</string>
     <string name="power_menu_screenshot_title">Скриншот</string>
     <string name="power_menu_airplane_title">Режим полета</string>
@@ -3066,9 +3065,6 @@
     <!-- Doze options -->
     <string name="doze_timeout_title">Тайм-аут запрета спящего режима</string>
     <string name="doze_timeout_summary">Время, на которое экран остается включенным, для показа уведомления</string>
-    <string name="doze_trigger_motion_title">Триггерные датчики</string>
-    <string name="doze_trigger_motion_summary_on">Выход из спящего режима будет вызван жестом/датчиком движения и уведомлениями</string>
-    <string name="doze_trigger_motion_summary_off">Выход из спящего режима будет вызван только уведомлениями</string>
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Автозакрытие панели</string>

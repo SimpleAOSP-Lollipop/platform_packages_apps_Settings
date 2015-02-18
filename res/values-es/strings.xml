@@ -2887,7 +2887,6 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Menú de encendido</string>
-    <string name="power_menu_power_title">Apagar</string>
     <string name="power_menu_reboot_title">Menú de reinicio</string>
     <string name="power_menu_screenshot_title">Captura de pantalla</string>
     <string name="power_menu_airplane_title">Modo avión</string>
