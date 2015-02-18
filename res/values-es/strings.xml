@@ -3056,9 +3056,6 @@
     <!-- Doze options -->
     <string name="doze_timeout_title">Tiempo de espera de pantalla ambiente</string>
     <string name="doze_timeout_summary">Tiempo que la pantalla permanece encendida para la notificación</string>
-    <string name="doze_trigger_motion_title">Sensores de ambiente</string>
-    <string name="doze_trigger_motion_summary_on">La pantalla ambiente se mostrará al detectar un gesto de movimiento y notificaciones</string>
-    <string name="doze_trigger_motion_summary_off">El sensor de la pantalla ambiente se mostrará solo con las notificaciones</string>
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Cerrar panel automáticamente</string>
