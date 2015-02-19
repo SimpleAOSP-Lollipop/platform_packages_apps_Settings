@@ -2613,7 +2613,7 @@
     <string name="pref_volume_wake_title">Пробуждение устройства</string>
     <string name="pref_volume_wake_summary">Нажатие на кнопки громкости будет пробуждать устройство</string>
     <string name="wakeup_when_plugged_unplugged_title">Пробуждаться при зарядке</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Устройство пробуждается, когда подкл./откл. зарядное устройство</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Включать экран при подключении и отключении зарядного устройства</string>
 
     <!-- Volume adjust sound -->
     <string name="volume_key_adjust_sound_title">Звук регулировки громкости</string>
@@ -2627,8 +2627,8 @@
     <string name="advanced_reboot_summary">Включают в себя параметры в меню питания для перезагрузки в рекавери, загрузчик или выполнение мягкой перезагрузки</string>
 
     <!-- Status bar double-tap to sleep -->
-    <string name="status_bar_double_tap_to_sleep_title">Двойной тап для сна</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Двойной тап по строке состояния блокирует девайс</string>
+    <string name="status_bar_double_tap_to_sleep_title">Выключать экран при двойном нажатии</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Дважды коснитесь строки состояния, чтобы перевести устройство в спящий режим</string>
 
     <!-- Status bar brightness control -->
     <string name="status_bar_toggle_brightness">Регулировка громкости</string>
@@ -2931,8 +2931,8 @@
     <!-- QS tiles -->
     <string name="notification_drawer_title">Панель уведомлений</string>
     <string name="qs_category_title">Быстрые настройки</string>
-    <string name="qs_order_title">Выберите и переместите плитки</string>
-    <string name="add_qs">Добавить новый</string>
+    <string name="qs_order_title">Выбрать и упорядочить плитки</string>
+    <string name="add_qs">Добавление плитки</string>
 
     <string name="qs_action_delete">Удалить</string>
     <string name="qs_action_add">Добавить</string>
@@ -2941,16 +2941,16 @@
     <string name="qs_main_tiles_summary_on">Две главных плитки в первом ряду</string>
     <string name="qs_main_tiles_summary_off">Три или четыре плитки в каждом ряду</string>
     <string name="qs_advanced_location_title">Расширенные настройки местоположения</string>
-    <string name="qs_advanced_location_summary">Включить дополнительные настройки местоположения</string>
+    <string name="qs_advanced_location_summary">Включить расширенные настройки для местоположения в быстрых настройках</string>
     <string name="qs_tile_wifi">Wi\u2011Fi</string>
     <string name="qs_tile_bluetooth">Bluetooth</string>
     <string name="qs_tile_display_inversion">Инверсия цветов</string>
-    <string name="qs_tile_cellular_data">Передача данных</string>
+    <string name="qs_tile_cellular_data">Мобильные данные</string>
     <string name="qs_tile_airplane_mode">Режим полета</string>
-    <string name="qs_tile_display_rotation">Ориентация</string>
+    <string name="qs_tile_display_rotation">Автоповорот</string>
     <string name="qs_tile_flashlight">Фонарик</string>
     <string name="qs_tile_location">Местоположение</string>
-    <string name="qs_tile_cast_screen">Передать изображение экрана</string>
+    <string name="qs_tile_cast_screen">Дублирование экрана</string>
     <string name="qs_tile_hotspot">Точка доступа</string>
     <string name="qs_tile_notifications">Уведомления</string>
     <string name="qs_tile_nfc">NFC</string>
