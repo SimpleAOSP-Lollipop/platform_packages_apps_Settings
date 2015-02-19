@@ -2994,15 +2994,15 @@
     <string name="app_ops_no_item_text">Это приложение не имеет сменные разрешения</string>
 
     <!-- Expanded desktop -->
-    <string name="power_menu_expanded_desktop">Расширенный рабочий стол</string>
+    <string name="power_menu_expanded_desktop">Расширенный экран</string>
     <string name="expanded_hide_nothing">Ничего не скрывать</string>
     <string name="expanded_hide_status">Скрыть строку состояния</string>
     <string name="expanded_hide_navigation">Скрыть панель навигации</string>
     <string name="expanded_hide_both">Скрыть оба</string>
-    <string name="expanded_nothing_to_show">Чтобы добавить пользовательскую конфигурацию в приложение для расширенного состояния, установите \'Включено для всех\' в выключенное положение</string>
+    <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений, переведите переключатель «Включено для всех» в отключенное состояние</string>
     <string name="expanded_enabled_for_all">Включено для всех</string>
     <string name="expanded_desktop_style">Стиль расширенного экрана</string>
-    <string name="expanded_desktop_style_description">Выберите по умолчанию стиль расширенного рабочего стола</string>
+    <string name="expanded_desktop_style_description">Выбрать режим расширенного экрана по умолчанию</string>
     <string name="expanded_desktop_title">Настройки расширенного экрана</string>
 
     <!-- Status bar - Clock -->
