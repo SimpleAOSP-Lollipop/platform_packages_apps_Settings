@@ -17,7 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- QS tiles -->
     <plurals name="qs_tiles_summary">
-        <item quantity="one">1 плитка настроена</item>
-        <item quantity="other">%d плиток настроено</item>
+        <item quantity="one">Настроена %d плитка</item>
+        <item quantity="few">Настроено %d плитки</item>
+        <item quantity="other">Настроено %d плиток</item>
     </plurals>
 </resources>
