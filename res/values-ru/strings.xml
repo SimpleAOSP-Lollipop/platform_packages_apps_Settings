@@ -2623,7 +2623,7 @@
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Расширенная перезагрузка</string>
-    <string name="advanced_reboot_summary">Включают в себя параметры в меню питания для перезагрузки в рекавери, загрузчик или выполнение мягкой перезагрузки</string>
+    <string name="advanced_reboot_summary">Включает в себя параметры в меню питания для перезагрузки в режим восстановления, загрузчик или выполнение мягкой перезагрузки</string>
 
     <!-- Status bar double-tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Выключать экран при двойном нажатии</string>
