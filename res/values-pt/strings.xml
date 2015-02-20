@@ -3051,7 +3051,7 @@
     <string name="navigation_bar_arrow_keys_title">Teclas de seta durante a digitação</string>
     <string name="navigation_bar_arrow_keys_summary">Exibe botões de cursor esquerda e direita durante a digitação. Substitui IME switcher.</string>
 
-    <!-- Doze options -->
+    <!-- Doze pulse (ambient display) notification timeout -->
     <string name="doze_timeout_title">Limite para exibição de ambiente</string>
     <string name="doze_timeout_summary">Tempo em que a tela permanece acesa por pulso de notificação</string>
 
