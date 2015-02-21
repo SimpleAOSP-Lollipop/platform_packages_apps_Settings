@@ -2505,8 +2505,8 @@
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
-    <string name="status_bar_battery_title">Ícones da bateria</string>
-    <string name="status_bar_battery_summary">Personalize e configure seu ícone de bateria</string>
+    <string name="status_bar_battery_title">Ícone da bateria</string>
+    <string name="status_bar_battery_summary">Personalize e configure o seu ícone da bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Retrato</string>
     <string name="status_bar_battery_style_icon_landscape">Paisagem</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
@@ -3060,7 +3060,7 @@
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Notificações</string>
-    <string name="less_notification_sounds_title">Sons de notificação menos frequentes</string>
+    <string name="less_notification_sounds_title">Menos sons de notificação</string>
     <string name="less_notification_sounds_summary">Permite limitar os sons de notificação de cada app para tocar por período de tempo ajustado</string>
     <string name="less_notification_sounds_default">Comportamento padrão</string>
     <string name="less_notification_sounds_3s">3 segundos</string>
@@ -3116,4 +3116,66 @@
 
     <!-- Setting switch summary when device is in Charging mode -->
     <string name="enable_adb_summary_charging">O dispositivo está no modo somente carregar, a depuração USB está desativada</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_overwrite_value_title">Sobrescrever valor</string>
+    <string name="doze_overwrite_value_summary">Permitir sobrescrever valor padrão por configuração do usuário</string>
+
+    <string name="doze_list_mode_title">Modo doze</string>
+    <string name="doze_list_mode_summary">Opções para configurar o modo doze</string>
+
+    <string name="doze_pulse_title">Configuração de tempo</string>
+    <string name="doze_pulse_duration_in_title">Fade in</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Duração visível</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Fade out</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Pulsar em notificações</string>
+    <string name="doze_pulse_on_notifications_summary">Ativar disparador apenas em notificações pendentes</string>
+
+    <string name="doze_shake_title">Ajustes para agitar</string>
+    <string name="doze_shake_mode_title">Modo agitar</string>
+    <string name="doze_shake_mode_summary">Usar o valor do sensor de agito para desencadear a ativação</string>
+    <string name="doze_shake_mode_test_summary">Você quer testar o sensor de agito?</string>
+    <string name="doze_shake_mode_test_result">Aplicar o valor atual?</string>
+    <string name="doze_shake_test">Agite seu dispositivo agora</string>
+    <string name="doze_shake_it">Agito detectado!</string>
+
+    <string name="doze_shake_acc_threshold_title">Força da agitação</string>
+    <string name="doze_shake_acc_threshold_summary">Configurar a força da agitação necessária para desencadear a ativação</string>
+
+    <string name="doze_time_mode_title">Relógio &amp; data</string>
+    <string name="doze_time_mode_summary">Força a exibição do tempo quando não há notificação</string>
+
+    <string name="twohundred_ms">200 ms</string>
+    <string name="fivehundred_ms">500 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="one_second_default">1 s (padrão)</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second">3 s</string>
+    <string name="three_second_default">3 s (padrão)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+
+    <string name="veryeasy_shake">Muito fraco</string>
+    <string name="easy_shake">Fraco</string>
+    <string name="medium_shake">Padrão</string>
+    <string name="hard_shake">Firme</string>
+    <string name="veryhard_shake">Muito firme</string>
+    <string name="strong_shake">Forte</string>
+
+    <string name="fully_mode">Modo completo</string>
+    <string name="pocket_shake_mode">Bolso e agitação</string>
+    <string name="pocket_pulse_mode">Bolso e pulsação</string>
+    <string name="pocket_only_mode">Bolso</string>
+    <string name="shake_pulse_mode">Agitação e pulsação</string>
+    <string name="pulse_only_mode">Pulsação (padrão)</string>
 </resources>
