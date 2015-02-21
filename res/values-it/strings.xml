@@ -3021,10 +3021,6 @@
     <string name="navigation_bar_arrow_keys_title">Mostra pulsanti cursore</string>
     <string name="navigation_bar_arrow_keys_summary">Mostra una freccetta in basso a destra e a sinistra per muovere il cursore quando si apre la tastiera</string>
 
-    <!-- Doze pulse (ambient display) notification timeout -->
-    <string name="doze_timeout_title">Ambient display timeout</string>
-    <string name="doze_timeout_summary">Modifica il tempo che il display resta acceso per mostrare le notifiche</string>
-
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Chiudi automaticamente il pannello</string>
     <string name="quick_settings_collapse_summary">Chiude automaticamente il pannello dei quick settings dopo aver perumuto su un tile</string>

@@ -3058,10 +3058,6 @@
     <!-- Navigation bar cursor -->
     <string name="navigation_bar_arrow_keys_title">Afficher les touches fléchées pendant la frappe</string>
     <string name="navigation_bar_arrow_keys_summary">Afficher les touches curseur gauche et droite lors de la saisie. Remplace le sélecteur de clavier.</string>
-	
-    <!-- Doze options -->
-    <string name="doze_timeout_title">Délai d\'affichage en mode veille</string>
-    <string name="doze_timeout_summary">Délai d\'affichage de la notification</string>
     
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Fermeture automatique du panneau</string>
