@@ -3052,10 +3052,6 @@
     <string name="navigation_bar_arrow_keys_title">Mostrar las teclas de dirección mientras se escribe</string>
     <string name="navigation_bar_arrow_keys_summary">Mostrar los botones de cursor izquierdo y derecho mientras se escribe. Sobreescibe el selector de teclado.</string>
 
-    <!-- Doze options -->
-    <string name="doze_timeout_title">Tiempo de espera de pantalla ambiente</string>
-    <string name="doze_timeout_summary">Tiempo que la pantalla permanece encendida para la notificación</string>
-
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Cerrar panel automáticamente</string>
     <string name="quick_settings_collapse_summary">Cerrar el panel de ajustes rápidos al pulsar</string>

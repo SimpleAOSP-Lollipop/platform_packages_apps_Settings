@@ -62,13 +62,6 @@
                 android:summary="@string/doze_summary"
                 android:persistent="false" />
 
-       <!-- Ambient display timeout -->
-       <SlimSeekBarPreference
-                android:key="doze_timeout"
-                android:title="@string/doze_timeout_title"
-                android:summary="@string/doze_timeout_summary"
-                android:dependency="doze" />
-
         <ListPreference
                 android:key="lcd_density"
                 android:title="@string/lcd_density"
