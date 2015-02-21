@@ -2792,7 +2792,7 @@
 
     <!-- Volume rocker music seek options -->
     <string name="volbtn_music_controls_title">Управление воспроизведением</string>
-    <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие на клавиши громкости будут переключать музыкальные треки</string>
+    <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие на клавиши громкости будет переключать музыкальные треки</string>
     <string name="volume_button_toggle_info">Пробуждение кнопкой громсти должно быть отключено</string>
 
     <!-- Show notification count -->
@@ -3032,7 +3032,7 @@
     <string name="lockscreen_targets_message">Ярлыки</string>
     <string name="lockscreen_default_target">По умолчанию</string>
     <string name="lockscreen_none_target">Нету</string>
-    <string name="lockscreen_message">Нажмите на иконку, слева или справа чтобы переназначить ярлык.</string>
+    <string name="lockscreen_message">Нажмите на иконку слева или справа чтобы переназначить ярлык.</string>
     <string name="lockscreen_choose_action_title">Выберите действие</string>
     <string name="lockscreen_message_disabled">Ярлыки отключены.</string>
     <string name="lockscreen_shortcuts_enabled">Ярлыки экрана блокировки включены</string>
@@ -3127,4 +3127,66 @@
 
     <!-- Setting switch summary when device is in Charging mode -->
     <string name="enable_adb_summary_charging">Устройство в режиме зарядки, USB отладка отключена</string>
+	
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_overwrite_value_title">Перезаписать значение</string>
+    <string name="doze_overwrite_value_summary">Разрешить перезаписать значения по умолчанию пользовательскими настройками</string>
+
+    <string name="doze_list_mode_title">Спящий режим</string>
+    <string name="doze_list_mode_summary">Возможность настроить спящий режим</string>
+
+    <string name="doze_pulse_title">Настройки времени</string>
+    <string name="doze_pulse_duration_in_title">Появление</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Длительность видимости</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Затухание</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Активировать при уведомлении</string>
+    <string name="doze_pulse_on_notifications_summary">Активация датчика только на уведомлениях</string>
+
+    <string name="doze_shake_title">Параметры встряхивания</string>
+    <string name="doze_shake_mode_title">Режим встряхивания</string>
+    <string name="doze_shake_mode_summary">Используйте значение датчика встряхивания, чтобы вызвать активацию</string>
+    <string name="doze_shake_mode_test_summary">Вы хотите проверить датчик встряхивания?</string>
+    <string name="doze_shake_mode_test_result">Применить текущее значение?</string>
+    <string name="doze_shake_test">Встряхните свое устройство</string>
+    <string name="doze_shake_it">Встряхивание обнаружено!</string>
+
+    <string name="doze_shake_acc_threshold_title">Порог встряхивания</string>
+    <string name="doze_shake_acc_threshold_summary">Настройка силы встряхивания, необходимого для активации датчика</string>
+
+    <string name="doze_time_mode_title">Показывать часы и дату</string>
+    <string name="doze_time_mode_summary">Показывать время когда нет уведомлений</string>
+
+    <string name="twohundred_ms">200 мс</string>
+    <string name="fivehundred_ms">500 мс</string>
+    <string name="one_second">1 с</string>
+    <string name="one_second_default">1 с (по умолчанию)</string>
+    <string name="onehalf_second">1.5 с</string>
+    <string name="two_second">2 с</string>
+    <string name="twohalf_second">2.5 с</string>
+    <string name="three_second">3 с</string>
+    <string name="three_second_default">3 с (по умолчанию)</string>
+    <string name="threehalf_second">3.5 с</string>
+    <string name="four_second">4 с</string>
+    <string name="fourhalf_second">4.5 с</string>
+    <string name="five_second">5 с</string>
+
+    <string name="veryeasy_shake">Очень легкое</string>
+    <string name="easy_shake">Легкое</string>
+    <string name="medium_shake">По умолчанию</string>
+    <string name="hard_shake">Тяжелое</string>
+    <string name="veryhard_shake">Очень тяжелое</string>
+    <string name="strong_shake">Сильное</string>
+
+    <string name="fully_mode">Полный режим</string>
+    <string name="pocket_shake_mode">Карманный режим и встряхивание</string>
+    <string name="pocket_pulse_mode">Карманный режим и импульс</string>
+    <string name="pocket_only_mode">Карманный режим</string>
+    <string name="shake_pulse_mode">Встряхивание и импульс</string>
+    <string name="pulse_only_mode">Импульс (по умолчанию)</string>
 </resources>
