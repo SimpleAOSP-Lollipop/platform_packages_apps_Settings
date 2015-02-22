@@ -2839,7 +2839,7 @@
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Тайм-аут</string>
     <string name="heads_up_time_out_summary">Уведомление будет показано в течение <xliff:g id="number">%d</xliff:g> секунд</string>
-    <string name="heads_up_time_out_never_summary">Будет показываться, пока оно не будет удалено</string>
+    <string name="heads_up_time_out_never_summary">Уведомление будет показано, пока оно не будет удалено</string>
     <string name="heads_up_time_out_2sec">2 секунды</string>
     <string name="heads_up_time_out_4sec">4 секунды</string>
     <string name="heads_up_time_out_6sec">6 секунд</string>
@@ -3195,4 +3195,14 @@
     <string name="pocket_only_mode">Карманный режим</string>
     <string name="shake_pulse_mode">Встряхивание и импульс</string>
     <string name="pulse_only_mode">Импульс (по умолчанию)</string>
+    
+    <!-- Volume pane timeout -->
+    <string name="category_panel_time_out">Тайм-аут панели</string>
+    <string name="volume_panel_time_out_title">Тайм-аут панели громкости</string>
+    <string name="volume_panel_time_out_summary">Скрыть прежде <xliff:g id="number">%d</xliff:g> секунд. Автоматически скрывать нажатием за пределами панели</string>
+    <string name="volume_panel_time_out_3sec">3 секунды (по умолчанию)</string>
+    <string name="volume_panel_time_out_5sec">5 секунд</string>
+    <string name="volume_panel_time_out_8sec">8 секунд</string>
+    <string name="volume_panel_time_out_12sec">12 секунд</string>
+    <string name="volume_panel_time_out_15sec">15 секунд</string>
 </resources>
