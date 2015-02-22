@@ -3045,8 +3045,8 @@
     <!--Status bar date -->
     <string name="status_bar_date_title">Дата</string>
     <string name="status_bar_date_none">Скрыта (по умолчанию)</string>
-    <string name="status_bar_date_small">Маленький</string>
-    <string name="status_bar_date_normal">Нормальный</string>
+    <string name="status_bar_date_small">Маленькая</string>
+    <string name="status_bar_date_normal">Нормальная</string>
     <string name="status_bar_date_format_title">Формат даты</string>
     <string name="status_bar_date_style">Стиль даты</string>
     <string name="status_bar_date_style_normal">Нормальный</string>
