@@ -3042,11 +3042,18 @@
     <string name="show_activity_indicators_summary">Показывать индикаторы в уровне сети</string>
 
     <!--Status bar date -->
-    <string name="status_bar_date_title">Стиль даты</string>
-    <string name="status_bar_date_none">Скрыта (умолч.)</string>
-    <string name="status_bar_date_small">Маленькая</string>
-    <string name="status_bar_date_normal">Нормальная</string>
+    <string name="status_bar_date_title">Дата</string>
+    <string name="status_bar_date_none">Скрыта (по умолчанию)</string>
+    <string name="status_bar_date_small">Маленький</string>
+    <string name="status_bar_date_normal">Нормальный</string>
     <string name="status_bar_date_format_title">Формат даты</string>
+    <string name="status_bar_date_style">Стиль даты</string>
+    <string name="status_bar_date_style_normal">Нормальный</string>
+    <string name="status_bar_date_style_lowercase">Строчный</string>
+    <string name="status_bar_date_style_uppercase">Прописной</string>
+    <string name="status_bar_date_format_custom">Пользовательский формат</string>
+    <string name="status_bar_date_string_edittext_title">Должно быть в формате даты прим. ММ/дд/гг</string>
+    <string name="status_bar_date_string_edittext_summary">Введите строку</string>
 
     <!-- Nav bar customization -->
     <string name="navigation_bar_settings_title">Кнопки и расположение</string>
