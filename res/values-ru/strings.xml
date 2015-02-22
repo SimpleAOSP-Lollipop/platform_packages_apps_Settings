@@ -2498,7 +2498,7 @@
     <string name="navigation_bar_height_54">54dp</string>
     <string name="navigation_bar_height_52">52dp</string>
     <string name="navigation_bar_height_50">50dp</string>
-    <string name="navigation_bar_height_48">48dp (умолч.)</string>
+    <string name="navigation_bar_height_48">48dp (по умолчанию)</string>
     <string name="navigation_bar_height_44">44dp</string>
     <string name="navigation_bar_height_40">40dp</string>
     <string name="navigation_bar_height_36">36dp</string>
@@ -2512,19 +2512,19 @@
     <string name="status_bar_title">Строка состояния</string>
 
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Стиль батареи</string>
-    <string name="status_bar_battery_title">Иконка батареи</string>
-    <string name="status_bar_battery_summary">Изменить иконку батареи</string>
-    <string name="status_bar_battery_style_icon_portrait">Портретная</string>
-    <string name="status_bar_battery_style_icon_landscape">Ландшафтная</string>
+    <string name="status_bar_battery_style_title">Индикатор батареи</string>
+    <string name="status_bar_battery_title">Значок батареи</string>
+    <string name="status_bar_battery_summary">Изменить значок батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
-    <string name="status_bar_battery_style_hidden">Скрыта</string>
+    <string name="status_bar_battery_style_hidden">Не показывать индикатор</string>
 
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Проценты батареи</string>
-    <string name="status_bar_battery_percentage_default">Скрыты</string>
-    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Не показывать</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
 
     <!--  Volume rocker -->
@@ -2556,7 +2556,7 @@
     <string name="show_network_traffic_1500">1500 мс</string>
     <string name="show_network_traffic_2000">2000 мс</string>
     <string name="network_traffic_autohide">Автоскрытие</string>
-    <string name="network_traffic_autohide_summary">Скрыть монитор сетевого трафика, когда нет активности</string>
+    <string name="network_traffic_autohide_summary">Скрыть монитор сетевого трафика когда нет активности</string>
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
 
     <!-- Generic strings -->
@@ -2696,9 +2696,9 @@
 
     <!-- Recents panel settings -->
     <string name="recents_panel_category">Панель недавних</string>
-    <string name="show_clear_all_recents_button_title">Показывать кнопку "Очистить все"</string>
-    <string name="show_clear_all_recents_button_summary">Показывать кнопку "Очистить все" в недавних приложениях</string>
-    <string name="recents_clear_all_location_title">Расположение кнопки "Очистить все"</string>
+    <string name="show_clear_all_recents_button_title">Показывать кнопку \'Очистить все\'</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку \'Очистить все\' в недавних приложениях</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки \'Очистить все\'</string>
     <string name="recents_clear_all_location_top_right">Сверху справа</string>
     <string name="recents_clear_all_location_top_left">Сверху слева</string>
     <string name="recents_clear_all_location_top_center">Сверху по центру</string>
@@ -2999,7 +2999,7 @@
     <string name="expanded_hide_status">Скрыть строку состояния</string>
     <string name="expanded_hide_navigation">Скрыть панель навигации</string>
     <string name="expanded_hide_both">Скрыть оба</string>
-    <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений, переведите переключатель «Включено для всех» в отключенное состояние</string>
+    <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений, переведите переключатель «Включено для всех» в отключенное состояние.</string>
     <string name="expanded_enabled_for_all">Включено для всех</string>
     <string name="expanded_desktop_style">Стиль расширенного экрана</string>
     <string name="expanded_desktop_style_description">Выбрать режим расширенного экрана по умолчанию</string>
@@ -3009,17 +3009,17 @@
     <string name="status_bar_clock_style_title">Стиль часов</string>
     <string name="status_bar_clock">Часы и дата</string>
     <string name="status_bar_clock_title">Стиль часов и даты</string>
-    <string name="status_bar_clock_summary">Изменить различные варианты часов и даты</string> 
+    <string name="status_bar_clock_summary">Изменить различные параметры часов и даты</string> 
     <string name="status_bar_clock_style_right">Справа</string>
     <string name="status_bar_clock_style_left">Слева</string>
     <string name="status_bar_clock_style_center">По центру</string>
-    <string name="status_bar_clock_style_hidden">Скрыты</string>
+    <string name="status_bar_clock_style_hidden">Не показывать часы</string>
 
-    <string name="status_bar_am_pm_title">AM/PM стиль</string>
-    <string name="status_bar_am_pm_info">24-часовой режим включен</string>
-    <string name="status_bar_am_pm_normal">Нормальный</string>
+    <string name="status_bar_am_pm_title">Стиль индикатора «AM/PM»</string>
+    <string name="status_bar_am_pm_info">Включен 24-часовой формат времени</string>
+    <string name="status_bar_am_pm_normal">Обычный</string>
     <string name="status_bar_am_pm_small">Маленький</string>
-    <string name="status_bar_am_pm_hidden">Скрыт</string>
+    <string name="status_bar_am_pm_hidden">Не показывать индикатор</string>
 
     <!-- Extra bs strings needed -->
     <string name="profile_applist_title">Приложения</string>
@@ -3107,7 +3107,7 @@
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Ярлыки панели навигации</string>
     <string name="navigation_ring_summary">Редактирование и перемещение ярлыков панели навигации</string>
-    <string name="navigation_ring_message">Нажмите на иконку Редактировать, чтобы изменить ярлык.\n\nВыберите цель и настройте его поведение.\n\nНажмите на иконку \'\u2713\', чтобы сохранить изменения, или \'Восстановить умолчания\' для сброса настроек.</string>
+    <string name="navigation_ring_message">Нажмите на иконку Редактировать, чтобы изменить ярлык.\n\nВыберите ярлык для настройки его поведения.\n\nНажмите на иконку \'\u2713\', чтобы сохранить изменения, или \'Восстановить умолчания\' для сброса настроек.</string>
    
    <!-- Display settings screen, setting options for LCD density -->
     <string name="lcd_density">Плотность экрана</string>
@@ -3195,8 +3195,8 @@
     <string name="pocket_only_mode">Карманный режим</string>
     <string name="shake_pulse_mode">Встряхивание и импульс</string>
     <string name="pulse_only_mode">Импульс (по умолчанию)</string>
-    
-    <!-- Volume pane timeout -->
+
+    <!-- Volume panel timeout -->
     <string name="category_panel_time_out">Тайм-аут панели</string>
     <string name="volume_panel_time_out_title">Тайм-аут панели громкости</string>
     <string name="volume_panel_time_out_summary">Скрыть прежде <xliff:g id="number">%d</xliff:g> секунд. Автоматически скрывать нажатием за пределами панели</string>
