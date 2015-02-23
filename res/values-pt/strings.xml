@@ -3032,11 +3032,18 @@
     <string name="show_activity_indicators_summary">Exibe um indicador de atividade dentro do ícone de sinal do Wi-Fi</string>
 
     <!--Status bar date -->
-    <string name="status_bar_date_title">Estilo da data</string>
+    <string name="status_bar_date_title">Data</string>
     <string name="status_bar_date_none">Oculto (padrão)</string>
     <string name="status_bar_date_small">Pequeno</string>
     <string name="status_bar_date_normal">Normal</string>
     <string name="status_bar_date_format_title">Formato da data</string>
+    <string name="status_bar_date_style">Estilo da data</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Minúsculas</string>
+    <string name="status_bar_date_style_uppercase">Maiúsculas</string>
+    <string name="status_bar_date_format_custom">Java personalizado</string>
+    <string name="status_bar_date_string_edittext_title">Exemplo dd/mm/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Entre com a seqüência</string>
 
     <!-- Nav bar customization -->
     <string name="navigation_bar_settings_title">Botões &amp; layout</string>
@@ -3178,4 +3185,14 @@
     <string name="pocket_only_mode">Bolso</string>
     <string name="shake_pulse_mode">Agitação e pulsação</string>
     <string name="pulse_only_mode">Pulsação (padrão)</string>
+
+    <!-- Volume pane timeout -->
+    <string name="category_panel_time_out">Painel de tempo limite</string>
+    <string name="volume_panel_time_out_title">Volume do painel de tempo limite</string>
+    <string name="volume_panel_time_out_summary">Ocultar antes <xliff:g id="number">%d</xliff:g> segundos. Ocultar automaticamente ao tocar fora</string>
+    <string name="volume_panel_time_out_3sec">3 segundos (padrão)</string>
+    <string name="volume_panel_time_out_5sec">5 segundos</string>
+    <string name="volume_panel_time_out_8sec">8 segundos</string>
+    <string name="volume_panel_time_out_12sec">12 segundos</string>
+    <string name="volume_panel_time_out_15sec">15 segundos</string>
 </resources>
