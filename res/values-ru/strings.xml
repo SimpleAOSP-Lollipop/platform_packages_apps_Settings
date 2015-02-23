@@ -3197,7 +3197,7 @@
     <string name="shake_pulse_mode">Встряхивание и импульс</string>
     <string name="pulse_only_mode">Импульс (по умолчанию)</string>
     
-    <!-- Volume pane timeout -->
+    <!-- Volume panel timeout -->
     <string name="category_panel_time_out">Тайм-аут панели</string>
     <string name="volume_panel_time_out_title">Тайм-аут панели громкости</string>
     <string name="volume_panel_time_out_summary">Скрыть прежде <xliff:g id="number">%d</xliff:g> секунд. Автоматически скрывать нажатием за пределами панели</string>
