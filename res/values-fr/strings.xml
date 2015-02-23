@@ -3189,4 +3189,14 @@
     <string name="pocket_only_mode">Poche</string>
     <string name="shake_pulse_mode">Secousse et vibration</string>
     <string name="pulse_only_mode">Vibration (par défaut)</string>
+    
+    <!-- Volume panel timeout -->
+    <string name="category_panel_time_out">Délai du panneau</string>
+    <string name="volume_panel_time_out_title">Délai du panneau de son</string>
+    <string name="volume_panel_time_out_summary">Masquer au bout de <xliff:g id="number">%d</xliff:g> secondes. Masquer automatiquement en touchant l\'extérieur</string>
+    <string name="volume_panel_time_out_3sec">3 secondes (default)</string>
+    <string name="volume_panel_time_out_5sec">5 secondes</string>
+    <string name="volume_panel_time_out_8sec">8 secondes</string>
+    <string name="volume_panel_time_out_12sec">12 secondes</string>
+    <string name="volume_panel_time_out_15sec">15 secondes</string>
 </resources>

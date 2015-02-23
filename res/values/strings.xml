@@ -6688,7 +6688,7 @@
     <string name="shake_pulse_mode">Shake and pulse</string>
     <string name="pulse_only_mode">Pulse (default)</string>
 
-    <!-- Volume pane timeout -->
+    <!-- Volume panel timeout -->
     <string name="category_panel_time_out">Panel timeout</string>
     <string name="volume_panel_time_out_title">Volume panel timeout</string>
     <string name="volume_panel_time_out_summary">Hide before <xliff:g id="number">%d</xliff:g> seconds. Auto hide on touch outside</string>
