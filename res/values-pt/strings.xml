@@ -3067,7 +3067,7 @@
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Notificações</string>
-    <string name="less_notification_sounds_title">Menos sons de notificação</string>
+    <string name="less_notification_sounds_title">Execução dos sons de notificação</string>
     <string name="less_notification_sounds_summary">Permite limitar os sons de notificação de cada app para tocar por período de tempo ajustado</string>
     <string name="less_notification_sounds_default">Comportamento padrão</string>
     <string name="less_notification_sounds_3s">3 segundos</string>
@@ -3128,7 +3128,7 @@
     <string name="doze_overwrite_value_title">Configuração personalizada</string>
     <string name="doze_overwrite_value_summary">Permite modificar valores padrão por configurações do usuário</string>
 
-    <string name="doze_list_mode_title">Modo balançar</string>
+    <string name="doze_list_mode_title">Modo de operação</string>
     <string name="doze_list_mode_summary">Opções para configurar o modo balançar</string>
 
     <string name="doze_pulse_title">Configuração de tempo</string>
@@ -3146,7 +3146,7 @@
 
     <string name="doze_shake_title">Balançar</string>
     <string name="doze_shake_mode_title">Modo balançar</string>
-    <string name="doze_shake_mode_summary">Usar o valor do sensor de agito para desencadear a ativação</string>
+    <string name="doze_shake_mode_summary">Usar o valor do sensor de balanço para desencadear a ativação</string>
     <string name="doze_shake_mode_test_summary">Você quer testar o sensor de balanço?</string>
     <string name="doze_shake_mode_test_result">Aplicar o valor atual?</string>
     <string name="doze_shake_test">Balance seu dispositivo agora</string>
@@ -3177,7 +3177,7 @@
     <string name="medium_shake">Padrão</string>
     <string name="hard_shake">Forte</string>
     <string name="veryhard_shake">Muito forte</string>
-    <string name="strong_shake">Forte</string>
+    <string name="strong_shake">Ultra forte</string>
 
     <string name="fully_mode">Modo completo</string>
     <string name="pocket_shake_mode">Bolso e balanço</string>
@@ -3187,9 +3187,9 @@
     <string name="pulse_only_mode">Pulsação (padrão)</string>
 
     <!-- Volume panel timeout -->
-    <string name="category_panel_time_out">Painel de tempo limite</string>
-    <string name="volume_panel_time_out_title">Volume do painel de tempo limite</string>
-    <string name="volume_panel_time_out_summary">Ocultar antes <xliff:g id="number">%d</xliff:g> segundos. Ocultar automaticamente ao tocar fora</string>
+    <string name="category_panel_time_out">Tempo limite do painel</string>
+    <string name="volume_panel_time_out_title">Tempo limite do painel de volume</string>
+    <string name="volume_panel_time_out_summary">Ocultar em <xliff:g id="number">%d</xliff:g> segundos. Ocultar automaticamente ao tocar fora</string>
     <string name="volume_panel_time_out_3sec">3 segundos (padrão)</string>
     <string name="volume_panel_time_out_5sec">5 segundos</string>
     <string name="volume_panel_time_out_8sec">8 segundos</string>
