@@ -2514,7 +2514,6 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Индикатор батареи</string>
     <string name="status_bar_battery_title">Значок батареи</string>
-    <string name="status_bar_battery_summary">Изменить значок батареи</string>
     <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
     <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
     <string name="status_bar_battery_style_circle">Круг</string>
