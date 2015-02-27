@@ -2892,6 +2892,7 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Меню питания</string>
+    <string name="power_menu_title_summary">Изменение элементов меню питания</string>
     <string name="power_menu_reboot_title">Меню перезагрузки</string>
     <string name="power_menu_screenshot_title">Скриншот</string>
     <string name="power_menu_airplane_title">Режим полета</string>
