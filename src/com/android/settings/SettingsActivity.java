@@ -115,6 +115,7 @@ import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.simpleaosp.DisplayRotation;
+import com.android.settings.simpleaosp.BatterySettings;
 import com.android.settings.cyanogenmod.qs.QSTiles;
 import com.android.settings.headsup.HeadsUpSettings;
 
@@ -307,7 +308,8 @@ public class SettingsActivity extends Activity
 	    DisplayRotation.class.getName(),
 	    QSTiles.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
-	    HeadsUpSettings.class.getName()
+	    HeadsUpSettings.class.getName(),
+	    BatterySettings.class.getName()
     };
 
 

@@ -6009,7 +6009,6 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_title">Battery icons</string>
-    <string name="status_bar_battery_summary">Change battery icons</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
     <string name="status_bar_battery_style_circle">Circle</string>

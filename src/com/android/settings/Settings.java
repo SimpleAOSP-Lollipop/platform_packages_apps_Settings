@@ -19,6 +19,7 @@ package com.android.settings;
 import com.android.settings.applications.AppOpsSummary;
 import com.android.settings.blacklist.BlacklistSettings;
 import com.android.settings.simpleaosp.DisplayRotation;
+import com.android.settings.simpleaosp.BatterySettings;
 import com.android.settings.cyanogenmod.qs.QSTiles;
 
 /**
@@ -109,5 +110,6 @@ public class Settings extends SettingsActivity {
     public static class QSTilesSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ExpandedDesktopSettingsActivity extends SettingsActivity { /* empty */ }
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class BatterySettingsActivity extends SettingsActivity { /* empty */ }
 }
 
