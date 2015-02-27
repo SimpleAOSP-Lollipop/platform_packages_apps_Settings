@@ -2506,7 +2506,6 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stile della batteria</string>
     <string name="status_bar_battery_title">Stile delle batteria</string>
-    <string name="status_bar_battery_summary">Cambia stile dell\'icona della batteria</string>
     <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
     <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
     <string name="status_bar_battery_style_circle">Cerchio</string>

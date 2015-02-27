@@ -2512,7 +2512,6 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo de estado de la batería</string>
     <string name="status_bar_battery_title">Icono de batería</string>
-    <string name="status_bar_battery_summary">Cambiar icono de la batería</string>
     <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
     <string name="status_bar_battery_style_icon_landscape">Icono horizontal</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
