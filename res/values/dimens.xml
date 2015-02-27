@@ -226,12 +226,6 @@
 
     <dimen name="wifi_divider_height">1px</dimen>
 
-    <!-- Protected apps -->
-    <!-- Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) -->
-    <dimen name="pa_security_width">320dp</dimen>
-    <!-- Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) -->
-    <dimen name="pa_security_height">400dp</dimen>
-
     <!-- FAB Dimensions -->
     <dimen name="fab_size">56dp</dimen>
     <dimen name="fab_margin">16dp</dimen>

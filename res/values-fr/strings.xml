@@ -2759,23 +2759,6 @@
     <string name="sms_security_check_limit_title">Limite des messages SMS</string>
     <string name="sms_security_check_limit_summary">Les applications peuvent envoyer %d messages en 30 minutes avant d\'exiger une confirmation</string>
 
-    <!-- Protected Apps -->
-    <string name="menu_hidden_apps_delete">Réinitialiser</string>
-    <string name="menu_hidden_apps_reset_lock">Réinitialiser le modèle de verrouillage</string>
-    <string name="protected_apps">Applications protégées</string>
-    <string name="saving_protected_components">Enregistrement de l\'état du composant\u2026</string>
-
-    <!-- Protected apps lockpattern reset button -->
-    <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
-    <string name="lockpattern_settings_reset_summary">Entrez l\'adresse mail du compte principal et son mot de passe pour réinitialiser le schéma de déverrouillage</string>
-    
-    <!-- Protected apps reset -->
-    <string name="pa_login_username_hint">Nom d\'utilisateur (email)</string>
-    <string name="pa_login_password_hint">Mot de passe</string>
-    <string name="pa_login_submit_button">Connexion</string>
-    <string name="pa_login_checking_password">Vérification du compte\u2026</string>
-    <string name="pa_login_incorrect_login">Le nom d\'utilisateur ou le mot de passe est incorrect</string>
-
     <!-- Development shortcut -->
     <string name="development_shortcut_title">Raccourci de développement</string>
     <string name="development_shortcut_summary">Activer les raccourcis de gestion des applications dans la liste des applications récente</string>

@@ -2749,23 +2749,6 @@
     <string name="sms_security_check_limit_title">Limite de mensagens SMS</string>
     <string name="sms_security_check_limit_summary">Apps podem enviar %d mensagens em 30 minutos antes de exigir confirmação</string>
 
-    <!-- Protected Apps -->
-    <string name="menu_hidden_apps_delete">Redefinir</string>
-    <string name="menu_hidden_apps_reset_lock">Redefinir padrão de bloqueio</string>
-    <string name="protected_apps">Aplicativos protegidos</string>
-    <string name="saving_protected_components">Salvando estado do componente\u2026</string>
-
-    <!-- Protected apps lockpattern reset button -->
-    <string name="lockpattern_reset_button">Redefinir ao padrão</string>
-    <string name="lockpattern_settings_reset_summary">Digite a conta de e-mail principal e senha associados para redefinir o padrão de bloqueio</string>
-    
-    <!-- Protected apps reset -->
-    <string name="pa_login_username_hint">Nome de Usuário (e-mail)</string>
-    <string name="pa_login_password_hint">Senha</string>
-    <string name="pa_login_submit_button">Entrar</string>
-    <string name="pa_login_checking_password">Verificando a conta\u2026</string>
-    <string name="pa_login_incorrect_login">Login incorreto</string>
-
     <!-- Development shortcut -->
     <string name="development_shortcut_title">Atalho para desenvolvimento</string>
     <string name="development_shortcut_summary">Ativa o gerenciamento de atalhos dos aplicativos na área de notificação e na lista de aplicativos recentes</string>

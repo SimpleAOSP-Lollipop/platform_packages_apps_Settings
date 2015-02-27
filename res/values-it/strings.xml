@@ -2730,23 +2730,6 @@
     <string name="sms_security_check_limit_summary">Le app possono inviare massimo %d messaggi ogni 30 minuti</string>
     <string name="sms_security_check_limit_default">30 (default)</string>
 
-    <!-- Protected Apps -->
-    <string name="menu_hidden_apps_delete">Reset</string>
-    <string name="menu_hidden_apps_reset_lock">Resetta il codice di blocco</string>
-    <string name="protected_apps">Applicazioni protette</string>
-    <string name="saving_protected_components">Salvo la modifica\u2026</string>
-
-    <!-- Protected apps lockpattern reset button -->
-    <string name="lockpattern_reset_button">Resetta codice</string>
-    <string name="lockpattern_settings_reset_summary">Inserisci l\'email del tuo account principale per resettare il codice di blocco</string>
-
-    <!-- Protected apps reset -->
-    <string name="pa_login_username_hint">Username (email)</string>
-    <string name="pa_login_password_hint">Password</string>
-    <string name="pa_login_submit_button">Sign in</string>
-    <string name="pa_login_checking_password">Controllo account\u2026</string>
-    <string name="pa_login_incorrect_login">Username o password errati.</string>
-
     <!-- Development shortcut -->
     <string name="development_shortcut_title">Scorciatoie sviluppatore</string>
     <string name="development_shortcut_summary">Attiva la gestione delle app dal pannello dei recenti</string>

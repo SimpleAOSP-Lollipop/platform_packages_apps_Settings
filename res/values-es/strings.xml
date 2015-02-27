@@ -2756,23 +2756,6 @@
     <string name="sms_security_check_limit_title">Límite de mensajes SMS</string>
     <string name="sms_security_check_limit_summary">Las aplicaciones pueden enviar %d mensajes en 30 minutos antes de requerir confirmación</string>
 
-    <!-- Protected Apps -->
-    <string name="menu_hidden_apps_delete">Restablecer</string>
-    <string name="menu_hidden_apps_reset_lock">Restablecer patrón de desbloqueo</string>
-    <string name="protected_apps">Aplicaciones protegidas</string>
-    <string name="saving_protected_components">Guardando el estado del componente\u2026</string>
-
-    <!-- Protected apps lockpattern reset button -->
-    <string name="lockpattern_reset_button">Restablecer patrón</string>
-    <string name="lockpattern_settings_reset_summary">Introducir el correo primario y la contraseña asociada a la cuenta para restablecer el patrón de desbloqueo</string>
-    
-    <!-- Protected apps reset -->
-    <string name="pa_login_username_hint">Nombre de usuario (correo electrónico)</string>
-    <string name="pa_login_password_hint">Contraseña</string>
-    <string name="pa_login_submit_button">Iniciar sesión</string>
-    <string name="pa_login_checking_password">Comprobando cuenta\u2026</string>
-    <string name="pa_login_incorrect_login">El nombre de usuario o contraseña no es correcto</string>
-
     <!-- Development shortcut -->
     <string name="development_shortcut_title">Acceso directo de desarrollo</string>
     <string name="development_shortcut_summary">Habilitar aplicaciones de gestión de accesos directos en la lista de aplicaciones recientes</string>

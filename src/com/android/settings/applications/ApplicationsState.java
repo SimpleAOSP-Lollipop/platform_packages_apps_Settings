@@ -572,10 +572,6 @@ public class ApplicationsState {
             if (DEBUG) Log.i(TAG, "Rebuilding...");
             for (int i=0; i<apps.size(); i++) {
                 ApplicationInfo info = apps.get(i);
-                //protected app
-                if (info.protect) {
-                    continue;
-                }
                 if (filter == null || filter.filterApp(info)) {
                     synchronized (mEntriesMap) {
                         if (DEBUG_LOCKING) Log.v(TAG, "rebuild acquired lock");
