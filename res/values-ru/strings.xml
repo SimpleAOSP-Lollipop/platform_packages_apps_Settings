@@ -3119,10 +3119,6 @@
 
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Включить ярлыки панели навигации</string>
-    
-    <!-- Captive Portal -->
-    <string name="captive_portal_detection">Обнаружение кэптивного портала</string>
-    <string name="captive_portal_detection_summary">Если отключено, соединение с Google серверами не требуется для того, чтобы обнаружить подключение передачи данных.</string>
 
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Показывать клавишу \'Enter\'</string>

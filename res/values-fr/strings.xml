@@ -3116,10 +3116,6 @@
     
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Activer les anneaux de navigation</string>
-	
-    <!-- Captive Portal -->
-    <string name="captive_portal_detection">Détection des portails captifs</string>
-    <string name="captive_portal_detection_summary">Si désactivé, la connexion aux serveurs de Google ne sera pas nécessaire afin de détecter la connexion de données.</string>
 
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Afficher la touche Entrée</string>
