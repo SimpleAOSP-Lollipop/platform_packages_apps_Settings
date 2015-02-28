@@ -2740,11 +2740,11 @@
     <string name="ime_switcher_notify">Notificação do método de entrada</string>
     <string name="ime_switcher_notify_summary">Exibir notificação do seletor de método de entrada</string>
 
-    <!--Power menu -->
+    <!-- Power menu -->
     <string name="lockscreen_enable_power_menu_title">Mostrar menu energia na tela de bloqueio</string>
     <string name="lockscreen_enable_power_menu_summary">Permite acesso ao menu energia em telas de bloqueio seguras</string>
 
-    <!--- Sms security limit -->
+    <!-- Sms security limit -->
     <string name="sms_security_check_limit_title">Limite de mensagens SMS</string>
     <string name="sms_security_check_limit_summary">Apps podem enviar %d mensagens em 30 minutos antes de exigir confirmação</string>
 
@@ -2866,6 +2866,7 @@
 
     <!-- Power menu -->
     <string name="power_menu_title">Menu energia</string>
+    <string name="power_menu_title_summary">Ver ou alterar as entradas do menu energia</string>
     <string name="power_menu_reboot_title">Menu reiniciar</string>
     <string name="power_menu_screenshot_title">Capturar tela</string>
     <string name="power_menu_airplane_title">Modo avião</string>
