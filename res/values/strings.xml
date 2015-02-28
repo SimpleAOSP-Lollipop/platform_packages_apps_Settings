@@ -6594,10 +6594,6 @@
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Enable navigation rings</string>
 
-    <!-- Captive Portal -->
-    <string name="captive_portal_detection">Captive portal detection</string>
-    <string name="captive_portal_detection_summary">If disabled, a connection to google servers is not required in order to detect data connection.</string>
-
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Show enter key</string>
     <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
