@@ -14,6 +14,12 @@
         android:key="clock_style_pref"
         android:title="@string/status_bar_clock"
 	android:summary="@string/status_bar_clock_summary" />
+	
+	 <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="show_bluetooth_icon"
+        android:title="@string/status_bar_bluetooth_icon"
+        android:summary="@string/status_bar_bluetooth_icon_summary"
+        android:defaultValue="true" />
 
     <PreferenceScreen
 	android:key="network_traffic_state"
