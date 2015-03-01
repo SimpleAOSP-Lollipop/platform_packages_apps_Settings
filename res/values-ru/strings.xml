@@ -2794,6 +2794,10 @@
     <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие на клавиши громкости будет переключать музыкальные треки</string>
     <string name="volume_button_toggle_info">Пробуждение кнопкой громсти должно быть отключено</string>
 
+    <!-- Show bluetooth icon when disconnected -->
+    <string name="status_bar_bluetooth_icon">Показать значок Bluetooth</string>
+    <string name="status_bar_bluetooth_icon_summary">Отображать значок Bluetooth когда он включен, но не подключен</string>
+
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Показать счетчик уведомлений</string>
     <string name="status_bar_notif_count_summary">Показывать счетчик количества уведомлений</string>
