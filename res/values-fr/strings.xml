@@ -2795,6 +2795,10 @@
     <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture.</string>
     <string name="volume_button_toggle_info">Le réveil par le volume doit être désactivé</string>
  
+     <!-- Show bluetooth icon when disconnected -->
+     <string name="status_bar_bluetooth_icon">Afficher l\'icône bluetooth</string>
+     <string name="status_bar_bluetooth_icon_summary">Afficher l\'icône du bluetooth lorsqu\'il est activé mais pas connecté</string>
+ 
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Compteur de notifications</string>
     <string name="status_bar_notif_count_summary">Afficher le nombre de notifications similaires en attente</string>
@@ -3199,4 +3203,8 @@
     <string name="volume_panel_time_out_8sec">8 secondes</string>
     <string name="volume_panel_time_out_12sec">12 secondes</string>
     <string name="volume_panel_time_out_15sec">15 secondes</string>
+    
+    <!-- Swap volume buttons when the screen is rotated -->
+    <string name="swap_volume_buttons_title">Inverser les boutons de volume lors de la rotation</string>
+    <string name="swap_volume_buttons_summary">Ajuster l\'action des boutons de volume basé sur la rotation actuelle</string>
 </resources>
