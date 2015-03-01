@@ -6702,4 +6702,8 @@
     <!-- Swap volume buttons when the screen is rotated -->
     <string name="swap_volume_buttons_title">Swap vol buttons on rotation</string>
     <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current rotation</string>
+
+    <!-- Long press on lock screen lock icon to sleep -->
+    <string name="longpress_lock_icon_to_sleep_title">Long press lock icon to sleep</string>
+    <string name="longpress_lock_icon_to_sleep_summary">This option will not work if both smart lock and accessibility touch exploration are enabled</string>
 </resources>
