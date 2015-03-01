@@ -3206,4 +3206,8 @@
     <string name="volume_panel_time_out_8sec">8 секунд</string>
     <string name="volume_panel_time_out_12sec">12 секунд</string>
     <string name="volume_panel_time_out_15sec">15 секунд</string>
+ 
+    <!-- Swap volume buttons when the screen is rotated -->
+    <string name="swap_volume_buttons_title">Сменить действие кнопок громкости при вращении</string>
+    <string name="swap_volume_buttons_summary">Кнопки регулировки громкости действуют на основе текущей ориентации</string>    
 </resources>
