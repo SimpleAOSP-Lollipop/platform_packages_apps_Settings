@@ -48,6 +48,7 @@ import com.android.settings.sim.SimSettings;
 import com.android.settings.simpleaosp.AmbientSettings;
 import com.android.settings.simpleaosp.NavigationBarSettings;
 import com.android.settings.simpleaosp.StatusBarSettings;
+import com.android.settings.simpleaosp.BatterySettings;
 import com.android.settings.users.UserSettings;
 import com.android.settings.voice.VoiceInputSettings;
 import com.android.settings.wifi.AdvancedWifiSettings;
@@ -302,6 +303,13 @@ public final class SearchIndexableResources {
                         R.xml.heads_up_settings,
                         HeadsUpSettings.class.getName(),
                         R.drawable.ic_settings_notifications));
+
+	sResMap.put(BatterySettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(BatterySettings.class.getName()),
+                        R.xml.battery_settings,
+                        BatterySettings.class.getName(),
+                        R.drawable.ic_settings_battery));
 
     }
 
