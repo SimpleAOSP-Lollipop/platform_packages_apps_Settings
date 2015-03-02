@@ -6244,11 +6244,11 @@
     <string name="ime_switcher_notify">Selector icon</string>
     <string name="ime_switcher_notify_summary">Display input method selector icon</string>
 
-    <!--Power menu -->
+    <!-- Power menu -->
     <string name="lockscreen_enable_power_menu_title">Show power menu on lock screen</string>
     <string name="lockscreen_enable_power_menu_summary">Enable access to power menu on secure lock screens</string>
 
-    <!--- Sms security limit -->
+    <!-- Sms security limit -->
     <string name="sms_security_check_limit_title">SMS message limit</string>
     <string name="sms_security_check_limit_summary">Apps can send %d messages in 30 minutes before requiring confirmation</string>
 

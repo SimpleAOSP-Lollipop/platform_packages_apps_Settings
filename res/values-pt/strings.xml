@@ -2786,6 +2786,10 @@
     <string name="volbtn_music_controls_summary">Quando a tela estiver desligada, manter pressionado botão de volume buscará musicas</string>
     <string name="volume_button_toggle_info">Volume rocker deve estar desativado</string>
 
+    <!-- Show bluetooth icon when disconnected -->
+    <string name="status_bar_bluetooth_icon">Ícone do bluetooth</string>
+    <string name="status_bar_bluetooth_icon_summary">Visualizar o ícone do bluetooth quando ele estiver ativado, mas não conectado</string>
+
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Contador de notificação</string>
     <string name="status_bar_notif_count_summary">Exibe o número de notificações pendentes na barra de status</string>
@@ -3191,4 +3195,8 @@
     <string name="volume_panel_time_out_8sec">8 segundos</string>
     <string name="volume_panel_time_out_12sec">12 segundos</string>
     <string name="volume_panel_time_out_15sec">15 segundos</string>
+
+    <!-- Swap volume buttons when the screen is rotated -->
+    <string name="swap_volume_buttons_title">Inverter botões de volume</string>
+    <string name="swap_volume_buttons_summary">Inverter botões de volume quando virar a tela</string>
 </resources>
