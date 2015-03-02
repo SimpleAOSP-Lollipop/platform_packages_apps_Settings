@@ -111,5 +111,6 @@ public class Settings extends SettingsActivity {
     public static class ExpandedDesktopSettingsActivity extends SettingsActivity { /* empty */ }
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
     public static class BatterySettingsActivity extends SettingsActivity { /* empty */ }
+    public static class AmbientDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
 
