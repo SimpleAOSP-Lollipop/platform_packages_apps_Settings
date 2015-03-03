@@ -2749,11 +2749,11 @@
     <string name="ime_switcher_notify">Значок выбора</string>
     <string name="ime_switcher_notify_summary">Показывать кнопку выбора способа ввода</string>
 
-    <!--Power menu -->
+    <!-- Power menu -->
     <string name="lockscreen_enable_power_menu_title">Показывать меню питания</string>
     <string name="lockscreen_enable_power_menu_summary">Разрешить доступ к меню питания на защищенном экране блокировки</string>
 
-    <!--- Sms security limit -->
+    <!-- Sms security limit -->
     <string name="sms_security_check_limit_title">Лимит SMS</string>
     <string name="sms_security_check_limit_summary">Приложения могут отправить %d сообщений в течение 30 минут, прежде чем потребуется подтверждение</string>
 
@@ -2969,6 +2969,7 @@
     <string name="qs_brightness_tile">Яркость</string>
     <string name="qs_expanded_desktop_tile">Расширенный экран</string>
     <string name="qs_screen_off_tile">Выключить экран</string>
+    <string name="qs_ambient_display_tile">Запрет спящего режима</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
@@ -3210,4 +3211,8 @@
     <!-- Swap volume buttons when the screen is rotated -->
     <string name="swap_volume_buttons_title">Сменить действие кнопок громкости при вращении</string>
     <string name="swap_volume_buttons_summary">Кнопки регулировки громкости действуют на основе текущей ориентации</string>    
+
+    <!-- Long press on lock screen lock icon to sleep -->
+    <string name="longpress_lock_icon_to_sleep_title">Длительное нажатие по иконке блокировки для отключения экрана</string>
+    <string name="longpress_lock_icon_to_sleep_summary">Эта опция не будет работать, если smart lock и ограниченные возможности включены</string>
 </resources>
