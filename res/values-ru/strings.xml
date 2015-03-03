@@ -3213,6 +3213,6 @@
     <string name="swap_volume_buttons_summary">Кнопки регулировки громкости действуют на основе текущей ориентации</string>    
 
     <!-- Long press on lock screen lock icon to sleep -->
-    <string name="longpress_lock_icon_to_sleep_title">Длительное нажатие для отключения экрана</string>
+    <string name="longpress_lock_icon_to_sleep_title">Длительное нажатие по иконке блокировки для отключения экрана</string>
     <string name="longpress_lock_icon_to_sleep_summary">Эта опция не будет работать, если smart lock и ограниченные возможности включены</string>
 </resources>
