@@ -2969,7 +2969,7 @@
     <string name="qs_brightness_tile">Яркость</string>
     <string name="qs_expanded_desktop_tile">Расширенный экран</string>
     <string name="qs_screen_off_tile">Выключить экран</string>
-    <string name="qs_ambient_display_tile">Спящий режим</string>
+    <string name="qs_ambient_display_tile">Запрет спящего режима</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
