@@ -2969,6 +2969,7 @@
     <string name="qs_brightness_tile">Luminosité</string>
     <string name="qs_expanded_desktop_tile">Bureau étendu</string>
     <string name="qs_screen_off_tile">Éteindre l\'écran</string>
+    <string name="qs_ambient_display_tile">Affichage en mode veille</string>
     
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
@@ -3207,4 +3208,8 @@
     <!-- Swap volume buttons when the screen is rotated -->
     <string name="swap_volume_buttons_title">Inverser les boutons de volume lors de la rotation</string>
     <string name="swap_volume_buttons_summary">Ajuster l\'action des boutons de volume basé sur la rotation actuelle</string>
+    
++    <!-- Long press on lock screen lock icon to sleep -->
++    <string name="longpress_lock_icon_to_sleep_title">Appui long sur l\'icône de verrouillage pour mettre en sommeil</string>
++    <string name="longpress_lock_icon_to_sleep_summary">Cette option ne fonctionne pas si le Smart Lock et l\'exploration de l\'accessibilité tactile sont activées</string>
 </resources>
