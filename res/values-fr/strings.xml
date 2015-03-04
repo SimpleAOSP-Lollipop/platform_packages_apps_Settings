@@ -3209,7 +3209,7 @@
     <string name="swap_volume_buttons_title">Inverser les boutons de volume lors de la rotation</string>
     <string name="swap_volume_buttons_summary">Ajuster l\'action des boutons de volume basé sur la rotation actuelle</string>
     
-+    <!-- Long press on lock screen lock icon to sleep -->
-+    <string name="longpress_lock_icon_to_sleep_title">Appui long sur l\'icône de verrouillage pour mettre en sommeil</string>
-+    <string name="longpress_lock_icon_to_sleep_summary">Cette option ne fonctionne pas si le Smart Lock et l\'exploration de l\'accessibilité tactile sont activées</string>
+    <!-- Long press on lock screen lock icon to sleep -->
+    <string name="longpress_lock_icon_to_sleep_title">Appui long sur l\'icône de verrouillage pour mettre en sommeil</string>
+    <string name="longpress_lock_icon_to_sleep_summary">Cette option ne fonctionne pas si le Smart Lock et l\'exploration de l\'accessibilité tactile sont activées</string>
 </resources>
