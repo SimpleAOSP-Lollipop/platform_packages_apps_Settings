@@ -2491,7 +2491,7 @@
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
-	
+
     <!-- Navigation Bar -->
     <string name="navigation_bar_title">Barre de navigation</string>
     <!-- Navigation Bar Height -->
@@ -2508,7 +2508,7 @@
     <string name="navigation_bar_height_24">24 dp</string>
     <string name="navigation_bar_height_20">20 dp</string>
     <string name="navigation_bar_height_0">0dp (Cacher)</string>
- 
+
     <!-- Status bar-->
     <string name="status_bar_title">Barre de statut</string>
 
@@ -2650,7 +2650,7 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notification de débogage</string>
     <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est actif</string>
-  
+
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Modifier les paramètres lumineux</string>
     <string name="pulse_speed_title">Vitesse et durée du clignotement</string>
@@ -2706,7 +2706,7 @@
     <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
     <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
     <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
-	
+
     <!-- Per app controls for LP keyguard notifications -->
     <string name="app_notification_show_on_keyguard_title">Afficher sur l\'écran de verrouillage</string>
     <string name="app_notification_show_on_keyguard_summary">Afficher les notifications de cette application sur l\'écran de verrouillage</string>
@@ -2767,7 +2767,7 @@
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Réinitialiser le schéma</string>
     <string name="lockpattern_settings_reset_summary">Entrez l\'adresse mail du compte principal et son mot de passe pour réinitialiser le schéma de déverrouillage</string>
-    
+
     <!-- Protected apps reset -->
     <string name="pa_login_username_hint">Nom d\'utilisateur (email)</string>
     <string name="pa_login_password_hint">Mot de passe</string>
@@ -2794,11 +2794,11 @@
     <string name="volbtn_music_controls_title">Contrôle de la musique</string>
     <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture.</string>
     <string name="volume_button_toggle_info">Le réveil par le volume doit être désactivé</string>
- 
+
      <!-- Show bluetooth icon when disconnected -->
      <string name="status_bar_bluetooth_icon">Afficher l\'icône bluetooth</string>
      <string name="status_bar_bluetooth_icon_summary">Afficher l\'icône du bluetooth lorsqu\'il est activé mais pas connecté</string>
- 
+
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Compteur de notifications</string>
     <string name="status_bar_notif_count_summary">Afficher le nombre de notifications similaires en attente</string>
@@ -2824,7 +2824,7 @@
 
     <!-- Show/Hide Search Bar -->
     <string name="recents_show_searchbar">Visibilité de la barre de recherche</string>
-    <string name="recents_show_searchbar_summary">Désactiver ou activer la barre de recherche dans le menu récents</string>
+    <string name="recents_show_searchbar_summary">Désactiver la barre de recherche dans le menu récents</string>
 
     <!-- Battery saver -->
     <string name="battery_saver_title">Couleur d\'avertissement</string>
@@ -2840,7 +2840,7 @@
     <string name="heads_up_dnd_title">Ne pas déranger</string>
     <string name="heads_up_blacklist_title">Liste noire</string>
     <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre contextuel sur votre écran, activer les notifications flottantes.</string>
- 
+
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Temporisation</string>
     <string name="heads_up_time_out_summary">La notification sera afficher pendant <xliff:g id="number">%d</xliff:g> secondes</string>
@@ -2851,7 +2851,7 @@
     <string name="heads_up_time_out_8sec">8 secondes</string>
     <string name="heads_up_time_out_10sec">10 secondes</string>
     <string name="heads_up_time_out_never">Jamais</string>
-    
+
     <!-- Screen recorder -->
     <string name="screen_recorder_title">Enregistreur d\'écran</string>
     <string name="screen_recorder_summary">Régler les paramètres de l\'enregistreur d\'écran</string>
@@ -2890,7 +2890,7 @@
     <string name="screen_recorder_bitrate_20000000">20000000</string>
     <string name="screen_recorder_record_audio_title">Audio externe</string>
     <string name="screen_recorder_record_audio_summary">Enregistrement audio à partir du microphone</string>
-    
+
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Bloquer le gestuel des événements tactiles</string>
     <string name="edge_gesture_service_summary">Ne pas envoyer les événements tactiles des gestes pour la navigation et la barre de statut aux applications</string>
@@ -2911,16 +2911,16 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
     <string name="quick_settings_vibrate_summary">Vibrer en touchant les tuiles</string>
-	
+
     <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">Afficher la météo</string>
     <string name="status_bar_show_weather_summary">Afficher la météo au-dessus du panneau de configuration rapide</string>
-	
+
     <!--- Lock clock -->
     <string name="lock_clock_title">Widget Horloge</string>
     <string name="lock_clock_summary">Afficher ou modifier la façon dont le widget \'cLock\' s\'affiche</string>
     <string name="weather_clock_title">Météo dans la barre de statut</string>
-    
+
     <!-- Ignore last app when clearing recents -->
     <string name="recents_clear_all_dismiss_all_title">Effacer toutes les tâches</string>
     <string name="recents_clear_all_dismiss_all_summary">Inclure la tâche en premier plan lors de l\'effacement</string>
@@ -2928,11 +2928,11 @@
     <!-- QuickSettings brightness slider -->
     <string name="qs_brightness_slider_title">Afficher le curseur de luminosité</string>
     <string name="qs_brightness_slider_summary">Afficher un curseur de luminosité dans le panneau de paramètres rapide</string>
-	
+
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Lier le volume de sonnerie et de notification</string>
     <string name="notification_volume_option_title">Volume de notification</string>
-    
+
     <!-- QS tiles -->
     <string name="notification_drawer_title">Volet des paramètres rapides</string>
     <string name="qs_category_title">Paramètres rapides</string>
@@ -2970,7 +2970,7 @@
     <string name="qs_expanded_desktop_tile">Bureau étendu</string>
     <string name="qs_screen_off_tile">Éteindre l\'écran</string>
     <string name="qs_ambient_display_tile">Affichage en mode veille</string>
-    
+
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
     <string name="themes_settings_title">Thèmes</string>
@@ -2998,7 +2998,7 @@
     <string name="privacy_guard_app_ops_detail_reset_dialog_text">Réinitialiser toutes les permissions ?</string>
     <string name="app_ops_btn_text">Modifier</string>
     <string name="app_ops_no_item_text">Cette application n\'a pas de permissions modifiables</string>
-	
+
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Bureau étendu</string>
     <string name="expanded_hide_nothing">Ne rien cacher</string>
@@ -3010,12 +3010,12 @@
     <string name="expanded_desktop_style">Style du bureau étendu</string>
     <string name="expanded_desktop_style_description">Choisir le style du bureau étendu par défaut</string>
     <string name="expanded_desktop_title">Options du bureau étendu</string>
-    
+
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Style de l\'horloge</string>
     <string name="status_bar_clock">Heure et date</string>
     <string name="status_bar_clock_title">Style de l\'heure et de la date</string>
-    <string name="status_bar_clock_summary">Modifier les options diverses de l\'horloge et de la date</string> 
+    <string name="status_bar_clock_summary">Modifier les options diverses de l\'horloge et de la date</string>
     <string name="status_bar_clock_style_right">A droite</string>
     <string name="status_bar_clock_style_left">A gauche</string>
     <string name="status_bar_clock_style_center">Au centre</string>
@@ -3026,7 +3026,7 @@
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Petit</string>
     <string name="status_bar_am_pm_hidden">Caché</string>
-	
+
     <!-- Extra bs strings needed -->
     <string name="profile_applist_title">Applications</string>
     <string name="picker_activities">Activités</string>
@@ -3039,11 +3039,11 @@
     <string name="lockscreen_none_target">Aucun</string>
     <string name="lockscreen_message">Appuyer sur une des icônes de la gauche ou la droite pour attribuer un raccourci sur l\'écran de verrouillage.</string>
     <string name="lockscreen_choose_action_title">Choisir une action</string>
-    
+
     <!--Status bar data and wifi activity -->
     <string name="show_activity_indicators_title">indicateurs d\'activité</string>
     <string name="show_activity_indicators_summary">Voir les indicateurs dans les barres de signal</string>
-    
+
     <!--Status bar date -->
     <string name="status_bar_date_title">Date</string>
     <string name="status_bar_date_none">Cachée (par défaut)</string>
@@ -3066,18 +3066,18 @@
     <string name="navigation_edit_button_text">Éditer</string>
     <string name="navigation_save_button_text">Sauvegarder</string>
     <string name="navigation_bar_reset_message">Supprimer les paramètres actuels et restaurer la configuration par défaut ?</string>
-	
+
     <!-- Navigation bar cursor -->
     <string name="navigation_bar_arrow_keys_title">Afficher les touches fléchées pendant la frappe</string>
     <string name="navigation_bar_arrow_keys_summary">Afficher les touches curseur gauche et droite lors de la saisie. Remplace le sélecteur de clavier.</string>
-    
+
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Fermeture automatique du panneau</string>
     <string name="quick_settings_collapse_summary">Fermer le panneau des paramètres rapides lors de l\'appui sur une tuile</string>
-    
+
     <!-- QuickSettings 4 columns -->
     <string name="qs_four_columns_title">Afficher quatre tuiles par rangée</string>
-	
+
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Sons de notification</string>
     <string name="less_notification_sounds_title">Fréquences des sons de notification</string>
@@ -3092,7 +3092,7 @@
     <string name="less_notification_sounds_1m">1 minute</string>
     <string name="less_notification_sounds_2m">2 minutes</string>
     <string name="less_notification_sounds_5m">5 minutes</string>
-	
+
     <!-- Category title for Charging sounds (Power state change) specific Settings.
          [CHAR LIMIT=40] -->
     <string name="power_notifications_category_title">Sons de chargement</string>
@@ -3106,19 +3106,19 @@
     <string name="power_notifications_ringtone_title">Son de notification</string>
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silencieux</string>
-	
+
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Cibles de l\'anneau de navigation</string>
     <string name="navigation_ring_summary">Éditer et réarranger les raccourcis de l\'anneau de navigation</string>
     <string name="navigation_ring_message">Appuyez sur l\'icône d\'édition pour ouvrir l\'anneau de navigation pour l\'édition.\n\nSélectionner une cible pour configurer son comportement.\n\nAppuyer sur \'\u2713\' de l\'icône pour enregistrer vos modifications ou \'restaurer par défaut\' pour réinitialiser les paramètres.</string>
-    
+
     <!-- Display settings screen, setting options for LCD density -->
     <string name="lcd_density">Densité LCD</string>
     <string name="lcd_density_summary">%d DPI</string>
     <string name="lcd_density_default">Valeur par défaut de l\'appareil</string>
     <string name="lcd_density_unsupported">Non supportée</string>
     <string name="restarting_ui">Redémarrage</string>
-    
+
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Activer les anneaux de navigation</string>
 
@@ -3132,7 +3132,7 @@
 
     <!-- Setting switch summary when device is in Charging mode -->
     <string name="enable_adb_summary_charging">L\'appareil est en mode chargement, le débogage USB est désactivé</string>
-	
+
     <!-- Doze pulse (ambient display) options -->
     <string name="doze_overwrite_value_title">Remplacer la valeur</string>
     <string name="doze_overwrite_value_summary">Permettre de remplacer la valeur par défaut avec la configuration utilisateur</string>
@@ -3194,7 +3194,7 @@
     <string name="pocket_only_mode">Poche</string>
     <string name="shake_pulse_mode">Secousse et vibration</string>
     <string name="pulse_only_mode">Vibration (par défaut)</string>
-    
+
     <!-- Volume panel timeout -->
     <string name="category_panel_time_out">Délai du panneau</string>
     <string name="volume_panel_time_out_title">Délai du panneau de son</string>
@@ -3204,12 +3204,16 @@
     <string name="volume_panel_time_out_8sec">8 secondes</string>
     <string name="volume_panel_time_out_12sec">12 secondes</string>
     <string name="volume_panel_time_out_15sec">15 secondes</string>
-    
+
     <!-- Swap volume buttons when the screen is rotated -->
     <string name="swap_volume_buttons_title">Inverser les boutons de volume lors de la rotation</string>
     <string name="swap_volume_buttons_summary">Ajuster l\'action des boutons de volume basé sur la rotation actuelle</string>
-    
+
     <!-- Long press on lock screen lock icon to sleep -->
-    <string name="longpress_lock_icon_to_sleep_title">Appui long sur l\'icône de verrouillage pour mettre en sommeil</string>
+    <string name="longpress_lock_icon_to_sleep_title">Appui long sur l\'icône de verrouillage pour mettre en veille</string>
     <string name="longpress_lock_icon_to_sleep_summary">Cette option ne fonctionne pas si le Smart Lock et l\'exploration de l\'accessibilité tactile sont activées</string>
+
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Forcer les notifications étendues</string>
+    <string name="notification_force_expand_summary">Forcer les notifications étendues sur toutes les applications</string>
 </resources>
