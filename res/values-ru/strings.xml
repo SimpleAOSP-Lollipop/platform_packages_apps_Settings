@@ -3137,6 +3137,8 @@
     <string name="enable_adb_summary_charging">Устройство в режиме зарядки, USB отладка отключена</string>
 	
     <!-- Doze pulse (ambient display) options -->
+    <string name="summary_doze_enabled">Включено</string>
+    <string name="summary_doze_disabled">Выключено</string>
     <string name="doze_overwrite_value_title">Перезаписать значение</string>
     <string name="doze_overwrite_value_summary">Разрешить перезаписать значения по умолчанию пользовательскими настройками</string>
 
