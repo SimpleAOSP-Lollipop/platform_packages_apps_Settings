@@ -3215,4 +3215,12 @@
     <!-- Long press on lock screen lock icon to sleep -->
     <string name="longpress_lock_icon_to_sleep_title">Длительное нажатие по иконке блокировки для отключения экрана</string>
     <string name="longpress_lock_icon_to_sleep_summary">Эта опция не будет работать, если smart lock и ограниченные возможности включены</string>
+
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Расширенное уведомление</string>
+    <string name="notification_force_expand_summary">Расширенные уведомления на всех приложениях, которые поддерживают его</string>
+
+    <!-- Ignore interruptions during media playback -->
+    <string name="interruptions_ignore_while_media_title">Предотвратить приглушение аудио</string>
+    <string name="interruptions_ignore_while_media_summary">Не снижать громкость воспроизведения мультимедиа файлов, когда поступает уведомление</string>
 </resources>
