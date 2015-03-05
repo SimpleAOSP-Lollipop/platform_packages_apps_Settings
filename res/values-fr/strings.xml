@@ -3134,6 +3134,8 @@
     <string name="enable_adb_summary_charging">L\'appareil est en mode chargement, le débogage USB est désactivé</string>
 
     <!-- Doze pulse (ambient display) options -->
+    <string name="summary_doze_enabled">Activé</string>
+    <string name="summary_doze_disabled">Désactivé</string>
     <string name="doze_overwrite_value_title">Remplacer la valeur</string>
     <string name="doze_overwrite_value_summary">Permettre de remplacer la valeur par défaut avec la configuration utilisateur</string>
 
