@@ -3126,6 +3126,8 @@
     <string name="enable_adb_summary_charging">O dispositivo está no modo somente carregar, a depuração USB está desativada</string>
 
     <!-- Doze pulse (ambient display) options -->
+    <string name="summary_doze_enabled">Ativado</string>
+    <string name="summary_doze_disabled">Desativado</string>
     <string name="doze_overwrite_value_title">Configuração personalizada</string>
     <string name="doze_overwrite_value_summary">Permite modificar valores padrão por configurações do usuário</string>
 
@@ -3204,4 +3206,13 @@
     <!-- Long press on lock screen lock icon to sleep -->
     <string name="longpress_lock_icon_to_sleep_title">Pressione o ícone do cadeado para dormir</string>
     <string name="longpress_lock_icon_to_sleep_summary">Esta opção não irá funcionar se Smart Lock ou Acessibilidade exploração de toque estiverem ativados</string>
+
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Forçar notificação expandida</string>
+    <string name="notification_force_expand_summary">Forçar notificações expandida em todas as aplicações que a suportam</string>
+
+    <!-- Ignore interruptions during media playback -->
+    <string name="interruptions_ignore_while_media_title">Prevenir volume de áudio</string>
+    <string name="interruptions_ignore_while_media_summary">Não reduzir o volume de reprodução de mídia, quando
+ uma notificação chegar</string>
 </resources>
